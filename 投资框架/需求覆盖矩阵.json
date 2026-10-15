@@ -1,0 +1,386 @@
+{
+  "revision": "R127",
+  "scope": "依据既有PRD和详细阅读成果；要求主流程与按需详解共同覆盖，不以一张摘要代替专题底稿",
+  "items": [
+    {
+      "id": "RQ01",
+      "requirement": "个人资金、用途与风险承受",
+      "manual_heading": "1. 路径、研究层级与证据",
+      "template_headings": [
+        "A. 资产、用途与现金流",
+        "B. 配置、政策与基准"
+      ],
+      "source_books": [
+        "B03",
+        "B11"
+      ],
+      "keywords": [
+        "用途",
+        "个人",
+        "未知"
+      ],
+      "detail": "旧§2.7、§2.39–2.44",
+      "evidence_notes": [
+        "阅读记录/逐章笔记/B03_01_No_Guts_No_Glory.md",
+        "阅读记录/逐章笔记/B11_22_致谢与尾页.md"
+      ]
+    },
+    {
+      "id": "RQ02",
+      "requirement": "ETF、成本、穿透与防御资产",
+      "manual_heading": "2. ETF、防御资产与实施",
+      "template_headings": [
+        "B. 配置、政策与基准",
+        "C. ETF与防御资产"
+      ],
+      "source_books": [
+        "B03",
+        "B09"
+      ],
+      "keywords": [
+        "穿透",
+        "追踪差异",
+        "税"
+      ],
+      "detail": "旧§2.1、§2.7、§2.11",
+      "evidence_notes": [
+        "阅读记录/逐章笔记/B03_01_No_Guts_No_Glory.md",
+        "阅读记录/逐章笔记/B09_01_坚实基础与空中楼阁.md"
+      ]
+    },
+    {
+      "id": "RQ03",
+      "requirement": "六分类、行业与研究深度",
+      "manual_heading": "3. 公司分类、商业与管理",
+      "template_headings": [
+        "D. 决策摘要与许可门",
+        "F. 财报、重构与生存"
+      ],
+      "source_books": [
+        "B06"
+      ],
+      "keywords": [
+        "六分类",
+        "周期",
+        "反转"
+      ],
+      "detail": "旧§2.13–2.38、§3、§12",
+      "evidence_notes": [
+        "阅读记录/逐章笔记/B06_01_业余投资者比专业投资者业绩更好.md"
+      ]
+    },
+    {
+      "id": "RQ04",
+      "requirement": "费雪15要点与独立商业证据",
+      "manual_heading": "3. 公司分类、商业与管理",
+      "template_headings": [
+        "E. 商业、管理与资本配置"
+      ],
+      "source_books": [
+        "B07"
+      ],
+      "keywords": [
+        "15要点",
+        "反证",
+        "独立"
+      ],
+      "detail": "旧§4.3–4.9；详解E1",
+      "evidence_notes": [
+        "阅读记录/逐章笔记/B07_P1_01_过去提供的线索.md"
+      ]
+    },
+    {
+      "id": "RQ05",
+      "requirement": "治理、资本配置与每股价值",
+      "manual_heading": "3. 公司分类、商业与管理",
+      "template_headings": [
+        "E. 商业、管理与资本配置",
+        "F. 财报、重构与生存"
+      ],
+      "source_books": [
+        "B05",
+        "B10"
+      ],
+      "keywords": [
+        "回购",
+        "并购",
+        "股数"
+      ],
+      "detail": "旧§5、§10.5、§12.4；详解E2",
+      "evidence_notes": [
+        "阅读记录/逐章笔记/B05_01_公司治理.md",
+        "阅读记录/逐章笔记/B10_16_安全边际.md"
+      ]
+    },
+    {
+      "id": "RQ06",
+      "requirement": "四表、战略与母子/NCI/OCI",
+      "manual_heading": "4. 财报、会计与生存",
+      "template_headings": [
+        "F. 财报、重构与生存"
+      ],
+      "source_books": [
+        "B12"
+      ],
+      "keywords": [
+        "四表",
+        "NCI",
+        "OCI",
+        "获现率"
+      ],
+      "detail": "旧§6–§7；详解F1–F4",
+      "evidence_notes": [
+        "阅读记录/逐章笔记/B12_02_资产负债表.md"
+      ]
+    },
+    {
+      "id": "RQ07",
+      "requirement": "经营融资重构与盈利增长",
+      "manual_heading": "4. 财报、会计与生存",
+      "template_headings": [
+        "F. 财报、重构与生存",
+        "G. 估值、反推与安全边际"
+      ],
+      "source_books": [
+        "B02"
+      ],
+      "keywords": [
+        "NOA",
+        "NFO",
+        "SBC",
+        "ReOI"
+      ],
+      "detail": "旧§8；详解F3/G2",
+      "evidence_notes": [
+        "阅读记录/逐章笔记/B02_01_Opening_the_Book.md"
+      ]
+    },
+    {
+      "id": "RQ08",
+      "requirement": "全类会计排雷与调查",
+      "manual_heading": "4. 财报、会计与生存",
+      "template_headings": [
+        "H. 会计与治理排雷"
+      ],
+      "source_books": [
+        "B01"
+      ],
+      "keywords": [
+        "七类",
+        "三类",
+        "两类",
+        "并购"
+      ],
+      "detail": "旧§9；详解H",
+      "evidence_notes": [
+        "阅读记录/逐章笔记/B01_01_25_Years_of_Shenanigans.md"
+      ]
+    },
+    {
+      "id": "RQ09",
+      "requirement": "现金、债务到期与生存路径",
+      "manual_heading": "4. 财报、会计与生存",
+      "template_headings": [
+        "F. 财报、重构与生存",
+        "I. 周期、行为与反方"
+      ],
+      "source_books": [
+        "B02",
+        "B04"
+      ],
+      "keywords": [
+        "融资关闭",
+        "现金",
+        "到期"
+      ],
+      "detail": "旧§12.3、§13；详解F4/G8",
+      "evidence_notes": [
+        "阅读记录/逐章笔记/B02_01_Opening_the_Book.md",
+        "阅读记录/逐章笔记/B04_01_为什么投资要研究周期.md"
+      ]
+    },
+    {
+      "id": "RQ10",
+      "requirement": "正反向估值与口径一致",
+      "manual_heading": "5. 正向估值、反向预期与机会成本",
+      "template_headings": [
+        "G. 估值、反推与安全边际"
+      ],
+      "source_books": [
+        "B02",
+        "B05"
+      ],
+      "keywords": [
+        "反向",
+        "残差",
+        "折现率",
+        "终值"
+      ],
+      "detail": "旧§10–§11；详解G1–G4",
+      "evidence_notes": [
+        "阅读记录/逐章笔记/B02_01_Opening_the_Book.md",
+        "阅读记录/逐章笔记/B05_01_公司治理.md"
+      ]
+    },
+    {
+      "id": "RQ11",
+      "requirement": "安全边际、悲观损失与机会成本",
+      "manual_heading": "5. 正向估值、反向预期与机会成本",
+      "template_headings": [
+        "G. 估值、反推与安全边际"
+      ],
+      "source_books": [
+        "B08",
+        "B10"
+      ],
+      "keywords": [
+        "安全边际",
+        "悲观",
+        "宽基"
+      ],
+      "detail": "旧§2.12、§11.4–11.6；详解G5",
+      "evidence_notes": [
+        "阅读记录/逐章笔记/B08_01_学习第二层次思维.md",
+        "阅读记录/逐章笔记/B10_16_安全边际.md"
+      ]
+    },
+    {
+      "id": "RQ12",
+      "requirement": "周期因果、反方与证伪",
+      "manual_heading": "6. 周期、行为与反方",
+      "template_headings": [
+        "I. 周期、行为与反方",
+        "L. 更新与触发"
+      ],
+      "source_books": [
+        "B04",
+        "B08"
+      ],
+      "keywords": [
+        "周期",
+        "反方",
+        "证伪"
+      ],
+      "detail": "旧§4.10–4.21、§13；详解I1",
+      "evidence_notes": [
+        "阅读记录/逐章笔记/B04_01_为什么投资要研究周期.md",
+        "阅读记录/逐章笔记/B08_01_学习第二层次思维.md"
+      ]
+    },
+    {
+      "id": "RQ13",
+      "requirement": "行为、运气与容错",
+      "manual_heading": "6. 周期、行为与反方",
+      "template_headings": [
+        "I. 周期、行为与反方",
+        "M. 绩效与复盘"
+      ],
+      "source_books": [
+        "B11",
+        "B03"
+      ],
+      "keywords": [
+        "经历",
+        "过程",
+        "运气"
+      ],
+      "detail": "旧§2.39–2.44、§15；详解I2/M3",
+      "evidence_notes": [
+        "阅读记录/逐章笔记/B11_22_致谢与尾页.md",
+        "阅读记录/逐章笔记/B03_01_No_Guts_No_Glory.md"
+      ]
+    },
+    {
+      "id": "RQ14",
+      "requirement": "五门、授权与实际执行",
+      "manual_heading": "7. 决策、执行与复盘",
+      "template_headings": [
+        "D. 决策摘要与许可门",
+        "J. 决定与授权",
+        "K. 执行与流水"
+      ],
+      "source_books": [
+        "B03",
+        "B10"
+      ],
+      "keywords": [
+        "许可",
+        "限价",
+        "权重"
+      ],
+      "detail": "〔历史政策关联叙述未公开；节号对应关系见同库历史政策节号映射。〕",
+      "evidence_notes": [
+        "阅读记录/逐章笔记/B03_01_No_Guts_No_Glory.md",
+        "阅读记录/逐章笔记/B10_16_安全边际.md"
+      ]
+    },
+    {
+      "id": "RQ15",
+      "requirement": "追踪、双基准与主动资格",
+      "manual_heading": "7. 决策、执行与复盘",
+      "template_headings": [
+        "L. 更新与触发",
+        "M. 绩效与复盘"
+      ],
+      "source_books": [
+        "B06",
+        "B09",
+        "B11"
+      ],
+      "keywords": [
+        "TWR",
+        "XIRR",
+        "基准"
+      ],
+      "detail": "〔历史政策关联叙述未公开；节号对应关系见同库历史政策节号映射。〕",
+      "evidence_notes": [
+        "阅读记录/逐章笔记/B06_01_业余投资者比专业投资者业绩更好.md",
+        "阅读记录/逐章笔记/B09_01_坚实基础与空中楼阁.md",
+        "阅读记录/逐章笔记/B11_22_致谢与尾页.md"
+      ]
+    },
+    {
+      "id": "RQ16",
+      "requirement": "来源、版次、未知与不适用",
+      "manual_heading": "8. 书籍来源与覆盖边界",
+      "template_headings": [
+        "D. 决策摘要与许可门",
+        "F. 财报、重构与生存"
+      ],
+      "source_books": [
+        "B01",
+        "B02",
+        "B03",
+        "B04",
+        "B05",
+        "B06",
+        "B07",
+        "B08",
+        "B09",
+        "B10",
+        "B11",
+        "B12"
+      ],
+      "keywords": [
+        "未知",
+        "不适用",
+        "来源"
+      ],
+      "detail": "来源记录、250份章笔记、原披露台账",
+      "evidence_notes": [
+        "阅读记录/逐章笔记/B01_01_25_Years_of_Shenanigans.md",
+        "阅读记录/逐章笔记/B02_01_Opening_the_Book.md",
+        "阅读记录/逐章笔记/B03_01_No_Guts_No_Glory.md",
+        "阅读记录/逐章笔记/B04_01_为什么投资要研究周期.md",
+        "阅读记录/逐章笔记/B05_01_公司治理.md",
+        "阅读记录/逐章笔记/B06_01_业余投资者比专业投资者业绩更好.md",
+        "阅读记录/逐章笔记/B07_P1_01_过去提供的线索.md",
+        "阅读记录/逐章笔记/B08_01_学习第二层次思维.md",
+        "阅读记录/逐章笔记/B09_01_坚实基础与空中楼阁.md",
+        "阅读记录/逐章笔记/B10_16_安全边际.md",
+        "阅读记录/逐章笔记/B11_22_致谢与尾页.md",
+        "阅读记录/逐章笔记/B12_02_资产负债表.md"
+      ]
+    }
+  ]
+}

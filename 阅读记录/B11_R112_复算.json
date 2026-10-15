@@ -1,0 +1,293 @@
+{
+  "publication_provenance": {
+    "kind": "书籍阅读、历史案例及教学复算资料",
+    "source_record": "阅读记录/B11_R112_复算.json",
+    "financial_numbers_origin": "仅为书内案例、历史统计或教学复算；不是维护者或使用者的资产、账户、持仓或交易记录。",
+    "private_account_or_holdings_data": false
+  },
+  "batch": "R112",
+  "date_utc": "2026-10-14",
+  "book": "B11",
+  "book_title": "金钱心理学：财富、人性和幸福的永恒真相",
+  "source_file": "投资书籍/金钱心理学.epub",
+  "source_sha256": "6ba1f8484392fac2611911fc1eaf84ac047f73fb5d395468cef3628f429d8f3b",
+  "decoded_text_sha256": "49a436df4e11c10fa8afbdb607656a7597773f9caaad288e900fff2fab8f4311",
+  "decoded_text_lines": 1917,
+  "decoded_text_chars": 123755,
+  "range_read": {
+    "start_line": 1080,
+    "end_line": 1336,
+    "lines": 257,
+    "chars_including_newlines": 20079,
+    "chapters": {
+      "13": "1080–1154（第13章 容错空间）",
+      "14": "1155–1211（第14章 人是会变的）",
+      "15": "1212–1271（第15章 世上没有免费的午餐）",
+      "16": "1272–1336（第16章 每个人的情况不同；止于1336行，第17章起于1337行）"
+    },
+    "chapter_chars": {
+      "1080-1154": 6543,
+      "1155-1211": 3859,
+      "1212-1271": 4868,
+      "1272-1336": 4806,
+      "1080-1336": 20079
+    },
+    "cumulative_1_1336_chars": 87932,
+    "boundary_evidence": "spine 17–20（chapter_18.xhtml–chapter_21.xhtml）连续无空洞；1336行后即第17章标题行1337；前1–1079行由R109–R111实读，本批仅继承"
+  },
+  "resources_read": [
+    {
+      "index": 17,
+      "source": "EPUB/chapter_18.xhtml",
+      "start_line": 1080,
+      "end_line": 1154,
+      "chapter": "第13章 容错空间",
+      "raw_bytes": 21426,
+      "raw_sha256": "c469842bcaa69594167122e26831fd892a53e1d1712ef1b763a964813eed7e17",
+      "images": [],
+      "zuixiaoyao_notes": 5,
+      "embedded_attribute_footnotes": 0,
+      "anchor_links": 0,
+      "read_in_batch": "R112"
+    },
+    {
+      "index": 18,
+      "source": "EPUB/chapter_19.xhtml",
+      "start_line": 1155,
+      "end_line": 1211,
+      "chapter": "第14章 人是会变的",
+      "raw_bytes": 12992,
+      "raw_sha256": "74d1957dd55af2b5fd29ba8c22b0386ca8927808f27b2cf504a16b8cb2b46822",
+      "images": [],
+      "zuixiaoyao_notes": 5,
+      "embedded_attribute_footnotes": 0,
+      "anchor_links": 0,
+      "read_in_batch": "R112"
+    },
+    {
+      "index": 19,
+      "source": "EPUB/chapter_20.xhtml",
+      "start_line": 1212,
+      "end_line": 1271,
+      "chapter": "第15章 世上没有免费的午餐",
+      "raw_bytes": 15693,
+      "raw_sha256": "87ba6f4b05f6d505b1a396218af1004cde6e1a22d380e8f28561f3236769457d",
+      "images": [
+        "EPUB/img/CB_3300064234_P007.jpg"
+      ],
+      "zuixiaoyao_notes": 4,
+      "embedded_attribute_footnotes": 0,
+      "anchor_links": 0,
+      "read_in_batch": "R112"
+    },
+    {
+      "index": 20,
+      "source": "EPUB/chapter_21.xhtml",
+      "start_line": 1272,
+      "end_line": 1336,
+      "chapter": "第16章 每个人的情况不同",
+      "raw_bytes": 16352,
+      "raw_sha256": "026c0b850f2ff82c240d287db7b4e1c7e93df7343e7607828e70abb1baf98028",
+      "images": [],
+      "zuixiaoyao_notes": 2,
+      "embedded_attribute_footnotes": 0,
+      "anchor_links": 0,
+      "read_in_batch": "R112"
+    }
+  ],
+  "images_in_batch": {
+    "img_references": 1,
+    "files": [
+      "CB_3300064234_P007.jpg"
+    ],
+    "viewed": [
+      {
+        "file": "CB_3300064234_P007.jpg",
+        "figure": "图15.1 道琼斯工业平均指数 1950—2019（阴影＝比此前历史最高点低至少5%的时段）",
+        "status": "已逐幅目视",
+        "readings_approx": {
+          "axis": "横轴1950—2019（刻度1950/1956/1962/1968/1974/1980/1986/1992/1998/2004/2010/2016）；纵轴0—30,000",
+          "1950": "约200点",
+          "1982": "约1,000点",
+          "2000": "约11,000点（此后两次深跌）",
+          "2009": "约7,000点",
+          "2019": "约26,000点以上",
+          "shading": "1950—1985年阴影（低于前高）占比很高；1990年代与2010—2019年以非阴影为主，中间夹2000—2003与2008—2009两段长阴影"
+        },
+        "note": "读数为目测近似；阴影占比未逐日统计，只与正文“多数时间低于前高”的定性判断对照"
+      }
+    ],
+    "viewed_count_batch": 1,
+    "viewed_count_cumulative": 8,
+    "image_reference_count_cumulative": 15,
+    "image_files_in_epub": 11,
+    "unavailable_in_batch": []
+  },
+  "notes_read": {
+    "batch_notes": {
+      "第13章": 5,
+      "第14章": 5,
+      "第15章": 4,
+      "第16章": 2,
+      "合计": 16
+    },
+    "cumulative_notes": {
+      "序言": 5,
+      "第1章": 7,
+      "第2章": 3,
+      "第3章": 11,
+      "第4章": 3,
+      "第5章": 5,
+      "第6章": 10,
+      "第7章": 6,
+      "第8章": 0,
+      "第9章": 2,
+      "第10章": 3,
+      "第11章": 9,
+      "第12章": 7,
+      "第13章": 5,
+      "第14章": 5,
+      "第15章": 4,
+      "第16章": 2,
+      "合计": 87
+    },
+    "book_total": 129,
+    "hidden_footnotes_batch": 0,
+    "note": "zuixiaoyao ㊟【】为电子版第三方行内注，独立计数，不与原书正文混同"
+  },
+  "computations": {
+    "card_counting_stake": {
+      "title": "第13章 算牌者的赢率与下注单位",
+      "self_computed": "赢率高出约2个百分点与“赌场仍有49%”自洽（51%对49%）；10,000美元/100份=100美元/次",
+      "status": "PASS",
+      "detail": "与正文“至少将筹码分为100份”一致"
+    },
+    "retirement_buffer": {
+      "title": "第13章 作者对未来回报的保守预估",
+      "given": "自1871年以来美国股市扣除通胀后平均年回报6.8%；作者预估比历史平均值低三分之一",
+      "self_computed": "0.068×(1-1/3)=0.045333（约4.53%）",
+      "status": "DERIVED",
+      "detail": "书内未给具体数字；不得把4.53%当作作者收益预测或本项目假设引用"
+    },
+    "roulette_odds": {
+      "title": "第13章 俄罗斯轮盘赌的存活概率",
+      "self_computed": "5/6=0.833333（83.33%）",
+      "status": "DERIVED",
+      "detail": "作者的论点在于“赔率再好也不能接受毁灭性结果”，不在概率大小"
+    },
+    "tank_availability": {
+      "title": "第13章 斯大林格勒坦克团可用率",
+      "given": "104辆坦克中不到20辆可用",
+      "self_computed": {
+        "可用率上限": 0.192308,
+        "不可用率下限": 0.807692
+      },
+      "status": "DERIVED",
+      "detail": "“不到20辆”按19辆口径取上限；不四舍五入成20辆"
+    },
+    "survival_argument_scope": {
+      "title": "第13章 95%/5%论证的适用范围（逻辑检查）",
+      "status": "PASS（限定条件）",
+      "detail": "结论仅在“失败＝出局”时成立；不构成“回避一切风险”，引用须保留“倾家荡产”前提"
+    },
+    "real_vs_nominal_returns": {
+      "title": "第13章6.8%与第15章约11%的口径差异",
+      "status": "CONFLICT_OPEN（口径不同，禁止相减）",
+      "detail": "6.8%＝自1871年以来扣除通胀的实际回报；约11%＝道指1950—2019名义、含股息。两者基准期与通胀处理均不同"
+    },
+    "ge_price_drop": {
+      "title": "第15章 通用电气股价",
+      "given": {
+        "2007": 40,
+        "2018": 7
+      },
+      "self_computed": "7/40-1=-0.825（-82.5%）",
+      "status": "PASS",
+      "detail": "3,300亿美元市值与“10年不是第一就是第二”为转引背景，未核"
+    },
+    "sp500_50y": {
+      "title": "第15章 标普500“截至2018年的50年上涨119倍”",
+      "self_computed": "119^(1/50)-1=0.1003（10.03%/年）",
+      "status": "DERIVED",
+      "detail": "书内未给年化；原始序列未核"
+    },
+    "djia_chart_consistency": {
+      "title": "第15章 图15.1读数与“1950—2019约11%”的自洽检查",
+      "self_computed": {
+        "目测比值": "约26,000/200=130倍（69年）",
+        "价格回报年化": 0.073092
+      },
+      "status": "APPROX",
+      "detail": "价格回报约7.3%/年，与“含股息约11%”相差约3.7个百分点，量级符合历史股息率；起点与终点为目测读数，不作精确分解引用"
+    },
+    "extreme_stocks": {
+      "title": "第15章 网飞与魔爪能量饮料",
+      "self_computed": {
+        "网飞350倍/16年": 0.442129,
+        "魔爪319倍/23年": 0.284874
+      },
+      "status": "DERIVED",
+      "detail": "书内只给倍数与“低于前高时间占比”（94%/95%）；年化为本项目补算，不引用"
+    },
+    "morningstar_share": {
+      "title": "第15章 战术性资产配置基金",
+      "self_computed": "9/112=0.080357（8.04%）",
+      "status": "DERIVED",
+      "detail": "研究期间为2010年中期至2011年晚期，标普500跌幅超20%"
+    },
+    "disney_gate": {
+      "title": "第15章 迪士尼门票",
+      "self_computed": "1,800万人×100美元=18亿美元",
+      "status": "DERIVED",
+      "detail": "书内只给人数与票价；该乘积为人数×单价，不等于实际门票收入（未核）"
+    },
+    "wealth_losses": {
+      "title": "第16章 两次泡沫的家庭财富损失",
+      "given": {
+        "互联网泡沫": "6.2万亿美元",
+        "房地产泡沫": "超过8万亿美元"
+      },
+      "status": "NOT_VERIFIABLE",
+      "detail": "转引统计且口径未给（是否含养老金、是否通胀调整）；两者不可相加"
+    },
+    "turnover_holding_period": {
+      "title": "第16章 1999年共同基金年换手率120%",
+      "self_computed": "隐含平均持有期=12/1.2=10个月",
+      "status": "CONFLICT_OPEN（书内表述为8个月）",
+      "detail": "120%换手率隐含平均持有期10个月（0.83年），与正文“最多会考虑接下来8个月的情况”相差约2个月；原文不改、不代填"
+    },
+    "home_flipping": {
+      "title": "第16章 炒房数据",
+      "self_computed": {
+        "倍数": "10万/2万=5倍（即增加4倍多）",
+        "回落占比": "4万/10万=40%"
+      },
+      "status": "PASS",
+      "detail": "与正文“增加了4倍多”一致；破灭后降至每季4万套"
+    },
+    "cisco_implied_growth": {
+      "title": "第16章 思科隐含增长率（马尔基尔）",
+      "self_computed": "(210,000/6,000)^(1/20)-1=0.194547（约19.5%/年）",
+      "status": "DERIVED",
+      "detail": "按6,000亿→约21万亿（2019年美国经济总量量级）、20年估算；分母为转引宏观数据，仅作量级说明"
+    },
+    "sunk_cost_scope": {
+      "title": "第14章 沉没成本与“尽快改变”的边界（逻辑检查）",
+      "status": "PASS（限定条件）",
+      "detail": "〔历史政策关联叙述未公开；节号对应关系见同库历史政策节号映射。〕"
+    }
+  },
+  "narrative_not_verifiable": [
+    "第13章 盖茨与巴菲特现金缓冲引语、巴泽曼“超预算25%～50%”、巴菲特的继任者要求、田鼠咬坏坦克绝缘层的战史细节、六家初创公司的意外清单、飞机与悬索桥的冗余说明",
+    "第14章 医生朋友经历、美联储27%与Pew 29%、Gilbert“历史终结错觉”研究、卡尼曼“我没有沉没成本”轶事",
+    "第15章 GE市值与会计手法、韦尔奇自传引语、房地美/房利美少报金额、晨星两项研究、“Mind the Gap”0.5个百分点、迪士尼票价与人数",
+    "第16章 马哈尔《牛市》引文、Attom炒房数据、CNBC场景、马尔基尔对思科的计算过程、作者个人投资宣言的执行细节"
+  ],
+  "unavailable_materials": [],
+  "limitations": [
+    "本批复算均为书内数字的内部一致性/算术检查，不验证原始企业披露、历史统计或投资收益",
+    "图15.1读数为目测近似且未逐日统计阴影占比",
+    "前1–1079行（R109–R111）仅继承，未在本批重读；原书文件未修改",
+    "电子版第三方注记（zuixiaoyao ㊟【】）独立计数，不作为原书正文或来源依据"
+  ]
+}

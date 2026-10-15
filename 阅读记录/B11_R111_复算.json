@@ -1,0 +1,302 @@
+{
+  "publication_provenance": {
+    "kind": "书籍阅读、历史案例及教学复算资料",
+    "source_record": "阅读记录/B11_R111_复算.json",
+    "financial_numbers_origin": "仅为书内案例、历史统计或教学复算；不是维护者或使用者的资产、账户、持仓或交易记录。",
+    "private_account_or_holdings_data": false
+  },
+  "batch": "R111",
+  "date_utc": "2026-10-14",
+  "book": "B11",
+  "book_title": "金钱心理学：财富、人性和幸福的永恒真相",
+  "source_file": "投资书籍/金钱心理学.epub",
+  "source_sha256": "6ba1f8484392fac2611911fc1eaf84ac047f73fb5d395468cef3628f429d8f3b",
+  "decoded_text_sha256": "49a436df4e11c10fa8afbdb607656a7597773f9caaad288e900fff2fab8f4311",
+  "decoded_text_lines": 1917,
+  "decoded_text_chars": 123755,
+  "range_read": {
+    "start_line": 786,
+    "end_line": 1079,
+    "lines": 294,
+    "chars_including_newlines": 19558,
+    "chapters": {
+      "09": "786–820（第9章 财富是你看不见的那些）",
+      "10": "821–901（第10章 存钱）",
+      "11": "902–976（第11章 合乎情理胜过绝对理性）",
+      "12": "977–1079（第12章 意外！；止于1079行，第13章起于1080行）"
+    },
+    "chapter_chars": {
+      "786-820": 2705,
+      "821-901": 4244,
+      "902-976": 5671,
+      "977-1079": 6935,
+      "786-1079": 19558
+    },
+    "cumulative_1_1079_chars": 67853,
+    "boundary_evidence": "spine 13–16（chapter_14.xhtml–chapter_17.xhtml）连续无空洞；1079行后即第13章标题行1080；前1–785行由R109/R110实读，本批仅继承"
+  },
+  "resources_read": [
+    {
+      "index": 13,
+      "source": "EPUB/chapter_14.xhtml",
+      "start_line": 786,
+      "end_line": 820,
+      "chapter": "第9章 财富是你看不见的那些",
+      "raw_bytes": 9324,
+      "raw_sha256": "d0d9c61a04912b01f5191c910fb4a6adc697f5283d32c440899abd0543254d28",
+      "images": [],
+      "zuixiaoyao_notes": 2,
+      "embedded_attribute_footnotes": 0,
+      "anchor_links": 0,
+      "read_in_batch": "R111"
+    },
+    {
+      "index": 14,
+      "source": "EPUB/chapter_15.xhtml",
+      "start_line": 821,
+      "end_line": 901,
+      "chapter": "第10章 存钱",
+      "raw_bytes": 15197,
+      "raw_sha256": "bfffff16d62165d2d80643b87f43d299704ea1a36908c91ac52e2eecd7abba55",
+      "images": [],
+      "zuixiaoyao_notes": 3,
+      "embedded_attribute_footnotes": 0,
+      "anchor_links": 0,
+      "read_in_batch": "R111"
+    },
+    {
+      "index": 15,
+      "source": "EPUB/chapter_16.xhtml",
+      "start_line": 902,
+      "end_line": 976,
+      "chapter": "第11章 合乎情理胜过绝对理性",
+      "raw_bytes": 18451,
+      "raw_sha256": "10ca4e23fb2ae00543493f5531df93899129615944f570b664353eba705614dc",
+      "images": [],
+      "zuixiaoyao_notes": 9,
+      "embedded_attribute_footnotes": 0,
+      "anchor_links": 0,
+      "read_in_batch": "R111"
+    },
+    {
+      "index": 16,
+      "source": "EPUB/chapter_17.xhtml",
+      "start_line": 977,
+      "end_line": 1079,
+      "chapter": "第12章 意外！",
+      "raw_bytes": 23478,
+      "raw_sha256": "71d625befd26e099bdf91b8285420f4404eb048a965b408068986e499003cda4",
+      "images": [
+        "EPUB/img/CB_3300064234_P002.jpg"
+      ],
+      "zuixiaoyao_notes": 7,
+      "embedded_attribute_footnotes": 0,
+      "anchor_links": 0,
+      "read_in_batch": "R111"
+    }
+  ],
+  "images_in_batch": {
+    "img_references": 1,
+    "files": [
+      "CB_3300064234_P002.jpg"
+    ],
+    "viewed": [
+      {
+        "file": "CB_3300064234_P002.jpg",
+        "figure": "图12.1 美国经济衰退周期",
+        "status": "已逐幅目视",
+        "readings_approx": {
+          "axis": "横轴1854–2004+（刻度：1854/1876/1897/1918/1940/1961/1982/2004）；黑色竖条＝衰退、灰色竖条＝扩张（目测序列）",
+          "1854-1900": "竖线最密集（与“平均间隔2年”相符）",
+          "1900-1945": "密度下降",
+          "1945-1982": "中等密度",
+          "1982以后": "极稀疏（目测约1990—1991、2001、2007—2009三个黑色区间）"
+        },
+        "note": "只作方向；竖线总数与年份未逐条计数，不与文本“2/5/8年”的均值互推"
+      }
+    ],
+    "viewed_count_batch": 1,
+    "viewed_count_cumulative": 7,
+    "image_reference_count_cumulative": 14,
+    "image_files_in_epub": 11,
+    "unavailable_in_batch": []
+  },
+  "notes_read": {
+    "batch_notes": {
+      "第9章": 2,
+      "第10章": 3,
+      "第11章": 9,
+      "第12章": 7,
+      "合计": 21
+    },
+    "cumulative_notes": {
+      "序言": 5,
+      "第1章": 7,
+      "第2章": 3,
+      "第3章": 11,
+      "第4章": 3,
+      "第5章": 5,
+      "第6章": 10,
+      "第7章": 6,
+      "第8章": 0,
+      "第9章": 2,
+      "第10章": 3,
+      "第11章": 9,
+      "第12章": 7,
+      "合计": 71
+    },
+    "book_total": 129,
+    "hidden_footnotes_batch": 0,
+    "note": "zuixiaoyao ㊟【】为电子版第三方行内注，独立计数，不与原书正文混同"
+  },
+  "computations": {
+    "vehicle_efficiency": {
+      "title": "第10章 1989年福特金牛 vs 2019年雪佛兰郊区",
+      "self_computed": "18.1/18=1.005556（+0.56%）",
+      "status": "PASS",
+      "detail": "超大型SUV与中型轿车的单位油耗里程几乎相同，支持“车辆效率提高”的方向；EIA原始数据未核"
+    },
+    "energy_efficiency_gap": {
+      "title": "第10章 0.1个百分点 vs 2–3个百分点",
+      "self_computed": "2/0.1=20倍；3/0.1=30倍",
+      "status": "DERIVED",
+      "detail": "作者用数量级差支撑“先管可控端（储蓄率）”；本身不是收益预测"
+    },
+    "energy_intensity_and_output": {
+      "title": "第10章 能耗强度与油气产量",
+      "given": {
+        "GDP每美元能耗较1950年": "-60%",
+        "机动车平均里程相对1975年": "2倍",
+        "1975年以来油气产量": "+65%"
+      },
+      "status": "NOT_VERIFIABLE",
+      "detail": "三项为转引统计且分属不同口径（能耗强度／里程／产量），不得相加或互推"
+    },
+    "sat_scores": {
+      "title": "第10章 SAT满分数",
+      "given": {
+        "满分1600人数": "接近600人",
+        "仅差几分": "7000人"
+      },
+      "status": "NOT_VERIFIABLE",
+      "detail": "年份与考生规模未给，不能据此计算比例"
+    },
+    "no_phone_or_mail": {
+      "title": "第10章 100多年前75%美国人无电话与常规邮政",
+      "status": "NOT_VERIFIABLE",
+      "detail": "转引戈登；为两项服务合并计数的表述，须照原文口径引用"
+    },
+    "malaria_fever_efficacy": {
+      "title": "第11章 疟热疗法康复率",
+      "given": {
+        "治疗组": "60%",
+        "对照组": "约30%"
+      },
+      "self_computed": "0.60/0.30=2.0倍",
+      "status": "PASS",
+      "detail": "书内未给倍数，为本项目补算；原始试验设计与数据未核"
+    },
+    "temperature_conversion": {
+      "title": "第11章 华氏—摄氏换算",
+      "self_computed": {
+        "100F": 37.7777777778,
+        "104F": 40.0
+      },
+      "status": "PASS",
+      "detail": "与书内100℉～104℉＝37.7℃～40℃一致"
+    },
+    "fever_virus_copy": {
+      "title": "第11章 体温每升1℃病毒复制减缓至1/200",
+      "self_computed": "1/200=0.5%，即下降99.5%",
+      "status": "DERIVED",
+      "detail": "机制描述为转引（Cavaillon／NIH），未核原始文献"
+    },
+    "yale_leverage_wipeout": {
+      "title": "第11章 2:1杠杆退休金策略的“清零”阈值",
+      "model": "自有资金1＋借款2＝总资产3；资产下跌X后权益=1-3X",
+      "self_computed": {
+        "权益归零阈值": 0.3333333333,
+        "下跌50%时权益": -0.5
+      },
+      "status": "CONFLICT_OPEN（书内口径偏宽）",
+      "detail": "书内称“市场下跌50%时你就会一无所有”；自算在-33.33%时权益即归零（通常更早触发追缴），-50%时权益为-0.5（亏损超过本金）。方向正确、阈值偏宽16.67个百分点；引用用33.33%，不引50%"
+    },
+    "six_people_share": {
+      "title": "第12章 6人／150亿人口的比例",
+      "given": {
+        "19–20世纪累计出生": 15000000000,
+        "名单人数": 6,
+        "书内百分比": "0.00000000004%"
+      },
+      "self_computed": "6/15,000,000,000=4.0e-10＝4×10⁻⁸%＝0.00000004%",
+      "status": "CONFLICT_OPEN（数量级不符）",
+      "detail": "自算0.00000004% vs 书内0.00000000004%，书内比自算小1000倍；登记不配平、不代改原文；引用用自算值或只说“约十亿分之几”"
+    },
+    "student_loan_default": {
+      "title": "第12章 助学贷款违约额",
+      "given": {
+        "助学贷款总额": "1.6万亿美元",
+        "违约率": "10.8%"
+      },
+      "self_computed": "1.6e12×0.108=1.728e11＝1,728亿美元",
+      "status": "DERIVED",
+      "detail": "书内未给绝对额，为本项目补算；原始数据为转引，未核"
+    },
+    "graham_formula_revisions": {
+      "title": "第12章 格雷厄姆公式修改次数",
+      "self_computed": "1934《证券分析》→1949→1954→1965→1972＝5次修改",
+      "status": "PASS",
+      "detail": "与正文“在1934年到1972年之间……进行了5次修改”一致"
+    },
+    "401k_age": {
+      "title": "第12章 401(k)计划年限",
+      "self_computed": "2020-1978=42年",
+      "status": "PASS",
+      "detail": "与“自401K计划诞生已经有42年了”一致；同时支持写作年份约2020年（与第5章疫情表述自洽）"
+    },
+    "index_weights": {
+      "title": "第12章 标普500金融类16%与科技类逾20%",
+      "status": "NOT_VERIFIABLE",
+      "detail": "转引统计；两处同以标普500为分母，可并列不可相加；1976年起纳入金融股一说未核原始指数文档"
+    },
+    "fig121_reading": {
+      "title": "图12.1 美国经济衰退周期读数",
+      "status": "APPROX",
+      "detail": "1854—1900竖线最密集、1982年后极稀疏（目测约1990—1991、2001、2007—2009三个黑色区间），与文本“2/5/8年”和“12年最长间隔”方向一致；竖线总数与年份未逐条计数"
+    },
+    "recession_intervals": {
+      "title": "第12章 衰退平均间隔2/5/8年与“12年最长”",
+      "status": "NOT_VERIFIABLE",
+      "detail": "转引历史统计（含三种成因解释：美联储管理／服务业结构／更少但更深），未外部核验"
+    },
+    "holding_period_probabilities": {
+      "title": "第11章 持有期正收益概率50%/68%/88%/100%",
+      "status": "NOT_VERIFIABLE（历史样本口径）",
+      "detail": "美国股市历史样本且20年一项原文已注“到目前为止”；不构成对未来或个人组合的保证，也不得据此推导“必须持有20年”"
+    },
+    "yale_90pct_claim": {
+      "title": "第11章 耶鲁方案“退休财富高90%”",
+      "status": "NOT_VERIFIABLE",
+      "detail": "为对手方案引述，作者本人判定“100%不现实”；本项目只引用可执行性判断，不引用90%"
+    },
+    "templeton_20pct": {
+      "title": "第12章 邓普顿“至少有20%的内容变了”",
+      "status": "NARRATIVE_ONLY",
+      "detail": "为观点转述与作者评论（巴特尼克的反转表述并列保留），无计算口径"
+    }
+  },
+  "narrative_not_verifiable": [
+    "第9章 泊车员时期罗杰与保时捷被收回、蕾哈娜与会计纠纷细节、比尔·曼引语、布莱森“高估4倍/摄入2倍”研究",
+    "第10章 戈登75%无电话与邮政、EIA能耗强度-60%、里程2倍、油气产量+65%、SAT 600/7,000人、安德森“软件吞噬世界”引语",
+    "第11章 瓦格纳-尧雷格与1927年诺贝尔奖纪实、古罗马菲波利斯、西雅图儿童医院与ICU研究引文、马科维茨访谈、茨威格反思、耶鲁两位研究者方案、乔西·布朗与博格尔引语",
+    "第12章 萨根与费曼引语、巴特尼克与邦纳表述、6人名单与8个事件清单、塔勒布法老与福岛类比、卡尼曼答问、耐特自传引语、格雷厄姆访谈与茨威格注解"
+  ],
+  "unavailable_materials": [],
+  "limitations": [
+    "本批复算均为书内数字的内部一致性/算术检查，不验证原始企业披露、历史统计或投资收益",
+    "图12.1读数为目测近似、且未逐条计数，只作方向",
+    "医学史、宏观统计与访谈转引一律未外部核验",
+    "前1–785行（R109/R110）仅继承，未在本批重读；原书文件未修改",
+    "电子版第三方注记（zuixiaoyao ㊟【】）独立计数，不作为原书正文或来源依据"
+  ]
+}

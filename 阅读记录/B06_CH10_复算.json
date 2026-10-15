@@ -1,0 +1,119 @@
+{
+  "publication_provenance": {
+    "kind": "书籍阅读、历史案例及教学复算资料",
+    "source_record": "阅读记录/B06_CH10_复算.json",
+    "financial_numbers_origin": "仅为书内案例、历史统计或教学复算；不是维护者或使用者的资产、账户、持仓或交易记录。",
+    "private_account_or_holdings_data": false
+  },
+  "book": "B06",
+  "book_title": "彼得林奇投资经典全集（共3册）",
+  "volume": "第一册《战胜华尔街》",
+  "chapter": 10,
+  "chapter_title": "超级剪理发记",
+  "range": {
+    "start_line": 1207,
+    "end_line": 1239,
+    "line_count": 33,
+    "chars_with_newlines": 4219
+  },
+  "decode": "B06-v2-2026-10-13",
+  "image_files_referenced": [
+    "images/00057.jpg"
+  ],
+  "image_files_newly_viewed_this_batch": [
+    "images/00057.jpg"
+  ],
+  "image_note": "spine21（index_split_020.html）覆盖1207–1239行，本章仅1次图像引用/1个图像文件：00057.jpg（表10-1小结，实际为566×65像素条图，含CUTS／超级剪公司（Supercuts）／1992-1-13股价11.33美元）。本章无装饰图标，图像行在章末1239行（表题1238行）。spine21无脚注链。",
+  "checks": {
+    "price_comparison": {
+      "input": "温尼小店每次理发10美元；超级剪楼下立牌：剪发8.95美元、洗剪12美元、单洗发4美元；1991年10月IPO每股11美元；表10-1的1992/1/13股价11.33美元",
+      "computation": "8.95/10=89.5%（便宜10.5%）；12/10=+20%（洗剪更贵）；11.33/11-1=+3.0%",
+      "status": "PASS"
+    },
+    "stylist_throughput": {
+      "input": "'一个发型师每小时能为2.8个人理好发'；'每小时能为开连锁店的老板挣到30美元的收入'",
+      "computation": "2.8人/小时×8小时=22.4人/天（按10小时计28人/天）；30美元/小时×8小时=240美元/天；按250个工作日≈6.0万美元/年/发型师",
+      "status": "PASS_WITH_CAVEAT",
+      "note": "工时与工作日数为本项目假设，书内未给"
+    },
+    "single_store_revenue_crosscheck": {
+      "input": "'每年这10个新店能为公司增加收入300000美元'；特许权使用费为销售收入的5%，另有Nexxus产品收入提成4%",
+      "computation": "30万美元/10家=3万美元/店/年；若全部来自5%特许权使用费→单店年销售额=3万/0.05=60万美元；与'每发型师6万美元/年×8~10名发型师=48万~60万美元'量级一致",
+      "status": "PASS_WITH_CAVEAT",
+      "note": "书内未披露单店年销售额；交叉验证支持量级自洽"
+    },
+    "store_investment_return": {
+      "input": "'开一家超级剪美发连锁店，平均每家连锁店要投资10万美元'；'仅仅是在最初两年，公司就预计能实现50%的税前投资利润率'",
+      "computation": "年化50%→年税前利润5万美元、回本约2年；两年合计50%→年均2.5万美元、回本约4年",
+      "status": "AMBIGUOUS_BASIS",
+      "note": "书内未写明'最初两年'与'50%'的期间口径"
+    },
+    "stylist_pay_doubling": {
+      "input": "'发型师的每小时工资是5~7美元，这并不高，但加上医疗福利和每小时2.8个人给的小费，她的工资可以成倍增长'",
+      "computation": "底薪中值6美元/小时；小费按1美元/人→+2.8美元/小时=1.47倍；按2美元/人→+5.6美元/小时=1.93倍（接近'成倍'）",
+      "status": "AMBIGUOUS_BASIS",
+      "note": "小费金额与福利折算均未披露"
+    },
+    "trainer_cost_coverage": {
+      "input": "每10个新店雇1位培训师、年薪40000美元；10个新店每年为公司增加收入300000美元",
+      "computation": "30万/4万=7.5倍收入覆盖；利润口径取决于未披露的利润率",
+      "status": "PASS_WITH_CAVEAT"
+    },
+    "debt_and_coverage": {
+      "input": "'负债占总资产的31%'（作者标记待分析）；管理层称自由现金流5400万美元/年、大部分可还债、'预计到1993年所有债务能够全部清偿完毕'；1991年利息费用2100万美元",
+      "computation": "5400万/2100万=2.57倍（利息覆盖）；31%负债率本身未给分子分母细目",
+      "status": "BOOK_CLAIM_UNVERIFIED",
+      "note": "管理与自由现金流数据来自副总裁兼财务总监的口述（管理层自述），须以原披露复核；作者本人承认'后来事实证明问题也不是我想象的那么严重'"
+    },
+    "franchise_capital_light": {
+      "input": "'超级剪公司采特许连锁加盟方式，因而设立新店的资金全由加盟商自己负担……不用自己投入资本，也不用过度借债，就能实现迅速扩张'",
+      "computation": "定性（与第9章美体小铺'不必借债'属同一机制）",
+      "status": "PASS_WITH_CAVEAT",
+      "note": "轻资本扩张不等于护城河；收入与品牌依赖加盟商盈利"
+    },
+    "industry_size_sanity": {
+      "input": "'理发行业是一个年营业额高达150亿~400亿美元的行业'；'整个美国2.5亿人每个月都要理发'",
+      "computation": "2.5亿人×12次/年×每次约10美元=300亿美元/年，落在书示区间内",
+      "status": "PASS",
+      "note": "说明行业规模区间与'每月理发'假设量级自洽；区间本身未核"
+    },
+    "competitor_unit_comparison": {
+      "input": "梦幻萨姆（Fantastic Sam）'分店数目是超级剪的2倍，但平均每家连锁店的收入只有超级剪的一半'；美发大师（Mastercuts）多开在购物中心、租金较高且客户主要是女性；J.C.彭尼美发厅只设在彭尼商场内",
+      "computation": "2×0.5=1.0（梦幻萨姆总营收与超级剪量级相当）",
+      "status": "PASS_WITH_CAVEAT",
+      "note": "单店收入与门店数为书内自述未核；同口径比较方法可移植"
+    },
+    "valuation_implied": {
+      "input": "'每年收入增长率高达20%，我推荐这只股票时股价市盈率为16倍'；股价11.33美元",
+      "computation": "11.33/16=0.71美元（隐含EPS）；按IPO价11美元为0.69美元",
+      "status": "PASS_WITH_CAVEAT",
+      "note": "收入增长率≠盈利增长率，书内未给盈利增速，不得直接计算PEG"
+    },
+    "hair_growth_conflict": {
+      "input": "正文'人的头发每月都会长一寸'；后文副总裁'你的头发每月能长半英寸'",
+      "computation": "1英寸=2.54厘米；半英寸=1.27厘米（相差一倍）",
+      "status": "CONFLICT_OPEN",
+      "note": "同一章内两个口径不一致；不影响投资结论，登记不改原文"
+    },
+    "mystery_shopping_boundary": {
+      "input": "作者到波伊斯顿大街829号门店体验：3位客人正在理发、4位等候；80%顾客男性、95%发型师女性；'许多人一定认为超级剪理发店的手艺一流，值得多等一会儿'",
+      "computation": "样本为1店1次（n=1）",
+      "status": "VISUAL_READING",
+      "note": "体验与客流观察属一手线索，但'手艺一流'为作者臆测（其发型被家人否定）；不得单独作为买入理由"
+    },
+    "summary_table": {
+      "input": "表10-1（00057）：CUTS／超级剪公司（Supercuts）／1992-1-13股价11.33美元",
+      "computation": "与IPO 11美元对照+3.0%",
+      "status": "PASS_WITH_CAVEAT"
+    }
+  },
+  "flags": [
+    "CONFLICT_OPEN：头发月生长'一寸'与'半英寸'不一致（同章内）",
+    "AMBIGUOUS_BASIS×2：'最初两年50%的税前投资利润率'的期间口径；发型师'工资成倍增长'的小费假设",
+    "BOOK_CLAIM_UNVERIFIED：行业规模、纽约州理发师减少一半、80%男客/95%女发型师、650家分店、自由现金流5400万、1991年利息2100万、1993年清偿、梦幻萨姆门店数与单店收入对比、20%收入增长率与16倍PE",
+    "MANAGEMENT_SOURCED：负债原因、自由现金流与偿债时间表均来自新任高级副总裁兼财务总监的口述，须以招股说明书/年报复核",
+    "MYSTERY_SHOPPING_n=1：体验式调研只作线索",
+    "原文拼写：'Rigis Corporation'疑为Regis；'Stenven J.Thompson'疑为Steven（登记不改原文）",
+    "original_report_verified=false（全部图像与数字）"
+  ]
+}

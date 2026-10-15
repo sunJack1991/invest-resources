@@ -1,0 +1,208 @@
+{
+  "publication_provenance": {
+    "kind": "书籍阅读、历史案例及教学复算资料",
+    "source_record": "阅读记录/B09_R90_复算.json",
+    "financial_numbers_origin": "仅为书内案例、历史统计或教学复算；不是维护者或使用者的资产、账户、持仓或交易记录。",
+    "private_account_or_holdings_data": false
+  },
+  "book": "B09",
+  "title": "漫步华尔街（原书第13版）",
+  "version": "R90-2026-10-14（第3批：第二部分标题＋第5章，527–680行）",
+  "source_file": "投资书籍/漫步华尔街.epub",
+  "source_sha256": "80c95b78389aa9982e5fcf5693f6e4ac776a527f1c191bcbcf836e4172cb69cb",
+  "decoded_text_sha256": "072a751172bbb26600b897c31c46027e7989fa76910403f9c57c4019725c5a6a",
+  "decoded_text_lines": 2002,
+  "decoded_text_chars": 249791,
+  "batch_range": {
+    "start_line": 527,
+    "end_line": 680,
+    "line_count": 154
+  },
+  "scope": "本批只处理第5章可复算的表格与图内读数、以及书中示例的复利检验；历史行情与分析师数据均为书内转述。",
+  "table_5_1_dividend_growth": {
+    "source_image": "converter-master/example/313189/content_51771_7.jpg",
+    "rows": [
+      {
+        "growth_pct": 5,
+        "current": 1.0,
+        "y5": 1.28,
+        "y10": 1.63,
+        "y25": 3.39
+      },
+      {
+        "growth_pct": 15,
+        "current": 1.0,
+        "y5": 2.01,
+        "y10": 4.05,
+        "y25": 32.92
+      },
+      {
+        "growth_pct": 25,
+        "current": 1.0,
+        "y5": 3.05,
+        "y10": 9.31,
+        "y25": 264.7
+      }
+    ],
+    "computed": {
+      "5pct": [
+        1.2762815625000004,
+        1.628894626777442,
+        3.3863549408993885
+      ],
+      "15pct": [
+        2.0113571874999994,
+        4.045557735707907,
+        32.918952619789614
+      ],
+      "25pct": [
+        3.0517578125,
+        9.313225746154785,
+        264.6977960169689
+      ]
+    },
+    "viewed": true,
+    "status": "BOOK_TRANSCRIPTION_ARITHMETIC_OK",
+    "note": "三行九列全部与复利公式一致（印刷取整到两位小数）。"
+  },
+  "figure_5_4_growth_vs_pe": {
+    "source_image": "converter-master/example/313189/content_51771_8.jpg",
+    "legend": {
+      "white_bar": "增长率（%）",
+      "black_bar": "市盈率（倍）"
+    },
+    "approx_readings": [
+      {
+        "name": "威瑞森",
+        "growth_pct": 4,
+        "pe": 11
+      },
+      {
+        "name": "辉瑞",
+        "growth_pct": 11,
+        "pe": 17
+      },
+      {
+        "name": "家得宝",
+        "growth_pct": 12,
+        "pe": 22
+      },
+      {
+        "name": "苹果",
+        "growth_pct": 17,
+        "pe": 27
+      },
+      {
+        "name": "字母表",
+        "growth_pct": 18,
+        "pe": 29
+      },
+      {
+        "name": "微软",
+        "growth_pct": 25,
+        "pe": 31
+      },
+      {
+        "name": "赛富时",
+        "growth_pct": 38,
+        "pe": 56
+      }
+    ],
+    "viewed": true,
+    "status": "QUALITATIVE_READING_ONLY",
+    "note": "柱状图无数字标签，读数为主观估计；支持“预期增长率越高、市盈率越高”的方向性结论。"
+  },
+  "technical_analysis_figures": {
+    "figure_5_1": {
+      "file": "content_51771_2.jpg",
+      "label": "上升趋势：牛市信号",
+      "y_range": [
+        19,
+        30
+      ],
+      "description": "最高/最低/收盘的垂线画法＋通道线（约21–24美元区间）",
+      "viewed": true
+    },
+    "figure_5_2": {
+      "file": "content_51771_3.jpg",
+      "label": "颈线／刺穿颈线：空头信号",
+      "y_range": [
+        19,
+        30
+      ],
+      "description": "头肩顶形态，左肩—头—右肩，颈线约22.8美元",
+      "viewed": true
+    },
+    "figure_5_3": {
+      "file": "content_51771_5.jpg",
+      "label": "空头陷阱",
+      "y_range": [
+        19,
+        30
+      ],
+      "description": "刺穿颈线后股价反身向上至28美元上方",
+      "viewed": true
+    },
+    "status": "QUALITATIVE_READING_ONLY"
+  },
+  "compound_growth_examples": {
+    "two_year_10pct": 0.2100000000000002,
+    "three_year_10pct": 0.3310000000000004,
+    "rule_of_72": {
+      "growth_pct": 15,
+      "doubling_years": 4.8
+    },
+    "status": "BOOK_TRANSCRIPTION_ARITHMETIC_OK"
+  },
+  "manhattan_island_claim": {
+    "sale_price_usd": 24,
+    "sale_year": 1626,
+    "assumed_end_year": 2022,
+    "years": 396,
+    "rate": 0.06,
+    "compounding": "semi-annual",
+    "computed_value_2022": 352608849927.12024,
+    "book_claim": "现在价值1000亿美元以上",
+    "status": "CONFLICT_OPEN",
+    "conflict_note": "按作者设定的“6%、半年复利”从1626年算到2022年，复取值约3.53×10^11美元（约3,526亿美元），是书中“1000亿美元以上”的约3.5倍——两者量级相近但仍不一致；作者未标终点年份与复利口径，保留为CONFLICT_OPEN，不代其修正。"
+  },
+  "pe_ratio_double_benefit_example": {
+    "eps_initial": 1.0,
+    "price_initial": 7.5,
+    "pe_initial": 7.5,
+    "eps_later": 2.0,
+    "pe_later": 15,
+    "price_later": 30.0,
+    "multiple": 4.0,
+    "status": "TEACHING_EXAMPLE",
+    "note": "书中表述为“增值了1倍以上，而是3倍”（即1万美元变4万美元，收益3万美元），复算价格由7.5升至30美元＝4倍。"
+  },
+  "lynch_peg_example": {
+    "case_a": {
+      "growth_pct": 50,
+      "pe": 25,
+      "peg": 0.5
+    },
+    "case_b": {
+      "growth_pct": 20,
+      "pe": 20,
+      "peg": 1.0
+    },
+    "status": "BOOK_TRANSCRIPTION_ARITHMETIC_OK",
+    "note": "作者引林奇的PE/G思路，本项目不把PE/G作为规则。"
+  },
+  "image_counting": {
+    "references_total_book": 134,
+    "unique_files_book": 83,
+    "epub_image_files": 84,
+    "references_batch_r90_lines_527_680": 10,
+    "unique_files_batch_r90": 6,
+    "unique_viewed_cumulative": 22,
+    "note": "第5章唯一6个：'注'字图、图5—1、图5—2、图5—3、表5—1、图5—4。"
+  },
+  "unverified": [
+    "图5—4 柱读数为近似；图5—1/5—2/5—3 为示意图，非真实行情",
+    "强生/赛富时波动性对比、1980年代初债券收益率约15%、1987年10月19日崩盘等为书内转述",
+    "预期增长率数据作者称取自雅虎金融，本书未列具体日期与样本"
+  ]
+}

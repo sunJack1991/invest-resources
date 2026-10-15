@@ -1,0 +1,377 @@
+{
+  "publication_provenance": {
+    "kind": "书籍阅读、历史案例及教学复算资料",
+    "source_record": "阅读记录/B09_R89_复算.json",
+    "financial_numbers_origin": "仅为书内案例、历史统计或教学复算；不是维护者或使用者的资产、账户、持仓或交易记录。",
+    "private_account_or_holdings_data": false
+  },
+  "book": "B09",
+  "title": "漫步华尔街（原书第13版）",
+  "version": "R89-2026-10-14（第2批：第3–4章，272–526行；第一部分完成）",
+  "source_file": "投资书籍/漫步华尔街.epub",
+  "source_sha256": "80c95b78389aa9982e5fcf5693f6e4ac776a527f1c191bcbcf836e4172cb69cb",
+  "decoded_text_sha256": "072a751172bbb26600b897c31c46027e7989fa76910403f9c57c4019725c5a6a",
+  "decoded_text_lines": 2002,
+  "decoded_text_chars": 249791,
+  "batch_range": {
+    "start_line": 272,
+    "end_line": 526,
+    "line_count": 255
+  },
+  "scope": "本批只处理第3–4章可复算的表内数值与图内读数；历史行情、指数与公司数字均为书内转述，未核原披露。",
+  "table_3_1_new_issues": {
+    "source_image": "converter-master/example/313189/content_51768_0.jpg",
+    "rows": [
+      {
+        "name": "博登电子",
+        "issue_date": "1961-03-06",
+        "offer": 5.5,
+        "first_day_bid": 12.25,
+        "high_1961": 24.5,
+        "low_1962": 1.625
+      },
+      {
+        "name": "美国地球物理",
+        "issue_date": "1960-12-08",
+        "offer": 14,
+        "first_day_bid": 27,
+        "high_1961": 58,
+        "low_1962": 9
+      },
+      {
+        "name": "太空水力技术",
+        "issue_date": "1960-07-19",
+        "offer": 3,
+        "first_day_bid": 7,
+        "high_1961": 7,
+        "low_1962": 1
+      },
+      {
+        "name": "妈妈做的小甜饼",
+        "issue_date": "1961-03-08",
+        "offer": 15,
+        "first_day_bid": 23,
+        "high_1961": 25,
+        "low_1962": 7
+      }
+    ],
+    "viewed": true,
+    "peak_to_1962_low_drop_pct": {
+      "博登电子": -0.9336734693877551,
+      "美国地球物理": -0.8448275862068966,
+      "太空水力技术": -0.8571428571428571,
+      "妈妈做的小甜饼": -0.72
+    },
+    "status": "BOOK_TRANSCRIPTION_ARITHMETIC_OK"
+  },
+  "conglomerate_eps_illusion": {
+    "source_images": [
+      "content_51768_1.jpg",
+      "content_51768_2.jpg"
+    ],
+    "steps": [
+      {
+        "year": 1965,
+        "company": "艾博",
+        "profit_usd": 1000000,
+        "shares": 200000,
+        "eps": 5,
+        "pe": 20,
+        "price": 100
+      },
+      {
+        "year": 1965,
+        "company": "贝克尔",
+        "profit_usd": 1000000,
+        "shares": 200000,
+        "eps": 5,
+        "pe": 10,
+        "price": 50
+      },
+      {
+        "year": 1966,
+        "company": "协同（艾博＋贝克尔）",
+        "profit_usd": 2000000,
+        "shares": 333333,
+        "eps": 6,
+        "pe": 20,
+        "price": 120
+      },
+      {
+        "year": 1966,
+        "company": "查理",
+        "profit_usd": 1000000,
+        "shares": 100000,
+        "eps": 10,
+        "pe": 10,
+        "price": 100
+      },
+      {
+        "year": 1967,
+        "company": "协同（三家合并）",
+        "profit_usd": 3000000,
+        "shares": 433333,
+        "eps": 6.92,
+        "pe": 20,
+        "price": 138.4
+      }
+    ],
+    "share_issuance_check": {
+      "exchange_ratio": "2股艾博换3股贝克尔",
+      "new_shares": 133333,
+      "expected": 133333.33333333334,
+      "second_deal_new_shares": 100000,
+      "total_after_second": 433333
+    },
+    "eps_check": {
+      "1966": 6.000006000006,
+      "1967": 6.923082248524807
+    },
+    "viewed": true,
+    "status": "TEACHING_EXAMPLE",
+    "note": "三家公司的盈利均未增长，EPS由5→6→6.92来自换股并购本身（高PE货币化低PE盈利）。"
+  },
+  "table_3_4_conglomerate_pe": {
+    "source_image": "content_51768_3.jpg",
+    "rows": [
+      {
+        "name": "自动喷洒器（A-T-O）",
+        "high_1967": 73.625,
+        "pe_1967": 51.0,
+        "low_1969": 10.875,
+        "pe_1969": 13.4
+      },
+      {
+        "name": "利顿工业",
+        "high_1967": 120.5,
+        "pe_1967": 44.1,
+        "low_1969": 55.0,
+        "pe_1969": 14.4
+      },
+      {
+        "name": "特利达因",
+        "high_1967": 71.5,
+        "pe_1967": 55.8,
+        "low_1969": 28.25,
+        "pe_1969": 14.2
+      }
+    ],
+    "implied_eps": {
+      "自动喷洒器": 1.4436274509803921,
+      "利顿工业": 2.7324263038548753,
+      "特利达因": 1.2813620071684588
+    },
+    "implied_eps_1969": {
+      "自动喷洒器": 0.8115671641791045,
+      "利顿工业": 3.819444444444444,
+      "特利达因": 1.98943661971831
+    },
+    "viewed": true,
+    "status": "BOOK_TRANSCRIPTION_ARITHMETIC_OK",
+    "note": "1967→1969市盈率由44–56倍降至13–14倍，同时绝对股价与隐含EPS均下降。"
+  },
+  "table_3_5_nifty_fifty_pe": {
+    "source_image": "content_51768_4.jpg",
+    "rows": [
+      {
+        "name": "索尼",
+        "pe_1972": 92,
+        "pe_1980": 17
+      },
+      {
+        "name": "宝丽莱",
+        "pe_1972": 90,
+        "pe_1980": 16
+      },
+      {
+        "name": "麦当劳",
+        "pe_1972": 83,
+        "pe_1980": 9
+      },
+      {
+        "name": "国际香料",
+        "pe_1972": 81,
+        "pe_1980": 12
+      },
+      {
+        "name": "迪士尼",
+        "pe_1972": 76,
+        "pe_1980": 11
+      },
+      {
+        "name": "惠普",
+        "pe_1972": 65,
+        "pe_1980": 18
+      }
+    ],
+    "pe_compression": {
+      "索尼": -0.8152173913043479,
+      "宝丽莱": -0.8222222222222222,
+      "麦当劳": -0.891566265060241,
+      "国际香料": -0.8518518518518519,
+      "迪士尼": -0.8552631578947368,
+      "惠普": -0.7230769230769231
+    },
+    "viewed": true,
+    "status": "BOOK_TRANSCRIPTION_ARITHMETIC_OK"
+  },
+  "table_4_1_new_economy_leaders": {
+    "source_image": "converter-master/example/313189/content_51769_2.jpg",
+    "rows": [
+      {
+        "name": "亚马逊",
+        "high_2000": 75.25,
+        "low_2001_2002": 5.51,
+        "drop_pct": 92.7
+      },
+      {
+        "name": "思科",
+        "high_2000": 82.0,
+        "low_2001_2002": 11.04,
+        "drop_pct": 86.5
+      },
+      {
+        "name": "康宁",
+        "high_2000": 113.33,
+        "low_2001_2002": 2.8,
+        "drop_pct": 97.5
+      },
+      {
+        "name": "JDS Uniphase",
+        "high_2000": 297.34,
+        "low_2001_2002": 2.24,
+        "drop_pct": 99.2
+      },
+      {
+        "name": "朗讯科技",
+        "high_2000": 74.93,
+        "low_2001_2002": 1.36,
+        "drop_pct": 98.2
+      },
+      {
+        "name": "北电网络",
+        "high_2000": 143.62,
+        "low_2001_2002": 0.76,
+        "drop_pct": 99.5
+      },
+      {
+        "name": "价格在线",
+        "high_2000": 165.0,
+        "low_2001_2002": 1.8,
+        "drop_pct": 98.9
+      },
+      {
+        "name": "雅虎",
+        "high_2000": 238.5,
+        "low_2001_2002": 8.02,
+        "drop_pct": 96.6
+      }
+    ],
+    "computed_drop_pct": {
+      "亚马逊": -0.9267774086378737,
+      "思科": -0.8653658536585366,
+      "康宁": -0.9752933909820877,
+      "JDS Uniphase": -0.9924665366247394,
+      "朗讯科技": -0.9818497264113172,
+      "北电网络": -0.994708257902799,
+      "价格在线": -0.9890909090909091,
+      "雅虎": -0.9663731656184487
+    },
+    "viewed": true,
+    "status": "BOOK_TRANSCRIPTION_ARITHMETIC_OK"
+  },
+  "figure_4_1_nasdaq": {
+    "source_image": "converter-master/example/313189/content_51769_1.jpg",
+    "period": "1999-07~2002-07",
+    "axis_y_range": [
+      1000,
+      6000
+    ],
+    "peak_reading": "略高于5000（2000年初）",
+    "trough_reading_2002": "约1300~1500",
+    "ticks": "仅千点网格线，无精确点位标注",
+    "viewed": true,
+    "status": "QUALITATIVE_READING_ONLY"
+  },
+  "palm_3com_anomaly": {
+    "palm_ipo_float": 0.05,
+    "palm_market_cap_vs_3com": "2倍",
+    "palm_95pct_minus_3com_usd": 25000000000,
+    "implied_negative_value_per_3com_share": -61,
+    "status": "BOOK_TRANSCRIPTION_UNVERIFIED"
+  },
+  "internet_bubble_facts": {
+    "market_cap_destroyed_usd": 8000000000000,
+    "vc_round_2000Q1": {
+      "firms": 916,
+      "startups": 1009,
+      "usd": 15700000000
+    },
+    "theglobe_ipo": {
+      "offer": 9,
+      "first_day": 97,
+      "market_cap_usd": 1000000000
+    },
+    "analyst_rating_ratio_buy_sell": "接近100:1",
+    "telecom_investment_usd": 1000000000000,
+    "fiber_length_claim": "足以环绕地球1500圈",
+    "accounting_fraud": {
+      "enron_market_cap_destroyed_usd": 65000000000,
+      "worldcom_overstated_usd": 7000000000
+    },
+    "status": "BOOK_TRANSCRIPTION_UNVERIFIED"
+  },
+  "housing_bubble": {
+    "old_down_payment": 0.3,
+    "new_down_payment": 0.0,
+    "loan_types": [
+      "NINJA（无收入/无工作/无资产）",
+      "NO-DOC（无证明文件）"
+    ],
+    "government_agency_share_of_bad_loans_2010": 0.66,
+    "home_price_index_20_cities_gain": 1.0,
+    "status": "BOOK_TRANSCRIPTION_UNVERIFIED"
+  },
+  "meme_and_crypto": {
+    "gamestop": {
+      "start_2021_01": 17,
+      "peak_2021_01": "近400",
+      "feb": "40以下",
+      "short_interest": "超过流通股"
+    },
+    "amc": {
+      "start_2021_01": "2以下",
+      "mid_2021": "60以上"
+    },
+    "redistribution_claim": "相对从对冲基金拿走的1美元，可能有20美元只是交易者之间转手",
+    "bitcoin_path_usd": {
+      "early": "几美分",
+      "2017_end": 20000,
+      "2018": 4000,
+      "2021_04": ">60000",
+      "2021_06": "<30000",
+      "2021_range": [
+        28800,
+        69000
+      ]
+    },
+    "supply_cap": 21000000,
+    "nakamoto_holdings_claim": 1000000,
+    "status": "BOOK_TRANSCRIPTION_UNVERIFIED"
+  },
+  "image_counting": {
+    "references_total_book": 134,
+    "unique_files_book": 83,
+    "epub_image_files": 84,
+    "references_batch_r88_lines_1_271": 13,
+    "references_batch_r89_lines_272_526": 17,
+    "unique_files_batch_r89": 9,
+    "unique_viewed_cumulative": 16,
+    "note": "第3章6个唯一（表3—1至3—5＋'注'字图），第4章3个唯一（'注'字图、图4—1、表4—1）。"
+  },
+  "unverified": [
+    "全部历史价格、指数点位、融资金额、市场市值与公司案例均为书内转述，未核原披露",
+    "图4—1无精确点位标注，仅作形态读数",
+    "教学例（艾博/贝克尔/查理、鞋带公司更名寓言）为作者构造，非真实交易"
+  ]
+}

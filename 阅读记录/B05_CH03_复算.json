@@ -1,0 +1,232 @@
+{
+  "publication_provenance": {
+    "kind": "书籍阅读、历史案例及教学复算资料",
+    "source_record": "阅读记录/B05_CH03_复算.json",
+    "financial_numbers_origin": "仅为书内案例、历史统计或教学复算；不是维护者或使用者的资产、账户、持仓或交易记录。",
+    "private_account_or_holdings_data": false
+  },
+  "book_id": "B05",
+  "chapter": 3,
+  "title": "投资替代品",
+  "decode": "B05-v2-2026-10-13",
+  "range": {
+    "start_line": 1142,
+    "end_line": 1480,
+    "line_count": 339,
+    "chars_with_newlines": 40721
+  },
+  "checks": {
+    "zero_coupon_offering_price": {
+      "status": "ARITHMETIC_OK",
+      "inputs": {
+        "face_usd": 902600000,
+        "years": 15,
+        "semi_annual_rate": 0.0275
+      },
+      "calc_discount_factor": 0.443144,
+      "book_printed": "到期价值的44.314%",
+      "conclusion": "1/1.0275^30=0.443144与44.314%精确吻合（年5.5%按半年复利即每期2.75%、共30期）",
+      "source_verified": false
+    },
+    "conversion_price": {
+      "status": "ARITHMETIC_OK",
+      "calc": "4431.4/0.4515=9814.8",
+      "book_printed": "每股9815美元",
+      "note": "按实收现金（4431.4=10000×44.314%）而非面值计算",
+      "source_verified": false
+    },
+    "net_proceeds_ambiguity": {
+      "status": "CONVENTION_OPEN",
+      "calc_gross": 399978164,
+      "book_printed": "实收现金总额4亿美元（已减去950万美元发行费用）",
+      "issue": "9.026亿×44.314%≈4.000亿为毛额；若净额为4亿则毛额应约4.095亿——与数字不完全自洽",
+      "evidence_needed": "英文原版对应段落",
+      "source_verified": false
+    },
+    "series_e_savings_bond": {
+      "status": "ARITHMETIC_OK",
+      "inputs": {
+        "issue": 18.75,
+        "maturity": 25,
+        "years": 10
+      },
+      "cagr": 0.0292,
+      "book_printed": "年化2.9%",
+      "source_verified": false
+    },
+    "strips_example": {
+      "status": "ARITHMETIC_OK",
+      "six_month": 0.95238,
+      "twenty_year": 0.14205,
+      "book_printed": "95.24%与14.20%",
+      "note": "20年项按1/1.05^40（半年复利）计=14.205%",
+      "source_verified": false
+    },
+    "pik_accumulation_example": {
+      "status": "ARITHMETIC_OK",
+      "calc": "6000×1.15=6900",
+      "book_printed": "第二年6900万美元累积记账利息",
+      "note": "隐含零息票率15%；9000万现金利息+6000万累计=1.5亿'盈利'",
+      "source_verified": false
+    },
+    "gold_cube_comparison": {
+      "status": "ARITHMETIC_OK",
+      "tonnes": 170000,
+      "price_per_oz": 1750,
+      "calc_value_usd_tn": 9.565,
+      "book_printed": "9.6万亿美元",
+      "calc_edge_feet": 67.8,
+      "book_printed_edge": "68英尺",
+      "note": "按黄金密度19.3t/m³；17万公吨=5.466e9盎司",
+      "source_verified": false
+    },
+    "capital_cities_discrepancy": {
+      "status": "SMALL_DIFF_OPEN",
+      "book_printed": "差价2.225亿美元（$63卖、$85.50）",
+      "calc": "(85.50-63)×1000万=2.25亿",
+      "difference": "250万（约1.1%）",
+      "possible_explanation": "价格口径或笔误（隐含价差22.25而非22.50）",
+      "source_verified": false
+    },
+    "us_air_write_down": {
+      "status": "ARITHMETIC_OK",
+      "calc_25pct": 0.895,
+      "calc_write_off": 2.685,
+      "book_printed": "8950万（成本25%）、2.685亿计入损益",
+      "note": "3.58×0.25=0.895；3.58-0.895=2.685",
+      "source_verified": false
+    },
+    "penalty_dividend_range": {
+      "status": "ARITHMETIC_CONSISTENT",
+      "book_printed": "惩罚性分红（违约+5%），拖欠两年复利13.25%～14%",
+      "note": "隐含基础分红率8.25%～9%；自洽",
+      "source_verified": false
+    },
+    "priority_share_returns": {
+      "status": "ARITHMETIC_OK",
+      "gillette": {
+        "start_usd_m": 600,
+        "end_usd_m": 4800,
+        "years": 9,
+        "multiple": 8.0,
+        "cagr": 0.26
+      },
+      "first_empire": {
+        "start_usd_m": 40,
+        "end_usd_m": 236,
+        "years": 7,
+        "multiple": 5.9,
+        "cagr": 0.289
+      },
+      "usair_common": {
+        "low": 4,
+        "high": 73,
+        "multiple": 18.25
+      },
+      "source_verified": false
+    },
+    "clayton_market_share": {
+      "status": "ARITHMETIC_OK",
+      "calc": "27499/81889=0.336",
+      "book_printed": "约34%",
+      "source_verified": false
+    },
+    "usd_devaluation": {
+      "status": "ARITHMETIC_OK",
+      "calc_cagr": 0.0423,
+      "book_printed": "$1→$7以上、累计贬值86%、维持购买力需4.3%年化",
+      "note": "7^(1/47)-1=4.23%；1-1/7=85.7%；5.7%×0.75=4.275%≈4.3%",
+      "source_verified": false
+    },
+    "trade_deficit_math": {
+      "status": "ARITHMETIC_OK_WITH_ROUNDING",
+      "calc": "6180亿/365=16.9亿/天（书示18亿/天）；11万亿×5%=5500亿；5500/180000=3.06%",
+      "book_printed": "每天18亿、5500亿、3%",
+      "note": "每日口径含四舍五入差异",
+      "source_verified": false
+    },
+    "misc_numbers_unverified": {
+      "status": "SELF_REPORTED_UNVERIFIED",
+      "items": [
+        "38年股票'盈利与失手100:1'；外汇累计赚20亿美元",
+        "富国银行各项（560亿资产、ROE>20%、ROA 1.25%、2.9亿买10%）",
+        "通用再保险衍生品损失（累计4.04亿、合约数23218→2890）",
+        "克莱顿FICO（644/723、35%<620）与拖欠/赎回率序列",
+        "贸易赤字序列（2630亿/6180亿/0.76万亿/1.15万亿/1.44万亿）",
+        "美元贬值与STRIPS例题为书中演示口径"
+      ],
+      "boundary": "均为书内陈述/转述，未核原披露；不得作为推导输入"
+    },
+    "arithmetic": {
+      "status": "PASS",
+      "computations": [
+        {
+          "expr": "1/1.0275^30",
+          "value": 0.443144
+        },
+        {
+          "expr": "902600000*0.44314",
+          "value": 399978164
+        },
+        {
+          "expr": "4431.4/0.4515",
+          "value": 9814.84
+        },
+        {
+          "expr": "(25/18.75)^(1/10)-1",
+          "value": 0.0292
+        },
+        {
+          "expr": "1/1.05",
+          "value": 0.95238
+        },
+        {
+          "expr": "1/1.05^40",
+          "value": 0.14205
+        },
+        {
+          "expr": "6000*1.15",
+          "value": 6900
+        },
+        {
+          "expr": "1.7e11/31.1035*1750/1e12",
+          "value": 9.565
+        },
+        {
+          "expr": "(1.7e8/19300)^(1/3)*3.28084",
+          "value": 67.8
+        },
+        {
+          "expr": "3.58*0.25",
+          "value": 0.895
+        },
+        {
+          "expr": "3.58-0.895",
+          "value": 2.685
+        },
+        {
+          "expr": "48/6",
+          "value": 8.0
+        },
+        {
+          "expr": "(48/6)^(1/9)-1",
+          "value": 0.26
+        },
+        {
+          "expr": "27499/81889",
+          "value": 0.3358
+        },
+        {
+          "expr": "7^(1/47)-1",
+          "value": 0.0423
+        },
+        {
+          "expr": "110000000000000*0.05",
+          "value": 5500000000000
+        }
+      ]
+    }
+  },
+  "math_or_logic_only": true,
+  "investment_performance_validated": false
+}

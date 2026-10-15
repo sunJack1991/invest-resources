@@ -1,0 +1,235 @@
+{
+  "publication_provenance": {
+    "kind": "书籍阅读、历史案例及教学复算资料",
+    "source_record": "阅读记录/B09_R95_复算.json",
+    "financial_numbers_origin": "仅为书内案例、历史统计或教学复算；不是维护者或使用者的资产、账户、持仓或交易记录。",
+    "private_account_or_holdings_data": false
+  },
+  "revision": "R95",
+  "book": "B09",
+  "source_sha256": "80c95b78389aa9982e5fcf5693f6e4ac776a527f1c191bcbcf836e4172cb69cb",
+  "decoded_text_sha256": "072a751172bbb26600b897c31c46027e7989fa76910403f9c57c4019725c5a6a",
+  "batch_range": {
+    "start_line": 1412,
+    "end_line": 1586
+  },
+  "chapter_text_range": [
+    1416,
+    1570
+  ],
+  "status": "BOOK_TRANSCRIPTION_WITH_INDEPENDENT_ARITHMETIC_AND_LIMITED_OFFICIAL_CHECKS",
+  "ira_example": {
+    "contribution": 6000.0,
+    "years": 45,
+    "gross_return": 0.07,
+    "annual_income_tax_rate": 0.28,
+    "deductible_contribution_cash_cost": 4320.0,
+    "tax_saving": 1680.0000000000002,
+    "fv_end_year": 1714495.865029195,
+    "fv_begin_year": 1834510.5755812388,
+    "taxable_net_return": 0.0504,
+    "taxable_fv_end_year": 969087.4384301176,
+    "taxable_fv_begin_year": 1017929.4453269955,
+    "withdrawal_tax_net_end_year": 1234437.0228210203,
+    "withdrawal_tax_net_begin_year": 1320847.614418492,
+    "interpretation": "书示180余万/100余万可由年初缴款近似解释；时点原文未明，不能断言唯一结果。比较同额入账，不等于同额税后家庭支出；抵扣节税是否再投资须另列。税率/资格/限额均为书内2022口径，不确认本人适用。"
+  },
+  "table_12_2": {
+    "principal": 10000,
+    "taxable_yield": 0.03,
+    "exempt_yield": 0.025,
+    "tax_rate": 0.36,
+    "taxable_interest": 300,
+    "tax_due": 108,
+    "taxable_net_income": 192,
+    "exempt_net_income": 250,
+    "advantage": 58,
+    "equivalent_taxable_yield": 0.0390625,
+    "break_even_tax_rate": 0.16666666666666663,
+    "status": "ARITHMETIC_OK_NOT_PERSONAL_TAX_ADVICE"
+  },
+  "tips_example": {
+    "principal": 1000,
+    "inflation": 0.03,
+    "coupon_rate": 0.01,
+    "adjusted_principal": 1030,
+    "semiannual_coupon_initial": 5,
+    "semiannual_coupon_after_adjustment": 5.15,
+    "example_qualification": "简化示例，忽略指数滞后、日计息及应计利息；原件购买价格与面值不同需另算。",
+    "negative_real_yield_example": {
+      "price_in_constant_dollars": 1100,
+      "real_cash_at_maturity": 1000,
+      "coupon": 0,
+      "holding_years": 10,
+      "real_cagr": -0.00948574178547823,
+      "status": "C_ILLUSTRATION_NOT_ACTUAL_TIPS_ISSUE"
+    },
+    "source_check": "TreasuryDirect：票息率固定、计息本金调整，允许负实际收益率投标；到期面值下限不等于保护任何购买价格。"
+  },
+  "real_return_example": {
+    "nominal_yield": 0.01,
+    "inflation": 0.02,
+    "tax_rate_assumption": 0.28,
+    "pretax_real": -0.009803921568627416,
+    "aftertax_real": -0.012549019607843048,
+    "status": "C_TAX_RATE_ADDED_FOR_SENSITIVITY_NOT_BOOK_FACT"
+  },
+  "zero_coupon_example": {
+    "face_value": 1,
+    "purchase_price": 0.75,
+    "term_years_assumption": 5,
+    "ytm": 0.059223841048812176,
+    "price_if_ytm_rises_1pp": 0.7155777538088977,
+    "status": "C_TERM_AND_RATE_SHOCK_ADDED_FOR_SENSITIVITY"
+  },
+  "art_example": {
+    "approx_start": 500000,
+    "approx_end": 450000000,
+    "start_year": 1519,
+    "end_year": 2018,
+    "book_claim_cagr": 0.0135,
+    "computed_cagr": 0.013725393733877045,
+    "status": "APPROXIMATE_INPUT_DIFFERENCE_OPEN",
+    "qualification": "两端为书内约数，成交2017而年化终点写2018；未核原始成交或历史估值，不强制配平1.35%。"
+  },
+  "stock_1802_2021": {
+    "start": 1,
+    "end_approx": 54000000,
+    "years": 219,
+    "implied_nominal_cagr": 0.08469523932408363,
+    "status": "BOOK_TRANSCRIPTION_UNVERIFIED"
+  },
+  "buffett_bet": {
+    "stock_index_book_cagr": 0.071,
+    "funds_of_funds_book_cagr": 0.022,
+    "years": 10,
+    "index_multiple": 1.9856134608011426,
+    "funds_multiple": 1.2431082765868486,
+    "status": "BOOK_TRANSCRIPTION_UNVERIFIED",
+    "qualification": "原书所示7.1%/2.2%未核赌局原信；只复算这两个输入，不当已确认业绩。"
+  },
+  "sleep_table": {
+    "date_label": "2022年税前预期收益率",
+    "status": "HISTORICAL_AUTHOR_EXPECTATIONS_NOT_FORECASTS",
+    "rows": [
+      {
+        "asset": "银行存款账户",
+        "yield_pct": "0–2"
+      },
+      {
+        "asset": "货币市场共同基金",
+        "yield_pct": "0–2"
+      },
+      {
+        "asset": "银行定期存单",
+        "yield_pct": "0–2.5"
+      },
+      {
+        "asset": "TIPS",
+        "yield_pct": "0–1＋通胀"
+      },
+      {
+        "asset": "公司债券",
+        "yield_pct": "2–4.25"
+      },
+      {
+        "asset": "美股/其他发达市场蓝筹分散组合",
+        "yield_pct": "4–6.5"
+      },
+      {
+        "asset": "房地产",
+        "yield_pct": "与股票大致相同"
+      },
+      {
+        "asset": "小型成长公司股票",
+        "yield_pct": "5–7"
+      },
+      {
+        "asset": "新兴市场股票",
+        "yield_pct": "6–9"
+      },
+      {
+        "asset": "黄金",
+        "yield_pct": "无法预测"
+      }
+    ]
+  },
+  "footnotes": {
+    "count": 12,
+    "method": "原XHTML逐条读取zy-footnote属性；解码器未保留，footnote_links为空不代表无脚注",
+    "topics": [
+      "中译版出版信息",
+      "婴儿潮定义",
+      "可变寿险死亡给付与投资账户",
+      "A.M.Best机构说明",
+      "山姆大叔释义",
+      "传统IRA最低提款年龄75.5岁（未核）",
+      "529赠予8万美元对应5年选择",
+      "倒挂时短期利率高但存在再投资风险",
+      "斯嘉丽小说出处",
+      "GNMA/MBS政府担保与评级（历史转述）",
+      "黄金盎司28.3495克的单位疑点",
+      "雷诺阿身份"
+    ],
+    "raw_text_saved": false
+  },
+  "external_checks": [
+    {
+      "topic": "TIPS计息机制",
+      "url": "https://treasurydirect.gov/marketable-securities/tips/",
+      "accessed_utc": "2026-10-14T06:04:38Z",
+      "scope": "官方正文实际读取；固定票息与调整本金、负实际收益率允许，未核本人税务或可买性"
+    },
+    {
+      "topic": "黄金金衡盎司",
+      "url": "https://www.usmint.gov/coins-precious-metal-coins/bullion-coin-programs/",
+      "accessed_utc": "2026-10-14T06:04:38Z",
+      "scope": "官方正文实际读取：American Buffalo Gold规格1.000 troy oz=31.103g；原注28.3495g不是黄金报价单位"
+    },
+    {
+      "topic": "FDIC存款与基金的区别",
+      "url": "https://www.fdic.gov/resources/deposit-insurance/understanding-deposit-insurance",
+      "accessed_utc": "2026-10-14T06:04:38Z",
+      "scope": "官方页搜索索引摘录支持25万美元/存款人/受保银行/所有权类别及基金不受保；正文403，有限核对，未核历史生效或本人账户"
+    }
+  ],
+  "image_counting": {
+    "references_batch_r95": 16,
+    "unique_files_batch_r95": 5,
+    "unique_files_before_recount": 45,
+    "unique_files_cumulative": 50,
+    "references_cumulative": 90,
+    "historical_count_corrections": [
+      {
+        "revision": "R91",
+        "reported": 24,
+        "recounted": 25
+      },
+      {
+        "revision": "R92",
+        "reported": 35,
+        "recounted": 36
+      },
+      {
+        "revision": "R93",
+        "reported": 36,
+        "recounted": 37
+      },
+      {
+        "revision": "R94",
+        "reported": 44,
+        "recounted": 45
+      }
+    ],
+    "cause": "第7章独立路径content_51773_0.jpg的注字图在累计去重中漏计；按资源路径而非图像像素或题材去重。历史原记录保留，R95更正。"
+  },
+  "open_issues": [
+    "保单递减型定义与保费方向译文待核",
+    "表12—1存款担保10万美元与官方搜索摘录25万美元口径不一致，历史原显示保留",
+    "IRA最低提款75.5岁、2022限额、529/I债/T-bill/房产税条款未逐项核官方制度",
+    "TIPS正文利率随CPI上升与后文本金调整表述冲突，已用官方机制分辨",
+    "艺术品长期收益两端约数及年份口径未核",
+    "历史收益预测及对冲基金赌局原始披露未核",
+    "B09第0–11章嵌入脚注阅读证据待逐章审计，不凭解码footnote_links为空推定不存在"
+  ]
+}

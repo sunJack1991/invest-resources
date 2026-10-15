@@ -1,0 +1,176 @@
+{
+  "publication_provenance": {
+    "kind": "书籍阅读、历史案例及教学复算资料",
+    "source_record": "阅读记录/B05_CH04_复算.json",
+    "financial_numbers_origin": "仅为书内案例、历史统计或教学复算；不是维护者或使用者的资产、账户、持仓或交易记录。",
+    "private_account_or_holdings_data": false
+  },
+  "book_id": "B05",
+  "chapter": 4,
+  "title": "普通股投资",
+  "decode": "B05-v2-2026-10-13",
+  "range": {
+    "start_line": 1481,
+    "end_line": 1688,
+    "line_count": 208,
+    "chars_with_newlines": 21650
+  },
+  "checks": {
+    "dow_century_cagr": {
+      "status": "ARITHMETIC_OK",
+      "start": 65.73,
+      "end": 11497.12,
+      "years": 100,
+      "multiple": 174.91,
+      "cagr": 0.053,
+      "book_printed": "5.3%",
+      "source_verified": false
+    },
+    "dow_century_target": {
+      "status": "ARITHMETIC_OK",
+      "calc": "11497.12×174.91=2011011.23",
+      "book_printed": "2,011,011.23",
+      "conclusion": "与书示值精确吻合",
+      "source_verified": false
+    },
+    "churn_friction_example": {
+      "status": "ARITHMETIC_OK",
+      "inputs": {
+        "roe": 0.12,
+        "turnover": 1.0,
+        "cost_pct_nav": 0.02
+      },
+      "calc": "2%/12%=1/6；对应16.67%",
+      "book_printed": "2%成本、1/6、相当于16.66%新税",
+      "source_verified": false
+    },
+    "repurchase_uplift": {
+      "status": "ARITHMETIC_OK",
+      "calc": "0.02×0.25=0.005",
+      "book_printed": "最多提升0.5%",
+      "source_verified": false
+    },
+    "ibm_buyback_math": {
+      "status": "ARITHMETIC_OK_WITH_ROUNDING",
+      "shares_total_bn": 1.16,
+      "berkshire_shares_bn": 0.0639,
+      "buyback_usd_bn": 50,
+      "case_low_price": {
+        "avg_price": 200,
+        "shares_bought_m": 250,
+        "remaining_m": 910,
+        "stake_pct": 7.02
+      },
+      "case_high_price": {
+        "avg_price": 300,
+        "shares_bought_m": 166.7,
+        "remaining_m": 993.3,
+        "stake_pct": 6.43
+      },
+      "year5_earnings_bn": 20,
+      "proportional_difference_usd_bn": 1.178,
+      "book_printed_diff": "多出1亿美元",
+      "fifteen_bn_value_note": "书示'此后多15亿美元'——按年度差1.18亿反推隐含约12.7倍口径，未写明；登记",
+      "source_verified": false
+    },
+    "b_share_issue_price": {
+      "status": "ARITHMETIC_OK",
+      "shares": 517500,
+      "net_proceeds_usd": 565000000,
+      "calc_price": 1091.79,
+      "note": "与A=36000的1/30（≈1200）量级核对相符",
+      "source_verified": false
+    },
+    "solomon_notes": {
+      "status": "ARITHMETIC_OK_WITH_CONVENTION_NOTE",
+      "face_usd_m": 500,
+      "proceeds_usd_m": 447.1,
+      "issue_price_ratio": 0.8942,
+      "conversion_shares_per_1000": 17.65,
+      "conversion_price": 56.66,
+      "maturity_return": 0.03,
+      "calc_check": "894.2×1.03^5≈1036.6（约含5年1%票息）",
+      "interest_cost_note": "'转换前利息成本约1.1%'为会计混合口径，未逐步复算；登记",
+      "source_verified": false
+    },
+    "consolidated_edison": {
+      "status": "ARITHMETIC_OK",
+      "calc": "1美元留存→0.25美元市值=1/4",
+      "book_printed": "股价为账面值1/4",
+      "source_verified": false
+    },
+    "bond_illustration": {
+      "status": "ARITHMETIC_OK",
+      "ten_pct_bond_at_5pct_market": 200,
+      "ten_pct_bond_at_15pct_market": 66.67,
+      "note": "思想实验：5%时再投资优（换成债券卖出）；15%时收现金优（市场折价买更划算）",
+      "source_verified": false
+    },
+    "misc_numbers_unverified": {
+      "status": "SELF_REPORTED_UNVERIFIED",
+      "items": [
+        "摩擦成本=全美公司盈利20%；交易成本=净利10%+（作者估计）",
+        "G家族寓言各数字（7000亿盈利等）为演示",
+        "90-95%股东五年持有、第二大持股2倍、7000亿等自述",
+        "亨德森席位500→625,000美元；价差3%→50点",
+        "1996年增40000名股东、佣金费率1.5%"
+      ],
+      "boundary": "均为书内陈述，未核原披露；不得作为推导输入"
+    },
+    "arithmetic": {
+      "status": "PASS",
+      "computations": [
+        {
+          "expr": "11497.12/65.73",
+          "value": 174.91
+        },
+        {
+          "expr": "(11497.12/65.73)^(1/100)-1",
+          "value": 0.053
+        },
+        {
+          "expr": "11497.12*174.91",
+          "value": 2011011.23
+        },
+        {
+          "expr": "0.02/0.12",
+          "value": 0.1667
+        },
+        {
+          "expr": "0.02*0.25",
+          "value": 0.005
+        },
+        {
+          "expr": "500/200",
+          "value": 2.5
+        },
+        {
+          "expr": "0.0639/0.91",
+          "value": 0.0702
+        },
+        {
+          "expr": "500/300",
+          "value": 1.667
+        },
+        {
+          "expr": "0.0639/(1.16-1.667/10)",
+          "value": 0.0643
+        },
+        {
+          "expr": "565000000/517500",
+          "value": 1091.79
+        },
+        {
+          "expr": "447.1/500",
+          "value": 0.8942
+        },
+        {
+          "expr": "1000/17.65",
+          "value": 56.66
+        }
+      ]
+    }
+  },
+  "math_or_logic_only": true,
+  "investment_performance_validated": false
+}

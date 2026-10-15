@@ -1,0 +1,1393 @@
+{
+  "publication_provenance": {
+    "kind": "书籍阅读、历史案例及教学复算资料",
+    "source_record": "阅读记录/B09_R97_复算.json",
+    "financial_numbers_origin": "仅为书内案例、历史统计或教学复算；不是维护者或使用者的资产、账户、持仓或交易记录。",
+    "private_account_or_holdings_data": false
+  },
+  "revision": "R97",
+  "book": "B09",
+  "source_sha256": "80c95b78389aa9982e5fcf5693f6e4ac776a527f1c191bcbcf836e4172cb69cb",
+  "decoded_text_sha256": "072a751172bbb26600b897c31c46027e7989fa76910403f9c57c4019725c5a6a",
+  "batch_range": {
+    "start_line": 1689,
+    "end_line": 1827
+  },
+  "table_14_1": {
+    "period": "1926–2020",
+    "return_type": "原表年均收益率；复利/算术口径不凭标题代填",
+    "status": "BOOK_TRANSCRIPTION_UNVERIFIED",
+    "rows": [
+      {
+        "asset": "小公司股票",
+        "return_pct": 11.9,
+        "risk_sd_pct": 28.2
+      },
+      {
+        "asset": "大公司股票",
+        "return_pct": 10.3,
+        "risk_sd_pct": 18.7
+      },
+      {
+        "asset": "长期政府债券",
+        "return_pct": 5.7,
+        "risk_sd_pct": 8.5
+      },
+      {
+        "asset": "短期美国国债",
+        "return_pct": 3.3,
+        "risk_sd_pct": 3.1
+      }
+    ]
+  },
+  "figure_14_1": {
+    "period": "1950–2020",
+    "metric": "历史持有窗口的年化收益极值范围；黑椭圆平均点无数值标签，未精确读取",
+    "status": "VISUALLY_READ_NUMERIC_LABELS_NOT_FORECAST",
+    "rows": [
+      {
+        "years": 1,
+        "high_pct": 52.6,
+        "low_pct": -37.0
+      },
+      {
+        "years": 5,
+        "high_pct": 28.6,
+        "low_pct": -2.4
+      },
+      {
+        "years": 10,
+        "high_pct": 20.1,
+        "low_pct": -1.4
+      },
+      {
+        "years": 15,
+        "high_pct": 18.9,
+        "low_pct": 4.2
+      },
+      {
+        "years": 20,
+        "high_pct": 17.9,
+        "low_pct": 6.5
+      },
+      {
+        "years": 25,
+        "high_pct": 17.3,
+        "low_pct": 5.9
+      }
+    ]
+  },
+  "table_14_2": {
+    "period": "自1802年以来；原表未标终点及滚动样本数",
+    "metric": "历史股票超过债券时段百分比，不为未来概率",
+    "status": "BOOK_TRANSCRIPTION_UNVERIFIED",
+    "rows": [
+      {
+        "years": 1,
+        "historical_frequency_pct": 60.2
+      },
+      {
+        "years": 2,
+        "historical_frequency_pct": 64.7
+      },
+      {
+        "years": 5,
+        "historical_frequency_pct": 69.5
+      },
+      {
+        "years": 10,
+        "historical_frequency_pct": 79.7
+      },
+      {
+        "years": 20,
+        "historical_frequency_pct": 91.3
+      },
+      {
+        "years": 30,
+        "historical_frequency_pct": 99.4
+      }
+    ]
+  },
+  "table_14_3": {
+    "rows": [
+      {
+        "scenario": "wave",
+        "prices": [
+          100,
+          60,
+          60,
+          140,
+          100
+        ],
+        "cash_each": 1000,
+        "contribution_times": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "valuation_time": 4,
+        "shares_exact": [
+          10.0,
+          16.666666666666668,
+          16.666666666666668,
+          7.142857142857143,
+          10.0
+        ],
+        "shares_display": [
+          10.0,
+          16.67,
+          16.67,
+          7.14,
+          10.0
+        ],
+        "quantity_exact": 60.47619047619048,
+        "quantity_display_sum": 60.480000000000004,
+        "average_cost_exact": 82.6771653543307,
+        "average_cost_from_display": 82.67195767195767,
+        "arithmetic_price_average": 92.0,
+        "terminal_exact": 6047.619047619048,
+        "terminal_from_display": 6048.0,
+        "lump_sum_same_available_5000": 5000.0,
+        "status": "TEACHING_EXAMPLE_WITH_ROUNDING",
+        "scope": "无分红/费用/未投入现金收益；一次投比较仅在5000已全部可投时成立。"
+      },
+      {
+        "scenario": "rise",
+        "prices": [
+          100,
+          110,
+          120,
+          130,
+          140
+        ],
+        "cash_each": 1000,
+        "contribution_times": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "valuation_time": 4,
+        "shares_exact": [
+          10.0,
+          9.090909090909092,
+          8.333333333333334,
+          7.6923076923076925,
+          7.142857142857143
+        ],
+        "shares_display": [
+          10.0,
+          9.09,
+          8.33,
+          7.69,
+          7.14
+        ],
+        "quantity_exact": 42.25940725940727,
+        "quantity_display_sum": 42.25,
+        "average_cost_exact": 118.31685118789643,
+        "average_cost_from_display": 118.34319526627219,
+        "arithmetic_price_average": 120.0,
+        "terminal_exact": 5916.317016317018,
+        "terminal_from_display": 5915.0,
+        "lump_sum_same_available_5000": 7000.0,
+        "status": "TEACHING_EXAMPLE_WITH_ROUNDING",
+        "scope": "无分红/费用/未投入现金收益；一次投比较仅在5000已全部可投时成立。"
+      }
+    ],
+    "book_wave_final_formula": {
+      "shares": 60.48,
+      "multiplier_shown": 1000,
+      "final_shown": 6048,
+      "correct_price": 100,
+      "wrong_product": 60480,
+      "status": "CONFLICT_OPEN"
+    },
+    "capital": 5000
+  },
+  "table_14_4": {
+    "rows": [
+      {
+        "year": 1978,
+        "contribution_shown": 1600,
+        "regular_schedule_computed": 1600,
+        "value_shown": 1699
+      },
+      {
+        "year": 1979,
+        "contribution_shown": 2800,
+        "regular_schedule_computed": 2800,
+        "value_shown": 3274
+      },
+      {
+        "year": 1980,
+        "contribution_shown": 4000,
+        "regular_schedule_computed": 4000,
+        "value_shown": 5755
+      },
+      {
+        "year": 1981,
+        "contribution_shown": 5200,
+        "regular_schedule_computed": 5200,
+        "value_shown": 6630
+      },
+      {
+        "year": 1982,
+        "contribution_shown": 6400,
+        "regular_schedule_computed": 6400,
+        "value_shown": 9487
+      },
+      {
+        "year": 1983,
+        "contribution_shown": 7600,
+        "regular_schedule_computed": 7600,
+        "value_shown": 12783
+      },
+      {
+        "year": 1984,
+        "contribution_shown": 8800,
+        "regular_schedule_computed": 8800,
+        "value_shown": 14864
+      },
+      {
+        "year": 1985,
+        "contribution_shown": 10000,
+        "regular_schedule_computed": 10000,
+        "value_shown": 20905
+      },
+      {
+        "year": 1986,
+        "contribution_shown": 11200,
+        "regular_schedule_computed": 11200,
+        "value_shown": 25935
+      },
+      {
+        "year": 1987,
+        "contribution_shown": 12400,
+        "regular_schedule_computed": 12400,
+        "value_shown": 28221
+      },
+      {
+        "year": 1988,
+        "contribution_shown": 13600,
+        "regular_schedule_computed": 13600,
+        "value_shown": 34079
+      },
+      {
+        "year": 1989,
+        "contribution_shown": 14800,
+        "regular_schedule_computed": 14800,
+        "value_shown": 46126
+      },
+      {
+        "year": 1990,
+        "contribution_shown": 16000,
+        "regular_schedule_computed": 16000,
+        "value_shown": 45803
+      },
+      {
+        "year": 1991,
+        "contribution_shown": 17200,
+        "regular_schedule_computed": 17200,
+        "value_shown": 61010
+      },
+      {
+        "year": 1992,
+        "contribution_shown": 18400,
+        "regular_schedule_computed": 18400,
+        "value_shown": 66817
+      },
+      {
+        "year": 1993,
+        "contribution_shown": 19600,
+        "regular_schedule_computed": 19600,
+        "value_shown": 74687
+      },
+      {
+        "year": 1994,
+        "contribution_shown": 20800,
+        "regular_schedule_computed": 20800,
+        "value_shown": 76779
+      },
+      {
+        "year": 1995,
+        "contribution_shown": 22000,
+        "regular_schedule_computed": 22000,
+        "value_shown": 106944
+      },
+      {
+        "year": 1996,
+        "contribution_shown": 23200,
+        "regular_schedule_computed": 23200,
+        "value_shown": 132768
+      },
+      {
+        "year": 1997,
+        "contribution_shown": 24400,
+        "regular_schedule_computed": 24400,
+        "value_shown": 178217
+      },
+      {
+        "year": 1998,
+        "contribution_shown": 25600,
+        "regular_schedule_computed": 25600,
+        "value_shown": 230619
+      },
+      {
+        "year": 1999,
+        "contribution_shown": 26800,
+        "regular_schedule_computed": 26800,
+        "value_shown": 280565
+      },
+      {
+        "year": 2000,
+        "contribution_shown": 28000,
+        "regular_schedule_computed": 28000,
+        "value_shown": 256271
+      },
+      {
+        "year": 2001,
+        "contribution_shown": 29200,
+        "regular_schedule_computed": 29200,
+        "value_shown": 226622
+      },
+      {
+        "year": 2002,
+        "contribution_shown": 30400,
+        "regular_schedule_computed": 30400,
+        "value_shown": 177503
+      },
+      {
+        "year": 2003,
+        "contribution_shown": 31600,
+        "regular_schedule_computed": 31600,
+        "value_shown": 229524
+      },
+      {
+        "year": 2004,
+        "contribution_shown": 32800,
+        "regular_schedule_computed": 32800,
+        "value_shown": 255479
+      },
+      {
+        "year": 2005,
+        "contribution_shown": 34000,
+        "regular_schedule_computed": 34000,
+        "value_shown": 268933
+      },
+      {
+        "year": 2006,
+        "contribution_shown": 35200,
+        "regular_schedule_computed": 35200,
+        "value_shown": 312318
+      },
+      {
+        "year": 2007,
+        "contribution_shown": 36400,
+        "regular_schedule_computed": 36400,
+        "value_shown": 330350
+      },
+      {
+        "year": 2008,
+        "contribution_shown": 37600,
+        "regular_schedule_computed": 37600,
+        "value_shown": 208941
+      },
+      {
+        "year": 2009,
+        "contribution_shown": 38800,
+        "regular_schedule_computed": 38800,
+        "value_shown": 265756
+      },
+      {
+        "year": 2010,
+        "contribution_shown": 40000,
+        "regular_schedule_computed": 40000,
+        "value_shown": 306756
+      },
+      {
+        "year": 2011,
+        "contribution_shown": 41200,
+        "regular_schedule_computed": 41200,
+        "value_shown": 313981
+      },
+      {
+        "year": 2012,
+        "contribution_shown": 42400,
+        "regular_schedule_computed": 42400,
+        "value_shown": 364932
+      },
+      {
+        "year": 2013,
+        "contribution_shown": 43600,
+        "regular_schedule_computed": 43600,
+        "value_shown": 483743
+      },
+      {
+        "year": 2014,
+        "contribution_shown": 44800,
+        "regular_schedule_computed": 44800,
+        "value_shown": 550388
+      },
+      {
+        "year": 2015,
+        "contribution_shown": 46000,
+        "regular_schedule_computed": 46000,
+        "value_shown": 558467
+      },
+      {
+        "year": 2016,
+        "contribution_shown": 47200,
+        "regular_schedule_computed": 47200,
+        "value_shown": 625764
+      },
+      {
+        "year": 2017,
+        "contribution_shown": 48400,
+        "regular_schedule_computed": 48400,
+        "value_shown": 762690
+      },
+      {
+        "year": 2018,
+        "contribution_shown": 49600,
+        "regular_schedule_computed": 49600,
+        "value_shown": 729295
+      },
+      {
+        "year": 2019,
+        "contribution_shown": 60800,
+        "regular_schedule_computed": 50800,
+        "value_shown": 959096
+      },
+      {
+        "year": 2020,
+        "contribution_shown": 62000,
+        "regular_schedule_computed": 52000,
+        "value_shown": 1135535
+      },
+      {
+        "year": 2021,
+        "contribution_shown": 53200,
+        "regular_schedule_computed": 53200,
+        "value_shown": 1460868
+      }
+    ],
+    "initial_deposit": 500,
+    "monthly_deposit": 100,
+    "cash_calendar_interpretation": {
+      "year_count": 44,
+      "monthly_slots": 528,
+      "subsequent_monthly_deposits": 527,
+      "computed_total": 53200,
+      "qualification": "首个时点500替代该月100，剩527月；从首年1600推定，实际付款日与NAV未取得。"
+    },
+    "status": "BOOK_TRANSCRIPTION_WITH_COST_CONFLICTS",
+    "no_twr_or_xirr_claim": true
+  },
+  "table_14_5": {
+    "period": "1996-01–2017-12（22年），译注原书为20年疑有误",
+    "stock_weight": 0.6,
+    "bond_weight": 0.4,
+    "annual_rebalanced": {
+      "return_pct": 7.83,
+      "sd_pct": 10.4
+    },
+    "never_rebalanced": {
+      "return_pct": 7.71,
+      "sd_pct": 11.63
+    },
+    "return_gap_pp": 0.12,
+    "risk_gap_pp": 1.23,
+    "status": "BOOK_TRANSCRIPTION_UNVERIFIED_NO_TAX",
+    "scope": "〔历史政策关联叙述未公开；节号对应关系见同库历史政策节号映射。〕"
+  },
+  "table_14_6": {
+    "rows": [
+      {
+        "year_no": 1,
+        "contribution": 1600,
+        "value": 1669
+      },
+      {
+        "year_no": 5,
+        "contribution": 6400,
+        "value": 9487
+      },
+      {
+        "year_no": 10,
+        "contribution": 12400,
+        "value": 28221
+      },
+      {
+        "year_no": 20,
+        "contribution": 24400,
+        "value": 178217
+      },
+      {
+        "year_no": 44,
+        "contribution": 53200,
+        "value": 1460686
+      }
+    ],
+    "cross_table_first_value_gap": 30,
+    "cross_table_final_value_gap": 182,
+    "status": "CONFLICT_OPEN"
+  },
+  "figure_14_2": {
+    "metric": "〔历史政策关联叙述未公开；节号对应关系见同库历史政策节号映射。〕",
+    "examples": [
+      {
+        "age": "约25",
+        "pie": {
+          "cash": 5,
+          "bonds_and_substitutes": 15,
+          "real_estate": 10,
+          "stocks": 70
+        },
+        "legend": {
+          "cash": 5,
+          "bonds_and_substitutes": 15,
+          "real_estate": 10,
+          "stocks": 70
+        }
+      },
+      {
+        "age": "35–45",
+        "pie": {
+          "cash": 5,
+          "bonds_and_substitutes": 20,
+          "real_estate": 10,
+          "stocks": 65
+        },
+        "legend": {
+          "cash": 5,
+          "bonds_and_substitutes": 20,
+          "real_estate": 10,
+          "stocks": 65
+        }
+      },
+      {
+        "age": "约55",
+        "pie": {
+          "cash": 5,
+          "bonds_and_substitutes": 27.5,
+          "real_estate": 12.5,
+          "stocks": 55
+        },
+        "legend": {
+          "cash": 5,
+          "bonds_and_substitutes": 37.5,
+          "real_estate": 12.5,
+          "stocks": 55
+        },
+        "status": "CONFLICT_OPEN_SUM_100_VS_110"
+      },
+      {
+        "age": "65以上",
+        "pie": {
+          "cash": 10,
+          "bonds_and_substitutes": 35,
+          "real_estate": 15,
+          "stocks": 40
+        },
+        "legend": {
+          "cash": 10,
+          "bonds_and_substitutes": 35,
+          "real_estate": 15,
+          "stocks": 40
+        }
+      }
+    ]
+  },
+  "withdrawal_example": {
+    "annual_cash": 18000,
+    "monthly_cash": 1500,
+    "initial_withdrawal_rate_book": 0.035,
+    "capital_required": 514285.71428571426,
+    "return_assumption": 0.05,
+    "inflation_assumption": 0.015,
+    "period_end_preserving_rate": 0.035,
+    "period_start_preserving_rate": 0.03333333333333333,
+    "precise_real_return": 0.034482758620689724,
+    "steady_rows": [
+      {
+        "timing": "end",
+        "years": 35,
+        "end_nominal": 168.388131832287,
+        "end_real": 100.00000000000087,
+        "trace": [
+          {
+            "year": 1,
+            "withdrawal": 3.5,
+            "balance": 101.5,
+            "real_remaining": 100.00000000000001
+          },
+          {
+            "year": 2,
+            "withdrawal": 3.5524999999999998,
+            "balance": 103.02250000000001,
+            "real_remaining": 100.00000000000003
+          },
+          {
+            "year": 3,
+            "withdrawal": 3.605787499999999,
+            "balance": 104.56783750000001,
+            "real_remaining": 100.00000000000004
+          },
+          {
+            "year": 4,
+            "withdrawal": 3.6598743124999986,
+            "balance": 106.13635506250002,
+            "real_remaining": 100.00000000000004
+          },
+          {
+            "year": 5,
+            "withdrawal": 3.7147724271874987,
+            "balance": 107.72840038843752,
+            "real_remaining": 100.00000000000007
+          },
+          {
+            "year": 6,
+            "withdrawal": 3.770494013595311,
+            "balance": 109.34432639426409,
+            "real_remaining": 100.00000000000009
+          },
+          {
+            "year": 7,
+            "withdrawal": 3.8270514237992397,
+            "balance": 110.98449129017806,
+            "real_remaining": 100.00000000000009
+          },
+          {
+            "year": 8,
+            "withdrawal": 3.8844571951562283,
+            "balance": 112.64925865953073,
+            "real_remaining": 100.0000000000001
+          },
+          {
+            "year": 9,
+            "withdrawal": 3.9427240530835714,
+            "balance": 114.3389975394237,
+            "real_remaining": 100.00000000000013
+          },
+          {
+            "year": 10,
+            "withdrawal": 4.001864913879825,
+            "balance": 116.05408250251506,
+            "real_remaining": 100.00000000000014
+          },
+          {
+            "year": 11,
+            "withdrawal": 4.061892887588021,
+            "balance": 117.7948937400528,
+            "real_remaining": 100.00000000000016
+          },
+          {
+            "year": 12,
+            "withdrawal": 4.122821280901841,
+            "balance": 119.5618171461536,
+            "real_remaining": 100.00000000000017
+          },
+          {
+            "year": 13,
+            "withdrawal": 4.1846636001153685,
+            "balance": 121.35524440334592,
+            "real_remaining": 100.0000000000002
+          },
+          {
+            "year": 14,
+            "withdrawal": 4.247433554117099,
+            "balance": 123.17557306939612,
+            "real_remaining": 100.00000000000023
+          },
+          {
+            "year": 15,
+            "withdrawal": 4.311145057428854,
+            "balance": 125.02320666543707,
+            "real_remaining": 100.00000000000023
+          },
+          {
+            "year": 16,
+            "withdrawal": 4.375812233290287,
+            "balance": 126.89855476541864,
+            "real_remaining": 100.00000000000026
+          },
+          {
+            "year": 17,
+            "withdrawal": 4.4414494167896414,
+            "balance": 128.8020330868999,
+            "real_remaining": 100.00000000000027
+          },
+          {
+            "year": 18,
+            "withdrawal": 4.508071158041485,
+            "balance": 130.73406358320344,
+            "real_remaining": 100.0000000000003
+          },
+          {
+            "year": 19,
+            "withdrawal": 4.575692225412107,
+            "balance": 132.69507453695152,
+            "real_remaining": 100.00000000000033
+          },
+          {
+            "year": 20,
+            "withdrawal": 4.644327608793288,
+            "balance": 134.68550065500582,
+            "real_remaining": 100.00000000000036
+          },
+          {
+            "year": 21,
+            "withdrawal": 4.713992522925187,
+            "balance": 136.70578316483093,
+            "real_remaining": 100.00000000000037
+          },
+          {
+            "year": 22,
+            "withdrawal": 4.784702410769064,
+            "balance": 138.75636991230343,
+            "real_remaining": 100.00000000000041
+          },
+          {
+            "year": 23,
+            "withdrawal": 4.8564729469306,
+            "balance": 140.837715460988,
+            "real_remaining": 100.00000000000044
+          },
+          {
+            "year": 24,
+            "withdrawal": 4.929320041134559,
+            "balance": 142.95028119290285,
+            "real_remaining": 100.00000000000047
+          },
+          {
+            "year": 25,
+            "withdrawal": 5.003259841751577,
+            "balance": 145.09453541079642,
+            "real_remaining": 100.00000000000051
+          },
+          {
+            "year": 26,
+            "withdrawal": 5.078308739377849,
+            "balance": 147.2709534419584,
+            "real_remaining": 100.00000000000053
+          },
+          {
+            "year": 27,
+            "withdrawal": 5.154483370468517,
+            "balance": 149.4800177435878,
+            "real_remaining": 100.00000000000057
+          },
+          {
+            "year": 28,
+            "withdrawal": 5.231800621025544,
+            "balance": 151.72221800974165,
+            "real_remaining": 100.0000000000006
+          },
+          {
+            "year": 29,
+            "withdrawal": 5.310277630340926,
+            "balance": 153.99805127988782,
+            "real_remaining": 100.00000000000063
+          },
+          {
+            "year": 30,
+            "withdrawal": 5.38993179479604,
+            "balance": 156.30802204908616,
+            "real_remaining": 100.00000000000065
+          },
+          {
+            "year": 31,
+            "withdrawal": 5.47078077171798,
+            "balance": 158.65264237982248,
+            "real_remaining": 100.00000000000068
+          },
+          {
+            "year": 32,
+            "withdrawal": 5.552842483293749,
+            "balance": 161.03243201551987,
+            "real_remaining": 100.00000000000072
+          },
+          {
+            "year": 33,
+            "withdrawal": 5.636135120543155,
+            "balance": 163.44791849575273,
+            "real_remaining": 100.00000000000077
+          },
+          {
+            "year": 34,
+            "withdrawal": 5.720677147351302,
+            "balance": 165.8996372731891,
+            "real_remaining": 100.00000000000082
+          },
+          {
+            "year": 35,
+            "withdrawal": 5.80648730456157,
+            "balance": 168.388131832287,
+            "real_remaining": 100.00000000000087
+          }
+        ],
+        "status": "C_CONSTANT_RETURN_NOT_SAFETY_PROOF"
+      },
+      {
+        "timing": "begin",
+        "years": 35,
+        "end_nominal": 149.22746158594012,
+        "end_real": 88.6211278444318,
+        "trace": [
+          {
+            "year": 1,
+            "withdrawal": 3.5,
+            "balance": 101.325,
+            "real_remaining": 99.82758620689657
+          },
+          {
+            "year": 2,
+            "withdrawal": 3.5524999999999998,
+            "balance": 102.66112500000001,
+            "real_remaining": 99.64922711058267
+          },
+          {
+            "year": 3,
+            "withdrawal": 3.605787499999999,
+            "balance": 104.00810437500002,
+            "real_remaining": 99.46471770060279
+          },
+          {
+            "year": 4,
+            "withdrawal": 3.6598743124999986,
+            "balance": 105.36564156562503,
+            "real_remaining": 99.27384589717529
+          },
+          {
+            "year": 5,
+            "withdrawal": 3.7147724271874987,
+            "balance": 106.73341259535941,
+            "real_remaining": 99.07639230742274
+          },
+          {
+            "year": 6,
+            "withdrawal": 3.770494013595311,
+            "balance": 108.11106451085232,
+            "real_remaining": 98.87212997319597
+          },
+          {
+            "year": 7,
+            "withdrawal": 3.8270514237992397,
+            "balance": 109.49821374140573,
+            "real_remaining": 98.66082411020273
+          },
+          {
+            "year": 8,
+            "withdrawal": 3.8844571951562283,
+            "balance": 110.89444437356198,
+            "real_remaining": 98.44223183814076
+          },
+          {
+            "year": 9,
+            "withdrawal": 3.9427240530835714,
+            "balance": 112.29930633650234,
+            "real_remaining": 98.21610190152494
+          },
+          {
+            "year": 10,
+            "withdrawal": 4.001864913879825,
+            "balance": 113.71231349375364,
+            "real_remaining": 97.98217438088788
+          },
+          {
+            "year": 11,
+            "withdrawal": 4.061892887588021,
+            "balance": 115.13294163647392,
+            "real_remaining": 97.74018039402198
+          },
+          {
+            "year": 12,
+            "withdrawal": 4.122821280901841,
+            "balance": 116.56062637335067,
+            "real_remaining": 97.48984178691929
+          },
+          {
+            "year": 13,
+            "withdrawal": 4.1846636001153685,
+            "balance": 117.99476091189707,
+            "real_remaining": 97.23087081405444
+          },
+          {
+            "year": 14,
+            "withdrawal": 4.247433554117099,
+            "balance": 119.43469372566898,
+            "real_remaining": 96.96296980764255
+          },
+          {
+            "year": 15,
+            "withdrawal": 4.311145057428854,
+            "balance": 120.87972610165212,
+            "real_remaining": 96.68583083549228
+          },
+          {
+            "year": 16,
+            "withdrawal": 4.375812233290287,
+            "balance": 122.32910956177993,
+            "real_remaining": 96.399135347061
+          },
+          {
+            "year": 17,
+            "withdrawal": 4.4414494167896414,
+            "balance": 123.78204315223981,
+            "real_remaining": 96.1025538073045
+          },
+          {
+            "year": 18,
+            "withdrawal": 4.508071158041485,
+            "balance": 125.23767059390823,
+            "real_remaining": 95.79574531790121
+          },
+          {
+            "year": 19,
+            "withdrawal": 4.575692225412107,
+            "balance": 126.69507728692093,
+            "real_remaining": 95.47835722541505
+          },
+          {
+            "year": 20,
+            "withdrawal": 4.644327608793288,
+            "balance": 128.15328716203402,
+            "real_remaining": 95.1500247159466
+          },
+          {
+            "year": 21,
+            "withdrawal": 4.713992522925187,
+            "balance": 129.61125937106428,
+            "real_remaining": 94.81037039580684
+          },
+          {
+            "year": 22,
+            "withdrawal": 4.784702410769064,
+            "balance": 131.06788480831,
+            "real_remaining": 94.45900385773126
+          },
+          {
+            "year": 23,
+            "withdrawal": 4.8564729469306,
+            "balance": 132.5219824544484,
+            "real_remaining": 94.09552123213581
+          },
+          {
+            "year": 24,
+            "withdrawal": 4.929320041134559,
+            "balance": 133.97229553397952,
+            "real_remaining": 93.7195047228991
+          },
+          {
+            "year": 25,
+            "withdrawal": 5.003259841751577,
+            "balance": 135.41748747683934,
+            "real_remaining": 93.33052212713703
+          },
+          {
+            "year": 26,
+            "withdrawal": 5.078308739377849,
+            "balance": 136.85613767433455,
+            "real_remaining": 92.9281263384176
+          },
+          {
+            "year": 27,
+            "withdrawal": 5.154483370468517,
+            "balance": 138.28673701905933,
+            "real_remaining": 92.51185483284581
+          },
+          {
+            "year": 28,
+            "withdrawal": 5.231800621025544,
+            "balance": 139.70768321793548,
+            "real_remaining": 92.08122913742672
+          },
+          {
+            "year": 29,
+            "withdrawal": 5.310277630340926,
+            "balance": 141.1172758669743,
+            "real_remaining": 91.6357542800966
+          },
+          {
+            "year": 30,
+            "withdrawal": 5.38993179479604,
+            "balance": 142.5137112757872,
+            "real_remaining": 91.17491822078962
+          },
+          {
+            "year": 31,
+            "withdrawal": 5.47078077171798,
+            "balance": 143.89507702927267,
+            "real_remaining": 90.69819126288583
+          },
+          {
+            "year": 32,
+            "withdrawal": 5.552842483293749,
+            "balance": 145.25934627327788,
+            "real_remaining": 90.20502544436467
+          },
+          {
+            "year": 33,
+            "withdrawal": 5.636135120543155,
+            "balance": 146.60437171037148,
+            "real_remaining": 89.69485390796346
+          },
+          {
+            "year": 34,
+            "withdrawal": 5.720677147351302,
+            "balance": 147.9278792911712,
+            "real_remaining": 89.16709024961739
+          },
+          {
+            "year": 35,
+            "withdrawal": 5.80648730456157,
+            "balance": 149.22746158594012,
+            "real_remaining": 88.6211278444318
+          }
+        ],
+        "status": "C_CONSTANT_RETURN_NOT_SAFETY_PROOF"
+      }
+    ],
+    "two_year_sequences": [
+      {
+        "returns": [
+          -0.25,
+          0.25
+        ],
+        "buy_hold_wealth_without_withdrawal": 93.75,
+        "fixed_initial_inflation_adjusted_balances": [
+          71.5,
+          85.8225
+        ],
+        "variable_proportion_balances": [
+          72.375,
+          87.30234375
+        ],
+        "variable_withdrawals": [
+          2.6250000000000004,
+          3.16640625
+        ],
+        "status": "C_TWO_YEAR_SEQUENCE_EXAMPLE"
+      },
+      {
+        "returns": [
+          0.25,
+          -0.25
+        ],
+        "buy_hold_wealth_without_withdrawal": 93.75,
+        "fixed_initial_inflation_adjusted_balances": [
+          121.5,
+          87.5725
+        ],
+        "variable_proportion_balances": [
+          120.625,
+          87.30234375
+        ],
+        "variable_withdrawals": [
+          4.375,
+          3.16640625
+        ],
+        "status": "C_TWO_YEAR_SEQUENCE_EXAMPLE"
+      }
+    ],
+    "stress_path": {
+      "initial": 100,
+      "first_return": -0.25,
+      "later_returns": 0,
+      "withdrawal_initial": 3.5,
+      "inflation": 0.015,
+      "first_shortfall_year": 19,
+      "rows": [
+        {
+          "year": 1,
+          "return": -0.25,
+          "requested": 3.5,
+          "paid": 3.5,
+          "shortfall": 0,
+          "balance": 71.5
+        },
+        {
+          "year": 2,
+          "return": 0.0,
+          "requested": 3.5524999999999998,
+          "paid": 3.5524999999999998,
+          "shortfall": 0,
+          "balance": 67.9475
+        },
+        {
+          "year": 3,
+          "return": 0.0,
+          "requested": 3.605787499999999,
+          "paid": 3.605787499999999,
+          "shortfall": 0,
+          "balance": 64.3417125
+        },
+        {
+          "year": 4,
+          "return": 0.0,
+          "requested": 3.6598743124999986,
+          "paid": 3.6598743124999986,
+          "shortfall": 0,
+          "balance": 60.6818381875
+        },
+        {
+          "year": 5,
+          "return": 0.0,
+          "requested": 3.7147724271874987,
+          "paid": 3.7147724271874987,
+          "shortfall": 0,
+          "balance": 56.9670657603125
+        },
+        {
+          "year": 6,
+          "return": 0.0,
+          "requested": 3.770494013595311,
+          "paid": 3.770494013595311,
+          "shortfall": 0,
+          "balance": 53.19657174671719
+        },
+        {
+          "year": 7,
+          "return": 0.0,
+          "requested": 3.8270514237992397,
+          "paid": 3.8270514237992397,
+          "shortfall": 0,
+          "balance": 49.36952032291795
+        },
+        {
+          "year": 8,
+          "return": 0.0,
+          "requested": 3.8844571951562283,
+          "paid": 3.8844571951562283,
+          "shortfall": 0,
+          "balance": 45.48506312776172
+        },
+        {
+          "year": 9,
+          "return": 0.0,
+          "requested": 3.9427240530835714,
+          "paid": 3.9427240530835714,
+          "shortfall": 0,
+          "balance": 41.54233907467815
+        },
+        {
+          "year": 10,
+          "return": 0.0,
+          "requested": 4.001864913879825,
+          "paid": 4.001864913879825,
+          "shortfall": 0,
+          "balance": 37.540474160798325
+        },
+        {
+          "year": 11,
+          "return": 0.0,
+          "requested": 4.061892887588021,
+          "paid": 4.061892887588021,
+          "shortfall": 0,
+          "balance": 33.4785812732103
+        },
+        {
+          "year": 12,
+          "return": 0.0,
+          "requested": 4.122821280901841,
+          "paid": 4.122821280901841,
+          "shortfall": 0,
+          "balance": 29.35575999230846
+        },
+        {
+          "year": 13,
+          "return": 0.0,
+          "requested": 4.1846636001153685,
+          "paid": 4.1846636001153685,
+          "shortfall": 0,
+          "balance": 25.171096392193093
+        },
+        {
+          "year": 14,
+          "return": 0.0,
+          "requested": 4.247433554117099,
+          "paid": 4.247433554117099,
+          "shortfall": 0,
+          "balance": 20.923662838075995
+        },
+        {
+          "year": 15,
+          "return": 0.0,
+          "requested": 4.311145057428854,
+          "paid": 4.311145057428854,
+          "shortfall": 0,
+          "balance": 16.61251778064714
+        },
+        {
+          "year": 16,
+          "return": 0.0,
+          "requested": 4.375812233290287,
+          "paid": 4.375812233290287,
+          "shortfall": 0,
+          "balance": 12.236705547356852
+        },
+        {
+          "year": 17,
+          "return": 0.0,
+          "requested": 4.4414494167896414,
+          "paid": 4.4414494167896414,
+          "shortfall": 0,
+          "balance": 7.795256130567211
+        },
+        {
+          "year": 18,
+          "return": 0.0,
+          "requested": 4.508071158041485,
+          "paid": 4.508071158041485,
+          "shortfall": 0,
+          "balance": 3.2871849725257256
+        },
+        {
+          "year": 19,
+          "return": 0.0,
+          "requested": 4.575692225412107,
+          "paid": 3.2871849725257256,
+          "shortfall": 1.2885072528863812,
+          "balance": 0.0
+        }
+      ],
+      "status": "C_STRESS_NO_PROBABILITY"
+    },
+    "scope": "1806明确固定最初资产比例+通胀金额；不把35年或平均回报当安全概率/遗产保证。"
+  },
+  "withdrawal_and_rebalance": {
+    "initial_stock": 60,
+    "initial_bond": 40,
+    "cash_needed": 3.5,
+    "target_stock_weight": 0.5,
+    "stock_after_withdraw_only": 56.5,
+    "remaining_total": 96.5,
+    "stock_weight_after_withdraw_only": 0.5854922279792746,
+    "target_stock_amount": 48.25,
+    "stock_sale_total": 11.75,
+    "bond_buy_after_cash_withdrawal": 8.25,
+    "status": "C_CASH_AND_WEIGHT_ACCOUNTING_NOT_ORDER"
+  },
+  "scale_contribution_example": {
+    "annual_return_assumption": 0.05,
+    "months": 120,
+    "initial": 500,
+    "monthly": 100,
+    "full_fv": 16250.76344353537,
+    "both_halved_fv": 8125.381721767685,
+    "monthly_only_halved_fv": 8532.605378462047,
+    "initial_growth": 1.6288946267774516,
+    "status": "C_LINEARITY_EXAMPLE_NOT_RECONSTRUCTION_OF_VANGUARD_NAV"
+  },
+  "horizon_risk_example": {
+    "annual_log_sd": 0.2,
+    "years": [
+      5,
+      25
+    ],
+    "annualized_log_sd": [
+      0.08944271909999159,
+      0.04
+    ],
+    "terminal_log_wealth_sd": [
+      0.447213595499958,
+      1.0
+    ],
+    "status": "C_IID_LOG_RETURN_DISTINCTION_NO_MARKET_CALIBRATION"
+  },
+  "mean_lifespan_example": {
+    "remaining_years": [
+      5,
+      5,
+      5,
+      25
+    ],
+    "mean": 10,
+    "fraction_above_mean": 0.25,
+    "status": "C_MEAN_NOT_MEDIAN_NO_MORTALITY_TABLE"
+  },
+  "annuity_2022_quotes": {
+    "premium": 1000000,
+    "single_male_age65_annual_cash": 61250,
+    "joint_age65_annual_cash": 51500,
+    "joint_inflation_linked_initial_cash": 40000,
+    "single_payment_ratio": 0.06125,
+    "joint_payment_ratio": 0.0515,
+    "inflation_linked_payment_ratio": 0.04,
+    "fixed_payment_real_fraction_after_20y_at_3pct": 0.5536757541863345,
+    "payment_ratio_is_not_investment_irr": true,
+    "status": "HISTORICAL_BOOK_QUOTES_NOT_CURRENT_PRODUCTS"
+  },
+  "footnotes": {
+    "embedded_count": 3,
+    "numbered_count": 1,
+    "numbered_lines": [
+      1810,
+      1813
+    ],
+    "topics": [
+      "再平衡原书20年与表22年译注疑点",
+      "扬曼人物说明",
+      "第9版4.5%方案随低利率改为3.5%等的版本差异"
+    ],
+    "cumulative_embedded_to_ch14": 62
+  },
+  "image_counting": {
+    "batch_references": 13,
+    "batch_unique": 11,
+    "prior_unique": 56,
+    "cumulative_unique": 67,
+    "cumulative_references": 115
+  },
+  "external_checks": [
+    {
+      "topic": "90%统计口径",
+      "url": "https://rpc.cfainstitute.org/blogs/enterprising-investor/2020/roger-g-ibbotson-what-works-in-asset-allocation",
+      "accessed_utc": "2026-10-14T06:52:04Z",
+      "scope": "作者本人访谈解释：90是时序方差R²，40为横截面解释，约100为回报水平；只核解释段，不复现2000原论文样本",
+      "status": "PRIMARY_AUTHOR_EXPLANATION"
+    },
+    {
+      "topic": "目标日期基金",
+      "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins/target-date-funds-investor-bulletin",
+      "accessed_utc": "2026-10-14T06:52:04Z",
+      "scope": "SEC 2025-03-25注册基金/ETF公告定义段与风险段，to/through、同年不同配置、双层费用、无保证收入；未验任何产品或CIT",
+      "status": "PRIMARY_TEXT_DEFINITION_AND_RISK_ONLY"
+    },
+    {
+      "topic": "年金偿付/费用",
+      "url": "https://www.investor.gov/introduction-investing/investing-basics/investment-products/annuities",
+      "accessed_utc": "2026-10-14T06:52:04Z",
+      "scope": "SEC年金合同、保险公司偿付与退出费用段实际读取；非具体合同/报价/保障限额核验",
+      "status": "PRIMARY_GENERAL_RISK_ONLY"
+    },
+    {
+      "topic": "RMD",
+      "url": "https://www.irs.gov/retirement-plans/retirement-plan-and-ira-required-minimum-distributions-faqs",
+      "accessed_utc": "2026-10-14T06:52:04Z",
+      "scope": "IRS FAQ一般规则及Q1–Q5局部实际读取；一般73岁、部分雇主退休例外、所有者与继承人不同、账户合并条件；不是个人税务裁定或法规全文精读",
+      "general_age_in_faq": 73,
+      "book_age": 75.5,
+      "status": "CURRENT_GENERAL_RULE_NOT_PERSONAL_APPLICABILITY"
+    }
+  ],
+  "open_issues": [
+    "图14—2c饼图5/27.5/12.5/55合计100，旁边债券及替代品37.5%导致文字合计110；不擅自改原图或规范化",
+    "表14—3波动型最终价值注式写60.48×1000但显示6048，份额价格应100；原显示6048及错乘数分开保留",
+    "表14—4的2019/2020累计成本60800/62000，与每年递增1200的50800/52000不符",
+    "表14—4/14—6首年1699/1669、终值1460868/1460686不一致（差30/182）",
+    "导论98行45年前/53200，与表14—4/14—6第44年及527笔追加不同；44年表现金日历可解释本金，45年标签仍待核",
+    "表14—6减半/翻倍须同时缩放初始500与每月100；只改月投入不能令全表线性缩放",
+    "资产配置90%以上总收益的原书说法与作者访谈所区分时序R²/横截面/回报水平不同",
+    "平均剩余寿命20年不自动推出一半人活过均值；死亡分布/中位数/尾部及原预测未核",
+    "30年债券持到期保证3%未完整注明再投资/税费/信用条件；沿用R96区分IRR和终点财富",
+    "年金唯一无风险的措辞忽略保险公司偿付、合同、通胀与流动性风险；支付率不是投资回报率",
+    "第14章按6%股票/4%债券推5%组合，与第13章2022公司债约3.5%等基准不同；预测只是条件假设",
+    "3.5%提款的固定基数/剩余市值定义须按1806澄清，平均收益不提供安全概率；到100岁或保留原购买力无证据保证",
+    "75.5岁法定提款与当前IRS FAQ一般73岁不同；年代/账户/出生年份/受益人资格未知，不套本人",
+    "美国历史收益、基金逐月NAV/分红、1996–2017再平衡样本及具体保单/人口统计未独立核验"
+  ]
+}

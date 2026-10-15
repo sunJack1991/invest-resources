@@ -1,0 +1,171 @@
+{
+  "publication_provenance": {
+    "kind": "书籍阅读、历史案例及教学复算资料",
+    "source_record": "阅读记录/B09_R91_复算.json",
+    "financial_numbers_origin": "仅为书内案例、历史统计或教学复算；不是维护者或使用者的资产、账户、持仓或交易记录。",
+    "private_account_or_holdings_data": false
+  },
+  "book": "B09",
+  "title": "漫步华尔街（原书第13版）",
+  "version": "R91-2026-10-14（第4批：第6–7章，681–900行；第二部分完成）",
+  "source_file": "投资书籍/漫步华尔街.epub",
+  "source_sha256": "80c95b78389aa9982e5fcf5693f6e4ac776a527f1c191bcbcf836e4172cb69cb",
+  "decoded_text_sha256": "072a751172bbb26600b897c31c46027e7989fa76910403f9c57c4019725c5a6a",
+  "decoded_text_lines": 2002,
+  "decoded_text_chars": 249791,
+  "batch_range": {
+    "start_line": 681,
+    "end_line": 900,
+    "line_count": 220
+  },
+  "scope": "本批只处理第6–7章可复算的比例与阶梯式示例；策略检验、学术研究与公司案例均为书内转述，未核原始研究或披露。",
+  "coin_flip_simulation": {
+    "source_image": "converter-master/example/313189/content_51772_0.jpg",
+    "type": "抛硬币生成的假想股价图（教学例）",
+    "start_price": 50,
+    "step": 0.5,
+    "y_range_read": [
+      44,
+      55
+    ],
+    "peak_read": 53.6,
+    "trough_read": 46.2,
+    "viewed": true,
+    "status": "QUALITATIVE_READING_ONLY",
+    "note": "图中呈现明显“周期/模式”，实为随机过程生成；用于说明统计幻觉。"
+  },
+  "missed_days_cost": {
+    "seybun_claim": {
+      "trading_days": 7500,
+      "days_carrying_95pct_of_gains": 90,
+      "share_pct": 0.012,
+      "status": "BOOK_TRANSCRIPTION_UNVERIFIED"
+    },
+    "birinyi_claim": {
+      "start_year": 1900,
+      "end": "2013年初",
+      "dollar_hold": 290,
+      "dollar_if_missing_best_5_days_each_year": "<0.01",
+      "implied_hold_cagr": 0.05145607052091905,
+      "status": "BOOK_TRANSCRIPTION_UNVERIFIED",
+      "note": "113年1美元→290美元约为年化5.2%（本底稿自行计算）；错过每年最好5个交易日则不足1美分。"
+    },
+    "note": "两处数字来自不同研究，只用于说明择时的尾部成本，不作为预测或阈值。"
+  },
+  "coin_flip_tournament": {
+    "start_participants": 1000,
+    "ladder": [
+      500,
+      250,
+      125,
+      63,
+      31,
+      16,
+      8
+    ],
+    "implied_by_halving": [
+      500.0,
+      250.0,
+      125.0,
+      62.5,
+      31.25,
+      15.625,
+      7.8125
+    ],
+    "survivors_after_9": 1.953125,
+    "survivors_after_10": 0.9765625,
+    "status": "TEACHING_EXAMPLE",
+    "note": "书中阶梯与半数淘汰一致（62.5→63、31.5→31、15.5→16取整）；“最终有人连续9次、10次”与1000/2^9≈1.95、1000/2^10≈0.98相合。"
+  },
+  "beardstown_ladies": {
+    "claimed_annual_return": 0.239,
+    "sp500_claimed": 0.149,
+    "audited_annual_return": 0.091,
+    "gap_vs_audit": 0.148,
+    "gap_vs_index": 0.058,
+    "claimed_beats_index_by": 0.09,
+    "status": "BOOK_TRANSCRIPTION_UNVERIFIED"
+  },
+  "analyst_conflicts": {
+    "buy_sell_ratio_internet_bubble": "100:1",
+    "barber_study": {
+      "strong_buy_underperformance_per_month": -0.03,
+      "sell_recommendations_outperformance_per_month": 0.038,
+      "status": "BOOK_TRANSCRIPTION_UNVERIFIED"
+    },
+    "bp_deepwater_horizon": {
+      "analysts_covering": 34,
+      "buy": 27,
+      "hold": 7,
+      "sell": 0,
+      "price_before": 60,
+      "price_after": 50,
+      "later": "20多美元",
+      "market_cap_loss_usd": 100000000000,
+      "cost_estimate_2018_usd": 65000000000,
+      "status": "BOOK_TRANSCRIPTION_UNVERIFIED"
+    },
+    "apollo_group_2012_drawdown": -0.8,
+    "ge_2018": {
+      "price": 13,
+      "index_removed": "2018年6月",
+      "reverse_split": "2021年8股合1股",
+      "status": "BOOK_TRANSCRIPTION_UNVERIFIED"
+    }
+  },
+  "fund_persistence": {
+    "funds_1970": 358,
+    "funds_alive_2017": 78,
+    "survival_rate": 0.21787709497206703,
+    "beat_index_by_over_2pp": "一只手数得过来",
+    "funds_beating_sp500_9_consecutive_years_to_2007": 14,
+    "of_those_beating_in_2008": 1,
+    "active_underperform_20y_over_90pct": true,
+    "ark_innovation": {
+      "return_2020": ">+100%",
+      "return_2021": -0.235,
+      "sp500_2021": 0.27,
+      "avg_cost_above_market_2022_03": 0.5,
+      "status": "BOOK_TRANSCRIPTION_UNVERIFIED"
+    },
+    "status": "BOOK_TRANSCRIPTION_UNVERIFIED",
+    "note": "幸存者偏差与“业绩并入”机制已记录；比例不作阈值。"
+  },
+  "emh_forms": {
+    "weak": "过去价格信息无法带来一贯超额（技术分析无效）",
+    "semi_strong": "任何公开信息都无法帮助挑选低估股票（基本面分析亦无效）",
+    "strong": "包括内幕在内的一切已知或可知信息均已反映——作者明确称其“显然夸大其词”",
+    "author_caveats": [
+      "EMH不主张股价总是正确（股价始终是错误的，只是无人能确知高估或低估）",
+      "EMH不主张价格不反应基本面——恰恰因为反应太快、新信息本身随机，价格呈随机漫步"
+    ],
+    "graham_quote_source": "1976年《金融分析师杂志》访谈（书内转述，未核原文）",
+    "lynch_position": "退休后承认多数投资者投资指数基金境遇更好（书内转述）"
+  },
+  "tonsillectomy_analogy": {
+    "initial_children": 1000,
+    "had_removed": 611,
+    "remaining": 389,
+    "rounds_recommended": [
+      174,
+      99
+    ],
+    "final_untouched": 65,
+    "status": "BOOK_TRANSCRIPTION_UNVERIFIED",
+    "note": "用于说明专业判断的可变性；本书未给该调查的原始出处。"
+  },
+  "image_counting": {
+    "references_total_book": 134,
+    "unique_files_book": 83,
+    "epub_image_files": 84,
+    "references_batch_r91_lines_681_900": 7,
+    "unique_files_batch_r91": 3,
+    "unique_viewed_cumulative": 24,
+    "note": "第6章唯一2个（图6—1、“注”字图），第7章唯一1个（“注”字图）；第7章无实质图表。"
+  },
+  "unverified": [
+    "策略检验（过滤系统/道氏理论/相对强弱/量价/形态识别）、548只股票与32种形态、76人队“手热”研究均为书内转述",
+    "巴布尔研究、英国石油分析师分布、ARK持有人成本、358→78只基金、14只→1只等为书内转述，未核原始报告",
+    "格雷厄姆、林奇、巴菲特的“转向”为二手引用，未核访谈原文"
+  ]
+}

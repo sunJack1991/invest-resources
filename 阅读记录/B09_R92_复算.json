@@ -1,0 +1,282 @@
+{
+  "publication_provenance": {
+    "kind": "书籍阅读、历史案例及教学复算资料",
+    "source_record": "阅读记录/B09_R92_复算.json",
+    "financial_numbers_origin": "仅为书内案例、历史统计或教学复算；不是维护者或使用者的资产、账户、持仓或交易记录。",
+    "private_account_or_holdings_data": false
+  },
+  "book": "B09",
+  "title": "漫步华尔街（原书第13版）",
+  "version": "R92-2026-10-14（第5批：第三部分标题＋第8–9章，901–1120行）",
+  "source_file": "投资书籍/漫步华尔街.epub",
+  "source_sha256": "80c95b78389aa9982e5fcf5693f6e4ac776a527f1c191bcbcf836e4172cb69cb",
+  "decoded_text_sha256": "072a751172bbb26600b897c31c46027e7989fa76910403f9c57c4019725c5a6a",
+  "decoded_text_lines": 2002,
+  "decoded_text_chars": 249791,
+  "batch_range": {
+    "start_line": 901,
+    "end_line": 1120,
+    "line_count": 220
+  },
+  "scope": "本批只处理第8–9章的表内数值与图内读数；长期收益数据、学术研究与因子结论均为书内转述，未核原始序列或论文。",
+  "table_8_1_expected_return": {
+    "source_image": "converter-master/example/313189/content_51775_0.jpg",
+    "rows": [
+      {
+        "scenario": "正常经济形势",
+        "probability": 0.3333333333333333,
+        "return_pct": 10
+      },
+      {
+        "scenario": "无通胀的高速增长",
+        "probability": 0.3333333333333333,
+        "return_pct": 30
+      },
+      {
+        "scenario": "伴随通胀的经济衰退（滞胀）",
+        "probability": 0.3333333333333333,
+        "return_pct": -10
+      }
+    ],
+    "expected_return": 0.1,
+    "variance": 0.02666666666666667,
+    "std_dev": 0.1633,
+    "viewed": true,
+    "status": "TEACHING_EXAMPLE"
+  },
+  "table_8_2_two_firms": {
+    "source_image": "converter-master/example/313189/content_51775_1.jpg",
+    "returns_pct": {
+      "雨水季节": {
+        "umbrella": 50,
+        "resort": -25
+      },
+      "晴朗季节": {
+        "umbrella": -25,
+        "resort": 50
+      }
+    },
+    "probabilities": {
+      "雨水季节": 0.5,
+      "晴朗季节": 0.5
+    },
+    "each_firm_expected_return": 0.125,
+    "each_firm_variance": 0.140625,
+    "each_firm_std_dev": 0.375,
+    "equal_weight_portfolio_return_both_seasons": 0.125,
+    "equal_weight_portfolio_std_dev": 0.0,
+    "correlation": -1.0,
+    "viewed": true,
+    "status": "TEACHING_EXAMPLE",
+    "note": "完全负相关时多样化可完全消除风险；现实中公司盈利多为同向变动，只能部分降低。"
+  },
+  "table_8_3_correlation_effect": {
+    "source_image": "converter-master/example/313189/content_51775_2.jpg",
+    "rows": [
+      {
+        "correlation": 1.0,
+        "effect": "不能降低任何风险"
+      },
+      {
+        "correlation": 0.5,
+        "effect": "可以适度降低风险"
+      },
+      {
+        "correlation": 0.0,
+        "effect": "可以消除相当多的风险"
+      },
+      {
+        "correlation": -0.5,
+        "effect": "可以消除大部分风险"
+      },
+      {
+        "correlation": -1.0,
+        "effect": "可以消除所有风险"
+      }
+    ],
+    "viewed": true,
+    "status": "BOOK_TRANSCRIPTION_QUALITATIVE"
+  },
+  "figure_8_1_diversification": {
+    "source_image": "converter-master/example/313189/content_51775_3.jpg",
+    "axes": [
+      "股票数目（只）",
+      "风险（%）"
+    ],
+    "x_range": [
+      0,
+      70
+    ],
+    "y_range": [
+      0,
+      100
+    ],
+    "us_asymptote_read": 38,
+    "international_asymptote_read": 30,
+    "optimal_holdings_claim": 50,
+    "risk_reduction_claim": "0.6以上",
+    "viewed": true,
+    "status": "QUALITATIVE_READING_ONLY",
+    "note": "国际分散的渐近风险低于仅美国股票；50只之后继续增加几乎无益。坐标读数为近似。"
+  },
+  "international_minimum_variance": {
+    "foreign_pct": 18,
+    "us_pct": 82,
+    "status": "BOOK_TRANSCRIPTION_UNVERIFIED",
+    "note": "1970–2019年样本；EAFE年均收益略高于标普500、波动更大；两者相关系数约0.5。"
+  },
+  "figure_9_1_diversification_systematic": {
+    "source_image": "converter-master/example/313189/content_51776_0.jpg",
+    "marks": [
+      30,
+      60
+    ],
+    "description": "总风险随股票数目下降并趋近系统风险水平线；30只后消除大量非系统风险，60只后基本消除",
+    "viewed": true,
+    "status": "QUALITATIVE_READING_ONLY"
+  },
+  "table_9_1_two_groups": {
+    "source_image": "converter-master/example/313189/content_51776_1.jpg",
+    "group_1": {
+      "stocks": 60,
+      "beta_each": 1,
+      "specific_risk": "高",
+      "total_risk": "高"
+    },
+    "group_2": {
+      "stocks": 60,
+      "beta_each": 1,
+      "specific_risk": "低",
+      "total_risk": "低"
+    },
+    "capm_implication": "两组组合风险与预期收益应相等（非系统风险可被多样化消除，不获溢价）",
+    "viewed": true,
+    "status": "TEACHING_EXAMPLE"
+  },
+  "figure_9_2_capm_line": {
+    "source_image": "converter-master/example/313189/content_51776_3.jpg",
+    "points": {
+      "beta_0": "无风险利率",
+      "beta_1": "市场收益率"
+    },
+    "x_range": [
+      0,
+      2
+    ],
+    "viewed": true,
+    "status": "QUALITATIVE_READING_ONLY"
+  },
+  "table_9_2_portfolio_construction": {
+    "source_image": "converter-master/example/313189/content_51776_4.jpg",
+    "assumptions": {
+      "risk_free": 0.1,
+      "market_return": 0.15
+    },
+    "rows": [
+      {
+        "beta": 0,
+        "composition": "1美元无风险资产",
+        "expected_return": 0.1
+      },
+      {
+        "beta": 0.5,
+        "composition": "0.5美元无风险资产＋0.5美元市场组合",
+        "expected_return": 0.125
+      },
+      {
+        "beta": 1,
+        "composition": "1美元市场组合",
+        "expected_return": 0.15
+      },
+      {
+        "beta": 1.5,
+        "composition": "1.5美元市场组合，其中0.5美元以10%借入",
+        "expected_return": 0.175
+      }
+    ],
+    "computed": {
+      "beta_0.5": 0.125,
+      "beta_1": 0.15,
+      "beta_1.5": 0.175
+    },
+    "viewed": true,
+    "status": "TEACHING_EXAMPLE_WITH_HISTORICAL_ASSUMPTIONS",
+    "note": "10%无风险利率与15%市场收益为示例值，非当前参数。"
+  },
+  "figure_9_3_fama_french": {
+    "source_image": "converter-master/example/313189/content_51776_6.jpg",
+    "x_axis": {
+      "label": "β",
+      "range": [
+        0.7,
+        1.8
+      ]
+    },
+    "y_axis": {
+      "label": "月收益率（%）",
+      "read_range": [
+        1.2,
+        1.33
+      ]
+    },
+    "caption": "法玛与弗伦奇发现，收益率与β之间没什么关系",
+    "viewed": true,
+    "status": "QUALITATIVE_READING_ONLY",
+    "note": "1963–1990年按β十分位；散点无趋势，与CAPM预测相反。"
+  },
+  "table_9_3_ff_factors": {
+    "source_image": "converter-master/example/313189/content_51776_7.jpg",
+    "factors": {
+      "beta": "来自资本资产定价模型",
+      "size": "由股票总市值来衡量",
+      "value": "由市净率来衡量"
+    },
+    "viewed": true,
+    "status": "BOOK_TRANSCRIPTION_ARITHMETIC_OK"
+  },
+  "capm_formula": {
+    "form": "E(R) = R_f + beta * (E(R_m) - R_f)",
+    "risk_premium_form": "R - R_f = beta * (R_m - R_f)",
+    "beta_definition": "股票与市场指数的协方差（经市场方差标准化）",
+    "status": "BOOK_TRANSCRIPTION_ARITHMETIC_OK"
+  },
+  "beta_death_debate": {
+    "media_headlines": [
+      "β之死",
+      "拜拜了β",
+      "β败退"
+    ],
+    "roll_critique": "标普500不等于市场；含人力资本等后β难以精确测量",
+    "jagannathan_wang": "纳入人力资本并允许β随周期变动后，对CAPM的支持变强",
+    "author_position": "不应仓促宣判β死亡；但β不能作为长期收益的简单预测工具",
+    "status": "BOOK_TRANSCRIPTION_UNVERIFIED"
+  },
+  "apt_and_factors": {
+    "apt_factors": [
+      "国民收入变动",
+      "利率变动",
+      "通货膨胀率变动"
+    ],
+    "extra_factors": [
+      "盈利能力",
+      "公司品质（盈利稳定、低经营/财务杠杆）",
+      "价格势能"
+    ],
+    "usage_boundary": "横截面证据，不构成择时或轮动授权",
+    "status": "BOOK_TRANSCRIPTION_UNVERIFIED"
+  },
+  "image_counting": {
+    "references_total_book": 134,
+    "unique_files_book": 83,
+    "epub_image_files": 84,
+    "references_batch_r92_lines_901_1120": 12,
+    "unique_files_batch_r92": 11,
+    "unique_viewed_cumulative": 35,
+    "note": "第8章4个唯一（表8—1/8—2/8—3、图8—1），第9章7个唯一（图9—1、表9—1、图9—2、表9—2、图9—3、表9—3、“注”字图）。"
+  },
+  "unverified": [
+    "1926–2020年长期收益与波动、1970–2019年国际比较为书内转述，未核原始序列",
+    "法玛-弗伦奇（1963–1990）、乔根纳森与王震宇、罗斯APT、三因素模型均为书内转述，未核原始论文",
+    "图8—1、图9—1至9—3 无精确刻度，读数为近似"
+  ]
+}

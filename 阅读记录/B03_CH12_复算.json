@@ -1,0 +1,398 @@
+{
+  "publication_provenance": {
+    "kind": "书籍阅读、历史案例及教学复算资料",
+    "source_record": "阅读记录/B03_CH12_复算.json",
+    "financial_numbers_origin": "仅为书内案例、历史统计或教学复算；不是维护者或使用者的资产、账户、持仓或交易记录。",
+    "private_account_or_holdings_data": false
+  },
+  "source": "B03 ops/t0238-01.jpg, ops/t0239-01.jpg",
+  "original_report_verified": false,
+  "inputs_class": "原书历史演示输入；推算B，不代表本人预测",
+  "timing": "月末实际缴款、有效月利率；资本目标采用确定收益永续演示",
+  "cells": [
+    {
+      "years": 5,
+      "annual_real_return": 0.02,
+      "printed_fv": 6302,
+      "computed_fv": 6301.887959072494,
+      "printed_monthly_saving": 39670,
+      "computed_monthly_saving": 39670.65133871323
+    },
+    {
+      "years": 5,
+      "annual_real_return": 0.03,
+      "printed_fv": 6458,
+      "computed_fv": 6458.096194044165,
+      "printed_monthly_saving": 25808,
+      "computed_monthly_saving": 25807.39921780219
+    },
+    {
+      "years": 5,
+      "annual_real_return": 0.04,
+      "printed_fv": 6618,
+      "computed_fv": 6617.902362859202,
+      "printed_monthly_saving": 18888,
+      "computed_monthly_saving": 18888.16019733403
+    },
+    {
+      "years": 5,
+      "annual_real_return": 0.05,
+      "printed_fv": 6781,
+      "computed_fv": 6781.373791559063,
+      "printed_monthly_saving": 14747,
+      "computed_monthly_saving": 14746.274585906527
+    },
+    {
+      "years": 5,
+      "annual_real_return": 0.06,
+      "printed_fv": 6949,
+      "computed_fv": 6948.578613813824,
+      "printed_monthly_saving": 11992,
+      "computed_monthly_saving": 11992.860405675785
+    },
+    {
+      "years": 5,
+      "annual_real_return": 0.07,
+      "printed_fv": 7120,
+      "computed_fv": 7119.585775008404,
+      "printed_monthly_saving": 10032,
+      "computed_monthly_saving": 10032.686407024445
+    },
+    {
+      "years": 10,
+      "annual_real_return": 0.02,
+      "printed_fv": 13260,
+      "computed_fv": 13259.68147860168,
+      "printed_monthly_saving": 18854,
+      "computed_monthly_saving": 18854.14822395599
+    },
+    {
+      "years": 10,
+      "annual_real_return": 0.03,
+      "printed_fv": 13945,
+      "computed_fv": 13944.7996811351,
+      "printed_monthly_saving": 11952,
+      "computed_monthly_saving": 11951.886759057415
+    },
+    {
+      "years": 10,
+      "annual_real_return": 0.04,
+      "printed_fv": 14670,
+      "computed_fv": 14669.592480431691,
+      "printed_monthly_saving": 8521,
+      "computed_monthly_saving": 8521.027435952436
+    },
+    {
+      "years": 10,
+      "annual_real_return": 0.05,
+      "printed_fv": 15436,
+      "computed_fv": 15436.316130146644,
+      "printed_monthly_saving": 6478,
+      "computed_monthly_saving": 6478.229595512307
+    },
+    {
+      "years": 10,
+      "annual_real_return": 0.06,
+      "printed_fv": 16247,
+      "computed_fv": 16247.344242783838,
+      "printed_monthly_saving": 5129,
+      "computed_monthly_saving": 5129.0433739868195
+    },
+    {
+      "years": 10,
+      "annual_real_return": 0.07,
+      "printed_fv": 17105,
+      "computed_fv": 17105.173125613543,
+      "printed_monthly_saving": 4176,
+      "computed_monthly_saving": 4175.846155080021
+    },
+    {
+      "years": 15,
+      "annual_real_return": 0.02,
+      "printed_fv": 20942,
+      "computed_fv": 20941.647736143226,
+      "printed_monthly_saving": 11938,
+      "computed_monthly_saving": 11937.933592900838
+    },
+    {
+      "years": 15,
+      "annual_real_return": 0.03,
+      "printed_fv": 22624,
+      "computed_fv": 22623.94093569108,
+      "printed_monthly_saving": 7367,
+      "computed_monthly_saving": 7366.827341903844
+    },
+    {
+      "years": 15,
+      "annual_real_return": 0.04,
+      "printed_fv": 24466,
+      "computed_fv": 24465.704631201694,
+      "printed_monthly_saving": 5109,
+      "computed_monthly_saving": 5109.192720351268
+    },
+    {
+      "years": 15,
+      "annual_real_return": 0.05,
+      "printed_fv": 26482,
+      "computed_fv": 26482.459461386632,
+      "printed_monthly_saving": 3776,
+      "computed_monthly_saving": 3776.0843227498312
+    },
+    {
+      "years": 15,
+      "annual_real_return": 0.06,
+      "printed_fv": 28691,
+      "computed_fv": 28691.190247579278,
+      "printed_monthly_saving": 2905,
+      "computed_monthly_saving": 2904.492027491411
+    },
+    {
+      "years": 15,
+      "annual_real_return": 0.07,
+      "printed_fv": 31110,
+      "computed_fv": 31110.4759462608,
+      "printed_monthly_saving": 2296,
+      "computed_monthly_saving": 2295.9652418032674
+    },
+    {
+      "years": 20,
+      "annual_real_return": 0.02,
+      "printed_fv": 29423,
+      "computed_fv": 29423.15921192504,
+      "printed_monthly_saving": 8497,
+      "computed_monthly_saving": 8496.708263016038
+    },
+    {
+      "years": 20,
+      "annual_real_return": 0.03,
+      "printed_fv": 32685,
+      "computed_fv": 32685.444379285444,
+      "printed_monthly_saving": 5099,
+      "computed_monthly_saving": 5099.109705612339
+    },
+    {
+      "years": 20,
+      "annual_real_return": 0.04,
+      "printed_fv": 36384,
+      "computed_fv": 36384.17291167194,
+      "printed_monthly_saving": 3436,
+      "computed_monthly_saving": 3435.5597502094197
+    },
+    {
+      "years": 20,
+      "annual_real_return": 0.05,
+      "printed_fv": 40580,
+      "computed_fv": 40580.4485317806,
+      "printed_monthly_saving": 2464,
+      "computed_monthly_saving": 2464.240875053043
+    },
+    {
+      "years": 20,
+      "annual_real_return": 0.06,
+      "printed_fv": 45344,
+      "computed_fv": 45343.8632549121,
+      "printed_monthly_saving": 1838,
+      "computed_monthly_saving": 1837.808412239904
+    },
+    {
+      "years": 20,
+      "annual_real_return": 0.07,
+      "printed_fv": 50754,
+      "computed_fv": 50753.637656337196,
+      "printed_monthly_saving": 1407,
+      "computed_monthly_saving": 1407.3586589443744
+    },
+    {
+      "years": 25,
+      "annual_real_return": 0.02,
+      "printed_fv": 38787,
+      "computed_fv": 38787.433214456265,
+      "printed_monthly_saving": 6445,
+      "computed_monthly_saving": 6445.3865409898735
+    },
+    {
+      "years": 25,
+      "annual_real_return": 0.03,
+      "printed_fv": 44349,
+      "computed_fv": 44349.48446992463,
+      "printed_monthly_saving": 3758,
+      "computed_monthly_saving": 3758.0294034689578
+    },
+    {
+      "years": 25,
+      "annual_real_return": 0.04,
+      "printed_fv": 50885,
+      "computed_fv": 50884.81193726848,
+      "printed_monthly_saving": 2457,
+      "computed_monthly_saving": 2456.528681959202
+    },
+    {
+      "years": 25,
+      "annual_real_return": 0.05,
+      "printed_fv": 58573,
+      "computed_fv": 58573.452050651016,
+      "printed_monthly_saving": 1707,
+      "computed_monthly_saving": 1707.258092173322
+    },
+    {
+      "years": 25,
+      "annual_real_return": 0.06,
+      "printed_fv": 67629,
+      "computed_fv": 67628.89620873403,
+      "printed_monthly_saving": 1232,
+      "computed_monthly_saving": 1232.2148963680872
+    },
+    {
+      "years": 25,
+      "annual_real_return": 0.07,
+      "printed_fv": 78304,
+      "computed_fv": 78304.18810922482,
+      "printed_monthly_saving": 912,
+      "computed_monthly_saving": 912.1935001603905
+    },
+    {
+      "years": 30,
+      "annual_real_return": 0.02,
+      "printed_fv": 49126,
+      "computed_fv": 49126.34837655585,
+      "printed_monthly_saving": 5089,
+      "computed_monthly_saving": 5088.9188441961505
+    },
+    {
+      "years": 30,
+      "annual_real_return": 0.03,
+      "printed_fv": 57871,
+      "computed_fv": 57871.303748598526,
+      "printed_monthly_saving": 2880,
+      "computed_monthly_saving": 2879.95354987493
+    },
+    {
+      "years": 30,
+      "annual_real_return": 0.04,
+      "printed_fv": 68527,
+      "computed_fv": 68527.05649441526,
+      "printed_monthly_saving": 1824,
+      "computed_monthly_saving": 1824.0970267004989
+    },
+    {
+      "years": 30,
+      "annual_real_return": 0.05,
+      "printed_fv": 81538,
+      "computed_fv": 81537.590695783,
+      "printed_monthly_saving": 1226,
+      "computed_monthly_saving": 1226.4281927718505
+    },
+    {
+      "years": 30,
+      "annual_real_return": 0.06,
+      "printed_fv": 97451,
+      "computed_fv": 97451.29730519744,
+      "printed_monthly_saving": 855,
+      "computed_monthly_saving": 855.128003810462
+    },
+    {
+      "years": 30,
+      "annual_real_return": 0.07,
+      "printed_fv": 116945,
+      "computed_fv": 116945.26032866002,
+      "printed_monthly_saving": 611,
+      "computed_monthly_saving": 610.7863732812289
+    },
+    {
+      "years": 35,
+      "annual_real_return": 0.02,
+      "printed_fv": 60541,
+      "computed_fv": 60541.346132943436,
+      "printed_monthly_saving": 4129,
+      "computed_monthly_saving": 4129.409337067302
+    },
+    {
+      "years": 35,
+      "annual_real_return": 0.03,
+      "printed_fv": 73547,
+      "computed_fv": 73546.79827573519,
+      "printed_monthly_saving": 2266,
+      "computed_monthly_saving": 2266.1308251898968
+    },
+    {
+      "years": 35,
+      "annual_real_return": 0.04,
+      "printed_fv": 89992,
+      "computed_fv": 89991.54453971854,
+      "printed_monthly_saving": 1389,
+      "computed_monthly_saving": 1389.0193866472664
+    },
+    {
+      "years": 35,
+      "annual_real_return": 0.05,
+      "printed_fv": 110846,
+      "computed_fv": 110846.29744725878,
+      "printed_monthly_saving": 902,
+      "computed_monthly_saving": 902.1501150959102
+    },
+    {
+      "years": 35,
+      "annual_real_return": 0.06,
+      "printed_fv": 137360,
+      "computed_fv": 137360.39723793106,
+      "printed_monthly_saving": 607,
+      "computed_monthly_saving": 606.6765604134513
+    },
+    {
+      "years": 35,
+      "annual_real_return": 0.07,
+      "printed_fv": 171141,
+      "computed_fv": 171141.36304613255,
+      "printed_monthly_saving": 417,
+      "computed_monthly_saving": 417.3659141029352
+    },
+    {
+      "years": 40,
+      "annual_real_return": 0.02,
+      "printed_fv": 73144,
+      "computed_fv": 73144.42602434209,
+      "printed_monthly_saving": 3418,
+      "computed_monthly_saving": 3417.89543767561
+    },
+    {
+      "years": 40,
+      "annual_real_return": 0.03,
+      "printed_fv": 91719,
+      "computed_fv": 91718.99268287634,
+      "printed_monthly_saving": 1817,
+      "computed_monthly_saving": 1817.1445388952993
+    },
+    {
+      "years": 40,
+      "annual_real_return": 0.04,
+      "printed_fv": 116106,
+      "computed_fv": 116106.37621856698,
+      "printed_monthly_saving": 1077,
+      "computed_monthly_saving": 1076.5989265282988
+    },
+    {
+      "years": 40,
+      "annual_real_return": 0.05,
+      "printed_fv": 148252,
+      "computed_fv": 148252.4594948867,
+      "printed_monthly_saving": 675,
+      "computed_monthly_saving": 674.5250658283281
+    },
+    {
+      "years": 40,
+      "annual_real_return": 0.06,
+      "printed_fv": 190768,
+      "computed_fv": 190767.77554690972,
+      "printed_monthly_saving": 437,
+      "computed_monthly_saving": 436.83128921761585
+    },
+    {
+      "years": 40,
+      "annual_real_return": 0.07,
+      "printed_fv": 247154,
+      "computed_fv": 247154.20070971857,
+      "printed_monthly_saving": 289,
+      "computed_monthly_saving": 289.0040760928192
+    }
+  ]
+}

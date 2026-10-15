@@ -1,0 +1,422 @@
+{
+  "publication_provenance": {
+    "kind": "书籍阅读、历史案例及教学复算资料",
+    "source_record": "阅读记录/B11_R114_复算.json",
+    "financial_numbers_origin": "仅为书内案例、历史统计或教学复算；不是维护者或使用者的资产、账户、持仓或交易记录。",
+    "private_account_or_holdings_data": false
+  },
+  "batch": "R114",
+  "date_utc": "2026-10-14",
+  "book": "B11",
+  "book_title": "金钱心理学：财富、人性和幸福的永恒真相",
+  "source_file": "投资书籍/金钱心理学.epub",
+  "source_sha256": "6ba1f8484392fac2611911fc1eaf84ac047f73fb5d395468cef3628f429d8f3b",
+  "decoded_text_sha256": "49a436df4e11c10fa8afbdb607656a7597773f9caaad288e900fff2fab8f4311",
+  "decoded_text_lines": 1917,
+  "decoded_text_chars": 123755,
+  "range_read": {
+    "start_line": 1587,
+    "end_line": 1917,
+    "lines": 331,
+    "chars_including_newlines": 20305,
+    "chapters": {
+      "19": "1587–1629（第19章 总结）",
+      "20": "1630–1686（第20章 我的理财方案）",
+      "21": "1687–1900（附录 美国消费者心态形成简史）",
+      "22": "1901–1917（致谢1901–1909＋电子书推广尾页1910–1917）"
+    },
+    "chapter_chars": {
+      "1587-1629": 3061,
+      "1630-1686": 5291,
+      "1687-1900": 11532,
+      "1901-1917": 418,
+      "1587-1917": 20305
+    },
+    "cumulative_1_1917_chars": 123755,
+    "boundary_evidence": "spine 23–27（chapter_24.xhtml、chapter_25.xhtml、chapter_26.xhtml、chapter_27.xhtml、chapter_1842229414.xhtml）连续无空洞并到全文末行1917；前1–1586行由R109–R113实读，本批仅继承"
+  },
+  "resources_read": [
+    {
+      "index": 23,
+      "source": "EPUB/chapter_24.xhtml",
+      "start_line": 1587,
+      "end_line": 1629,
+      "chapter": "第19章 总结",
+      "raw_bytes": 10765,
+      "raw_sha256": "ccf159773d6bb7ea995cc50fd0e3bceb1d332339ea183427132978133e2e99d0",
+      "images": [],
+      "zuixiaoyao_notes": 0,
+      "embedded_attribute_footnotes": 0,
+      "anchor_links": 0,
+      "read_in_batch": "R114"
+    },
+    {
+      "index": 24,
+      "source": "EPUB/chapter_25.xhtml",
+      "start_line": 1630,
+      "end_line": 1686,
+      "chapter": "第20章 我的理财方案",
+      "raw_bytes": 17417,
+      "raw_sha256": "831f79871ea1133240ba365454a64430e9911fdbf094b05dad82cd0dbac37491",
+      "images": [],
+      "zuixiaoyao_notes": 5,
+      "embedded_attribute_footnotes": 0,
+      "anchor_links": 0,
+      "read_in_batch": "R114"
+    },
+    {
+      "index": 25,
+      "source": "EPUB/chapter_26.xhtml",
+      "start_line": 1687,
+      "end_line": 1900,
+      "chapter": "附录 美国消费者心态形成简史",
+      "raw_bytes": 38990,
+      "raw_sha256": "12d229ec515656a9cfa18b6cd9896e911c4672bc8ad7e5dd323dd5f2a49bbd62",
+      "images": [
+        "EPUB/img/CB_3300064234_P001.jpg",
+        "EPUB/img/CB_3300064234_P006.jpg"
+      ],
+      "zuixiaoyao_notes": 19,
+      "embedded_attribute_footnotes": 0,
+      "anchor_links": 0,
+      "read_in_batch": "R114"
+    },
+    {
+      "index": 26,
+      "source": "EPUB/chapter_27.xhtml",
+      "start_line": 1901,
+      "end_line": 1909,
+      "chapter": "致谢",
+      "raw_bytes": 1484,
+      "raw_sha256": "07b8221ca5341aa767467eae099e2158dca576a1ca2d4da3d85cb110d3c05967",
+      "images": [],
+      "zuixiaoyao_notes": 0,
+      "embedded_attribute_footnotes": 0,
+      "anchor_links": 0,
+      "read_in_batch": "R114"
+    },
+    {
+      "index": 27,
+      "source": "EPUB/chapter_1842229414.xhtml",
+      "start_line": 1910,
+      "end_line": 1917,
+      "chapter": "电子书推广尾页（第三方插入）",
+      "raw_bytes": 1401,
+      "raw_sha256": "3aeccd5b43bce9377a5e0244f1e9b557d31c7e34507261c0f11a095b4522e79a",
+      "images": [
+        "EPUB/gzh.png"
+      ],
+      "zuixiaoyao_notes": 0,
+      "embedded_attribute_footnotes": 0,
+      "anchor_links": 0,
+      "read_in_batch": "R114"
+    }
+  ],
+  "images_in_batch": {
+    "img_references": 3,
+    "files": [
+      "CB_3300064234_P001.jpg",
+      "CB_3300064234_P006.jpg",
+      "gzh.png"
+    ],
+    "viewed": [
+      {
+        "file": "CB_3300064234_P001.jpg",
+        "figure": "附表1 美国家庭负债总额",
+        "status": "已逐幅目视",
+        "readings": {
+          "1945": "294亿",
+          "1955": "1,257亿",
+          "1965": "3,312亿（美元）"
+        },
+        "note": "表内三点与正文“1947—1957年增加5倍”为不同时间窗口，不可直接比对"
+      },
+      {
+        "file": "CB_3300064234_P006.jpg",
+        "figure": "附图1 美国新住宅面积中位数（平方英尺）",
+        "status": "已逐幅目视",
+        "readings_approx": {
+          "1973": "约1,520–1,550",
+          "1983": "约1,550–1,600",
+          "1993": "约1,950",
+          "2003": "约2,150–2,250",
+          "end": "约2,300"
+        },
+        "note": "末段较起点约+49%，与正文“中位数增长50%”一致；读数为目测近似"
+      },
+      {
+        "file": "gzh.png",
+        "figure": "电子书推广尾页（微信公众号二维码）",
+        "status": "已目视",
+        "note": "第三方插入的推广内容，不属于原书正文；不执行、不访问、不据此下载资料"
+      }
+    ],
+    "viewed_count_batch": 3,
+    "viewed_count_cumulative": 11,
+    "image_reference_count_cumulative": 18,
+    "image_files_in_epub": 11,
+    "all_image_files_viewed": true,
+    "unavailable_in_batch": [
+      "P003图片文件在zip中缺席（全书登记项，非本批未取得）"
+    ]
+  },
+  "notes_read": {
+    "batch_notes": {
+      "第19章": 0,
+      "第20章": 5,
+      "附录": 19,
+      "致谢与尾页": 0,
+      "合计": 24
+    },
+    "cumulative_notes": {
+      "序言": 5,
+      "第1章": 7,
+      "第2章": 3,
+      "第3章": 11,
+      "第4章": 3,
+      "第5章": 5,
+      "第6章": 10,
+      "第7章": 6,
+      "第8章": 0,
+      "第9章": 2,
+      "第10章": 3,
+      "第11章": 9,
+      "第12章": 7,
+      "第13章": 5,
+      "第14章": 5,
+      "第15章": 4,
+      "第16章": 2,
+      "第17章": 13,
+      "第18章": 5,
+      "第19章": 0,
+      "第20章": 5,
+      "附录": 19,
+      "致谢与尾页": 0,
+      "合计": 129
+    },
+    "book_total": 129,
+    "hidden_footnotes_batch": 0,
+    "note": "zuixiaoyao ㊟【】为电子版第三方行内注，独立计数，不与原书正文混同；本批读完后全书129条全部覆盖"
+  },
+  "computations": {
+    "advice_count": {
+      "title": "第19章 十四条经验",
+      "self_computed": "逐条点数＝14条",
+      "status": "PASS",
+      "detail": "谦逊与谅解／虚荣越少／睡踏实／拉长时间／别失衡／时间掌控／善意胜奢侈／存钱／明确代价／容错空间／避免极端目标／喜欢风险但怕毁灭／明确游戏／尊重他人",
+      "count": 14
+    },
+    "manager_share": {
+      "title": "第20章 一半基金经理不买自家基金",
+      "given": "据晨星统计约50%",
+      "status": "NOT_VERIFIABLE",
+      "detail": "转引（FT／晨星 2016），未核统计口径（是否含被动、按人数或资产）"
+    },
+    "active_fund_scope": {
+      "title": "第20章 85% 的口径",
+      "status": "口径提示",
+      "detail": "本章为“截至2019年的10年、85%大盘股活跃型基金经理未超标普500”，与第18章“主动型共同基金85%近十年跑输基准”同源但口径不同，引用须写明"
+    },
+    "liquidity_20pct": {
+      "title": "第20章 作者约20%的流动比例",
+      "status": "口径提示（不移植）",
+      "detail": "〔历史政策关联叙述未公开；节号对应关系见同库历史政策节号映射。〕"
+    },
+    "veterans_return": {
+      "title": "附录 1945年退伍军人回国",
+      "given": {
+        "参战": "1,600万人（总人口11%）",
+        "派驻海外": "800万人",
+        "平均年龄": 23,
+        "未回国": "150万人"
+      },
+      "self_computed": "1,600-150=1,450万人回国（90.63%）",
+      "status": "PASS",
+      "detail": "与“18个月内除150万人外全部回国”自洽"
+    },
+    "fed_rate_1942": {
+      "title": "附录 1942年低利率",
+      "given": {
+        "短期利率": "0.38%",
+        "不变年数": "7年",
+        "3月期国债": "低于2%（至50年代中期）"
+      },
+      "status": "NOT_VERIFIABLE",
+      "detail": "转引（美联储—财政部协议与FRASER报告）"
+    },
+    "war_financing": {
+      "title": "附录 战争融资规模",
+      "given": "相当于6万亿美元（现代口径）",
+      "status": "NOT_VERIFIABLE",
+      "detail": "为折算口径，未核折算方法"
+    },
+    "consumption_1950": {
+      "title": "附录 1950年消费支出",
+      "given": {
+        "总消费支出": "2,030亿美元",
+        "相对1944年": "+40%"
+      },
+      "self_computed": "2030/1.40=1,450亿（隐含1944年水平）",
+      "status": "DERIVED",
+      "detail": "书内未给1944年绝对值"
+    },
+    "housing_and_cars": {
+      "title": "附录 住房与汽车",
+      "given": {
+        "汽车1945-1949": "2,100万辆",
+        "汽车1949-1955": "3,700万辆",
+        "住房1940-1945": "近200万套",
+        "住房1945-1950": "700万套",
+        "住房至1955再增": "800万套"
+      },
+      "self_computed": {
+        "汽车合计": "5,800万辆",
+        "战后十年住房": "1,500万套",
+        "相对战时倍数": 7.5
+      },
+      "status": "PASS",
+      "detail": "住房 1,500/200＝7.5 倍（本项目补算）"
+    },
+    "wage_and_share": {
+      "title": "附录 工资与收入分配",
+      "given": {
+        "平均工资": "1940—1948翻番、至1963再翻番",
+        "钢铁工人": "2,500→4,500美元",
+        "机床操作工": "3,000→5,500美元以上",
+        "顶端1%税后占比": "13%(1945)→7%"
+      },
+      "self_computed": {
+        "顶端1%占比变化": "下降6个百分点",
+        "相对降幅": "46.15%"
+      },
+      "status": "DERIVED",
+      "detail": "另记：1950—1980年底层20%与最高5%实际收入增长几乎持平"
+    },
+    "female_labor": {
+      "title": "附录 女性劳动参与率",
+      "given": {
+        "战后": "31%",
+        "1955": "37%",
+        "1965": "40%"
+      },
+      "status": "NOT_VERIFIABLE",
+      "detail": "转引统计，未核原始来源"
+    },
+    "debt_table": {
+      "title": "附表1 美国家庭负债总额",
+      "given": {
+        "1945": "294亿",
+        "1955": "1,257亿",
+        "1965": "3,312亿（美元）"
+      },
+      "self_computed": {
+        "1945→1955": 4.28,
+        "1945→1965": 11.27
+      },
+      "status": "PASS",
+      "detail": "表内读数已目视核；正文“1947—1957年家庭债务增加了5倍”为不同时间窗口，两者不可直接比对"
+    },
+    "homeownership": {
+      "title": "附录 住房拥有率",
+      "given": {
+        "20世纪初": "47%",
+        "1945": "53%",
+        "1970": "62%"
+      },
+      "self_computed": {
+        "1945→1970": "上升9个百分点"
+      },
+      "status": "NOT_VERIFIABLE",
+      "detail": "转引统计"
+    },
+    "debt_to_income": {
+      "title": "附录 家庭债务占收入比重",
+      "given": {
+        "50–70年代": "始终低于60%",
+        "1973": "约60%",
+        "2007": "超过130%",
+        "现在": "略超100%",
+        "2008后": "35年以来最低"
+      },
+      "status": "NOT_VERIFIABLE",
+      "detail": "口径随年份变动（是否含房贷），不得跨期直接相减"
+    },
+    "short_rate_1973": {
+      "title": "附录 1973年短期利率",
+      "given": "从十年前的2.5%升至8%",
+      "self_computed": "2.5→8＝上升5.5个百分点（3.2倍）",
+      "status": "DERIVED",
+      "detail": "转引；与正文“失业率达30年代以来最高、通胀持续高位”并列"
+    },
+    "sp500_1982_1990": {
+      "title": "附录 标普500 1982—1990",
+      "given": "上涨近4倍",
+      "self_computed": "4^(1/8)-1≈18.9%/年",
+      "status": "DERIVED",
+      "detail": "原始指数未核；年化为本项目补算"
+    },
+    "gdp_growth_compare": {
+      "title": "附录 90年代与50年代实际GDP增长总量",
+      "given": {
+        "1990年代": "40%",
+        "1950年代": "42%"
+      },
+      "status": "PASS（内部并列）",
+      "detail": "为十年累计增长口径，非年化"
+    },
+    "atlantic_shares": {
+      "title": "附录 1993—2012年收入增长",
+      "given": {
+        "顶端1%": "+86.1%",
+        "底层99%": "+6.6%"
+      },
+      "self_computed": "86.1/6.6=13.05倍",
+      "status": "DERIVED",
+      "detail": "转引《大西洋月刊》统计；另记斯蒂格利茨：过去10年顶端1%＋18%、高中学历男性25年下降12%"
+    },
+    "house_size_and_loan": {
+      "title": "附录 住房面积与汽车贷款",
+      "given": {
+        "房屋面积中位数": "工资中位数基本持平的时期增长50%（附图1）",
+        "4间以上卧室新住宅": "近一半（1983年18%）",
+        "平均汽车贷款": "12,300→27,900美元（1975—2003，通胀调整后）"
+      },
+      "self_computed": {
+        "附图1目测": "1,540→2,300平方英尺≈+49%",
+        "汽车贷款倍数": "27,900/12,300=2.27倍"
+      },
+      "status": "PASS_APPROX/DERIVED",
+      "detail": "附图1读数为目测近似，与正文“增长50%”一致；2.27倍与“增长了一倍多”一致"
+    },
+    "debt_service_split": {
+      "title": "附录 债务与租赁支出占收入比重",
+      "given": {
+        "最高收入人群": "略高于8%",
+        "低于第50百分位人群": "超过21%"
+      },
+      "self_computed": "差距＞13个百分点",
+      "status": "DERIVED",
+      "detail": "转引统计，未核原始分布"
+    },
+    "minsky_and_evans": {
+      "title": "附录 明斯基与埃文斯引语",
+      "status": "NARRATIVE_ONLY",
+      "detail": "债务危机起始的比喻与“互联网让人对他人观点更愤怒”均为引语，无计算内容"
+    }
+  },
+  "narrative_not_verifiable": [
+    "第19章 1931年克拉伦斯·休斯案例、卡茨《医生与患者之间的无声世界》引文与医疗伦理史",
+    "第20章 戈特斯曼提问、默里《医生如何死去》、作者家庭财务细节（全款购房、20%流动比例、指数基金与529计划）",
+    "附录 美联储—财政部协议、Garon、FRASER 1951、埃莉诺·罗斯福、鲍比·肯尼迪、大野狼明斯基、格雷厄姆、《哈泼斯杂志》1957、哈伯斯塔姆《五十年代》、里根与克林顿讲话、斯蒂格利茨、埃文斯等全部引文与人物事件，以及所有宏观统计（0.38%、6万亿、2,030亿、2,100万/3,700万辆、200/700/800万套、13%→7%、31/37/40%、47/53/62%、60%→130%、8%/21%、86.1%/6.6%等）"
+  ],
+  "unavailable_materials": [
+    "P003图片文件在zip中缺席（全书登记项；其余11个图片文件本批后全部目视）"
+  ],
+  "limitations": [
+    "本批复算均为书内数字的内部一致性/算术检查，不验证原始企业披露、历史统计或投资收益",
+    "附表1为三时点读数、附图1为目测近似；均只作方向与量级核对",
+    "前1–1586行（R109–R113）仅继承，未在本批重读；原书文件未修改",
+    "电子书推广尾页为第三方插入内容，不属于原书正文；其中的链接与二维码不执行、不访问",
+    "B11正文已读完，但全文逐段精读的“完成”不等于原企业披露或宏观数据已核验"
+  ]
+}

@@ -1,0 +1,197 @@
+{
+  "publication_provenance": {
+    "kind": "书籍阅读、历史案例及教学复算资料",
+    "source_record": "阅读记录/B05_CH02_复算.json",
+    "financial_numbers_origin": "仅为书内案例、历史统计或教学复算；不是维护者或使用者的资产、账户、持仓或交易记录。",
+    "private_account_or_holdings_data": false
+  },
+  "book_id": "B05",
+  "chapter": 2,
+  "title": "财务与投资",
+  "decode": "B05-v2-2026-10-13",
+  "range": {
+    "start_line": 781,
+    "end_line": 1141,
+    "line_count": 361,
+    "chars_with_newlines": 35693
+  },
+  "checks": {
+    "sixty_three_year_comparison": {
+      "status": "ARITHMETIC_OK",
+      "book_printed": "1000美元63年：10%→40.5万；20%→9700万",
+      "calc_10pct": 405265,
+      "calc_20pct": 97368505,
+      "note": "1.10^63=405,265精确对应'40.5万'；1.20^63≈9,737万对应'9700万'；书中前一句为'略低于10%'，末句按10%/20%给出",
+      "source_verified": false
+    },
+    "arcata_annualized": {
+      "status": "ARITHMETIC_OK",
+      "cost_usd_m": 22.9,
+      "proceeds_usd_m": 24.6,
+      "holding_months": 6,
+      "single_period_return": 0.0742,
+      "annualized": 0.154,
+      "book_printed": "15%年化",
+      "conclusion": "(1.0742)^2-1=15.40%≈15%",
+      "source_verified": false
+    },
+    "coca_cola_1919_1938": {
+      "status": "ARITHMETIC_OK",
+      "start_usd": 40,
+      "end_usd": 3277,
+      "years": 19,
+      "multiple": 81.92,
+      "cagr": 0.261,
+      "source_verified": false
+    },
+    "coca_cola_1938_1993": {
+      "status": "ARITHMETIC_OK",
+      "start_usd": 40,
+      "end_usd": 25000,
+      "years": 55,
+      "multiple": 625,
+      "cagr": 0.1242,
+      "source_verified": false
+    },
+    "coca_cola_1919_1993_note2": {
+      "status": "ARITHMETIC_OK",
+      "start_usd": 40,
+      "end_usd": 2100000,
+      "years": 74,
+      "multiple": 52500,
+      "cagr": 0.1582,
+      "book_printed": "每股总值超过210万美元（股息再投资）",
+      "source_verified": false
+    },
+    "coca_cola_volume": {
+      "status": "ARITHMETIC_OK",
+      "cases_1938": "2.07亿箱",
+      "cases_1993": "107亿箱",
+      "multiple": 51.69,
+      "book_printed": "整整增长了50倍",
+      "source_verified": false
+    },
+    "coca_cola_gallons_1896_1996": {
+      "status": "ARITHMETIC_OK",
+      "gallons_1896": 116492,
+      "gallons_1996": 320000000,
+      "multiple": 2746.97,
+      "cagr_100y": 0.0824,
+      "source_verified": false
+    },
+    "washington_post_reference": {
+      "status": "ARITHMETIC_OK",
+      "buy_price_1973": 5.63,
+      "eps_1987_after_tax": 10.3,
+      "ratio": 1.83,
+      "note": "买入价低于14年后的每股税后运营利润；'低得可笑'的量化参照",
+      "source_verified": false
+    },
+    "geico_reference": {
+      "status": "ARITHMETIC_OK",
+      "avg_buy_price": 6.67,
+      "eps_after_tax_last_year": 9.01,
+      "ratio": 1.35,
+      "source_verified": false
+    },
+    "net_worth_growth": {
+      "status": "ARITHMETIC_OK_WITH_CONVENTION_NOTE",
+      "start_usd": 48000000,
+      "end_usd": 157000000000,
+      "years": 40,
+      "multiple": 3270.8,
+      "cagr_40y": 0.2242,
+      "note": "书另称'以每月10亿美元的速度增长'；10亿×12×40=4800亿≠1570亿净增，该速度为近期口径而非40年平均",
+      "source_verified": false
+    },
+    "arbitrage_1988_return": {
+      "status": "CONVENTION_OPEN",
+      "avg_investment_usd_m": 147,
+      "pretax_profit_usd_m": 78,
+      "ratio": 0.5306,
+      "note": "收益率53.1%仅在'平均投资金额为全年平均占用'假设下成立；口径未明，登记",
+      "source_verified": false
+    },
+    "rjr_cost_inconsistency": {
+      "status": "OPEN_SUSPECTED_TYPO",
+      "book_printed": "持有RJR·纳贝斯克3,342,000股，成本为281.80美元/股，市值为3.045亿美元",
+      "inconsistency": "3,342,000×281.80=9.418亿美元 ≠ 书示市值3.045亿",
+      "alternative_convention": "市值3.045亿/334.2万股=91.11美元/股；若成本为'2.818亿美元'（总额）则每股≈84.32美元/股，与1988年底RJR市价量级吻合",
+      "hypothesis": "中文版'281.80美元/股'可能为'2.818亿美元（总额）'的排版/换算错误",
+      "evidence_needed": "英文原版对应段落及1988年致股东信",
+      "source_verified": false
+    },
+    "misc_numbers_unverified": {
+      "status": "SELF_REPORTED_UNVERIFIED",
+      "items": [
+        "63年套利记录（格雷厄姆-纽曼1926–1956去掉杠杆年均约20%；作者1956–1988超20%）",
+        "伯克希尔已实现年回报率23.8%及'更高杠杆会更高'的表述",
+        "1999年：GDP真实增长约3%、通胀假设2%、TIPS与国债利差约2%",
+        "投资组合保险与《布雷迪报告》600–900亿美元数据",
+        "现金至少100亿/通常200亿；卡特丽娜30亿；2008年投资156亿美元",
+        "可口可乐1896年报数据（销售14.8万美元、116,492加仑）",
+        "洛克伍德15→100美元；阿克塔各项条款与评估；大都会$172.50×300万股与$43卖出史"
+      ],
+      "boundary": "均为书内陈述/转述，未核原披露；不得作为推导输入"
+    },
+    "arithmetic": {
+      "status": "PASS",
+      "computations": [
+        {
+          "expr": "1000*1.10^63",
+          "value": 405265
+        },
+        {
+          "expr": "1000*1.20^63",
+          "value": 97368505
+        },
+        {
+          "expr": "(2460/2290)^2-1",
+          "value": 0.154
+        },
+        {
+          "expr": "3277/40",
+          "value": 81.92
+        },
+        {
+          "expr": "(3277/40)^(1/19)-1",
+          "value": 0.261
+        },
+        {
+          "expr": "25000/40",
+          "value": 625
+        },
+        {
+          "expr": "(25000/40)^(1/55)-1",
+          "value": 0.1242
+        },
+        {
+          "expr": "2100000/40",
+          "value": 52500
+        },
+        {
+          "expr": "107/2.07",
+          "value": 51.69
+        },
+        {
+          "expr": "320000000/116492",
+          "value": 2746.97
+        },
+        {
+          "expr": "1570e8/4800e4",
+          "value": 3270.83
+        },
+        {
+          "expr": "(1570e8/4800e4)^(1/40)-1",
+          "value": 0.2242
+        },
+        {
+          "expr": "304500000/3342000",
+          "value": 91.11
+        }
+      ]
+    }
+  },
+  "math_or_logic_only": true,
+  "investment_performance_validated": false
+}

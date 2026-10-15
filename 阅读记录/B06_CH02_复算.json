@@ -1,0 +1,118 @@
+{
+  "publication_provenance": {
+    "kind": "书籍阅读、历史案例及教学复算资料",
+    "source_record": "阅读记录/B06_CH02_复算.json",
+    "financial_numbers_origin": "仅为书内案例、历史统计或教学复算；不是维护者或使用者的资产、账户、持仓或交易记录。",
+    "private_account_or_holdings_data": false
+  },
+  "book": "B06",
+  "book_title": "彼得林奇投资经典全集（共3册）",
+  "volume": "第一册《战胜华尔街》",
+  "chapter": 2,
+  "chapter_title": "周末焦虑症",
+  "range": {
+    "start_line": 355,
+    "end_line": 447,
+    "line_count": 93,
+    "chars_with_newlines": 11263
+  },
+  "decode": "B06-v2-2026-10-13",
+  "image_files_referenced": [
+    "images/00016.jpg"
+  ],
+  "image_files_newly_viewed_this_batch": [],
+  "image_note": "本章唯一图像引用为 images/00016.jpg（章节装饰图标），已在章0目视；本批无新图像文件。",
+  "checks": {
+    "stage_lights_power_watts": {
+      "input": "13盏×1000瓦",
+      "computation": 13000,
+      "status": "PASS",
+      "note": "书示13个1000瓦聚光灯"
+    },
+    "feet_to_meter": {
+      "input": "13英尺",
+      "computation": 3.96,
+      "status": "PASS"
+    },
+    "sp70y_11pct_cumulative": {
+      "input": "过去70年股票年均11%",
+      "computation": "1.11^70=1488.0倍",
+      "value_1000usd_ending": 1488019,
+      "status": "BOOK_CLAIM_UNVERIFIED",
+      "note": "作者自述，未核原始序列；'70年'起止年份未写明"
+    },
+    "sp70y_double_rule_threshold": {
+      "input": "'比国库券、债券、定期存单高出一倍以上'",
+      "computation": "11%/2=5.5%",
+      "status": "LOGIC_ONLY",
+      "note": "要求国库券/债券/存单年化<5.5%方成立"
+    },
+    "bear_counts": {
+      "input": "70年间40次跌幅超过10%，其中13次跌幅超过33%",
+      "computation": "13/40=32.5%",
+      "status": "BOOK_CLAIM_UNVERIFIED",
+      "note": "后文'历史上第41次''第14次'与40+1=41、13+1=14内部自洽"
+    },
+    "taco_bell_drop": {
+      "input": "1972年塔可钟15美元→1美元",
+      "computation": "-93.3%",
+      "status": "PASS"
+    },
+    "djia_1987_internal_consistency": {
+      "input": "1987年'暴跌1000点之多（从8月份指数最高点计算跌幅高达33%）'",
+      "computation": "1000/0.33=3030点（隐含8月高点）",
+      "external_reference_high_aug1987": 2722.42,
+      "pct_if_drop_1000_from_2722": 36.7,
+      "points_if_drop_33pct_from_2722": 898,
+      "status": "CONFLICT_OPEN",
+      "note": "书内两句在同一基点上不自洽：按1000点则跌幅约36.7%、按33%则跌幅约898点；后文把33%当门槛值使用，说明33%为约数/门槛而非精确计算。保留原显示，待核。"
+    },
+    "djia_1987_one_day": {
+      "input": "一天之内下跌508点",
+      "external_reference_pct": -22.6,
+      "status": "EXTERNAL_REFERENCE_UNVERIFIED",
+      "note": "对应1987-10-19单日跌幅（外部参考值，未核）"
+    },
+    "six_year_multiples_cagr": {
+      "input": "过去6年乐观派增值3~4倍",
+      "computation": "3^(1/6)-1=20.1%；4^(1/6)-1=26.0%",
+      "status": "DERIVED"
+    },
+    "y1991_three_index_ratio": {
+      "input": "1991年标普+30%、道指+25%、小盘股+60%",
+      "computation": "1.2 : 1 : 2.4",
+      "status": "BOOK_CLAIM_UNVERIFIED",
+      "note": "与常见年度价格涨幅口径（外部参考：标普约+26%、道指约+20%、小盘股约+46%，未核）不一致，疑含股息或口径不同"
+    },
+    "y1988_prediction_1500": {
+      "input": "1988年圆桌会议争论道指'大跌到1500点甚至更低'",
+      "external_reference_yearend_1987": 1938.6,
+      "computation": "(1500-1938.6)/1938.6=-22.6%",
+      "status": "EXTERNAL_REFERENCE_UNVERIFIED"
+    },
+    "y1991_predictions_all_failed": {
+      "input": "1991-01-15圆桌会议：朱洛夫2000点／普赖斯跌500点／珀金斯1600~1700点／林奇最糟跌1/3",
+      "outcome_book_stated": "标普+30%、道指+25%、小盘股+60%，'1991年成了最近20年来最好的大牛市'",
+      "status": "BOOK_CLAIM_UNVERIFIED",
+      "note": "作者自述结果；预言与结果均未外部核验，但方向性对照（集体悲观→大涨）为本章核心论据"
+    },
+    "arithmetic": {
+      "status": "PASS",
+      "note": "本章所有可内部检验的算式（13,000瓦、3.96米、1.11^70、13/40、-93.3%、20.1%~26.0%、1.2:1:2.4）均已复算；唯一内部冲突为'1000点'与'33%'不自洽，已登记CONFLICT_OPEN"
+    }
+  },
+  "ambiguities": [
+    "1987年10月'暴跌1000点'与'跌幅高达33%'互不自洽（CONFLICT_OPEN）",
+    "'过去70年股票年均11%'与'40次大跌/13次超过33%'为作者自述，未核原始序列，'70年'起止年份未写明",
+    "1991年三指数年度涨幅与常见价格涨幅口径不符（疑含股息），未核",
+    "周一效应与12月效应为作者观察、无数据；作者未区分其中已被后续研究弱化的部分",
+    "'定期定额者业绩优于择时者'为纯断言，无统计支撑",
+    "巴鲁克'擦鞋童'典故的反向使用无量化阈值，属启发式",
+    "作者1990年增持个人账户时兼任W.R.格瑞斯与莫里森-纳德森董事，利益冲突且信息不全（'10只中2只'），不构成独立信号",
+    "'60年远离股市错过的回报大于股灾损失'为定性论断，无复算数字",
+    "国别信念段落（'始终相信美国会继续存在发展下去'）为立场陈述，不构成估值或回报论证",
+    "'至少5位专家预言严重衰退''基金经理现金占比12%''1991年1月15日圆桌会议'等均为书内自述，未核"
+  ],
+  "framework_landing": "〔历史政策关联叙述未公开；节号对应关系见同库历史政策节号映射。〕",
+  "original_report_verified": false
+}

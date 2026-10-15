@@ -1,0 +1,259 @@
+{
+  "publication_provenance": {
+    "kind": "书籍阅读、历史案例及教学复算资料",
+    "source_record": "阅读记录/B11_v1_定位.json",
+    "financial_numbers_origin": "仅为书内案例、历史统计或教学复算；不是维护者或使用者的资产、账户、持仓或交易记录。",
+    "private_account_or_holdings_data": false
+  },
+  "version": "B11-v1-2026-10-14",
+  "source_sha256": "6ba1f8484392fac2611911fc1eaf84ac047f73fb5d395468cef3628f429d8f3b",
+  "decoded_text_sha256": "49a436df4e11c10fa8afbdb607656a7597773f9caaad288e900fff2fab8f4311",
+  "decoded_text_lines": 1917,
+  "decoded_text_chars": 123755,
+  "locators": [
+    {
+      "index": 0,
+      "source": "EPUB/cover.xhtml",
+      "start_line": 1,
+      "end_line": 1,
+      "images": [
+        "EPUB/cover.jpg"
+      ],
+      "footnote_links": []
+    },
+    {
+      "index": 1,
+      "source": "EPUB/chapter_2.xhtml",
+      "start_line": 2,
+      "end_line": 11,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 2,
+      "source": "EPUB/chapter_3.xhtml",
+      "start_line": 12,
+      "end_line": 14,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 3,
+      "source": "EPUB/chapter_4.xhtml",
+      "start_line": 15,
+      "end_line": 18,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 4,
+      "source": "EPUB/chapter_5.xhtml",
+      "start_line": 19,
+      "end_line": 98,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 5,
+      "source": "EPUB/chapter_6.xhtml",
+      "start_line": 99,
+      "end_line": 196,
+      "images": [
+        "EPUB/img/CB_3300064234_P008.jpg",
+        "EPUB/img/CB_3300064234_P009.jpg",
+        "EPUB/img/CB_3300064234_P010.jpg"
+      ],
+      "footnote_links": []
+    },
+    {
+      "index": 6,
+      "source": "EPUB/chapter_7.xhtml",
+      "start_line": 197,
+      "end_line": 294,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 7,
+      "source": "EPUB/chapter_8.xhtml",
+      "start_line": 295,
+      "end_line": 388,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 8,
+      "source": "EPUB/chapter_9.xhtml",
+      "start_line": 389,
+      "end_line": 452,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 9,
+      "source": "EPUB/chapter_10.xhtml",
+      "start_line": 453,
+      "end_line": 568,
+      "images": [
+        "EPUB/img/CB_3300064234_P004.jpg"
+      ],
+      "footnote_links": []
+    },
+    {
+      "index": 10,
+      "source": "EPUB/chapter_11.xhtml",
+      "start_line": 569,
+      "end_line": 696,
+      "images": [
+        "EPUB/img/CB_3300064234_P005.jpg"
+      ],
+      "footnote_links": []
+    },
+    {
+      "index": 11,
+      "source": "EPUB/chapter_12.xhtml",
+      "start_line": 697,
+      "end_line": 769,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 12,
+      "source": "EPUB/chapter_13.xhtml",
+      "start_line": 770,
+      "end_line": 785,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 13,
+      "source": "EPUB/chapter_14.xhtml",
+      "start_line": 786,
+      "end_line": 820,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 14,
+      "source": "EPUB/chapter_15.xhtml",
+      "start_line": 821,
+      "end_line": 901,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 15,
+      "source": "EPUB/chapter_16.xhtml",
+      "start_line": 902,
+      "end_line": 976,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 16,
+      "source": "EPUB/chapter_17.xhtml",
+      "start_line": 977,
+      "end_line": 1079,
+      "images": [
+        "EPUB/img/CB_3300064234_P002.jpg"
+      ],
+      "footnote_links": []
+    },
+    {
+      "index": 17,
+      "source": "EPUB/chapter_18.xhtml",
+      "start_line": 1080,
+      "end_line": 1154,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 18,
+      "source": "EPUB/chapter_19.xhtml",
+      "start_line": 1155,
+      "end_line": 1211,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 19,
+      "source": "EPUB/chapter_20.xhtml",
+      "start_line": 1212,
+      "end_line": 1271,
+      "images": [
+        "EPUB/img/CB_3300064234_P007.jpg"
+      ],
+      "footnote_links": []
+    },
+    {
+      "index": 20,
+      "source": "EPUB/chapter_21.xhtml",
+      "start_line": 1272,
+      "end_line": 1336,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 21,
+      "source": "EPUB/chapter_22.xhtml",
+      "start_line": 1337,
+      "end_line": 1467,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 22,
+      "source": "EPUB/chapter_23.xhtml",
+      "start_line": 1468,
+      "end_line": 1586,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 23,
+      "source": "EPUB/chapter_24.xhtml",
+      "start_line": 1587,
+      "end_line": 1629,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 24,
+      "source": "EPUB/chapter_25.xhtml",
+      "start_line": 1630,
+      "end_line": 1686,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 25,
+      "source": "EPUB/chapter_26.xhtml",
+      "start_line": 1687,
+      "end_line": 1900,
+      "images": [
+        "EPUB/img/CB_3300064234_P001.jpg",
+        "EPUB/img/CB_3300064234_P006.jpg"
+      ],
+      "footnote_links": []
+    },
+    {
+      "index": 26,
+      "source": "EPUB/chapter_27.xhtml",
+      "start_line": 1901,
+      "end_line": 1909,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 27,
+      "source": "EPUB/chapter_1842229414.xhtml",
+      "start_line": 1910,
+      "end_line": 1917,
+      "images": [
+        "EPUB/gzh.png"
+      ],
+      "footnote_links": []
+    }
+  ],
+  "limitation": "B11 v1按OPF原spine顺序、正文段落逐行、保留全部内联文字注；跳过HTML head样板。img和SVG image分别识别并统一路径；空footnote_links不是无内联注的证明。spine数不是章数；全文提取不等于实际阅读；原书披露与原数据未核。"
+}

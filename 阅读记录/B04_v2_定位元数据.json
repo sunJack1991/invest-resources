@@ -1,0 +1,300 @@
+{
+  "publication_provenance": {
+    "kind": "书籍阅读、历史案例及教学复算资料",
+    "source_record": "阅读记录/B04_v2_定位元数据.json",
+    "financial_numbers_origin": "仅为书内案例、历史统计或教学复算；不是维护者或使用者的资产、账户、持仓或交易记录。",
+    "private_account_or_holdings_data": false
+  },
+  "version": "B04-v2-2026-10-13",
+  "source_sha256": "eb3b4267bcb8989da0c2e36fb1cc14fe7cfbf3c887827f74019bd81de73c7d2a",
+  "decoded_text_sha256": "256aeeb261ac4bf9f866e2fb658b25b123b1a6f7e851c522cafa2934ebd313d6",
+  "decoded_text_lines": 1921,
+  "decoded_text_chars": 217112,
+  "locators": [
+    {
+      "index": 0,
+      "source": "OEBPS/Text/cover.xhtml",
+      "start_line": 1,
+      "end_line": 1,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 1,
+      "source": "OEBPS/Text/text00000.html",
+      "start_line": 2,
+      "end_line": 5,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 2,
+      "source": "OEBPS/Text/Section0001.html",
+      "start_line": 6,
+      "end_line": 7,
+      "images": [
+        "OEBPS/Images/公众号二维码1.jpg"
+      ],
+      "footnote_links": []
+    },
+    {
+      "index": 3,
+      "source": "OEBPS/Text/text00001.html",
+      "start_line": 8,
+      "end_line": 31,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 4,
+      "source": "OEBPS/Text/text00002.html",
+      "start_line": 32,
+      "end_line": 35,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 5,
+      "source": "OEBPS/Text/text00003.html",
+      "start_line": 36,
+      "end_line": 41,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 6,
+      "source": "OEBPS/Text/text00004.html",
+      "start_line": 42,
+      "end_line": 106,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 7,
+      "source": "OEBPS/Text/text00005.html",
+      "start_line": 107,
+      "end_line": 141,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 8,
+      "source": "OEBPS/Text/text00006.html",
+      "start_line": 142,
+      "end_line": 221,
+      "images": [
+        "OEBPS/Images/Image00000.jpg",
+        "OEBPS/Images/Image00001.jpg",
+        "OEBPS/Images/Image00002.jpg"
+      ],
+      "footnote_links": []
+    },
+    {
+      "index": 9,
+      "source": "OEBPS/Text/text00007.html",
+      "start_line": 222,
+      "end_line": 310,
+      "images": [
+        "OEBPS/Images/Image00003.jpg",
+        "OEBPS/Images/Image00004.jpg"
+      ],
+      "footnote_links": [
+        "../Text/text00007.html#note1n",
+        "../Text/text00007.html#note2n",
+        "../Text/text00007.html#note1",
+        "../Text/text00007.html#note2"
+      ]
+    },
+    {
+      "index": 10,
+      "source": "OEBPS/Text/text00008.html",
+      "start_line": 311,
+      "end_line": 342,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 11,
+      "source": "OEBPS/Text/text00009.html",
+      "start_line": 343,
+      "end_line": 450,
+      "images": [
+        "OEBPS/Images/Image00005.jpg",
+        "OEBPS/Images/Image00006.jpg",
+        "OEBPS/Images/Image00007.jpg"
+      ],
+      "footnote_links": []
+    },
+    {
+      "index": 12,
+      "source": "OEBPS/Text/text00010.html",
+      "start_line": 451,
+      "end_line": 482,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 13,
+      "source": "OEBPS/Text/text00011.html",
+      "start_line": 483,
+      "end_line": 524,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 14,
+      "source": "OEBPS/Text/text00012.html",
+      "start_line": 525,
+      "end_line": 627,
+      "images": [
+        "OEBPS/Images/Image00008.jpg",
+        "OEBPS/Images/Image00009.jpg"
+      ],
+      "footnote_links": []
+    },
+    {
+      "index": 15,
+      "source": "OEBPS/Text/text00013.html",
+      "start_line": 628,
+      "end_line": 833,
+      "images": [
+        "OEBPS/Images/Image00010.jpg",
+        "OEBPS/Images/Image00011.jpg",
+        "OEBPS/Images/Image00012.jpg",
+        "OEBPS/Images/Image00013.jpg"
+      ],
+      "footnote_links": [
+        "../Text/text00013.html#note3n",
+        "../Text/text00013.html#note3"
+      ]
+    },
+    {
+      "index": 16,
+      "source": "OEBPS/Text/text00014.html",
+      "start_line": 834,
+      "end_line": 969,
+      "images": [],
+      "footnote_links": [
+        "../Text/text00014.html#note4n",
+        "../Text/text00014.html#note4"
+      ]
+    },
+    {
+      "index": 17,
+      "source": "OEBPS/Text/text00015.html",
+      "start_line": 970,
+      "end_line": 1023,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 18,
+      "source": "OEBPS/Text/text00016.html",
+      "start_line": 1024,
+      "end_line": 1108,
+      "images": [
+        "OEBPS/Images/Image00014.jpg"
+      ],
+      "footnote_links": []
+    },
+    {
+      "index": 19,
+      "source": "OEBPS/Text/text00017.html",
+      "start_line": 1109,
+      "end_line": 1266,
+      "images": [
+        "OEBPS/Images/Image00015.jpg",
+        "OEBPS/Images/Image00016.jpg",
+        "OEBPS/Images/Image00017.jpg"
+      ],
+      "footnote_links": []
+    },
+    {
+      "index": 20,
+      "source": "OEBPS/Text/text00018.html",
+      "start_line": 1267,
+      "end_line": 1522,
+      "images": [
+        "OEBPS/Images/Image00018.jpg",
+        "OEBPS/Images/Image00019.jpg",
+        "OEBPS/Images/Image00020.jpg",
+        "OEBPS/Images/Image00021.jpg",
+        "OEBPS/Images/Image00022.jpg"
+      ],
+      "footnote_links": []
+    },
+    {
+      "index": 21,
+      "source": "OEBPS/Text/text00019.html",
+      "start_line": 1523,
+      "end_line": 1604,
+      "images": [
+        "OEBPS/Images/Image00023.jpg",
+        "OEBPS/Images/Image00024.jpg",
+        "OEBPS/Images/Image00025.jpg",
+        "OEBPS/Images/Image00026.jpg",
+        "OEBPS/Images/Image00027.jpg",
+        "OEBPS/Images/Image00028.jpg",
+        "OEBPS/Images/Image00029.jpg",
+        "OEBPS/Images/Image00030.jpg",
+        "OEBPS/Images/Image00031.jpg",
+        "OEBPS/Images/Image00032.jpg",
+        "OEBPS/Images/Image00033.jpg"
+      ],
+      "footnote_links": []
+    },
+    {
+      "index": 22,
+      "source": "OEBPS/Text/text00020.html",
+      "start_line": 1605,
+      "end_line": 1640,
+      "images": [
+        "OEBPS/Images/Image00034.jpg"
+      ],
+      "footnote_links": []
+    },
+    {
+      "index": 23,
+      "source": "OEBPS/Text/text00021.html",
+      "start_line": 1641,
+      "end_line": 1721,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 24,
+      "source": "OEBPS/Text/text00022.html",
+      "start_line": 1722,
+      "end_line": 1767,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 25,
+      "source": "OEBPS/Text/text00023.html",
+      "start_line": 1768,
+      "end_line": 1896,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 26,
+      "source": "OEBPS/Text/Section0002.html",
+      "start_line": 1897,
+      "end_line": 1898,
+      "images": [
+        "OEBPS/Images/公众号二维码1.jpg"
+      ],
+      "footnote_links": []
+    },
+    {
+      "index": 27,
+      "source": "OEBPS/Text/text00024.html",
+      "start_line": 1899,
+      "end_line": 1921,
+      "images": [],
+      "footnote_links": []
+    }
+  ],
+  "limitation": "R1临时抽取（〔历史本机路径已移除〕）按spine逐文件存放，无合并行号；本v2为可复现合并版本，行号只在v2下有效，历史重点阅读不等于逐段精读"
+}

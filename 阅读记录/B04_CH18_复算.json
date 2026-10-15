@@ -1,0 +1,95 @@
+{
+  "publication_provenance": {
+    "kind": "书籍阅读、历史案例及教学复算资料",
+    "source_record": "阅读记录/B04_CH18_复算.json",
+    "financial_numbers_origin": "仅为书内案例、历史统计或教学复算；不是维护者或使用者的资产、账户、持仓或交易记录。",
+    "private_account_or_holdings_data": false
+  },
+  "book_id": "B04",
+  "chapter": 18,
+  "title": "周期精要",
+  "decode": "B04-v2-2026-10-13",
+  "range": {
+    "start_line": 1768,
+    "end_line": 1896,
+    "line_count": 129,
+    "chars_with_newlines": 14128
+  },
+  "checks": {
+    "chapter_nature": {
+      "status": "PASS",
+      "author_declaration": "作者自选“精选段落汇编”，目的为回顾要点；作者明确声明“这并不是本书全书的摘要”",
+      "no_new_mechanism": true,
+      "self_citation_rule": "与前17章重复的段落属作者自引（含对前作《投资最重要的事》的引用），不重复计为独立证据"
+    },
+    "extremes_resonance": {
+      "status": "PASS",
+      "top_items": [
+        "心理乐观最大化",
+        "信贷额度最大化",
+        "价格最高",
+        "预期收益最低",
+        "风险最高",
+        "最后一波疯狂追涨买入"
+      ],
+      "bottom_items": [
+        "心理落到最低",
+        "信贷融资最低",
+        "价格最低",
+        "潜在收益最高",
+        "风险最低",
+        "最后一个乐观的投资人投降"
+      ],
+      "rule": "单项不构成极值判定；须多维度同向同时出现；不得量化为分数或信号；顶部/底部是“一段时期”而非“一天”；不构成择时授权"
+    },
+    "frequency_discipline": {
+      "status": "PASS",
+      "principle": "不要过于关注每天市场短线的上涨和下跌；注意力放在周期走到极端的场合",
+      "author_claims": [
+        "一生只有一次（自注“最近看起来不是一生只有一次了，而是每过十年都有可能发生一次”）"
+      ],
+      "boundary": "“每过十年”为自述，不设置为频率、仓位或等待参数；“极端区域更可靠、更可能赚大钱”仍属概率表述，不承诺单次命中",
+      "gamesmanship_ban": "试图推断“明天/下个月发生什么”即“想耍小聪明”，不可能成功；与低频纪律一致"
+    },
+    "two_tools": {
+      "status": "PASS",
+      "tools": [
+        "周期定位（进攻—防守平衡比例的校准）",
+        "资产选择（配置哪些市场、利基、证券及权重）"
+      ],
+      "cycle_positioning_triplet": [
+        "深思熟虑地分析市场现在所处的周期位置",
+        "基于分析提高进攻性",
+        "结果证明你是对的（完全不在控制范围内，受制于随机性）"
+      ]
+    },
+    "citation_boundaries": {
+      "status": "OPEN",
+      "mark_twain": {
+        "quote": "历史不会重演细节，过程却会重复相似",
+        "note": "作者自注“并没有证据表明这句话确实是他说的”；本项目引用必须保留该注记",
+        "verified": false
+      },
+      "templeton": {
+        "paraphrase": "在别人沮丧地卖出的时候买入，在别人贪婪地买入的时候卖出，这要求你有极大的勇气，也会给予你极大的回报",
+        "verified": false
+      },
+      "bernstein": {
+        "paraphrase": "未来不能提前知道；错误是行动的特权，任何行动都取决于完全不可预知的未来",
+        "verified": false
+      },
+      "lottery_metaphor": {
+        "use": "“投资成功就像中大奖”（抽奖箱比喻）说明结果分布宽与随机性存在",
+        "boundary": "不得反推为“研究无用”；作者同段指出卓越投资人更能判断抽奖值不值"
+      }
+    },
+    "arithmetic": {
+      "status": "PASS",
+      "new_numbers": 0,
+      "tables_or_figures": 0,
+      "note": "本章无新算术、无表格、无图；全部量化表述均为前章复述，随各章登记"
+    }
+  },
+  "math_or_logic_only": true,
+  "investment_performance_validated": false
+}

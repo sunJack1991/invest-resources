@@ -1,0 +1,638 @@
+{
+  "publication_provenance": {
+    "kind": "书籍阅读、历史案例及教学复算资料",
+    "source_record": "阅读记录/B05_v2_定位元数据.json",
+    "financial_numbers_origin": "仅为书内案例、历史统计或教学复算；不是维护者或使用者的资产、账户、持仓或交易记录。",
+    "private_account_or_holdings_data": false
+  },
+  "version": "B05-v2-2026-10-13",
+  "source_sha256": "2a9a4047b12d76b96d89d70da0d7e8534447c233d683a31613f382bf90a8f47a",
+  "decoded_text_sha256": "b1d5a348373edcdebf602b3ce991cd392d1e2a215941f58e6f3d8568a4161071",
+  "decoded_text_lines": 2543,
+  "decoded_text_chars": 247403,
+  "locators": [
+    {
+      "index": 0,
+      "source": "text/part0002.html",
+      "start_line": 1,
+      "end_line": 2,
+      "images": [
+        "images/00003.jpeg"
+      ],
+      "footnote_links": []
+    },
+    {
+      "index": 1,
+      "source": "text/part0003.html",
+      "start_line": 3,
+      "end_line": 22,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 2,
+      "source": "text/part0004.html",
+      "start_line": 23,
+      "end_line": 99,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 3,
+      "source": "text/part0005.html",
+      "start_line": 100,
+      "end_line": 120,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 4,
+      "source": "text/part0006.html",
+      "start_line": 121,
+      "end_line": 130,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 5,
+      "source": "text/part0007.html",
+      "start_line": 131,
+      "end_line": 140,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 6,
+      "source": "text/part0008.html",
+      "start_line": 141,
+      "end_line": 222,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 7,
+      "source": "text/part0009.html",
+      "start_line": 223,
+      "end_line": 235,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 8,
+      "source": "text/part0010.html",
+      "start_line": 236,
+      "end_line": 264,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 9,
+      "source": "text/part0011.html",
+      "start_line": 265,
+      "end_line": 299,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 10,
+      "source": "text/part0012.html",
+      "start_line": 300,
+      "end_line": 310,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 11,
+      "source": "text/part0013.html",
+      "start_line": 311,
+      "end_line": 339,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 12,
+      "source": "text/part0014.html",
+      "start_line": 340,
+      "end_line": 358,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 13,
+      "source": "text/part0015.html",
+      "start_line": 359,
+      "end_line": 387,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 14,
+      "source": "text/part0016.html",
+      "start_line": 388,
+      "end_line": 394,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 15,
+      "source": "text/part0017.html",
+      "start_line": 395,
+      "end_line": 398,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 16,
+      "source": "text/part0018.html",
+      "start_line": 399,
+      "end_line": 402,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 17,
+      "source": "text/part0019.html",
+      "start_line": 403,
+      "end_line": 417,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 18,
+      "source": "text/part0020.html",
+      "start_line": 418,
+      "end_line": 450,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 19,
+      "source": "text/part0021.html",
+      "start_line": 451,
+      "end_line": 544,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 20,
+      "source": "text/part0022.html",
+      "start_line": 545,
+      "end_line": 596,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 21,
+      "source": "text/part0023.html",
+      "start_line": 597,
+      "end_line": 620,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 22,
+      "source": "text/part0024.html",
+      "start_line": 621,
+      "end_line": 676,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 23,
+      "source": "text/part0025.html",
+      "start_line": 677,
+      "end_line": 755,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 24,
+      "source": "text/part0026.html",
+      "start_line": 756,
+      "end_line": 780,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 25,
+      "source": "text/part0027.html",
+      "start_line": 781,
+      "end_line": 787,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 26,
+      "source": "text/part0028.html",
+      "start_line": 788,
+      "end_line": 824,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 27,
+      "source": "text/part0029.html",
+      "start_line": 825,
+      "end_line": 887,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 28,
+      "source": "text/part0030.html",
+      "start_line": 888,
+      "end_line": 971,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 29,
+      "source": "text/part0031.html",
+      "start_line": 972,
+      "end_line": 1028,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 30,
+      "source": "text/part0032.html",
+      "start_line": 1029,
+      "end_line": 1077,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 31,
+      "source": "text/part0033.html",
+      "start_line": 1078,
+      "end_line": 1118,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 32,
+      "source": "text/part0034.html",
+      "start_line": 1119,
+      "end_line": 1141,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 33,
+      "source": "text/part0035.html",
+      "start_line": 1142,
+      "end_line": 1148,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 34,
+      "source": "text/part0036.html",
+      "start_line": 1149,
+      "end_line": 1187,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 35,
+      "source": "text/part0037.html",
+      "start_line": 1188,
+      "end_line": 1240,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 36,
+      "source": "text/part0038.html",
+      "start_line": 1241,
+      "end_line": 1289,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 37,
+      "source": "text/part0039.html",
+      "start_line": 1290,
+      "end_line": 1369,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 38,
+      "source": "text/part0040.html",
+      "start_line": 1370,
+      "end_line": 1419,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 39,
+      "source": "text/part0041.html",
+      "start_line": 1420,
+      "end_line": 1457,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 40,
+      "source": "text/part0042.html",
+      "start_line": 1458,
+      "end_line": 1480,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 41,
+      "source": "text/part0043.html",
+      "start_line": 1481,
+      "end_line": 1489,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 42,
+      "source": "text/part0044.html",
+      "start_line": 1490,
+      "end_line": 1529,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 43,
+      "source": "text/part0045.html",
+      "start_line": 1530,
+      "end_line": 1545,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 44,
+      "source": "text/part0046.html",
+      "start_line": 1546,
+      "end_line": 1619,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 45,
+      "source": "text/part0047.html",
+      "start_line": 1620,
+      "end_line": 1642,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 46,
+      "source": "text/part0048.html",
+      "start_line": 1643,
+      "end_line": 1655,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 47,
+      "source": "text/part0049.html",
+      "start_line": 1656,
+      "end_line": 1688,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 48,
+      "source": "text/part0050.html",
+      "start_line": 1689,
+      "end_line": 1697,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 49,
+      "source": "text/part0051.html",
+      "start_line": 1698,
+      "end_line": 1795,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 50,
+      "source": "text/part0052.html",
+      "start_line": 1796,
+      "end_line": 1810,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 51,
+      "source": "text/part0053.html",
+      "start_line": 1811,
+      "end_line": 1840,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 52,
+      "source": "text/part0054.html",
+      "start_line": 1841,
+      "end_line": 1868,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 53,
+      "source": "text/part0055.html",
+      "start_line": 1869,
+      "end_line": 1906,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 54,
+      "source": "text/part0056.html",
+      "start_line": 1907,
+      "end_line": 1931,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 55,
+      "source": "text/part0057.html",
+      "start_line": 1932,
+      "end_line": 1941,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 56,
+      "source": "text/part0058.html",
+      "start_line": 1942,
+      "end_line": 1969,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 57,
+      "source": "text/part0059.html",
+      "start_line": 1970,
+      "end_line": 2016,
+      "images": [
+        "images/00004.jpeg",
+        "images/00005.jpeg"
+      ],
+      "footnote_links": []
+    },
+    {
+      "index": 58,
+      "source": "text/part0060.html",
+      "start_line": 2017,
+      "end_line": 2055,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 59,
+      "source": "text/part0061.html",
+      "start_line": 2056,
+      "end_line": 2127,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 60,
+      "source": "text/part0062.html",
+      "start_line": 2128,
+      "end_line": 2176,
+      "images": [
+        "images/00006.jpeg",
+        "images/00007.jpeg",
+        "images/00008.jpeg"
+      ],
+      "footnote_links": []
+    },
+    {
+      "index": 61,
+      "source": "text/part0063.html",
+      "start_line": 2177,
+      "end_line": 2197,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 62,
+      "source": "text/part0064.html",
+      "start_line": 2198,
+      "end_line": 2213,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 63,
+      "source": "text/part0065.html",
+      "start_line": 2214,
+      "end_line": 2264,
+      "images": [
+        "images/00009.jpeg",
+        "images/00010.jpeg",
+        "images/00011.jpeg"
+      ],
+      "footnote_links": []
+    },
+    {
+      "index": 64,
+      "source": "text/part0066.html",
+      "start_line": 2265,
+      "end_line": 2274,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 65,
+      "source": "text/part0067.html",
+      "start_line": 2275,
+      "end_line": 2310,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 66,
+      "source": "text/part0068.html",
+      "start_line": 2311,
+      "end_line": 2337,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 67,
+      "source": "text/part0069.html",
+      "start_line": 2338,
+      "end_line": 2355,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 68,
+      "source": "text/part0070.html",
+      "start_line": 2356,
+      "end_line": 2365,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 69,
+      "source": "text/part0071.html",
+      "start_line": 2366,
+      "end_line": 2384,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 70,
+      "source": "text/part0072.html",
+      "start_line": 2385,
+      "end_line": 2392,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 71,
+      "source": "text/part0073.html",
+      "start_line": 2393,
+      "end_line": 2412,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 72,
+      "source": "text/part0074.html",
+      "start_line": 2413,
+      "end_line": 2422,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 73,
+      "source": "text/part0075.html",
+      "start_line": 2423,
+      "end_line": 2460,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 74,
+      "source": "text/part0076.html",
+      "start_line": 2461,
+      "end_line": 2493,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 75,
+      "source": "text/part0077.html",
+      "start_line": 2494,
+      "end_line": 2543,
+      "images": [],
+      "footnote_links": []
+    }
+  ],
+  "limitation": "R1临时抽取（〔历史本机路径已移除〕）按spine逐文件存放，无合并行号；本v2为可复现合并版本，行号只在v2下有效，历史重点阅读不等于逐段精读",
+  "images_extracted": "9个文件解压至〔历史本机路径已移除〕（00003–00011.jpeg）"
+}

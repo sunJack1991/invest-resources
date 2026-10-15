@@ -1,0 +1,295 @@
+{
+  "publication_provenance": {
+    "kind": "书籍阅读、历史案例及教学复算资料",
+    "source_record": "阅读记录/B09_R94_复算.json",
+    "financial_numbers_origin": "仅为书内案例、历史统计或教学复算；不是维护者或使用者的资产、账户、持仓或交易记录。",
+    "private_account_or_holdings_data": false
+  },
+  "book": "B09",
+  "title": "漫步华尔街（原书第13版）",
+  "version": "R94-2026-10-14（第7批：第11章 聪明的β/风险平价/ESG，1280–1411行）",
+  "source_file": "投资书籍/漫步华尔街.epub",
+  "source_sha256": "80c95b78389aa9982e5fcf5693f6e4ac776a527f1c191bcbcf836e4172cb69cb",
+  "decoded_text_sha256": "072a751172bbb26600b897c31c46027e7989fa76910403f9c57c4019725c5a6a",
+  "decoded_text_lines": 2002,
+  "decoded_text_chars": 249791,
+  "batch_range": {
+    "start_line": 1280,
+    "end_line": 1411,
+    "line_count": 132
+  },
+  "scope": "本批只处理第11章表内数值与夏普比率关系；基金业绩、评级数据与机构预测均为书内转述，未核原始披露。",
+  "sharpe_ratio_example": {
+    "source_image": "converter-master/example/313189/content_51778_0.jpg",
+    "strategy_a": {
+      "excess_return": 0.1,
+      "risk": 0.2,
+      "sharpe": 0.5
+    },
+    "strategy_b": {
+      "excess_return": 0.1,
+      "risk": 0.3,
+      "sharpe": 0.33
+    },
+    "computed": {
+      "a": 0.5,
+      "b": 0.33333333333333337
+    },
+    "viewed": true,
+    "status": "BOOK_TRANSCRIPTION_ARITHMETIC_OK"
+  },
+  "table_11_1_single_factor_funds_10y_to_2022": {
+    "source_image": "converter-master/example/313189/content_51778_1.jpg",
+    "rows": [
+      {
+        "factor": "价值",
+        "fund": "先锋VVIAX",
+        "excess_return_pct": -2.55,
+        "excess_sharpe": -0.15
+      },
+      {
+        "factor": "规模",
+        "fund": "先锋VSMAX",
+        "excess_return_pct": -2.13,
+        "excess_sharpe": -0.3
+      },
+      {
+        "factor": "趋势",
+        "fund": "AQR AMOMX",
+        "excess_return_pct": 0.23,
+        "excess_sharpe": 0.02
+      },
+      {
+        "factor": "低波动性",
+        "fund": "PowerShare SPLV",
+        "excess_return_pct": -3.48,
+        "excess_sharpe": -0.08
+      }
+    ],
+    "viewed": true,
+    "status": "BOOK_TRANSCRIPTION_UNVERIFIED",
+    "note": "相对整体股市指数基金VTSAX；四项中仅趋势略正。"
+  },
+  "table_11_2_multifactor_simulation_1927_2020": {
+    "source_image": "converter-master/example/313189/content_51778_2.jpg",
+    "rows": [
+      {
+        "factor": "市场的β",
+        "mean_return_pct": 8.7,
+        "std_pct": 20.3,
+        "sharpe": 0.43
+      },
+      {
+        "factor": "规模",
+        "mean_return_pct": 3.1,
+        "std_pct": 13.6,
+        "sharpe": 0.23
+      },
+      {
+        "factor": "价值",
+        "mean_return_pct": 4.0,
+        "std_pct": 15.3,
+        "sharpe": 0.26
+      },
+      {
+        "factor": "趋势",
+        "mean_return_pct": 9.1,
+        "std_pct": 15.6,
+        "sharpe": 0.59
+      },
+      {
+        "factor": "混合因素投资组合",
+        "mean_return_pct": 6.4,
+        "std_pct": 8.7,
+        "sharpe": 0.71
+      }
+    ],
+    "computed_sharpe": {
+      "市场的β": 0.42857142857142855,
+      "规模": 0.22794117647058826,
+      "价值": 0.26143790849673204,
+      "趋势": 0.5833333333333334,
+      "混合": 0.7356321839080461
+    },
+    "viewed": true,
+    "status": "BOOK_TRANSCRIPTION_ARITHMETIC_OK_WITH_ROUNDING_CONFLICT",
+    "conflict_note": "前四项夏普与收益/标准差一致（四舍五入）；混合组合6.4/8.7=0.736与书示0.71不一致，记为CONFLICT_OPEN（舍入或口径）。"
+  },
+  "table_11_3_multifactor_funds_10y_to_2022": {
+    "source_image": "converter-master/example/313189/content_51778_4.jpg",
+    "rows": [
+      {
+        "fund": "DFA大市值价值（DFUVX）",
+        "excess_return_pct": -0.53,
+        "excess_sharpe": -0.29
+      },
+      {
+        "fund": "DFA小市值价值（DFSTX）",
+        "excess_return_pct": -3.75,
+        "excess_sharpe": -0.48
+      },
+      {
+        "fund": "PowerShares RAFI（PRF）",
+        "excess_return_pct": -1.86,
+        "excess_sharpe": -0.15
+      },
+      {
+        "fund": "等权重ETF（RSP）",
+        "excess_return_pct": -1.01,
+        "excess_sharpe": -0.14
+      },
+      {
+        "fund": "高盛主动β美国大市值（GSLC）",
+        "excess_return_pct": -0.19,
+        "excess_sharpe": -0.07
+      }
+    ],
+    "viewed": true,
+    "status": "BOOK_TRANSCRIPTION_UNVERIFIED",
+    "note": "全部落后VTSAX；作者据此称多因素基金甚至劣于单因素基金。"
+  },
+  "table_11_4_risk_parity_example_2007_2016": {
+    "source_image": "converter-master/example/313189/content_51778_6.jpg",
+    "rows": [
+      {
+        "asset": "标普500指数",
+        "mean_return_pct": 8.6,
+        "std_pct": 2.0
+      },
+      {
+        "asset": "10年期美国国债",
+        "mean_return_pct": 5.1,
+        "std_pct": 0.8
+      },
+      {
+        "asset": "加杠杆债券投资（50%保证金）",
+        "mean_return_pct": 10.2,
+        "std_pct": 1.6
+      }
+    ],
+    "computed": {
+      "levered_return": 10.2,
+      "levered_std": 1.6
+    },
+    "viewed": true,
+    "status": "TEACHING_EXAMPLE_WITH_ZERO_FINANCING_COST",
+    "note": "书中脚注假设每100美元投资中50美元融资的成本为零；杠杆使收益与风险各翻倍。"
+  },
+  "figure_11_1_opportunity_locus": {
+    "source_image": "converter-master/example/313189/content_51778_7.jpg",
+    "axes": [
+      "收益率标准差",
+      "平均收益"
+    ],
+    "marks": [
+      "100%债券",
+      "风险平价（切点）",
+      "60/40投资组合",
+      "100%股票",
+      "加杠杆的风险平价"
+    ],
+    "viewed": true,
+    "status": "QUALITATIVE_READING_ONLY",
+    "note": "从无风险利率引出的直线与机会轨迹相切于风险平价点；加杠杆的风险平价在同等风险下收益高于60/40。"
+  },
+  "table_11_5_bridgewater_real_returns": {
+    "source_image": "converter-master/example/313189/content_51778_9.jpg",
+    "period": "2006-07~2021-07",
+    "rows": [
+      {
+        "fund": "桥水全天候12%策略",
+        "annual_return_pct": 6.73,
+        "std_pct": 11.0,
+        "sharpe": 0.52
+      },
+      {
+        "fund": "先锋500上将指数",
+        "annual_return_pct": 11.14,
+        "std_pct": 15.11,
+        "sharpe": 0.71
+      },
+      {
+        "fund": "先锋整体股市上将指数",
+        "annual_return_pct": 11.14,
+        "std_pct": 15.62,
+        "sharpe": 0.69
+      },
+      {
+        "fund": "先锋平衡型上将指数",
+        "annual_return_pct": 8.69,
+        "std_pct": 9.45,
+        "sharpe": 0.83
+      }
+    ],
+    "implied_risk_free_rate_pct": [
+      {
+        "fund": "桥水全天候12%策略",
+        "rf_pct": 1.0099999999999998
+      },
+      {
+        "fund": "先锋500上将指数",
+        "rf_pct": 0.41190000000000104
+      },
+      {
+        "fund": "先锋整体股市上将指数",
+        "rf_pct": 0.3622000000000014
+      },
+      {
+        "fund": "先锋平衡型上将指数",
+        "rf_pct": 0.8465000000000007
+      }
+    ],
+    "viewed": true,
+    "status": "RECONSTRUCTED_IMPLIED_RF",
+    "note": "表未标无风险利率；按 (收益−rf)/标准差 反推，隐含rf约0.36%~1.01%，与2006–2021年短期利率量级相符。风险平价基金未跑赢指数或平衡基金。"
+  },
+  "esg_evidence": {
+    "blackrock_aum_2021_usd": "近10万亿",
+    "bloomberg_esg_forecast_2025_usd": "超50万亿（>全球管理资产1/3）",
+    "rating_correlation": {
+      "average": 0.61,
+      "some_pairs_low": 0.42,
+      "credit_rating_comparison": ">0.99"
+    },
+    "apple_scores": {
+      "refinitiv": 73,
+      "sp_global": 23,
+      "governance": "Sustainalytics列为最佳之一，MSCI列为同类倒数第二"
+    },
+    "top_esg_fund_holdings": [
+      "Alphabet",
+      "Meta",
+      "Visa",
+      "Mastercard"
+    ],
+    "greenwashing_example": "航空公司用每位旅客碳排放口径声称更环保（实际相反）",
+    "return_evidence": "无令人信服证据表明ESG能提供一贯更优的长期收益；ESG基金分散度更低、费率更高",
+    "adams_swedroe": "ESG需求推动短期股价与收益，但绿色股以更高市盈率与更低长期必要收益率交易——短期收益以长期收益为代价；投资者应接受更低长期收益",
+    "policy_note": "改变经济激励（碳税或拍卖可交易许可证，“出售排放权优于赠送”）比撤资更能降低碳排放强度",
+    "fund_eval": {
+      "funds": [
+        "ESGU",
+        "USSG",
+        "SUSL",
+        "DSL"
+      ],
+      "only_long_record": "DSL",
+      "result": "DSL在截至2022年10年落后VTSAX"
+    },
+    "status": "BOOK_TRANSCRIPTION_UNVERIFIED"
+  },
+  "image_counting": {
+    "references_total_book": 134,
+    "unique_files_book": 83,
+    "epub_image_files": 84,
+    "references_batch_r94_lines_1280_1411": 10,
+    "unique_files_batch_r94": 8,
+    "unique_viewed_cumulative": 44,
+    "note": "第11章8个唯一：夏普算例、表11—1/2/3/4/5、图11—1、“注”字图（复用3次）。"
+  },
+  "unverified": [
+    "全部基金业绩（DFA/RAFI/AQR/先锋/SPLV/GSLC/RSP/桥水）与ESG评级数据均为书内转述，未核基金公司或评级机构原始披露",
+    "回测假设（多空、无成本、无卖空限制）未在现实中验证",
+    "桥水文化争议与员工离职比例属叙事转述"
+  ]
+}

@@ -1,0 +1,364 @@
+{
+  "publication_provenance": {
+    "kind": "书籍阅读、历史案例及教学复算资料",
+    "source_record": "阅读记录/B07_复算.json",
+    "financial_numbers_origin": "仅为书内案例、历史统计或教学复算；不是维护者或使用者的资产、账户、持仓或交易记录。",
+    "private_account_or_holdings_data": false
+  },
+  "book": "B07",
+  "title": "怎样选择成长股",
+  "author": "菲利普·A·费雪（Philip A. Fisher）",
+  "version": "R85-2026-10-14",
+  "source_file": "投资书籍/怎样选择成长股.epub",
+  "source_sha256": "40e5af60872781057d43a20819ea1765a91d93eba79183334b2d8d06aa8339ec",
+  "decoded_text_sha256": "0ed39a0f9d03e9252b4f0a14d304dc9e5ca7d9f864ec38db6827b32e8374604e",
+  "decoded_text_lines": 790,
+  "decoded_text_chars": 162016,
+  "scope": "本批为B07全书（1–790行）连续逐段阅读；复算只处理书中可复算的算术与口径关系，历史价格与公司披露均为书内转述、未核原披露。",
+  "long_run_25x": {
+    "initial": 10000,
+    "terminal": 250000,
+    "multiple": 25.0,
+    "years": 50,
+    "annualized": 0.06649494220836738,
+    "book_claim": "50年前投资10,000美元今天可成250,000美元或其数倍",
+    "status": "BOOK_TRANSCRIPTION_ARITHMETIC_OK"
+  },
+  "currency_debasement_1946_1956": {
+    "us_purchasing_power_end": 0.71,
+    "us_annual_rate": -0.03366917155991489,
+    "canada_purchasing_power_end": 0.65,
+    "canada_annual_rate": -0.04216360342149339,
+    "book_claim_us": -0.034,
+    "book_claim_canada": -0.042,
+    "status": "BOOK_TRANSCRIPTION_ARITHMETIC_OK"
+  },
+  "treasury_bond_real_return": {
+    "nominal_yield": 0.0219,
+    "debasement": 0.034,
+    "real_approx": -0.0121,
+    "period": "1946–1956",
+    "status": "BOOK_TRANSCRIPTION_ARITHMETIC_OK"
+  },
+  "rd_spending": {
+    "year_1953": 3700000000,
+    "year_1956": 5500000000,
+    "year_1959_plan_min": 6300000000,
+    "year_1957_actual": 7300000000,
+    "growth_1953_to_1957": 0.972972972972973,
+    "growth_1956_to_1957": 0.3272727272727273,
+    "book_claim_growth_4y": 1.0,
+    "note": "书中称四年内约成长100%；1953→1957实算+97.3%，量级一致；1957年是否为同一调查口径书中未说明。",
+    "status": "BOOK_TRANSCRIPTION_ARITHMETIC_OK"
+  },
+  "unit_profit_leverage": {
+    "base_price": 0.1,
+    "cost_low": 0.06,
+    "cost_high": 0.09,
+    "profit_low": 0.04,
+    "profit_high": 0.01,
+    "scenario_price_up": 0.12,
+    "profit_low_up": 0.06,
+    "profit_high_up": 0.03,
+    "growth_low_up": 0.5,
+    "growth_high_up": 2.0,
+    "scenario_price_down": 0.08,
+    "profit_low_down": 0.02,
+    "profit_high_down": -0.01,
+    "status": "TEACHING_EXAMPLE"
+  },
+  "margin_sensitivity": {
+    "low_margin": 0.01,
+    "high_margin": 0.1,
+    "cost_increase": 0.02,
+    "low_margin_new_cost_share": 1.0098,
+    "low_margin_result": "亏损出局",
+    "high_margin_cost_share": 0.9,
+    "high_margin_new_cost_share": 0.918,
+    "high_margin_new_profit": 0.082,
+    "high_margin_profit_drop": -0.18,
+    "book_claim_high_margin": "少掉五分之一",
+    "status": "TEACHING_EXAMPLE"
+  },
+  "dilution_basis": {
+    "assume_full_conversion": true,
+    "assume_all_options_exercised": true,
+    "conversion_premium_range": [
+      0.1,
+      0.2
+    ],
+    "premium_ignorable_for_target_returns": true,
+    "is_hurdle": false,
+    "source": "第一部分第3章要点13（明确：计算时假定全部可转换证券已转换、全部期权已行使）"
+  },
+  "capex_incremental": {
+    "plant_capex": 10000000,
+    "added_capex": 1500000,
+    "added_ratio": 0.15,
+    "output_increase": 0.4,
+    "status": "TEACHING_EXAMPLE"
+  },
+  "american_cyanamid": {
+    "buy_price_pre_split": 45.5,
+    "split_factor": 2,
+    "buy_price_post_split": 22.75,
+    "eps_1954": 1.48,
+    "eps_1956": 2.1,
+    "eps_1957_high": 2.42,
+    "eps_growth_1954_to_1956": 0.418919,
+    "eps_growth_1954_to_1957": 0.635135,
+    "price_1959": 60,
+    "price_multiple_from_buy": 2.6373626373626373,
+    "book_claim_price_gain": 1.63,
+    "sale_price_1959_spring": 49,
+    "realized_gain_from_buy": 1.1538461538461537,
+    "book_claim_realized_gain": 1.1,
+    "status": "CONFLICT_OPEN",
+    "conflict_note": "书称市值上升163%、五年盈余增加约70%、卖出约110%获利；按45½美元买入、2:1拆股（拆后22.75美元）与所给EPS复算分别约为+163.7%、+63.5%、+115.4%。价格倍数与书示吻合，盈余增速与卖出获利仍有差异（可能来自测量时点、卖出均价“49美元左右”的取整或OCR），未解决。"
+  },
+  "fisher_1932_1933": {
+    "monthly_avg_1932": 2.99,
+    "monthly_avg_1933": 29.0,
+    "implied_growth": 8.698997,
+    "book_claim_growth": 1.0,
+    "status": "CONFLICT_OPEN",
+    "conflict_note": "书中称1933年盈余增加将近100%，但给出的月均净利由2.99美元升至略高于29美元。二者无法同时成立，疑为OCR失真或作者记忆误差，未解决。"
+  },
+  "motorola_long_hold": {
+    "initial_value": 1,
+    "terminal_value": 20,
+    "years": 21,
+    "annualized": 0.1533305853893392,
+    "book_claim": "年回报率超过15%",
+    "sp500_multiple": 7,
+    "sp500_annualized": 0.097091281610175,
+    "status": "BOOK_TRANSCRIPTION_ARITHMETIC_OK"
+  },
+  "corning_tube": {
+    "purchase_price": 20,
+    "split_factor": 2.5,
+    "later_price": 100,
+    "pre_split_equivalent": 250,
+    "multiple": 12.5,
+    "status": "BOOK_TRANSCRIPTION_ARITHMETIC_OK"
+  },
+  "texas_instruments_1956": {
+    "entry_price": 14,
+    "eps_1956_estimate": 0.7,
+    "pe_at_entry": 20.0,
+    "eps_1957": 1.0,
+    "eps_1958": 1.6,
+    "eps_1959_estimate": 3.0,
+    "growth_1958": 0.6,
+    "price_at_first_edition": 26,
+    "price_multiple_since_first_edition_min": 5.0,
+    "buyer_price_multiple_min": 10.0,
+    "status": "BOOK_TRANSCRIPTION_ARITHMETIC_OK"
+  },
+  "stanford_sample_1961": {
+    "sample_size": 140,
+    "buckets": [
+      {
+        "label": "gain_200pct_plus",
+        "count": 15,
+        "share": 0.11
+      },
+      {
+        "label": "gain_100_200pct",
+        "count": 18,
+        "share": 0.13
+      },
+      {
+        "label": "gain_50_75pct",
+        "count": 14,
+        "share": 0.1
+      },
+      {
+        "label": "gain_25_49pct",
+        "count": 21,
+        "share": 0.15
+      },
+      {
+        "label": "gain_1_24pct",
+        "count": 31,
+        "share": 0.22
+      },
+      {
+        "label": "unchanged",
+        "count": 3,
+        "share": 0.02
+      },
+      {
+        "label": "loss_1_49pct",
+        "count": 32,
+        "share": 0.23
+      },
+      {
+        "label": "loss_50_74pct",
+        "count": 6,
+        "share": 0.04
+      }
+    ],
+    "count_total": 140,
+    "share_total": 1.0,
+    "loss_count": 38,
+    "loss_share": 0.2714285714285714,
+    "dow_end": 703,
+    "dow_book_return": 0.41,
+    "dow_implied_start": 498.58156028368796,
+    "dow_start_printed_digits": "缺字（OCR为「4卯点」）",
+    "best_five_terminal": 70260,
+    "worst_five_terminal": 3150,
+    "initial": 10000,
+    "best_five_multiple": 7.026,
+    "worst_five_multiple": 0.315,
+    "status": "COUNTS_AND_SHARES_CONSISTENT",
+    "note": "各类计数合计140、百分比合计100%、亏损38支=27%均可与原文自洽；区间边界文字OCR残缺，DOW起点缺字。"
+  },
+  "raychem": {
+    "high_price": 42.5,
+    "low_price": 14.5,
+    "low_over_high": 0.3411764705882353,
+    "pe_at_high": 25,
+    "eps_prior_fy": 7.95,
+    "eps_after_writeoff": 0.8,
+    "eps_drop": -0.89937106918239,
+    "writeoff_usd": 9300000,
+    "eps_impact_unresolved": "未给股数，无法复算每股冲销额",
+    "status": "CONFLICT_OPEN",
+    "conflict_note": "书中称低点约为前高「三分之一左右」；按所给价格复算为34.1%，量级接近但非精确；前高数字OCR为「42万美元以上」等失真表述。"
+  },
+  "ampex": {
+    "four_year_claim": "四年内上涨七倍以上",
+    "six_year_multiple_min": 35.0,
+    "initial": 10000,
+    "terminal_min": 350000,
+    "split_factor": 2.5,
+    "status": "BOOK_TRANSCRIPTION_ARITHMETIC_OK"
+  },
+  "foote_mineral": {
+    "price_1947": 40,
+    "shares_start": 100,
+    "shares_end_min": 2000,
+    "initial_cost": 4000,
+    "final_price": 50,
+    "terminal_value_min": 100000,
+    "multiple_min": 25.0,
+    "status": "BOOK_TRANSCRIPTION_ARITHMETIC_OK"
+  },
+  "food_machinery": {
+    "ipo_1928": 21,
+    "trough_1932": 5,
+    "trough_1929_low_per_100": 3.5,
+    "price_1957_09": 25.5,
+    "price_later": 51,
+    "gain": 1.0,
+    "eps_1958": 2.39,
+    "status": "BOOK_TRANSCRIPTION_ARITHMETIC_OK"
+  },
+  "dividend_reinvest": {
+    "gross_dividend": 1.0,
+    "min_tax_rate": 0.2,
+    "after_tax": 0.8,
+    "net_of_commissions_lt": 0.8,
+    "status": "DOCTRINE_ONLY",
+    "note": "税率与手续费为1950年代美国环境，定量结论不移植；仅保留「留存是否有更好用途、股利政策是否稳定」的定性检查。"
+  },
+  "growth_continuity_pe": {
+    "pe_initial": 20,
+    "eps_multiple_4y": 2,
+    "continue_case": {
+      "pe_after": 20,
+      "price_multiple": 2
+    },
+    "stall_case": {
+      "pe_after": 10,
+      "price_multiple": 1
+    },
+    "principle": "未来盈余继续成长的可能性愈高，可负担的本益比愈高",
+    "is_threshold": false
+  },
+  "valuation_rerating": {
+    "pe_year0": 10,
+    "eps_year0": 1.0,
+    "price_year0": 10.0,
+    "pe_year2": 22,
+    "eps_year2": 1.82,
+    "price_year2": 40.04,
+    "price_gain": 3.004,
+    "book_claim_price_gain": 3.0,
+    "note": "书中称「非常合理地涨了300%」；复算40.04美元对应+300.4%，一致。",
+    "status": "TEACHING_EXAMPLE"
+  },
+  "motorola_tv_sale_1974": {
+    "prior_close": null,
+    "event_close": null,
+    "day_return": null,
+    "book_claim_day_return": "约七成（原文数字OCR缺字）",
+    "status": "UNREADABLE_OCR",
+    "note": "价格与涨幅数字在解码文本中缺字，保留为null，不推测。"
+  },
+  "raychem_analysis_meeting": {
+    "date": "1978-01-26",
+    "executives_present": 10,
+    "price_at_meeting": 23.5,
+    "price_multiple_after": 2.0,
+    "note": "会后数周股价无特别反应，作者以此为效率市场理论反例；价格数字OCR为「23K美元」。",
+    "status": "BOOK_TRANSCRIPTION_PARTIAL_OCR"
+  },
+  "ti_people_effectiveness": {
+    "definition": "净销售额÷总员工数",
+    "index_1969": 2.0,
+    "index_1973": 2.5,
+    "target_1980_claim": 3.1,
+    "ocr_uncertain": true,
+    "status": "BOOK_TRANSCRIPTION_PARTIAL_OCR"
+  },
+  "three_year_rule": {
+    "evaluation_window_years": 3,
+    "is_author_personal_rule": true,
+    "is_project_rule": false,
+    "note": "作者个人评估期限；本项目复盘周期按财报与事件驱动，不采用三年评估窗。"
+  },
+  "diversification_minimums": {
+    "class_a": {
+      "min_positions": 5,
+      "max_weight_per_stock": 0.2
+    },
+    "class_b": {
+      "min_weight_per_stock": 0.08,
+      "max_weight_per_stock": 0.1,
+      "b_per_a": 2
+    },
+    "class_c": {
+      "max_weight_per_stock": 0.05
+    },
+    "retail_ideal_positions": [
+      10,
+      12
+    ],
+    "over_20_positions": "作者视为能力薄弱的迹象",
+    "is_threshold": false,
+    "note": "〔历史政策关联叙述未公开；节号对应关系见同库历史政策节号映射。〕"
+  },
+  "war_and_stocks": {
+    "span_years": 22,
+    "crises_count": 10,
+    "rule_exception": "1939年9月第二次世界大战爆发",
+    "mechanism": "战时财政扩张→货币贬值→名义股价上行",
+    "conditional": true,
+    "note": "结论依赖美国参战且未战败、货币贬值两条件，属历史条件性结论，不外推。"
+  },
+  "cover_image": {
+    "source": "images/00001.jpeg",
+    "size": "600x885",
+    "viewed": true,
+    "referenced_by_img_tag": false,
+    "note": "封面经 <image xlink:href> 引用，未计入结构索引的img标签计数（0）；已实际打开目视。"
+  },
+  "unverified": [
+    "全部历史股价、每股盈余、研究报告与政府调查数字均为书内转述，未核原披露",
+    "原企业披露、监管文件与历史指数数据未独立核验",
+    "OCR缺字处未代填（如1957年研究支出X亿美元、摩托罗拉单日涨幅、费雪1932–1933数字等）"
+  ]
+}

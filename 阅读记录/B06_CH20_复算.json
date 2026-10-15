@@ -1,0 +1,81 @@
+{
+  "publication_provenance": {
+    "kind": "书籍阅读、历史案例及教学复算资料",
+    "source_record": "阅读记录/B06_CH20_复算.json",
+    "financial_numbers_origin": "仅为书内案例、历史统计或教学复算；不是维护者或使用者的资产、账户、持仓或交易记录。",
+    "private_account_or_holdings_data": false
+  },
+  "book": "B06",
+  "volume": "第一册《战胜华尔街》",
+  "chapter": 20,
+  "chapter_title": "餐饮股：把你的资金投入到你的嘴巴所到之处",
+  "range": {
+    "start_line": 1923,
+    "end_line": 1949,
+    "line_count": 27,
+    "chars_with_newlines": 4954
+  },
+  "decode": "B06-v2-2026-10-13",
+  "image_files_referenced": [],
+  "image_files_newly_viewed_this_batch": [],
+  "image_note": "spine31（index_split_030.html）覆盖1923–1949行，图像数0；本章无图21-x、无表20-x。spine31无脚注链、无译者注。",
+  "checks": {
+    "shoneys_multiple": {
+      "input": "'Shoney的股票价格后来上涨了168倍（从开始的每股22美分，经过调整拆分，达到36.875美元）'",
+      "computation": "36.875/0.22=167.61倍≈168倍（复权口径，与正文一致）",
+      "status": "ARITHMETIC_OK",
+      "note": "起点价已声明为'经过调整拆分'，即复权价；原始报价不可比"
+    },
+    "five_stock_portfolio": {
+      "input": "'如果你在这5只股票上投资了10000美元……到20世纪80年代末的时候，你的身家就至少为200万美元以上'；'如果将这10000美元全部用于购买麦当劳……至少为400万美元以上'；倍数表：Shoney 168、Bob Evans 83、麦当劳400、Howard Johnson 40、肯德基27.5",
+      "computation": "10000→200万＝200倍（五只均值，落在27.5~400倍区间内）；10000→400万＝400倍（等于麦当劳单只倍数）",
+      "status": "ARITHMETIC_OK",
+      "note": "两处表述与倍数表自洽；但'至少'为下限表述，未给权重与持有期间"
+    },
+    "taco_bell_multiple": {
+      "input": "'塔可贝尔曾遭遇了历史上的最低点，价格下跌到每股仅为1美元，但是，很快它的价格就反弹到40美元'",
+      "computation": "40/1=40倍",
+      "status": "BOOK_CLAIM_UNVERIFIED"
+    },
+    "au_bon_pain_valuation": {
+      "input": "1977年波士顿起家、1991年上市价10美元；'到1992年初的时候，Au Bon Pain的股票价格已经翻了一番，市盈率也达到了40倍（按照1992年的预期收益计算的）'；'9个月之后，Au Bon Pain的股票价格又下跌到每股14美元，这低于1993年预期收益市盈率的20倍'；'如果你发现有25％的成长性股票是按照20倍市盈率的价格进行出售的，那么这就是一个买入的信号'",
+      "computation": "10→20美元＝翻番（一致）；20美元/40倍→隐含1992E EPS 0.50美元；14美元/20倍→隐含1993E EPS 0.70美元＝较1992E增长40%；若按正文25%增速则1993E EPS=0.50×1.25=0.625美元，14美元对应22.4倍而非20倍",
+      "status": "CONFLICT_OPEN",
+      "note": "两处'预期收益'的年份与取整口径不明；'25%成长股按20倍PE是买入信号'为经验配对"
+    },
+    "expansion_pace_vs_target": {
+      "input": "'如果一家公司打算在一年之内建立起超过100家分支机构或连锁店，那么它就很可能遇到问题'；Chili's'以每年增加30~35家分支机构或者连锁店的适当的节奏'；'Chili's的目标是在1996~1998年达到400~450家分支机构或连锁店的规模，并且销售收入达到10亿美元'",
+      "computation": "30~35家/年×7年≈210~245家（1992—1998），距400~450家目标的缺口须由既有基数与并购解释；本书未给基数与销售收入对应的单店收入",
+      "status": "BOOK_CLAIM_UNVERIFIED"
+    },
+    "industry_growth_vs_company_growth": {
+      "input": "'整个餐饮行业每年的增长率只有4%（很快这个行业就不再是成长性行业了）'与'餐饮链……在其扩张之初，一般都会有15~20年高速发展的时期'并存",
+      "computation": "行业总量增速（≈GDP）与单一公司的份额扩张、单店增长属不同层级口径",
+      "status": "PASS_WITH_CAVEAT",
+      "note": "两句必须并置引用，不得只引'15~20年高速发展期'"
+    },
+    "company_universe_claims": {
+      "input": "Dunkin'Donuts'连续32年的收益增长'；上市年表（Howard Johnson 1961、Bob Evans 1963、肯德基1965、麦当劳与Shoney 1960年代中期、Chili's 1984、Sbarro 1985、Ryan's 1982、Uno 1987）；蒙哥马利证券'排名前5家的餐饮公司在美国就有24000家机构或连锁店'；'1991年年初……购买排名在前八名的餐饮业的股票……到年底的时候你的资产就会翻一番'；八家名单（Bertucci's、Cracker Barrel、Brinker International、Spaghetti Warehouse、Shoney's、Rally's、Applebee's、Outback Steakhouse）",
+      "computation": "定性/未核（无外部来源）",
+      "status": "BOOK_CLAIM_UNVERIFIED"
+    },
+    "buy_signal_rule": {
+      "input": "'无论何时，如果你发现有25％的成长性股票是按照20倍市盈率的价格进行出售的，那么这就是一个买入的信号。如果股票价格进一步下跌，我就会大量购入股票'",
+      "computation": "定性（经验配对＋加仓宣示）",
+      "status": "NOT_AUTHORIZED",
+      "note": "〔历史政策关联叙述未公开；节号对应关系见同库历史政策节号映射。〕"
+    },
+    "slogan_not_transferable": {
+      "input": "'如果要我选是投资计算机芯片还是百吉饼，那么无论在任何时候我都会选择百吉饼'",
+      "computation": "定性（风格化表述）",
+      "status": "NOT_AUTHORIZED"
+    }
+  },
+  "flags": [
+    "CONFLICT_OPEN：Au Bon Pain两处PE与'25%成长性'不能同时成立（22.4倍≠20倍）",
+    "BOOK_CLAIM_UNVERIFIED：五只倍数股、Dunkin'Donuts 32年、各上市年份、塔可贝尔1→40美元、蒙哥马利24000家店、1991年前八名翻番、Chili's目标、行业年增4%",
+    "NOT_AUTHORIZED：'25%成长／20倍PE买入信号'与'大量购入'；'选择百吉饼'句式",
+    "PASS_WITH_CAVEAT：行业4%与公司15~20年高速期须并置；扩张速度阈值（>100家/年）只作提问工具",
+    "original_report_verified=false（全部数字与图像）"
+  ]
+}

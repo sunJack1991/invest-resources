@@ -1,0 +1,121 @@
+{
+  "publication_provenance": {
+    "kind": "书籍阅读、历史案例及教学复算资料",
+    "source_record": "阅读记录/B08-B11_口径登记_R120.json",
+    "financial_numbers_origin": "仅为书内案例、历史统计或教学复算；不是维护者或使用者的资产、账户、持仓或交易记录。",
+    "private_account_or_holdings_data": false
+  },
+  "round": "R120",
+  "date_utc": "2026-10-14",
+  "scope": "P1第②组：B08全6项＋B11口径类7项（#2/#4/#5/#9/#11/#14/#15）",
+  "mode": "口径登记（不需外部证据即可定论）；不改原书/原条目",
+  "framework_change": {
+    "file": "投资框架/02港美股投资决策框架 V1.2.md",
+    "section": "§4.15",
+    "added": "第6条 证据去重（自我总结不作独立证据；同一作者重复表述只计一次证据）",
+    "revision_lines": "〔历史政策关联叙述未公开；节号对应关系见同库历史政策节号映射。〕"
+  },
+  "items": [
+    {
+      "book": "B08",
+      "seq": 1,
+      "status": "RESOLVED_CLASSIFIED",
+      "rule": "只借α/β的不对称性思想、不用其数值判定；引用须注明其“风险＝波动”前提与本项目“风险＝永久损失”冲突",
+      "location": "手册§4.15第3条（已有）"
+    },
+    {
+      "book": "B08",
+      "seq": 2,
+      "status": "RESOLVED_CLASSIFIED",
+      "rule": "标“书内转述，未核”，只作方向性说明",
+      "location": "手册§4.15第1条（已有）"
+    },
+    {
+      "book": "B08",
+      "seq": 3,
+      "status": "RESOLVED_CLASSIFIED",
+      "rule": "标“书内叙述，未核原始数据”，不进入交付数值",
+      "location": "手册§4.15（已有）"
+    },
+    {
+      "book": "B08",
+      "seq": 4,
+      "status": "RESOLVED_CLASSIFIED",
+      "rule": "作者自我总结章节不得作为独立证据",
+      "location": "手册§4.15第6条（本轮新补）"
+    },
+    {
+      "book": "B08",
+      "seq": 5,
+      "status": "RESOLVED_CLASSIFIED",
+      "rule": "同一作者重复表述只计一次证据（标“作者同源，非独立证据”）",
+      "location": "手册§4.15第6条（本轮新补）"
+    },
+    {
+      "book": "B08",
+      "seq": 6,
+      "status": "RESOLVED_CLASSIFIED",
+      "rule": "一律标BOOK_CLAIM_UNVERIFIED，只作方法与提问示例",
+      "location": "手册§4.15＋§2.32（已有）"
+    },
+    {
+      "book": "B11",
+      "seq": 2,
+      "status": "RESOLVED_CLASSIFIED",
+      "rule": "只引图读数（约2.75倍）与方向，不引“3倍多”",
+      "location": "手册§2.39边界（已有）"
+    },
+    {
+      "book": "B11",
+      "seq": 4,
+      "status": "RESOLVED_CLASSIFIED",
+      "rule": "“7.7亿美元/人”不引用",
+      "location": "手册§2.39边界（已有）"
+    },
+    {
+      "book": "B11",
+      "seq": 5,
+      "status": "RESOLVED_CLASSIFIED",
+      "rule": "只用第6章J.P. Morgan罗素3000口径（40%跌去≥70%且未恢复），不用第5章“失去全部价值”",
+      "location": "手册§2.40（4）＋§2.41边界（已有）"
+    },
+    {
+      "book": "B11",
+      "seq": 9,
+      "status": "RESOLVED_CLASSIFIED",
+      "rule": "用自算−33.33%即归零，不引“−50%清零”",
+      "location": "手册§2.41（3）＋边界（已有）"
+    },
+    {
+      "book": "B11",
+      "seq": 11,
+      "status": "RESOLVED_CLASSIFIED",
+      "rule": "6.8%（实际）与约11%（名义含股息）禁止相减或互换，引用须写口径",
+      "location": "手册§2.41边界（已有）"
+    },
+    {
+      "book": "B11",
+      "seq": 14,
+      "status": "RESOLVED_CLASSIFIED",
+      "rule": "〔历史政策关联叙述未公开；节号对应关系见同库历史政策节号映射。〕",
+      "location": "手册§2.42（2）＋§2.44（2）（已有）"
+    },
+    {
+      "book": "B11",
+      "seq": 15,
+      "status": "RESOLVED_CLASSIFIED",
+      "rule": "两处85%引用须写明口径（主动型共同基金 vs 大盘股活跃型基金经理）",
+      "location": "手册§2.44（2）（已有）"
+    }
+  ],
+  "summary": {
+    "total": 13,
+    "already_in_framework": 12,
+    "newly_added": 1
+  },
+  "limitations": [
+    "本条为证据分级与引用纪律登记，不改变这些数字的“未核”性质",
+    "原书原披露与外部数据仍未取得",
+    "〔历史政策关联叙述未公开；节号对应关系见同库历史政策节号映射。〕"
+  ]
+}

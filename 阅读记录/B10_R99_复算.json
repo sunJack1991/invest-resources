@@ -1,0 +1,1593 @@
+{
+  "publication_provenance": {
+    "kind": "书籍阅读、历史案例及教学复算资料",
+    "source_record": "阅读记录/B10_R99_复算.json",
+    "financial_numbers_origin": "仅为书内案例、历史统计或教学复算；不是维护者或使用者的资产、账户、持仓或交易记录。",
+    "private_account_or_holdings_data": false
+  },
+  "revision": "R99",
+  "book": "B10",
+  "source_sha256": "7fb3de1a117680af0c73bce8799039a09b06d48e6450c8a292fe650c04ffb756",
+  "decoded_text_sha256": "473bd24939dc8d6f2f9b8cf946b749fa8c73121e461823ae25280e71822088a5",
+  "batch_range": {
+    "start_line": 1,
+    "end_line": 418
+  },
+  "read_blocks": [
+    [
+      1,
+      29
+    ],
+    [
+      30,
+      116
+    ],
+    [
+      117,
+      158
+    ],
+    [
+      159,
+      206
+    ],
+    [
+      207,
+      256
+    ],
+    [
+      257,
+      298
+    ],
+    [
+      299,
+      342
+    ],
+    [
+      343,
+      399
+    ],
+    [
+      400,
+      418
+    ]
+  ],
+  "read_chars_including_block_newlines": 32397,
+  "table1": {
+    "rows": [
+      {
+        "year": 1945,
+        "gross_revenue_million": 464,
+        "net_profit_million": -10.1,
+        "airline_price_index": 34.5,
+        "sp500_price_index": 17.7,
+        "status": "BOOK_TRANSCRIPTION_UNVERIFIED",
+        "source_gross_label": "毛收益",
+        "gross_label_interpretation": "营业收入量级推测，定义未获原披露，不当已验证毛利",
+        "profit_over_gross_label_ratio": -0.021767241379310343
+      },
+      {
+        "year": 1948,
+        "gross_revenue_million": 696,
+        "net_profit_million": 1.1,
+        "airline_price_index": 10,
+        "sp500_price_index": 13.8,
+        "status": "BOOK_TRANSCRIPTION_UNVERIFIED",
+        "source_gross_label": "毛收益",
+        "gross_label_interpretation": "营业收入量级推测，定义未获原披露，不当已验证毛利",
+        "profit_over_gross_label_ratio": 0.0015804597701149427
+      },
+      {
+        "year": 1955,
+        "gross_revenue_million": 1634,
+        "net_profit_million": 79,
+        "airline_price_index": 37,
+        "sp500_price_index": 46.4,
+        "status": "BOOK_TRANSCRIPTION_UNVERIFIED",
+        "source_gross_label": "毛收益",
+        "gross_label_interpretation": "营业收入量级推测，定义未获原披露，不当已验证毛利",
+        "profit_over_gross_label_ratio": 0.04834761321909425
+      },
+      {
+        "year": 1957,
+        "gross_revenue_million": 2128,
+        "net_profit_million": 44,
+        "airline_price_index": 17.6,
+        "sp500_price_index": 39,
+        "status": "BOOK_TRANSCRIPTION_UNVERIFIED",
+        "source_gross_label": "毛收益",
+        "gross_label_interpretation": "营业收入量级推测，定义未获原披露，不当已验证毛利",
+        "profit_over_gross_label_ratio": 0.020676691729323307
+      },
+      {
+        "year": 1961,
+        "gross_revenue_million": 3064,
+        "net_profit_million": -37.8,
+        "airline_price_index": null,
+        "sp500_price_index": 57.6,
+        "status": "BOOK_TRANSCRIPTION_UNVERIFIED",
+        "source_gross_label": "毛收益",
+        "gross_label_interpretation": "营业收入量级推测，定义未获原披露，不当已验证毛利",
+        "profit_over_gross_label_ratio": -0.012336814621409922
+      },
+      {
+        "year": 1963,
+        "gross_revenue_million": 3755,
+        "net_profit_million": 84.1,
+        "airline_price_index": 47.3,
+        "sp500_price_index": 75,
+        "status": "BOOK_TRANSCRIPTION_UNVERIFIED",
+        "source_gross_label": "毛收益",
+        "gross_label_interpretation": "营业收入量级推测，定义未获原披露，不当已验证毛利",
+        "profit_over_gross_label_ratio": 0.02239680426098535
+      }
+    ],
+    "gross_revenue_1963_to_1945_multiple": 8.092672413793103,
+    "airline_high1945_to_low1957_price_change": -0.489855072463768,
+    "sp_high1945_to_low1957_price_change": 1.2033898305084745,
+    "point_price_comparison_not_total_return": true,
+    "price_index_base": {
+      "period": "1941–1943 average",
+      "airline": 10,
+      "sp500": 10
+    }
+  },
+  "table2": {
+    "rows": [
+      {
+        "year": 1913,
+        "capital": 100000,
+        "bond_yield": 0.05,
+        "gross_shown": 5000,
+        "tax_shown": 0,
+        "net_shown": 5000,
+        "purchasing_power_factor": 1,
+        "real_income_shown": 5000,
+        "gross_computed": 5000.0,
+        "net_computed": 5000,
+        "real_income_computed": 5000,
+        "status": "HISTORICAL_TAX_EXAMPLE_NOT_PERSONAL"
+      },
+      {
+        "year": 1947,
+        "capital": 500000,
+        "bond_yield": 0.0275,
+        "gross_shown": 13750,
+        "tax_shown": 3140,
+        "net_shown": 10610,
+        "purchasing_power_factor": 0.45,
+        "real_income_shown": 4775,
+        "gross_computed": 13750.0,
+        "net_computed": 10610,
+        "real_income_computed": 4774.5,
+        "status": "HISTORICAL_TAX_EXAMPLE_NOT_PERSONAL"
+      },
+      {
+        "year": 1964,
+        "capital": 425000,
+        "bond_yield": 0.044,
+        "gross_shown": 18700,
+        "tax_shown": 3700,
+        "net_shown": 15000,
+        "purchasing_power_factor": 0.33,
+        "real_income_shown": 5000,
+        "gross_computed": 18700.0,
+        "net_computed": 15000,
+        "real_income_computed": 4950.0,
+        "status": "HISTORICAL_TAX_EXAMPLE_NOT_PERSONAL"
+      }
+    ],
+    "capital_1964_to_1913_multiple": 4.25,
+    "purchasing_power_1964_from_shown33pct": 4950,
+    "purchasing_power_using_exact_one_third": 5000
+  },
+  "table3": {
+    "rows": [
+      {
+        "period": "1901–1914",
+        "assets": [
+          {
+            "asset": "DJ_Railroad",
+            "high": 129.9,
+            "low": 81.4,
+            "raw_high_low_drop_pct": -37.33641262509623
+          },
+          {
+            "asset": "Pennsylvania_Railroad",
+            "high": 85.5,
+            "low": 52,
+            "raw_high_low_drop_pct": -39.18128654970761
+          },
+          {
+            "asset": "General_Electric",
+            "high": 163,
+            "low": 90,
+            "raw_high_low_drop_pct": -44.78527607361963
+          }
+        ],
+        "scope": "未作拆股复权/分红/费用；原图表价格范围不是完整投资回报"
+      },
+      {
+        "period": "1929–1932",
+        "assets": [
+          {
+            "asset": "DJ_Railroad",
+            "high": 189.2,
+            "low": 13.2,
+            "raw_high_low_drop_pct": -93.02325581395348
+          },
+          {
+            "asset": "Pennsylvania_Railroad",
+            "high": 110,
+            "low": 6.5,
+            "raw_high_low_drop_pct": -94.0909090909091
+          },
+          {
+            "asset": "General_Electric",
+            "high": 110,
+            "low": 8.5,
+            "raw_high_low_drop_pct": -92.27272727272727
+          }
+        ],
+        "scope": "未作拆股复权/分红/费用；原图表价格范围不是完整投资回报"
+      },
+      {
+        "period": "1937–1938",
+        "assets": [
+          {
+            "asset": "DJ_Railroad",
+            "high": 64.6,
+            "low": 19,
+            "raw_high_low_drop_pct": -70.58823529411764
+          },
+          {
+            "asset": "Pennsylvania_Railroad",
+            "high": 50.3,
+            "low": 14.1,
+            "raw_high_low_drop_pct": -71.96819085487077
+          },
+          {
+            "asset": "General_Electric",
+            "high": 65,
+            "low": 27,
+            "raw_high_low_drop_pct": -58.46153846153845
+          }
+        ],
+        "scope": "未作拆股复权/分红/费用；原图表价格范围不是完整投资回报"
+      },
+      {
+        "period": "1946–1947",
+        "assets": [
+          {
+            "asset": "DJ_Railroad",
+            "high": 68.3,
+            "low": 41.2,
+            "raw_high_low_drop_pct": -39.67789165446559
+          },
+          {
+            "asset": "Pennsylvania_Railroad",
+            "high": 47.5,
+            "low": 15.5,
+            "raw_high_low_drop_pct": -67.36842105263158
+          },
+          {
+            "asset": "General_Electric",
+            "high": 52,
+            "low": 32,
+            "raw_high_low_drop_pct": -38.46153846153846
+          }
+        ],
+        "scope": "未作拆股复权/分红/费用；原图表价格范围不是完整投资回报"
+      },
+      {
+        "period": "1956–1957",
+        "assets": [
+          {
+            "asset": "DJ_Railroad",
+            "high": 181.2,
+            "low": 95.7,
+            "raw_high_low_drop_pct": -47.185430463576154
+          },
+          {
+            "asset": "Pennsylvania_Railroad",
+            "high": 28,
+            "low": 11.1,
+            "raw_high_low_drop_pct": -60.35714285714286
+          },
+          {
+            "asset": "General_Electric",
+            "high": 73,
+            "low": 56,
+            "raw_high_low_drop_pct": -23.28767123287672
+          }
+        ],
+        "scope": "未作拆股复权/分红/费用；原图表价格范围不是完整投资回报"
+      },
+      {
+        "period": "1960–1962",
+        "assets": [
+          {
+            "asset": "DJ_Railroad",
+            "high": 160.4,
+            "low": 114.9,
+            "raw_high_low_drop_pct": -28.36658354114713
+          },
+          {
+            "asset": "Pennsylvania_Railroad",
+            "high": 18.9,
+            "low": 10.3,
+            "raw_high_low_drop_pct": -45.5026455026455
+          },
+          {
+            "asset": "General_Electric",
+            "high": 99,
+            "low": 54.3,
+            "raw_high_low_drop_pct": -45.151515151515156
+          }
+        ],
+        "scope": "未作拆股复权/分红/费用；原图表价格范围不是完整投资回报"
+      }
+    ],
+    "splits_adjusted": false,
+    "dividends_included": false
+  },
+  "table4": {
+    "rows": [
+      {
+        "name": "DJIA",
+        "start_price_or_nav": 179.9,
+        "end_price_or_nav": 177.7,
+        "cash_dividends_total": 77.2,
+        "total_gain_shown": 75,
+        "return_shown_pct": 41.7,
+        "annual_shown_pct": 3.2,
+        "total_gain_computed": 74.99999999999999,
+        "return_computed_pct": 41.689827682045575,
+        "terminal_equivalent_cagr": 0.03218623020305178,
+        "years": 11,
+        "actual_distribution_dates": "unknown",
+        "annual_is_not_verified_xirr": true,
+        "source_name_exact": "道·琼斯工业平均指数"
+      },
+      {
+        "name": "SP500",
+        "start_price_or_nav": 17.18,
+        "end_price_or_nav": 15.3,
+        "cash_dividends_total": 9.94,
+        "total_gain_shown": 8.06,
+        "return_shown_pct": 46.7,
+        "annual_shown_pct": 3.6,
+        "total_gain_computed": 8.06,
+        "return_computed_pct": 46.915017462165316,
+        "terminal_equivalent_cagr": 0.035589970099623836,
+        "years": 11,
+        "actual_distribution_dates": "unknown",
+        "annual_is_not_verified_xirr": true,
+        "source_name_exact": "标准·普尔500股票综合指数"
+      },
+      {
+        "name": "US_Steel",
+        "start_price_or_nav": 78.5,
+        "end_price_or_nav": 78.5,
+        "cash_dividends_total": 33,
+        "total_gain_shown": 33,
+        "return_shown_pct": 42.1,
+        "annual_shown_pct": 3.3,
+        "total_gain_computed": 33.0,
+        "return_computed_pct": 42.038216560509554,
+        "terminal_equivalent_cagr": 0.03241669579115958,
+        "years": 11,
+        "actual_distribution_dates": "unknown",
+        "annual_is_not_verified_xirr": true,
+        "source_name_exact": "美国钢铁"
+      },
+      {
+        "name": "Pennsylvania_Railroad",
+        "start_price_or_nav": 40.5,
+        "end_price_or_nav": 18.5,
+        "cash_dividends_total": 18.3,
+        "total_gain_shown": -3.7,
+        "return_shown_pct": null,
+        "annual_shown_pct": null,
+        "total_gain_computed": -3.6999999999999993,
+        "return_computed_pct": -9.1358024691358,
+        "terminal_equivalent_cagr": -0.008671648735536719,
+        "years": 11,
+        "actual_distribution_dates": "unknown",
+        "annual_is_not_verified_xirr": true,
+        "source_name_exact": "宾夕法尼亚铁路"
+      },
+      {
+        "name": "Abbott",
+        "start_price_or_nav": 51,
+        "end_price_or_nav": 179,
+        "cash_dividends_total": 30.7,
+        "total_gain_shown": 158.7,
+        "return_shown_pct": 311.2,
+        "annual_shown_pct": 13.7,
+        "total_gain_computed": 158.7,
+        "return_computed_pct": 311.17647058823525,
+        "terminal_equivalent_cagr": 0.1371578413081691,
+        "years": 11,
+        "actual_distribution_dates": "unknown",
+        "annual_is_not_verified_xirr": true,
+        "source_name_exact": "阿波特实验室"
+      }
+    ],
+    "rising_market_1948_1958_return_pct": [
+      340,
+      380,
+      795,
+      117,
+      89
+    ],
+    "rising_market_1948_1958_annual_pct": [
+      14.4,
+      15.3,
+      22,
+      7.3,
+      6
+    ],
+    "market_1959_1963_return_pct": [
+      49.5,
+      54.1,
+      -30.6,
+      44,
+      238
+    ],
+    "market_1959_1963_annual_pct": [
+      8.4,
+      9,
+      null,
+      7.6,
+      27.6
+    ],
+    "sp_1936_start_date_as_shown": "1936-12-21",
+    "end_date_as_shown": "1947-12-31",
+    "holding_interval_not_fabricated": true,
+    "sp_full_input_rounding_return_interval_pct": [
+      46.814082048297955,
+      47.0160116448326
+    ],
+    "sp_shown_return_compatible_with_cent_rounding": false
+  },
+  "table5": {
+    "rows": [
+      {
+        "name": "Lehman",
+        "start_price_or_nav": 45.73,
+        "end_price_or_nav": 49.03,
+        "cash_dividends_total": 26.52,
+        "total_gain_shown": 29.82,
+        "return_shown_pct": 65.2,
+        "annual_shown_pct": 4.7,
+        "total_gain_computed": 29.820000000000004,
+        "return_computed_pct": 65.20883446315331,
+        "terminal_equivalent_cagr": 0.04669754638421786,
+        "years": 11,
+        "actual_distribution_dates": "unknown",
+        "annual_is_not_verified_xirr": true,
+        "source_name_exact": "乐波曼公司",
+        "english_identifier_not_independently_verified": true
+      },
+      {
+        "name": "Niagara",
+        "start_price_or_nav": 22.59,
+        "end_price_or_nav": 16.7,
+        "cash_dividends_total": 3.1,
+        "total_gain_shown": -2.79,
+        "return_shown_pct": null,
+        "annual_shown_pct": null,
+        "total_gain_computed": -2.7900000000000005,
+        "return_computed_pct": -12.350597609561754,
+        "terminal_equivalent_cagr": -0.011912602972178998,
+        "years": 11,
+        "actual_distribution_dates": "unknown",
+        "annual_is_not_verified_xirr": true,
+        "source_name_exact": "尼阿加拉股份公司",
+        "english_identifier_not_independently_verified": true
+      },
+      {
+        "name": "Overseas",
+        "start_price_or_nav": 15.65,
+        "end_price_or_nav": 11.03,
+        "cash_dividends_total": 16.9,
+        "total_gain_shown": 12.28,
+        "return_shown_pct": 78.5,
+        "annual_shown_pct": 5.4,
+        "total_gain_computed": 12.279999999999998,
+        "return_computed_pct": 78.46645367412138,
+        "terminal_equivalent_cagr": 0.05406836960733474,
+        "years": 11,
+        "actual_distribution_dates": "unknown",
+        "annual_is_not_verified_xirr": true,
+        "source_name_exact": "海外证券公司",
+        "english_identifier_not_independently_verified": true
+      }
+    ],
+    "rising_market_1948_1958_return_pct": [
+      246,
+      249,
+      280
+    ],
+    "rising_market_1948_1958_annual_pct": [
+      11.9,
+      12,
+      12.9
+    ],
+    "market_1959_1963_return_pct": [
+      39,
+      48,
+      41
+    ],
+    "market_1959_1963_annual_pct": [
+      6.9,
+      8.2,
+      7.1
+    ],
+    "capital_gain_distribution_reinvestment_in_note_a": true
+  },
+  "table6": {
+    "rows": [
+      {
+        "period_group": 1,
+        "buy_date": "1897.6.28",
+        "buy": 44.6,
+        "sell_date": "1899.12.16",
+        "sell": 63.8,
+        "same_trade_gain_shown": 19.2,
+        "same_trade_gain_computed": 19.199999999999996,
+        "next_buy": 59.4,
+        "reentry_gap_shown": 4.4,
+        "reentry_gap_computed": 4.399999999999999,
+        "trade_return_ex_div_tax": 0.4304932735426008
+      },
+      {
+        "period_group": 1,
+        "buy_date": "1900.10.20",
+        "buy": 59.4,
+        "sell_date": "1903.6.1",
+        "sell": 59.6,
+        "same_trade_gain_shown": 0.2,
+        "same_trade_gain_computed": 0.20000000000000284,
+        "next_buy": 51.4,
+        "reentry_gap_shown": 8.2,
+        "reentry_gap_computed": 8.200000000000003,
+        "trade_return_ex_div_tax": 0.0033670033670034627
+      },
+      {
+        "period_group": 1,
+        "buy_date": "1904.7.12",
+        "buy": 51.4,
+        "sell_date": "1906.4.26",
+        "sell": 92.4,
+        "same_trade_gain_shown": 41,
+        "same_trade_gain_computed": 41.00000000000001,
+        "next_buy": 70,
+        "reentry_gap_shown": 22.4,
+        "reentry_gap_computed": 22.400000000000006,
+        "trade_return_ex_div_tax": 0.7976653696498055
+      },
+      {
+        "period_group": 1,
+        "buy_date": "1908.4.24",
+        "buy": 70,
+        "sell_date": "1910.5.3",
+        "sell": 84.7,
+        "same_trade_gain_shown": 14.7,
+        "same_trade_gain_computed": 14.700000000000003,
+        "next_buy": 81.9,
+        "reentry_gap_shown": 2.8,
+        "reentry_gap_computed": 2.799999999999997,
+        "trade_return_ex_div_tax": 0.20999999999999996
+      },
+      {
+        "period_group": 1,
+        "buy_date": "1910.10.10",
+        "buy": 81.9,
+        "sell_date": "1913.1.14",
+        "sell": 85,
+        "same_trade_gain_shown": 3,
+        "same_trade_gain_computed": 3.0999999999999943,
+        "next_buy": 65,
+        "reentry_gap_shown": 20,
+        "reentry_gap_computed": 20,
+        "trade_return_ex_div_tax": 0.03785103785103772
+      },
+      {
+        "period_group": 1,
+        "buy_date": "1915.4.9",
+        "buy": 65,
+        "sell_date": "1917.8.28",
+        "sell": 86.1,
+        "same_trade_gain_shown": 21.1,
+        "same_trade_gain_computed": 21.099999999999994,
+        "next_buy": 82.2,
+        "reentry_gap_shown": 3.9,
+        "reentry_gap_computed": 3.8999999999999915,
+        "trade_return_ex_div_tax": 0.32461538461538453
+      },
+      {
+        "period_group": 1,
+        "buy_date": "1918.5.13",
+        "buy": 82.2,
+        "sell_date": "1920.2.3",
+        "sell": 100,
+        "same_trade_gain_shown": 17.8,
+        "same_trade_gain_computed": 17.799999999999997,
+        "next_buy": 83.7,
+        "reentry_gap_shown": 16.3,
+        "reentry_gap_computed": 16.299999999999997,
+        "trade_return_ex_div_tax": 0.2165450121654502
+      },
+      {
+        "period_group": 1,
+        "buy_date": "1922.2.6",
+        "buy": 83.7,
+        "sell_date": "1923.6.20",
+        "sell": 90.8,
+        "same_trade_gain_shown": 7.1,
+        "same_trade_gain_computed": 7.099999999999994,
+        "next_buy": 93.8,
+        "reentry_gap_shown": -3,
+        "reentry_gap_computed": -3.0,
+        "trade_return_ex_div_tax": 0.08482676224611696
+      },
+      {
+        "period_group": 1,
+        "buy_date": "1923.7.12",
+        "buy": 93.8,
+        "sell_date": "1929.10.23",
+        "sell": 305.9,
+        "same_trade_gain_shown": 212.1,
+        "same_trade_gain_computed": 212.09999999999997,
+        "next_buy": 84.3,
+        "reentry_gap_shown": 221.6,
+        "reentry_gap_computed": 221.59999999999997,
+        "trade_return_ex_div_tax": 2.261194029850746
+      },
+      {
+        "period_group": 1,
+        "buy_date": "1933.5.24",
+        "buy": 84.3,
+        "sell_date": "1937.9.7",
+        "sell": 164.4,
+        "same_trade_gain_shown": 80.1,
+        "same_trade_gain_computed": 80.10000000000001,
+        "next_buy": 127.4,
+        "reentry_gap_shown": 37,
+        "reentry_gap_computed": 37.0,
+        "trade_return_ex_div_tax": 0.9501779359430607
+      },
+      {
+        "period_group": 2,
+        "buy_date": "1938.6.23",
+        "buy": 127.4,
+        "sell_date": "1939.3.31",
+        "sell": 131.8,
+        "same_trade_gain_shown": 4.4,
+        "same_trade_gain_computed": 4.400000000000006,
+        "next_buy": 142.6,
+        "reentry_gap_shown": -10.8,
+        "reentry_gap_computed": -10.799999999999983,
+        "trade_return_ex_div_tax": 0.03453689167974883
+      },
+      {
+        "period_group": 2,
+        "buy_date": "1939.7.17",
+        "buy": 142.6,
+        "sell_date": "1940.1.13",
+        "sell": 145.2,
+        "same_trade_gain_shown": 2.6,
+        "same_trade_gain_computed": 2.5999999999999943,
+        "next_buy": 145.9,
+        "reentry_gap_shown": -0.7,
+        "reentry_gap_computed": -0.700000000000017,
+        "trade_return_ex_div_tax": 0.018232819074333717
+      },
+      {
+        "period_group": 2,
+        "buy_date": "1944.6.15",
+        "buy": 145.9,
+        "sell_date": "1946.9.3",
+        "sell": 178.7,
+        "same_trade_gain_shown": 32.8,
+        "same_trade_gain_computed": 32.79999999999998,
+        "next_buy": 188.6,
+        "reentry_gap_shown": -9.9,
+        "reentry_gap_computed": -9.900000000000006,
+        "trade_return_ex_div_tax": 0.2248115147361205
+      },
+      {
+        "period_group": 2,
+        "buy_date": "1948.5.14",
+        "buy": 188.6,
+        "sell_date": "1948.11.19",
+        "sell": 173.9,
+        "same_trade_gain_shown": -14.7,
+        "same_trade_gain_computed": -14.699999999999989,
+        "next_buy": 228.9,
+        "reentry_gap_shown": -55,
+        "reentry_gap_computed": -55.0,
+        "trade_return_ex_div_tax": -0.07794273594909862
+      },
+      {
+        "period_group": 2,
+        "buy_date": "1950.10.20",
+        "buy": 228.9,
+        "sell_date": "1953.8.31",
+        "sell": 261.2,
+        "same_trade_gain_shown": 32.3,
+        "same_trade_gain_computed": 32.29999999999998,
+        "next_buy": 327.6,
+        "reentry_gap_shown": -66.4,
+        "reentry_gap_computed": -66.40000000000003,
+        "trade_return_ex_div_tax": 0.1411096548711226
+      },
+      {
+        "period_group": 2,
+        "buy_date": "1954.6.4",
+        "buy": 327.6,
+        "sell_date": "1957.2.11",
+        "sell": 457.4,
+        "same_trade_gain_shown": 129.8,
+        "same_trade_gain_computed": 129.79999999999995,
+        "next_buy": 459.6,
+        "reentry_gap_shown": -2.1,
+        "reentry_gap_computed": -2.2000000000000455,
+        "trade_return_ex_div_tax": 0.39621489621489614
+      },
+      {
+        "period_group": 2,
+        "buy_date": "1958.5.2",
+        "buy": 459.6,
+        "sell_date": "1960.3.15",
+        "sell": 612.1,
+        "same_trade_gain_shown": 152.5,
+        "same_trade_gain_computed": 152.5,
+        "next_buy": 616.3,
+        "reentry_gap_shown": -4.2,
+        "reentry_gap_computed": -4.199999999999932,
+        "trade_return_ex_div_tax": 0.331810269799826
+      }
+    ],
+    "final_open_buy": {
+      "date": "1962.11.9",
+      "price": 616.3
+    },
+    "period1_reentry_count": 10,
+    "period1_favorable_reentries": 9,
+    "period2_reentry_count": 7,
+    "period2_favorable_reentries": 0,
+    "cash_fee_dividend_returns_unknown": true
+  },
+  "table7": {
+    "rows": [
+      {
+        "span_as_shown": "1881→1885",
+        "index": "SP",
+        "high": 6.58,
+        "low": 4.24,
+        "positive_decline_shown_pct": 28,
+        "positive_decline_computed_pct": 35.56231003039514,
+        "status": "BOOK_POINT_RANGE_DIAGNOSTIC_NOT_ADJUSTED_RETURN"
+      },
+      {
+        "span_as_shown": "1887→1893",
+        "index": "SP",
+        "high": 5.9,
+        "low": 4.08,
+        "positive_decline_shown_pct": 31,
+        "positive_decline_computed_pct": 30.847457627118647,
+        "status": "BOOK_POINT_RANGE_DIAGNOSTIC_NOT_ADJUSTED_RETURN"
+      },
+      {
+        "span_as_shown": "1899→1900",
+        "index": "DJ",
+        "high": 77.6,
+        "low": 53.5,
+        "positive_decline_shown_pct": 31,
+        "positive_decline_computed_pct": 31.056701030927826,
+        "status": "BOOK_POINT_RANGE_DIAGNOSTIC_NOT_ADJUSTED_RETURN"
+      },
+      {
+        "span_as_shown": "1901→1903",
+        "index": "SP",
+        "high": 8.5,
+        "low": 6.26,
+        "positive_decline_shown_pct": 26,
+        "positive_decline_computed_pct": 26.35294117647059,
+        "status": "BOOK_POINT_RANGE_DIAGNOSTIC_NOT_ADJUSTED_RETURN"
+      },
+      {
+        "span_as_shown": "1901→1903",
+        "index": "DJ",
+        "high": 78.3,
+        "low": 43.2,
+        "positive_decline_shown_pct": 45,
+        "positive_decline_computed_pct": 44.82758620689654,
+        "status": "BOOK_POINT_RANGE_DIAGNOSTIC_NOT_ADJUSTED_RETURN"
+      },
+      {
+        "span_as_shown": "1906→1907",
+        "index": "SP",
+        "high": 10.03,
+        "low": 6.25,
+        "positive_decline_shown_pct": 38,
+        "positive_decline_computed_pct": 37.68693918245264,
+        "status": "BOOK_POINT_RANGE_DIAGNOSTIC_NOT_ADJUSTED_RETURN"
+      },
+      {
+        "span_as_shown": "1906→1907",
+        "index": "DJ",
+        "high": 103,
+        "low": 53,
+        "positive_decline_shown_pct": 48,
+        "positive_decline_computed_pct": 48.54368932038835,
+        "status": "BOOK_POINT_RANGE_DIAGNOSTIC_NOT_ADJUSTED_RETURN"
+      },
+      {
+        "span_as_shown": "1909→1914",
+        "index": "SP",
+        "high": 10.3,
+        "low": 7.35,
+        "positive_decline_shown_pct": 29,
+        "positive_decline_computed_pct": 28.640776699029136,
+        "status": "BOOK_POINT_RANGE_DIAGNOSTIC_NOT_ADJUSTED_RETURN"
+      },
+      {
+        "span_as_shown": "1909→1914",
+        "index": "DJ",
+        "high": 100.5,
+        "low": 53.2,
+        "positive_decline_shown_pct": 47,
+        "positive_decline_computed_pct": 47.06467661691542,
+        "status": "BOOK_POINT_RANGE_DIAGNOSTIC_NOT_ADJUSTED_RETURN"
+      },
+      {
+        "span_as_shown": "1916–1918→1917",
+        "index": "SP",
+        "high": 10.21,
+        "low": 6.8,
+        "positive_decline_shown_pct": 33,
+        "positive_decline_computed_pct": 33.398628795298734,
+        "status": "BOOK_POINT_RANGE_DIAGNOSTIC_NOT_ADJUSTED_RETURN"
+      },
+      {
+        "span_as_shown": "1916–1918→1917",
+        "index": "DJ",
+        "high": 110.2,
+        "low": 73.4,
+        "positive_decline_shown_pct": 33,
+        "positive_decline_computed_pct": 33.39382940108892,
+        "status": "BOOK_POINT_RANGE_DIAGNOSTIC_NOT_ADJUSTED_RETURN"
+      },
+      {
+        "span_as_shown": "1919→1921",
+        "index": "SP",
+        "high": 9.51,
+        "low": 6.45,
+        "positive_decline_shown_pct": 32,
+        "positive_decline_computed_pct": 32.17665615141956,
+        "status": "BOOK_POINT_RANGE_DIAGNOSTIC_NOT_ADJUSTED_RETURN"
+      },
+      {
+        "span_as_shown": "1919→1921",
+        "index": "DJ",
+        "high": 119.6,
+        "low": 63.9,
+        "positive_decline_shown_pct": 47,
+        "positive_decline_computed_pct": 46.57190635451505,
+        "status": "BOOK_POINT_RANGE_DIAGNOSTIC_NOT_ADJUSTED_RETURN"
+      },
+      {
+        "span_as_shown": "1923→1932",
+        "index": "SP",
+        "high": 31.92,
+        "low": 4.4,
+        "positive_decline_shown_pct": 86,
+        "positive_decline_computed_pct": 86.21553884711778,
+        "status": "BOOK_POINT_RANGE_DIAGNOSTIC_NOT_ADJUSTED_RETURN"
+      },
+      {
+        "span_as_shown": "1923→1932",
+        "index": "DJ",
+        "high": 381,
+        "low": 41.2,
+        "positive_decline_shown_pct": 89,
+        "positive_decline_computed_pct": 89.18635170603675,
+        "status": "BOOK_POINT_RANGE_DIAGNOSTIC_NOT_ADJUSTED_RETURN"
+      },
+      {
+        "span_as_shown": "1937→1938",
+        "index": "SP",
+        "high": 18.68,
+        "low": 8.5,
+        "positive_decline_shown_pct": 55,
+        "positive_decline_computed_pct": 54.49678800856531,
+        "status": "BOOK_POINT_RANGE_DIAGNOSTIC_NOT_ADJUSTED_RETURN"
+      },
+      {
+        "span_as_shown": "1937→1938",
+        "index": "DJ",
+        "high": 197.4,
+        "low": 99,
+        "positive_decline_shown_pct": 50,
+        "positive_decline_computed_pct": 49.84802431610943,
+        "status": "BOOK_POINT_RANGE_DIAGNOSTIC_NOT_ADJUSTED_RETURN"
+      },
+      {
+        "span_as_shown": "1939→1942",
+        "index": "SP",
+        "high": 13.23,
+        "low": 7.47,
+        "positive_decline_shown_pct": 44,
+        "positive_decline_computed_pct": 43.5374149659864,
+        "status": "BOOK_POINT_RANGE_DIAGNOSTIC_NOT_ADJUSTED_RETURN"
+      },
+      {
+        "span_as_shown": "1939→1942",
+        "index": "DJ",
+        "high": 158,
+        "low": 92.9,
+        "positive_decline_shown_pct": 41,
+        "positive_decline_computed_pct": 41.20253164556962,
+        "status": "BOOK_POINT_RANGE_DIAGNOSTIC_NOT_ADJUSTED_RETURN"
+      },
+      {
+        "span_as_shown": "1946→1949",
+        "index": "SP",
+        "high": 19.25,
+        "low": 13.55,
+        "positive_decline_shown_pct": 30,
+        "positive_decline_computed_pct": 29.61038961038961,
+        "status": "BOOK_POINT_RANGE_DIAGNOSTIC_NOT_ADJUSTED_RETURN"
+      },
+      {
+        "span_as_shown": "1946→1949",
+        "index": "DJ",
+        "high": 212.5,
+        "low": 161.2,
+        "positive_decline_shown_pct": 24,
+        "positive_decline_computed_pct": 24.141176470588242,
+        "status": "BOOK_POINT_RANGE_DIAGNOSTIC_NOT_ADJUSTED_RETURN"
+      },
+      {
+        "span_as_shown": "1952→1952–1953",
+        "index": "SP",
+        "high": 26.6,
+        "low": 22.7,
+        "positive_decline_shown_pct": 15,
+        "positive_decline_computed_pct": 14.661654135338352,
+        "status": "BOOK_POINT_RANGE_DIAGNOSTIC_NOT_ADJUSTED_RETURN"
+      },
+      {
+        "span_as_shown": "1952→1952–1953",
+        "index": "DJ",
+        "high": 292,
+        "low": 256,
+        "positive_decline_shown_pct": 13,
+        "positive_decline_computed_pct": 12.328767123287676,
+        "status": "BOOK_POINT_RANGE_DIAGNOSTIC_NOT_ADJUSTED_RETURN"
+      },
+      {
+        "span_as_shown": "1956→1957",
+        "index": "SP",
+        "high": 49.7,
+        "low": 39,
+        "positive_decline_shown_pct": 24,
+        "positive_decline_computed_pct": 21.52917505030182,
+        "status": "BOOK_POINT_RANGE_DIAGNOSTIC_NOT_ADJUSTED_RETURN"
+      },
+      {
+        "span_as_shown": "1956→1957",
+        "index": "DJ",
+        "high": 521,
+        "low": 420,
+        "positive_decline_shown_pct": 20,
+        "positive_decline_computed_pct": 19.38579654510557,
+        "status": "BOOK_POINT_RANGE_DIAGNOSTIC_NOT_ADJUSTED_RETURN"
+      },
+      {
+        "span_as_shown": "1961→1962",
+        "index": "SP",
+        "high": 76.7,
+        "low": 54.8,
+        "positive_decline_shown_pct": 29,
+        "positive_decline_computed_pct": 28.552803129074324,
+        "status": "BOOK_POINT_RANGE_DIAGNOSTIC_NOT_ADJUSTED_RETURN"
+      },
+      {
+        "span_as_shown": "1961→1962",
+        "index": "DJ",
+        "high": 735,
+        "low": 536,
+        "positive_decline_shown_pct": 27,
+        "positive_decline_computed_pct": 27.074829931972786,
+        "status": "BOOK_POINT_RANGE_DIAGNOSTIC_NOT_ADJUSTED_RETURN"
+      }
+    ],
+    "early_unpaired_points": [
+      {
+        "year": 1871,
+        "SP": 4.74
+      },
+      {
+        "year": 1897,
+        "DJ": 38.85
+      }
+    ],
+    "year_label_1923_preserved": true,
+    "sp_1962_low_over_1946_high": 2.846753246753247,
+    "dj_1962_low_over_1946_high": 2.5223529411764707
+  },
+  "table8": {
+    "rows": [
+      {
+        "period": "1871–1880",
+        "avg_price": 3.58,
+        "avg_earnings": 0.32,
+        "avg_pe_shown": 11.3,
+        "avg_dividend": 0.21,
+        "avg_yield_shown_pct": 6,
+        "avg_payout_shown_pct": 67,
+        "earnings_growth_shown_pct": null,
+        "dividend_growth_shown_pct": null,
+        "ratio_of_averages_pe_diagnostic": 11.1875,
+        "ratio_of_averages_yield_diagnostic_pct": 5.865921787709497,
+        "ratio_of_averages_payout_diagnostic_pct": 65.625,
+        "scope": "比率均值与均值比率未获原计算定义，不要求逐行强等；增长是21年周期/特殊三年平均窗口，不用相邻行十年反推"
+      },
+      {
+        "period": "1881–1890",
+        "avg_price": 5,
+        "avg_earnings": 0.33,
+        "avg_pe_shown": 15.6,
+        "avg_dividend": 0.24,
+        "avg_yield_shown_pct": 4.7,
+        "avg_payout_shown_pct": 75,
+        "earnings_growth_shown_pct": -0.64,
+        "dividend_growth_shown_pct": -0.66,
+        "ratio_of_averages_pe_diagnostic": 15.15151515151515,
+        "ratio_of_averages_yield_diagnostic_pct": 4.8,
+        "ratio_of_averages_payout_diagnostic_pct": 72.72727272727272,
+        "scope": "比率均值与均值比率未获原计算定义，不要求逐行强等；增长是21年周期/特殊三年平均窗口，不用相邻行十年反推"
+      },
+      {
+        "period": "1891–1900",
+        "avg_price": 4.65,
+        "avg_earnings": 0.3,
+        "avg_pe_shown": 15.5,
+        "avg_dividend": 0.19,
+        "avg_yield_shown_pct": 4,
+        "avg_payout_shown_pct": 64,
+        "earnings_growth_shown_pct": -1.04,
+        "dividend_growth_shown_pct": -2.23,
+        "ratio_of_averages_pe_diagnostic": 15.500000000000002,
+        "ratio_of_averages_yield_diagnostic_pct": 4.086021505376344,
+        "ratio_of_averages_payout_diagnostic_pct": 63.33333333333334,
+        "scope": "比率均值与均值比率未获原计算定义，不要求逐行强等；增长是21年周期/特殊三年平均窗口，不用相邻行十年反推"
+      },
+      {
+        "period": "1901–1910",
+        "avg_price": 8.32,
+        "avg_earnings": 0.63,
+        "avg_pe_shown": 13.1,
+        "avg_dividend": 0.35,
+        "avg_yield_shown_pct": 4.2,
+        "avg_payout_shown_pct": 58,
+        "earnings_growth_shown_pct": 6.91,
+        "dividend_growth_shown_pct": 5.33,
+        "ratio_of_averages_pe_diagnostic": 13.206349206349207,
+        "ratio_of_averages_yield_diagnostic_pct": 4.206730769230769,
+        "ratio_of_averages_payout_diagnostic_pct": 55.55555555555555,
+        "scope": "比率均值与均值比率未获原计算定义，不要求逐行强等；增长是21年周期/特殊三年平均窗口，不用相邻行十年反推"
+      },
+      {
+        "period": "1911–1920",
+        "avg_price": 8.62,
+        "avg_earnings": 0.86,
+        "avg_pe_shown": 10,
+        "avg_dividend": 0.5,
+        "avg_yield_shown_pct": 5.8,
+        "avg_payout_shown_pct": 58,
+        "earnings_growth_shown_pct": 3.85,
+        "dividend_growth_shown_pct": 3.94,
+        "ratio_of_averages_pe_diagnostic": 10.023255813953488,
+        "ratio_of_averages_yield_diagnostic_pct": 5.80046403712297,
+        "ratio_of_averages_payout_diagnostic_pct": 58.139534883720934,
+        "scope": "比率均值与均值比率未获原计算定义，不要求逐行强等；增长是21年周期/特殊三年平均窗口，不用相邻行十年反推"
+      },
+      {
+        "period": "1921–1930",
+        "avg_price": 13.89,
+        "avg_earnings": 1.05,
+        "avg_pe_shown": 13.3,
+        "avg_dividend": 0.71,
+        "avg_yield_shown_pct": 5.1,
+        "avg_payout_shown_pct": 68,
+        "earnings_growth_shown_pct": 2.84,
+        "dividend_growth_shown_pct": 2.29,
+        "ratio_of_averages_pe_diagnostic": 13.228571428571428,
+        "ratio_of_averages_yield_diagnostic_pct": 5.111591072714183,
+        "ratio_of_averages_payout_diagnostic_pct": 67.6190476190476,
+        "scope": "比率均值与均值比率未获原计算定义，不要求逐行强等；增长是21年周期/特殊三年平均窗口，不用相邻行十年反推"
+      },
+      {
+        "period": "1931–1940",
+        "avg_price": 11.55,
+        "avg_earnings": 0.68,
+        "avg_pe_shown": 17,
+        "avg_dividend": 0.78,
+        "avg_yield_shown_pct": 5.1,
+        "avg_payout_shown_pct": 85,
+        "earnings_growth_shown_pct": -2.15,
+        "dividend_growth_shown_pct": -0.23,
+        "ratio_of_averages_pe_diagnostic": 16.985294117647058,
+        "ratio_of_averages_yield_diagnostic_pct": 6.753246753246753,
+        "ratio_of_averages_payout_diagnostic_pct": 114.70588235294117,
+        "scope": "比率均值与均值比率未获原计算定义，不要求逐行强等；增长是21年周期/特殊三年平均窗口，不用相邻行十年反推"
+      },
+      {
+        "period": "1941–1950",
+        "avg_price": 13.9,
+        "avg_earnings": 1.46,
+        "avg_pe_shown": 9.5,
+        "avg_dividend": 0.87,
+        "avg_yield_shown_pct": 6.3,
+        "avg_payout_shown_pct": 60,
+        "earnings_growth_shown_pct": 10.6,
+        "dividend_growth_shown_pct": 3.25,
+        "ratio_of_averages_pe_diagnostic": 9.52054794520548,
+        "ratio_of_averages_yield_diagnostic_pct": 6.258992805755395,
+        "ratio_of_averages_payout_diagnostic_pct": 59.589041095890416,
+        "scope": "比率均值与均值比率未获原计算定义，不要求逐行强等；增长是21年周期/特殊三年平均窗口，不用相邻行十年反推"
+      },
+      {
+        "period": "1951–1960",
+        "avg_price": 39.2,
+        "avg_earnings": 3,
+        "avg_pe_shown": 113.1,
+        "avg_dividend": 1.63,
+        "avg_yield_shown_pct": 4.2,
+        "avg_payout_shown_pct": 54,
+        "earnings_growth_shown_pct": 6.74,
+        "dividend_growth_shown_pct": 5.9,
+        "ratio_of_averages_pe_diagnostic": 13.066666666666668,
+        "ratio_of_averages_yield_diagnostic_pct": 4.158163265306122,
+        "ratio_of_averages_payout_diagnostic_pct": 54.333333333333336,
+        "scope": "比率均值与均值比率未获原计算定义，不要求逐行强等；增长是21年周期/特殊三年平均窗口，不用相邻行十年反推"
+      },
+      {
+        "period": "1947–1949",
+        "avg_price": 15.71,
+        "avg_earnings": 2.18,
+        "avg_pe_shown": 7.1,
+        "avg_dividend": 0.97,
+        "avg_yield_shown_pct": 6.4,
+        "avg_payout_shown_pct": 45,
+        "earnings_growth_shown_pct": null,
+        "dividend_growth_shown_pct": null,
+        "ratio_of_averages_pe_diagnostic": 7.206422018348624,
+        "ratio_of_averages_yield_diagnostic_pct": 6.174411203055379,
+        "ratio_of_averages_payout_diagnostic_pct": 44.49541284403669,
+        "scope": "比率均值与均值比率未获原计算定义，不要求逐行强等；增长是21年周期/特殊三年平均窗口，不用相邻行十年反推"
+      },
+      {
+        "period": "1954–1956",
+        "avg_price": 38.19,
+        "avg_earnings": 2.56,
+        "avg_pe_shown": 15.1,
+        "avg_dividend": 1.64,
+        "avg_yield_shown_pct": 4.3,
+        "avg_payout_shown_pct": 65,
+        "earnings_growth_shown_pct": 2.4,
+        "dividend_growth_shown_pct": 7.8,
+        "ratio_of_averages_pe_diagnostic": 14.917968749999998,
+        "ratio_of_averages_yield_diagnostic_pct": 4.294317884262896,
+        "ratio_of_averages_payout_diagnostic_pct": 64.0625,
+        "scope": "比率均值与均值比率未获原计算定义，不要求逐行强等；增长是21年周期/特殊三年平均窗口，不用相邻行十年反推"
+      },
+      {
+        "period": "1961–1963",
+        "avg_price": 66.1,
+        "avg_earnings": 3.66,
+        "avg_pe_shown": 18.1,
+        "avg_dividend": 2.14,
+        "avg_yield_shown_pct": 3.2,
+        "avg_payout_shown_pct": 58,
+        "earnings_growth_shown_pct": 5.15,
+        "dividend_growth_shown_pct": 4.42,
+        "ratio_of_averages_pe_diagnostic": 18.060109289617483,
+        "ratio_of_averages_yield_diagnostic_pct": 3.2375189107413016,
+        "ratio_of_averages_payout_diagnostic_pct": 58.46994535519126,
+        "scope": "比率均值与均值比率未获原计算定义，不要求逐行强等；增长是21年周期/特殊三年平均窗口，不用相邻行十年反推"
+      }
+    ],
+    "ratio_averages_not_average_ratios": true,
+    "old_prices_not_current": true
+  },
+  "ap_case": {
+    "cost_per_old_share": 80,
+    "low1938_old_share": 36,
+    "drawdown_cost_to_low": -0.55,
+    "recovery_required": 1.2222222222222223,
+    "1939_high_old_share": 117.5,
+    "1961_new_share_price": 70.5,
+    "split_new_per_old": 10,
+    "1961_old_share_equivalent": 705,
+    "cash_million": 85,
+    "net_assets_or_net_current_assets_million": 134,
+    "combined_preferred_and_common_market_million": 126,
+    "ex_cash_combined_value_diagnostic_million": 41,
+    "cash_not_added_to_134": true,
+    "priority_and_liquidation_values_unknown": true
+  },
+  "gm_equity_identity": {
+    "common_shares": 294000000,
+    "value_per_share": 100,
+    "total_common_value": 29400000000,
+    "currency": "USD",
+    "scope": "common equity not EV"
+  },
+  "up_down": {
+    "up": 1,
+    "down": -0.5,
+    "terminal_factor": 1
+  },
+  "reentry_cash_comparison": [
+    {
+      "sale": 100,
+      "rebuy": 90,
+      "idle_cash_income": 2,
+      "fee": 1,
+      "tax": 0,
+      "foregone_dividends": 5,
+      "net_cash": 101,
+      "hold_wealth_at_reentry": 95,
+      "wealth_difference": 6,
+      "shares_reacquired": 1.1222222222222222,
+      "scope": "同一卖出时点每股100持仓1股，到同一回买时点比较总财富；未卖出者把5股息留为现金，均无外部流入"
+    },
+    {
+      "sale": 100,
+      "rebuy": 98,
+      "idle_cash_income": 2,
+      "fee": 1,
+      "tax": 0,
+      "foregone_dividends": 5,
+      "net_cash": 101,
+      "hold_wealth_at_reentry": 103,
+      "wealth_difference": -2,
+      "shares_reacquired": 1.030612244897959,
+      "scope": "同一卖出时点每股100持仓1股，到同一回买时点比较总财富；未卖出者把5股息留为现金，均无外部流入"
+    },
+    {
+      "sale": 100,
+      "rebuy": 110,
+      "idle_cash_income": 2,
+      "fee": 1,
+      "tax": 0,
+      "foregone_dividends": 5,
+      "net_cash": 101,
+      "hold_wealth_at_reentry": 115,
+      "wealth_difference": -14,
+      "shares_reacquired": 0.9181818181818182,
+      "scope": "同一卖出时点每股100持仓1股，到同一回买时点比较总财富；未卖出者把5股息留为现金，均无外部流入"
+    }
+  ],
+  "reentry_indifference_price": 96,
+  "forced_sale": {
+    "shares": 10,
+    "initial_price": 100,
+    "drop_price": 60,
+    "cash_needed": 200,
+    "shares_sold": 3.3333333333333335,
+    "shares_left": 6.666666666666666,
+    "initial_value": 1000,
+    "marked_value_before_sale": 600,
+    "unrealized_loss_before_sale": -400,
+    "remaining_value_after_sale": 400,
+    "recovered_price": 100,
+    "remaining_value_after_price_recovers": 666.6666666666666,
+    "cumulative_payment": 200,
+    "wealth_plus_payment_after_price_recovers": 866.6666666666666,
+    "status": "C_CASH_NEED_NO_MARGIN_OR_TAX_NOT_PERSONAL"
+  },
+  "margin_education": {
+    "cash_purchase_price": 50,
+    "initial_equity": 25,
+    "borrowed": 25,
+    "end_security_value": 15,
+    "end_equity": -10,
+    "own_equity_loss": -35,
+    "own_equity_return": -1.4,
+    "scope": "SEC一般情景，未计利息或真实追缴过程，不授权本人融资"
+  },
+  "average_ratio_counterexample": {
+    "price": [
+      10,
+      20
+    ],
+    "earnings": [
+      1,
+      4
+    ],
+    "mean_pe": 7.5,
+    "ratio_of_means_pe": 6
+  },
+  "footnotes": {
+    "embedded_count_batch": 0,
+    "ordinary_numbered_notes": 2,
+    "ordinary_note_lines": [
+      135,
+      407
+    ],
+    "appendix1_reference_read_but_text_unavailable": true,
+    "table_notes_are_separately_read": true
+  },
+  "raw_resource_audit": [
+    {
+      "index": 0,
+      "source": "titlepage.xhtml",
+      "raw_sha256": "d7b72f6a1f8b8706dfa41b6f414094daf494f89d7346ae5a1b359a9b5d6f8653",
+      "embedded_attribute_footnotes": 0,
+      "anchor_links": 0,
+      "images": [
+        "cover.jpeg"
+      ],
+      "start_line": 1,
+      "end_line": 1,
+      "read_in_batch": "R99"
+    },
+    {
+      "index": 1,
+      "source": "index_split_000.html",
+      "raw_sha256": "09a253764699a79697900bb5e0aab2c32b958539643a4078cd57fa74e8ff9ce7",
+      "embedded_attribute_footnotes": 0,
+      "anchor_links": 0,
+      "images": [],
+      "start_line": 2,
+      "end_line": 44,
+      "read_in_batch": "R99"
+    },
+    {
+      "index": 2,
+      "source": "index_split_001.html",
+      "raw_sha256": "5632ca7947efcd1baf2402fe43fdddb3cd1da045a7d91d0e7af60a0060a18865",
+      "embedded_attribute_footnotes": 0,
+      "anchor_links": 0,
+      "images": [],
+      "start_line": 45,
+      "end_line": 106,
+      "read_in_batch": "R99"
+    },
+    {
+      "index": 3,
+      "source": "index_split_002.html",
+      "raw_sha256": "c5cfeea92f020bcc78622ad2f0b66bcb99ee9532c0de49db930d03480c777e2c",
+      "embedded_attribute_footnotes": 0,
+      "anchor_links": 0,
+      "images": [],
+      "start_line": 107,
+      "end_line": 116,
+      "read_in_batch": "R99"
+    },
+    {
+      "index": 4,
+      "source": "index_split_003.html",
+      "raw_sha256": "1231fec43aa2215257c0d346436a8dab43276714e0ba27bf8699e6d389196495",
+      "embedded_attribute_footnotes": 0,
+      "anchor_links": 0,
+      "images": [],
+      "start_line": 117,
+      "end_line": 140,
+      "read_in_batch": "R99"
+    },
+    {
+      "index": 5,
+      "source": "index_split_004.html",
+      "raw_sha256": "a81e2112c26b5d8f3cf1d8b4af86c5320d9cdc5ad5140241b9388918e2667bab",
+      "embedded_attribute_footnotes": 0,
+      "anchor_links": 0,
+      "images": [],
+      "start_line": 141,
+      "end_line": 150,
+      "read_in_batch": "R99"
+    },
+    {
+      "index": 6,
+      "source": "index_split_005.html",
+      "raw_sha256": "657893dc93086d88b1a0b77b20f9650c13d719e47f2e77bb61b8546d70cc9583",
+      "embedded_attribute_footnotes": 0,
+      "anchor_links": 0,
+      "images": [],
+      "start_line": 151,
+      "end_line": 157,
+      "read_in_batch": "R99"
+    },
+    {
+      "index": 7,
+      "source": "index_split_006.html",
+      "raw_sha256": "efba2af79ef37d0d024b2a0106b4c1c8a36cc57a3e0da75ce0bf59d3843af059",
+      "embedded_attribute_footnotes": 0,
+      "anchor_links": 0,
+      "images": [],
+      "start_line": 158,
+      "end_line": 182,
+      "read_in_batch": "R99"
+    },
+    {
+      "index": 8,
+      "source": "index_split_007.html",
+      "raw_sha256": "b122c9e45310155dc79c4f493150cf784cf363746e517a0f5125cedc1cecab3f",
+      "embedded_attribute_footnotes": 0,
+      "anchor_links": 0,
+      "images": [],
+      "start_line": 183,
+      "end_line": 201,
+      "read_in_batch": "R99"
+    },
+    {
+      "index": 9,
+      "source": "index_split_008.html",
+      "raw_sha256": "0ae3092971f85c3b7c202883eab2d871a93143e05e9a21c188c8986862775371",
+      "embedded_attribute_footnotes": 0,
+      "anchor_links": 0,
+      "images": [],
+      "start_line": 202,
+      "end_line": 206,
+      "read_in_batch": "R99"
+    },
+    {
+      "index": 10,
+      "source": "index_split_009.html",
+      "raw_sha256": "8263e38c90783d10ba99fe7856071969fc80c3a51fb41bf580fb2a6d850b6254",
+      "embedded_attribute_footnotes": 0,
+      "anchor_links": 0,
+      "images": [],
+      "start_line": 207,
+      "end_line": 214,
+      "read_in_batch": "R99"
+    },
+    {
+      "index": 11,
+      "source": "index_split_010.html",
+      "raw_sha256": "4e38ef29abfe665b03be11a5e37d2157f58b58e901639e5bccf839fcb3dfee32",
+      "embedded_attribute_footnotes": 0,
+      "anchor_links": 0,
+      "images": [],
+      "start_line": 215,
+      "end_line": 277,
+      "read_in_batch": "R99"
+    },
+    {
+      "index": 12,
+      "source": "index_split_011.html",
+      "raw_sha256": "6769ca1448e913e130019569f6cff7e352015ff72fd69eb168ea7b3bdcb8d3dc",
+      "embedded_attribute_footnotes": 0,
+      "anchor_links": 0,
+      "images": [],
+      "start_line": 278,
+      "end_line": 313,
+      "read_in_batch": "R99"
+    },
+    {
+      "index": 13,
+      "source": "index_split_012.html",
+      "raw_sha256": "34a8bfece9ed7ef5724c38794ef79bdda2800d8053a08e9f5e38352273dc1fd8",
+      "embedded_attribute_footnotes": 0,
+      "anchor_links": 0,
+      "images": [],
+      "start_line": 314,
+      "end_line": 325,
+      "read_in_batch": "R99"
+    },
+    {
+      "index": 14,
+      "source": "index_split_013.html",
+      "raw_sha256": "6d8e3406f1669e7bea888302af98ca415f64099eeda7ce87af703a79ca2c6b21",
+      "embedded_attribute_footnotes": 0,
+      "anchor_links": 0,
+      "images": [],
+      "start_line": 326,
+      "end_line": 329,
+      "read_in_batch": "R99"
+    },
+    {
+      "index": 15,
+      "source": "index_split_014.html",
+      "raw_sha256": "ab59c7d06b450344b416e1d4e0d9f07937986e541657f8792b32cb667fefe47d",
+      "embedded_attribute_footnotes": 0,
+      "anchor_links": 0,
+      "images": [],
+      "start_line": 330,
+      "end_line": 389,
+      "read_in_batch": "R99"
+    },
+    {
+      "index": 16,
+      "source": "index_split_015.html",
+      "raw_sha256": "d9537539be16d2866e2236f387f8626ff52a1c4da0ea6ce5d0e0b68229eeb974",
+      "embedded_attribute_footnotes": 0,
+      "anchor_links": 0,
+      "images": [],
+      "start_line": 390,
+      "end_line": 399,
+      "read_in_batch": "R99"
+    },
+    {
+      "index": 17,
+      "source": "index_split_016.html",
+      "raw_sha256": "0c5c4f9ba1a4e5fb206d2c641a80dfdea20c5441848748c1522db59431c54c6a",
+      "embedded_attribute_footnotes": 0,
+      "anchor_links": 0,
+      "images": [],
+      "start_line": 400,
+      "end_line": 411,
+      "read_in_batch": "R99"
+    },
+    {
+      "index": 18,
+      "source": "index_split_017.html",
+      "raw_sha256": "41662fbc9843d5eb9dfaee8d81a148700e95dd923e05a1420ea7dbef2710e57d",
+      "embedded_attribute_footnotes": 0,
+      "anchor_links": 0,
+      "images": [],
+      "start_line": 412,
+      "end_line": 418,
+      "read_in_batch": "R99"
+    }
+  ],
+  "cover": {
+    "source": "cover.jpeg",
+    "sha256": "a6b4b0f90da56a71898b20dee7bdddd944891f83cf575b29171e1a50c3cff866",
+    "status": "已目视阅读",
+    "reference_type": "SVG image xlink:href",
+    "original_img_count_in_catalog": 0,
+    "spine_index": 0
+  },
+  "external_checks": [
+    {
+      "source": "https://www.irs.gov/taxtopics/tc409",
+      "read_scope": "一般长/短期资本利得与例外说明段",
+      "general_long_term_months_more_than": 12,
+      "book_historical_months": 6,
+      "status": "CURRENT_GENERAL_RULE_NOT_PERSONAL_APPLICABILITY"
+    },
+    {
+      "source": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-29",
+      "read_scope": "保证金亏损/追加/强制出售及50→15示例相关段；非具体合同或账户",
+      "status": "GENERAL_EDUCATION_NOT_PERSONAL_OR_TRADING_AUTHORIZATION"
+    }
+  ],
+  "open_issues": [
+    "封面/文件写第4版，但本地16章、导言1914–1963与第3章1964行情，不能确认与常见20章英文第四修订版同版；元数据2012是打包时点线索非确认出版年",
+    "第1章116行“不同就在于愿意承担风险”与同段时间研究和“那种情况称投机者”矛盾；178行“应被分析者拒绝”与需要专家协助矛盾，疑漏字/翻译，不猜改",
+    "第1章136行“不是好的结果而是好的结果”前后同义，146行“完全投机既不合法也不道德”与紧接必要/理性投机矛盾，不当法律或伦理通则",
+    "135行内联注指附录1，原spine和正文标题查不到实质附录1；本批只读引用，未取得或阅读附录内容",
+    "表1的1961航空股票指数单元格缺失；“毛收益”是营业量级而非股东毛利润，不虚构缺值或当盈利",
+    "表2 1964净收入15000×33%=4950而原购买力5000，33%显示舍入可能；1947 10610×45%=4774.5约4775；税行“3个侍从”标签疑翻译",
+    "原书6个月税惠及3.5%免税收益、25%–75%权重、50/55/45再平衡均为历史/书例；IRS一般长期资本利得超过1年，未知个人适用不套用",
+    "表4 SP500两价格17.18/15.30加股息9.94=收益8.06，点算46.9150%对原46.70%，分位舍入不能全解释；收益行1948–1958/1959–1963时点与再投资口径不完全给出",
+    "表5资本利得分配再投资在注a单独说明，11年价格加累计股利的终值等价年化不能冒充逐笔XIRR或已证实际再投资总回报",
+    "表6 1910行85.0−81.9=3.1对原3.0；1957卖457.4−下次买459.6=−2.2对原−2.1，有原输入舍入可能，保留差异；点数不能直接相加当资金年化",
+    "表7 1923行高31.92/381与表6的1923/1929阶段不一致；1881→1885 6.58→4.24应约35.56%对原28%，早期列对齐/年份未核",
+    "表7 1956→1957 SP49.70→39.00约21.53%对原24%；1952行292→256约12.33%对原13%等显示/极值时点未核",
+    "表8 1951–1960平均PE113.1与39.20/3.00约13.07量级不符；1931–1940红利0.78与收益率5.1/支付率85有桥接疑点；均值比率≠比率均值不能强配所有行",
+    "第2章331行最大跌幅27%却说比过去15年“都要高”，与较温和回落论旨冲突；388行SP54.8/19.25=2.8468、DJ536/212.5=2.5224，“2.5倍”依指数不同",
+    "398–399两段近重复；396行“为什么不会无限期上涨”与长期未纠错语义不合，406行“不放弃就无更多损失”和保证回成本不采纳",
+    "A&P净资产或净流动资产134与现金85/优先普通合计市值126的口径及优先顺位未核，不把现金重复加，也不把名义净资产当可兑现金",
+    "作者半年到两年半纠错经验、25年赶债券、几年来多赚一倍及历史基金/指数/分红/税率均是书内未核资料，不作个人等待期限或收益保证",
+    "本地全EPUB仅cover.jpeg，后文提图的完整性尚待对应章节核，不以原件无图资源断言本书原版没有图"
+  ],
+  "cash_dividend_annualization_example": {
+    "initial": 100,
+    "year1_dividend": 5,
+    "year2_dividend": 5,
+    "year2_price": 100,
+    "terminal_with_dividends_held_cash": 110,
+    "terminal_equivalent_cagr": 0.04880884817015163,
+    "cashflow_irr": 0.05,
+    "status": "C_COUNTEREXAMPLE_TERMINAL_EQUIVALENT_NOT_CASHFLOW_IRR"
+  }
+}

@@ -1,0 +1,200 @@
+{
+  "publication_provenance": {
+    "kind": "书籍阅读、历史案例及教学复算资料",
+    "source_record": "阅读记录/B06_CH01_复算.json",
+    "financial_numbers_origin": "仅为书内案例、历史统计或教学复算；不是维护者或使用者的资产、账户、持仓或交易记录。",
+    "private_account_or_holdings_data": false
+  },
+  "book_id": "B06",
+  "chapter": 1,
+  "title": "业余投资者比专业投资者业绩更好",
+  "decode": "B06-v2-2026-10-13",
+  "range": {
+    "start_line": 252,
+    "end_line": 354,
+    "line_count": 103,
+    "chars_with_newlines": 11149
+  },
+  "images": [
+    {
+      "file": "images/00016.jpg",
+      "content": "章节装饰图标（R55已目视）",
+      "refs": 3,
+      "status": "目视阅读",
+      "original_report_verified": false
+    },
+    {
+      "file": "images/00072.jpg",
+      "content": "表1-1 上半（11只股票1990~1991年投资收益率）",
+      "refs": 1,
+      "status": "目视阅读",
+      "original_report_verified": false
+    },
+    {
+      "file": "images/00061.jpg",
+      "content": "表1-1 续（IBM/NYNEX/美孚＋投资组合总收益率69.6＋标普500收益率26.08）",
+      "refs": 1,
+      "status": "目视阅读",
+      "original_report_verified": false
+    }
+  ],
+  "checks": {
+    "table_1_1_equal_weight": {
+      "status": "ARITHMETIC_OK",
+      "components_pct": [
+        164.7,
+        178.5,
+        3.4,
+        68.8,
+        -64.3,
+        53.1,
+        320.3,
+        63.8,
+        146.9,
+        55.7,
+        -38.5,
+        3.6,
+        -0.22,
+        19.1
+      ],
+      "count": 14,
+      "equal_weight_mean_pct": 69.63,
+      "book_printed_portfolio": 69.6,
+      "book_printed_sp500": 26.08,
+      "note": "等权算术平均精确吻合，表明“投资组合总收益率”为等权平均而非复合收益率",
+      "source_verified": false
+    },
+    "portfolio_vs_benchmark": {
+      "status": "ARITHMETIC_OK",
+      "ratio": 2.67,
+      "book_printed": "业绩是同期标准普尔500指数业绩水平的一倍以上",
+      "two_year_cagr_portfolio_pct": 30.23,
+      "two_year_cagr_sp500_pct": 12.29
+    },
+    "pentech_price": {
+      "status": "ARITHMETIC_OK",
+      "from_usd": 5.125,
+      "to_usd": 9.5,
+      "gain_pct": 85.4,
+      "book_printed": "几乎翻了一倍",
+      "source_verified": false
+    },
+    "dense_pac_price": {
+      "status": "ARITHMETIC_OK",
+      "from_usd": 16,
+      "to_usd": 0.25,
+      "change_pct": -98.4,
+      "book_printed": "股价从每股16美元一直跌到每股25美分"
+    },
+    "food_lion_14000x": {
+      "status": "AMBIGUOUS_BASIS",
+      "multiple": 14000,
+      "from_usd": 1000,
+      "to_usd": 14000000,
+      "years_1957_to_1993": 36,
+      "implied_cagr_pct": 30.37,
+      "implied_price_per_share_usd": 100,
+      "book_printed": "1957年首次发行股票时……各自投资1000美元买了10股……现在市值已经增加到了1400万美元……那88个人全成了千万富翁",
+      "note": "倍数与“千万富翁”一致；“1000美元买10股”隐含每股100美元，与1957年常见发行价口径不符，待核原始招股信息",
+      "source_verified": false
+    },
+    "lump_sum_52y": {
+      "status": "ARITHMETIC_OK",
+      "initial_usd": 1000,
+      "final_usd": 333793.3,
+      "multiple": 333.79,
+      "implied_cagr_pct": 11.82,
+      "book_printed": "如果在1940年1月31日你投资1000美元购买标准普尔指数，52年后……增值到333793.30美元",
+      "source_verified": false
+    },
+    "dca_52y": {
+      "status": "PARTIAL_MISMATCH_ROUNDED",
+      "total_invested_usd": 52000,
+      "final_usd": 3554227,
+      "recompute_by_annuity_at_11_82pct": 3147756,
+      "gap_pct": 12.9,
+      "note": "按一次性投资推出的年化做期初年金复算，与书示差12.9%；差异因未使用逐年实际收益序列（且未计股息/时点差异），登记不改",
+      "source_verified": false
+    },
+    "dca_with_10pct_dips": {
+      "status": "ARITHMETIC_OK",
+      "total_invested_usd": 83000,
+      "components": "52,000（每年）+31,000（31次跌超10%）",
+      "final_usd": 6295000,
+      "final_over_invested_multiple": 75.8,
+      "book_printed": "这52年中股市下跌10%以上共有31次，这样加上每年年初投资的1000美元，你的总投资为83000美元，经过52年后会增值到6295000美元",
+      "note": "83,000=52,000+31,000 算术一致；终值口径依赖逐年序列，不独立复算",
+      "source_verified": false
+    },
+    "misc_claims_unverified": {
+      "status": "SELF_REPORTED_UNVERIFIED",
+      "items": [
+        "75%的基金投资业绩达不到市场平均水平",
+        "圣阿格尼斯学生业绩超过99%的基金经理",
+        "整个20世纪80年代多数NAIC俱乐部会员跑赢标普500，而同期3/4的股票基金没跑赢大盘",
+        "1991年61.9%、1992年69%的投资俱乐部超过或与标普500持平",
+        "史密斯·巴尼数据库覆盖2800家公司；美林筛选指标10种；美林客户中不到5%使用电脑筛选；雷曼为散户提供的数据库信息90%无人使用",
+        "过去70年股市出现过40次大跌；西尔斯在第一批购物中心中95%有分店",
+        "雄狮食品1957年88位居民各投1000美元；富达技术部门1940–1992定投统计",
+        "国民比萨与泰柯玩具“上涨4倍”；耐克每股56→76美元；沃尔玛每股60美元每10股送10股"
+      ],
+      "boundary": "均为书内自述或转述，未核原始数据、基金年报或第三方统计；不得作为推导输入",
+      "source_verified": false
+    },
+    "arithmetic": {
+      "status": "PASS",
+      "computations": [
+        {
+          "expr": "sum(14 returns)/14",
+          "pct": 69.63
+        },
+        {
+          "expr": "1.696**(1/2)-1",
+          "pct": 30.23
+        },
+        {
+          "expr": "1.2608**(1/2)-1",
+          "pct": 12.29
+        },
+        {
+          "expr": "69.6/26.08",
+          "value": 2.67
+        },
+        {
+          "expr": "9.5/5.125-1",
+          "pct": 85.4
+        },
+        {
+          "expr": "0.25/16-1",
+          "pct": -98.4
+        },
+        {
+          "expr": "14000000/1000",
+          "value": 14000
+        },
+        {
+          "expr": "14000**(1/36)-1",
+          "pct": 30.37
+        },
+        {
+          "expr": "(333793.30/1000)**(1/52)-1",
+          "pct": 11.82
+        },
+        {
+          "expr": "1000*(1+r)*((1+r)**52-1)/r, r=0.1182",
+          "value": 3147756
+        },
+        {
+          "expr": "52000+31000",
+          "value": 83000
+        },
+        {
+          "expr": "6295000/83000",
+          "value": 75.8
+        }
+      ]
+    }
+  },
+  "math_or_logic_only": true,
+  "investment_performance_validated": false
+}

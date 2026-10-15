@@ -1,0 +1,79 @@
+{
+  "publication_provenance": {
+    "kind": "书籍阅读、历史案例及教学复算资料",
+    "source_record": "阅读记录/B06_CH19_复算.json",
+    "financial_numbers_origin": "仅为书内案例、历史统计或教学复算；不是维护者或使用者的资产、账户、持仓或交易记录。",
+    "private_account_or_holdings_data": false
+  },
+  "book": "B06",
+  "volume": "第一册《战胜华尔街》",
+  "chapter": 19,
+  "chapter_title": "后院宝藏：共同基金之康联集团",
+  "range": {
+    "start_line": 1899,
+    "end_line": 1922,
+    "line_count": 24,
+    "chars_with_newlines": 3436
+  },
+  "decode": "B06-v2-2026-10-13",
+  "image_files_referenced": [
+    "images/00031.jpg"
+  ],
+  "image_files_newly_viewed_this_batch": [
+    "images/00031.jpg"
+  ],
+  "image_note": "spine30（index_split_029.html）覆盖1899–1922行；唯一图像00031表19-1小结（COGRA／康联集团／17.38美元，1992-1-13）。图表行在章末1922行，表题在1921行。spine30无脚注链、无译者注。",
+  "checks": {
+    "kang_lian_pe": {
+      "input": "'康联集团现在的股价每股17美元才和1985首次公开发行的股价处在同一水平'；1985年管理50~60亿、每股收益1美元；现在管理90亿、每股收益1.55美元、每股公积金4美元、已回购7%股份；'罗·普莱斯20倍、弗兰克林20倍，但康联集团的售价只是每股收益的10倍'；表19-1为17.38美元",
+      "computation": "17/1.55=10.97倍（书称10倍）；(17-4)/1.55=8.39倍（减现金后）；对同业20倍折价约50%~58%；1985年1.00美元EPS对应约17倍",
+      "status": "PASS_WITH_CAVEAT",
+      "note": "表19-1的17.38与正文17美元为同时点取整差异"
+    },
+    "asset_vs_income": {
+      "input": "管理资金50~60亿→90亿（+50%~80%），EPS 1.00→1.55（+55%），但作者称'收入水平已经4年停滞不前'",
+      "computation": "资产规模与公司收入口径不同（管理费与业绩报酬）",
+      "status": "PASS_WITH_CAVEAT",
+      "note": "须区分AUM增长与公司收入增长"
+    },
+    "1990_drawdown_1991_rebound": {
+      "input": "1990年萨达姆大甩卖：伊顿范斯折损30%、德莱弗斯折损18.86%；1991年涨幅：弗兰克林75%、德莱弗斯55%、罗·普莱斯116%、联合资产管理80%、康联40%、道富81.77%；等权8家组合'市值几近翻倍'",
+      "computation": "道富两处引用81%与81.77%；组合'几近翻倍'需权重才能精确复算",
+      "status": "BOOK_CLAIM_UNVERIFIED"
+    },
+    "dreyfus_rate_sensitivity": {
+      "input": "利率下降时债券与股权基金型（伊顿范斯、康联）受益；德莱弗斯管理金融市场资产，利率上升时受益；大联资产以机构客户为主",
+      "computation": "定性（业务模式分类）",
+      "status": "PASS_WITH_CAVEAT"
+    },
+    "state_street_split": {
+      "input": "岳母卖出后道富又涨到原来的3倍，且实行1配2的分拆，使价格看似未变",
+      "computation": "1拆2→价格减半股数加倍；跨期比较必须复权",
+      "status": "PASS_WITH_CAVEAT"
+    },
+    "cape_cod_500y": {
+      "input": "凯普尔为开放式共同基金公司，基金投资总资产500亿美元；保险子公司改善带动经纪业务（普雷斯科特、伯尔、特尔本）；1991年股价加倍",
+      "computation": "定性",
+      "status": "BOOK_CLAIM_UNVERIFIED"
+    },
+    "shovel_logic": {
+      "input": "'专门卖镐和铲的人比真正淘金的人获利还多'；'如果你把资金平均分割成8份……从1988年年初持有至1989年年终，你的投资收益将会超越99%的这些公司发行的各类基金产品'",
+      "computation": "定性（主题式观察）",
+      "status": "NOT_AUTHORIZED",
+      "note": "同一章内作者亦指出该群体在1991年后大多高估"
+    },
+    "surprise_rule": {
+      "input": "'如果你向10家不同的公司进行10次调查，你将至少发现一家公司有意料之外的重大进展'；斯库恩透露道富银行选中康联上市销售其新型基金",
+      "computation": "定性（调研频次与意外信息的关系）",
+      "status": "QUALITATIVE"
+    }
+  },
+  "flags": [
+    "PASS_WITH_CAVEAT：道富1991年涨幅两处表述（81%/81.77%）；'收入4年停滞'与'AUM加倍'口径需并列；表19-1取整差异",
+    "BOOK_CLAIM_UNVERIFIED：8家等权组合'超越99%基金产品'与'市值几近翻倍'、各年涨幅、每月2000亿美元定存到期、凯普尔500亿资产、道富后台业务与被委托发行、岳母案例3倍与拆股",
+    "NOT_AUTHORIZED：'卖镐和铲'逻辑不构成'基金公司优于基金产品'的规则；相对估值只作筛选线索",
+    "REQUIRED_QUESTION：'为什么康联被如此低估'（收入4年停滞、知名度低）必须写入决策底稿",
+    "SPLIT_ADJUST：跨期价格比较一律复权",
+    "original_report_verified=false（全部图像与数字）"
+  ]
+}

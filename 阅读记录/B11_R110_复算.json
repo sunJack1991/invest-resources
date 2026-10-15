@@ -1,0 +1,308 @@
+{
+  "publication_provenance": {
+    "kind": "书籍阅读、历史案例及教学复算资料",
+    "source_record": "阅读记录/B11_R110_复算.json",
+    "financial_numbers_origin": "仅为书内案例、历史统计或教学复算；不是维护者或使用者的资产、账户、持仓或交易记录。",
+    "private_account_or_holdings_data": false
+  },
+  "batch": "R110",
+  "date_utc": "2026-10-14",
+  "book": "B11",
+  "book_title": "金钱心理学：财富、人性和幸福的永恒真相",
+  "source_file": "投资书籍/金钱心理学.epub",
+  "source_sha256": "6ba1f8484392fac2611911fc1eaf84ac047f73fb5d395468cef3628f429d8f3b",
+  "decoded_text_sha256": "49a436df4e11c10fa8afbdb607656a7597773f9caaad288e900fff2fab8f4311",
+  "decoded_text_lines": 1917,
+  "decoded_text_chars": 123755,
+  "range_read": {
+    "start_line": 453,
+    "end_line": 785,
+    "lines": 333,
+    "chars_including_newlines": 19500,
+    "chapters": {
+      "05": "453–568（第5章 致富vs.守富）",
+      "06": "569–696（第6章 尾部的胜利）",
+      "07": "697–769（第7章 自由）",
+      "08": "770–785（第8章 豪车悖论；止于785行，第9章起于786行）"
+    },
+    "chapter_chars": {
+      "453-568": 6183,
+      "569-696": 7401,
+      "697-769": 4858,
+      "770-785": 1055,
+      "453-785": 19500
+    },
+    "cumulative_1_785_chars": 48294,
+    "boundary_evidence": "spine 9–12（chapter_10.xhtml–chapter_13.xhtml）连续无空洞；785行后即第9章标题行786；前1–452行由R109实读并仅继承，本批未重读"
+  },
+  "resources_read": [
+    {
+      "index": 9,
+      "source": "EPUB/chapter_10.xhtml",
+      "start_line": 453,
+      "end_line": 568,
+      "chapter": "第5章 致富vs.守富",
+      "raw_bytes": 21573,
+      "raw_sha256": "2190ee2ac1b8bcba4367b503ef4c8a3350b63689de59f63d9f1e512c52f91e61",
+      "images": [
+        "EPUB/img/CB_3300064234_P004.jpg"
+      ],
+      "zuixiaoyao_notes": 5,
+      "embedded_attribute_footnotes": 0,
+      "anchor_links": 0,
+      "read_in_batch": "R110"
+    },
+    {
+      "index": 10,
+      "source": "EPUB/chapter_11.xhtml",
+      "start_line": 569,
+      "end_line": 696,
+      "chapter": "第6章 尾部的胜利",
+      "raw_bytes": 24057,
+      "raw_sha256": "5f41cb835d2ed0d9a51bafee69e6a81162e7a84b00910025e75367b19623ba44",
+      "images": [
+        "EPUB/img/CB_3300064234_P005.jpg"
+      ],
+      "zuixiaoyao_notes": 10,
+      "embedded_attribute_footnotes": 0,
+      "anchor_links": 0,
+      "read_in_batch": "R110"
+    },
+    {
+      "index": 11,
+      "source": "EPUB/chapter_12.xhtml",
+      "start_line": 697,
+      "end_line": 769,
+      "chapter": "第7章 自由",
+      "raw_bytes": 15922,
+      "raw_sha256": "988f6c97b8306c0ebe5d62558e6eecbd1c0d4c1870de7bbc544eef24fc04c282",
+      "images": [],
+      "zuixiaoyao_notes": 6,
+      "embedded_attribute_footnotes": 0,
+      "anchor_links": 0,
+      "read_in_batch": "R110"
+    },
+    {
+      "index": 12,
+      "source": "EPUB/chapter_13.xhtml",
+      "start_line": 770,
+      "end_line": 785,
+      "chapter": "第8章 豪车悖论",
+      "raw_bytes": 4098,
+      "raw_sha256": "4485aff3ead5f9176fda77cac89d1820a4ef4fe183b117392d894b4673fb6076",
+      "images": [],
+      "zuixiaoyao_notes": 0,
+      "embedded_attribute_footnotes": 0,
+      "anchor_links": 0,
+      "read_in_batch": "R110"
+    }
+  ],
+  "images_in_batch": {
+    "img_references": 2,
+    "files": [
+      "CB_3300064234_P004.jpg",
+      "CB_3300064234_P005.jpg"
+    ],
+    "viewed": [
+      {
+        "file": "CB_3300064234_P004.jpg",
+        "figure": "图5.1 美国过去170年的人均国内生产总值",
+        "status": "已逐幅目视",
+        "readings_approx": {
+          "axis": "纵轴对数刻度1,000–100,000；横轴1850–约2019",
+          "1850": "约1,800–2,000",
+          "1930": "约8,000（1933年低点约6,500）",
+          "1970": "约23,000",
+          "1990": "约35,000",
+          "2010": "约50,000",
+          "end": "约58,000–60,000"
+        },
+        "note": "读数为目测近似，只作方向；不据此断言精确倍数"
+      },
+      {
+        "file": "CB_3300064234_P005.jpg",
+        "figure": "图6.1 1980—2014年经历过“重大损失”的公司百分比",
+        "status": "已逐幅目视",
+        "readings": {
+          "科技": 0.57,
+          "电信": 0.51,
+          "能源": 0.47,
+          "非必需消费品": 0.43,
+          "卫生保健": 0.42,
+          "工业": 0.35,
+          "原料": 0.34,
+          "必需消费品": 0.26,
+          "金融": 0.25,
+          "公用事业": 0.13
+        },
+        "note": "与正文“科技和电信类超过一半”“公用事业超过十分之一”一致"
+      }
+    ],
+    "viewed_count_batch": 2,
+    "viewed_count_cumulative": 6,
+    "image_reference_count_cumulative": 13,
+    "image_files_in_epub": 11,
+    "unavailable_in_batch": []
+  },
+  "notes_read": {
+    "batch_notes": {
+      "第5章": 5,
+      "第6章": 10,
+      "第7章": 6,
+      "第8章": 0,
+      "合计": 21
+    },
+    "cumulative_notes": {
+      "序言": 5,
+      "第1章": 7,
+      "第2章": 3,
+      "第3章": 11,
+      "第4章": 3,
+      "第5章": 5,
+      "第6章": 10,
+      "第7章": 6,
+      "第8章": 0,
+      "合计": 50
+    },
+    "book_total": 129,
+    "hidden_footnotes_batch": 0,
+    "note": "zuixiaoyao ㊟【】为电子版第三方行内注，独立计数，不与原书正文混同"
+  },
+  "computations": {
+    "buffett_non_actions_count": {
+      "title": "第5章 巴菲特“不作为”清单计数",
+      "count": 7,
+      "status": "PASS",
+      "detail": "债务／衰退中抛售／声誉／单一策略与世界观／依赖他人资金／拼到精疲力竭／放弃或退休＝7条"
+    },
+    "fig51_reading": {
+      "title": "图5.1 人均GDP读数与“生活水平提高20倍”",
+      "self_computed": "60,000/2,900≈20.7倍",
+      "status": "PASS_APPROX",
+      "detail": "起点读数为目测（约1,800–2,000，用于倍数比较时约2,900）；书示20倍与之同量级，但不作为精确倍数引用"
+    },
+    "forbes400_decay": {
+      "title": "《福布斯》400“每10年约20%消失”的递推",
+      "self_computed": "1-0.8^4=0.5904（40年累计59.04%）",
+      "status": "DERIVED_ONLY",
+      "detail": "原始榜单数据为注源转引（Boudreaux 2008–2013），未外部核；本项仅作口径说明，不作为事实引用"
+    },
+    "chapter5_vs_chapter6_40pct": {
+      "title": "两章“40%”口径差异",
+      "status": "CONFLICT_OPEN（口径不一致，不配平）",
+      "detail": "第5章：“曾经获得成功并上市的公司中有40%随着时间过去而失去了自己的全部价值”；第6章（J.P. Morgan 罗素3000 研究）：“40%跌去了至少70%的价值，而且在统计时间内再也没能恢复”。引用时按第6章研究口径，不引“全部价值”字样"
+    },
+    "fig61_readings": {
+      "title": "图6.1 行业比例与正文表述",
+      "status": "PASS",
+      "detail": "科技57%、电信51%＞50%（对应“超过一半失去了大部分市值”）；公用事业13%＞10%（对应“超过了十分之一”）；其余八类读值已登记"
+    },
+    "venture_distribution": {
+      "title": "风投回报分布（2.1万起融资）",
+      "self_computed": "0.5%×21,000=105家；65%+2.5%+1%+0.5%=69%",
+      "status": "PASS_APPROX（分类未穷尽）",
+      "detail": "“约100家”与自算105家一致；剩余约31%的口径（小幅盈利/持平/未分类）书中未给，登记为分类未穷尽，不据此推断期望收益"
+    },
+    "russell3000_73x": {
+      "title": "罗素3000自1980年增长73倍",
+      "self_computed": "73^(1/35)-1=0.130415（约13.04%/年）",
+      "status": "DERIVED_ONLY",
+      "detail": "原始序列未核（NOT_VERIFIABLE）；年化为本项目补算，仅作口径说明"
+    },
+    "dollar_a_month_experiment": {
+      "title": "苏／吉姆／汤姆每月1美元实验（1900–2019）",
+      "given": {
+        "苏_始终投入": 435551,
+        "吉姆_衰退期离场": 257386,
+        "汤姆_衰退前后6个月离场": 234476
+      },
+      "self_computed": {
+        "苏_比吉姆": "435551/257386-1=0.692209（+69.22%）",
+        "苏_比汤姆": "435551/234476-1=0.857550（+85.76%）",
+        "吉姆_比汤姆": "257386/234476-1=0.097707（+9.77%）"
+      },
+      "status": "CONFLICT_OPEN（书内近似偏高）",
+      "detail": "正文“比吉姆或汤姆多赚了差不多四分之三的钱”（≈75%）高于对吉姆的实际69.22%约5.8个百分点；引用时用实际倍数，不引“四分之三”"
+    },
+    "months_and_recession": {
+      "title": "1,428个月与“300多个月／22%”",
+      "self_computed": {
+        "1428个月=119年": 119.0,
+        "22%对应月数": 314.16,
+        "300/1428": 0.210084
+      },
+      "status": "PASS_APPROX",
+      "detail": "1,428个月＝119年，对应1900-01至2018-12的计数口径（含两端为120年）；自算300/1,428=21.0%与“22%”内部一致"
+    },
+    "principal_share": {
+      "title": "实验中的本金占比",
+      "self_computed": "1美元×1,428个月=1,428美元，占苏终值0.33%",
+      "status": "DERIVED_ONLY",
+      "detail": "结论差异来自离场时点，不来自选择能力；仅作口径说明"
+    },
+    "sivers_savings": {
+      "title": "第7章 西弗斯储蓄数字",
+      "given": {
+        "年收入": 20000,
+        "月薪": 1800,
+        "月支出": 1000,
+        "两年储蓄": 12000
+      },
+      "self_computed": {
+        "月结余×24": "（1800-1000）×24=19200",
+        "差额": 7200,
+        "按1.2万反推月支出": 1300.0,
+        "月薪年薪化": 21600
+      },
+      "status": "CONFLICT_OPEN（内部不一致，不配平）",
+      "detail": "按月结余800计两年应存19,200美元，与书示1.2万美元差7,200美元；反推月支出1,300与书示1,000冲突；年收入2万与21,600差8%（可能为税前或取整口径）。原文不改、不代填"
+    },
+    "income_and_house": {
+      "title": "第7章 收入中位数与房屋面积",
+      "self_computed": {
+        "62000/29000": 2.137931,
+        "226/91": 2.483516
+      },
+      "status": "DERIVED_ONLY",
+      "detail": "书内未给倍数，倍数为本项目补算；原始序列（Russell Sage、房屋面积统计）未核"
+    },
+    "gallup_deltas": {
+      "title": "第7章 盖洛普2019差值",
+      "self_computed": {
+        "忧虑": "45%-39%=6个百分点",
+        "压力": "55%-35%=20个百分点"
+      },
+      "status": "PASS（内部一致）",
+      "detail": "调查本身为转引（《纽约时报》报道），未核原始问卷"
+    },
+    "work_composition": {
+      "title": "第7章 工作构成",
+      "self_computed": {
+        "1870": "46%+35%=81%",
+        "今天": "38%+41%=79%"
+      },
+      "status": "PASS",
+      "detail": "两处均为部分口径（其余类别正文未列），不得当作全量分类"
+    },
+    "happiness_control": {
+      "title": "第7章 坎贝尔结论与第8章机制",
+      "status": "NARRATIVE_ONLY",
+      "detail": "“掌控感预测幸福”与“豪车悖论”均为作者叙述/转引主张，本环境无可核数据；不据此设定任何阈值"
+    }
+  },
+  "narrative_not_verifiable": [
+    "第5章 利弗莫尔/日耳曼斯基生平、1929年10月市值蒸发与《纽约时报》报道细节",
+    "第5章 170年美国历史清单（9次战争130万死亡、99.9%新企业破产、4名总统遇刺、67.5万流感死亡、30次自然灾害、33次衰退48年、102次跌超10%、12次蒸发1/3、20个年份通胀>7%、2.9万次报纸出现“经济悲观情绪”）",
+    "第6章 贝格鲁恩交易金额、迪士尼400多部动画与800万美元、卡洛克公司收入/市值、2018年亚马逊6%与苹果7%、三家科技公司录用率、巴菲特400–500只持股与“10只”",
+    "第6章 Correlation Ventures／J.P. Morgan／罗素3000 原始数据序列",
+    "第7章 坎贝尔1981、盖洛普2019、Russell Sage收入序列、房屋面积序列、戈登统计、皮尔默1,000名老人访谈"
+  ],
+  "unavailable_materials": [],
+  "limitations": [
+    "本批复算均为书内数字的内部一致性/算术检查，不验证原始企业披露、历史统计或投资收益",
+    "图5.1读数为目测近似，只作方向；图6.1读值与正文表述一致",
+    "电子版第三方注记（zuixiaoyao ㊟【】）独立计数，不作为原书正文或来源依据",
+    "前1–452行（R109）仅继承，未在本批重读；原书文件未修改",
+    "第8章末“下一章继续谈法拉利”为前向引用，第9章本批未读，不作结论"
+  ]
+}

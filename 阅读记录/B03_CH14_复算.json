@@ -1,0 +1,404 @@
+{
+  "publication_provenance": {
+    "kind": "书籍阅读、历史案例及教学复算资料",
+    "source_record": "阅读记录/B03_CH14_复算.json",
+    "financial_numbers_origin": "仅为书内案例、历史统计或教学复算；不是维护者或使用者的资产、账户、持仓或交易记录。",
+    "private_account_or_holdings_data": false
+  },
+  "source": "B03 第14章及两个关联脚注；本地2002体系",
+  "original_report_verified": false,
+  "dca": {
+    "prices": [
+      10,
+      5,
+      15
+    ],
+    "payment_per_period": 100,
+    "shares": 36.666666666666664,
+    "average_cost": 8.181818181818182,
+    "note": "价格算术均值不等于资金加权成本；不比较整笔立即投入的收益"
+  },
+  "table14_1": {
+    "dates": [
+      "2003-01-01",
+      "2003-04-01",
+      "2003-07-01",
+      "2003-10-01",
+      "2004-01-01",
+      "2004-04-01",
+      "2004-07-01",
+      "2004-10-01",
+      "2005-01-01",
+      "2005-04-01",
+      "2005-07-01",
+      "2005-10-01",
+      "2006-01-01"
+    ],
+    "asset_names": [
+      "total_stock_market",
+      "small_market",
+      "international",
+      "reit_va"
+    ],
+    "printed_target_rows": [
+      [
+        3000,
+        10000,
+        10000,
+        10000
+      ],
+      [
+        19417,
+        17500,
+        19583,
+        15417
+      ],
+      [
+        35833,
+        25000,
+        29167,
+        20833
+      ],
+      [
+        52250,
+        32500,
+        38750,
+        26250
+      ],
+      [
+        68667,
+        40000,
+        48333,
+        31667
+      ],
+      [
+        85083,
+        47500,
+        57917,
+        37083
+      ],
+      [
+        101500,
+        55000,
+        67500,
+        42500
+      ],
+      [
+        117917,
+        62500,
+        77083,
+        47917
+      ],
+      [
+        134333,
+        70000,
+        86667,
+        53333
+      ],
+      [
+        150750,
+        77500,
+        96250,
+        58750
+      ],
+      [
+        167167,
+        85000,
+        105833,
+        64167
+      ],
+      [
+        183583,
+        92500,
+        115417,
+        69583
+      ],
+      [
+        200000,
+        100000,
+        125000,
+        75000
+      ]
+    ],
+    "initial_target": [
+      3000,
+      10000,
+      10000,
+      10000
+    ],
+    "final_target": [
+      200000,
+      100000,
+      125000,
+      75000
+    ],
+    "timing": "13个季度日期/12个等额目标增量；市值目标非累计投入承诺"
+  },
+  "table14_2": {
+    "asset_a": [
+      0.3,
+      0.3,
+      -0.1,
+      -0.1
+    ],
+    "asset_b": [
+      0.3,
+      -0.1,
+      0.3,
+      -0.1
+    ],
+    "printed_rebalanced": [
+      0.3,
+      0.1,
+      0.1,
+      -0.1
+    ],
+    "single_geometric": 0.08166538263919687,
+    "rebalanced_geometric": 0.09079416981533073,
+    "arithmetic_expectation": 0.1,
+    "assumptions": "独立等概率两枚硬币，无费用税和外部现金流；长期几何与算术期望分开"
+  },
+  "table14_3": {
+    "asset_names": [
+      "us_large",
+      "us_small",
+      "foreign",
+      "reit"
+    ],
+    "years": [
+      1998,
+      1999,
+      2000
+    ],
+    "returns": [
+      [
+        0.2858,
+        0.2104,
+        -0.091
+      ],
+      [
+        -0.073,
+        0.2797,
+        -0.036
+      ],
+      [
+        0.2,
+        0.2996,
+        -0.1417
+      ],
+      [
+        -0.17,
+        -0.0257,
+        0.3104
+      ]
+    ],
+    "printed_equal_weight": [
+      0.0607,
+      0.191,
+      0.0104
+    ],
+    "computed_equal_weight": [
+      0.0607,
+      0.191,
+      0.010425000000000004
+    ],
+    "terminal_multiples": [
+      1.4147060788799999,
+      1.1435757516000002,
+      1.338536016,
+      1.0596798575999997
+    ],
+    "rebalanced_terminal": 1.2764635368225,
+    "buy_hold_terminal": 1.23912442602,
+    "rebalance_trades": [
+      {
+        "year": 1998,
+        "pretrade_value": 1.0607,
+        "one_way_sale": 0.09110000000000001,
+        "one_way_purchase": 0.09109999999999999,
+        "sale_fraction": 0.08588667860846612
+      },
+      {
+        "year": 1999,
+        "pretrade_value": 1.2632936999999997,
+        "one_way_sale": 0.05746342250000014,
+        "one_way_purchase": 0.05746342249999997,
+        "sale_fraction": 0.04548698572628056
+      }
+    ],
+    "unverified": "Morningstar等原数据未核，按表中已舍入输入复算"
+  },
+  "reserve_stress": {
+    "input_class": "C类情景，非历史事实/个人资金",
+    "total_contribution_cap": 500000,
+    "initial_buy": 33000,
+    "quarterly_return": -0.1,
+    "cash_return": 0,
+    "targets": "聚合股票市值由33,000升到500,000的12步直线路径",
+    "rows": [
+      {
+        "quarter": 1,
+        "target_value": 71916.66666666666,
+        "value_before_flow": 29700.0,
+        "required_flow": 42216.66666666666,
+        "paid_flow": 42216.66666666666,
+        "unfunded": 0.0,
+        "reserve_after": 424783.3333333334,
+        "value_after": 71916.66666666666
+      },
+      {
+        "quarter": 2,
+        "target_value": 110833.33333333333,
+        "value_before_flow": 64724.99999999999,
+        "required_flow": 46108.333333333336,
+        "paid_flow": 46108.333333333336,
+        "unfunded": 0.0,
+        "reserve_after": 378675.00000000006,
+        "value_after": 110833.33333333333
+      },
+      {
+        "quarter": 3,
+        "target_value": 149750.0,
+        "value_before_flow": 99750.0,
+        "required_flow": 50000.0,
+        "paid_flow": 50000.0,
+        "unfunded": 0.0,
+        "reserve_after": 328675.00000000006,
+        "value_after": 149750.0
+      },
+      {
+        "quarter": 4,
+        "target_value": 188666.66666666666,
+        "value_before_flow": 134775.0,
+        "required_flow": 53891.66666666666,
+        "paid_flow": 53891.66666666666,
+        "unfunded": 0.0,
+        "reserve_after": 274783.3333333334,
+        "value_after": 188666.66666666666
+      },
+      {
+        "quarter": 5,
+        "target_value": 227583.3333333333,
+        "value_before_flow": 169800.0,
+        "required_flow": 57783.333333333314,
+        "paid_flow": 57783.333333333314,
+        "unfunded": 0.0,
+        "reserve_after": 217000.00000000006,
+        "value_after": 227583.3333333333
+      },
+      {
+        "quarter": 6,
+        "target_value": 266500.0,
+        "value_before_flow": 204825.0,
+        "required_flow": 61675.0,
+        "paid_flow": 61675.0,
+        "unfunded": 0.0,
+        "reserve_after": 155325.00000000006,
+        "value_after": 266500.0
+      },
+      {
+        "quarter": 7,
+        "target_value": 305416.6666666666,
+        "value_before_flow": 239850.0,
+        "required_flow": 65566.66666666663,
+        "paid_flow": 65566.66666666663,
+        "unfunded": 0.0,
+        "reserve_after": 89758.33333333343,
+        "value_after": 305416.6666666666
+      },
+      {
+        "quarter": 8,
+        "target_value": 344333.3333333333,
+        "value_before_flow": 274875.0,
+        "required_flow": 69458.33333333331,
+        "paid_flow": 69458.33333333331,
+        "unfunded": 0.0,
+        "reserve_after": 20300.000000000116,
+        "value_after": 344333.3333333333
+      },
+      {
+        "quarter": 9,
+        "target_value": 383250.0,
+        "value_before_flow": 309900.0,
+        "required_flow": 73350.0,
+        "paid_flow": 20300.000000000116,
+        "unfunded": 53049.99999999988,
+        "reserve_after": 0.0,
+        "value_after": 330200.0000000001
+      },
+      {
+        "quarter": 10,
+        "target_value": 422166.6666666666,
+        "value_before_flow": 297180.0000000001,
+        "required_flow": 124986.66666666651,
+        "paid_flow": 0.0,
+        "unfunded": 124986.66666666651,
+        "reserve_after": 0.0,
+        "value_after": 297180.0000000001
+      },
+      {
+        "quarter": 11,
+        "target_value": 461083.3333333333,
+        "value_before_flow": 267462.0000000001,
+        "required_flow": 193621.3333333332,
+        "paid_flow": 0.0,
+        "unfunded": 193621.3333333332,
+        "reserve_after": 0.0,
+        "value_after": 267462.0000000001
+      },
+      {
+        "quarter": 12,
+        "target_value": 500000.0,
+        "value_before_flow": 240715.8000000001,
+        "required_flow": 259284.1999999999,
+        "paid_flow": 0.0,
+        "unfunded": 259284.1999999999,
+        "reserve_after": 0.0,
+        "value_after": 240715.8000000001
+      }
+    ],
+    "required_contribution_if_uncapped": 796450.0,
+    "interpretation": "期9耗尽预留现金；不允许借款或挪用用途资金补足；目标市值与累计投入分开"
+  },
+  "counterexamples": {
+    "trending_a": [
+      0.3,
+      0.3
+    ],
+    "trending_b": [
+      -0.1,
+      -0.1
+    ],
+    "fully_correlated_a": [
+      0.3,
+      -0.1
+    ],
+    "fully_correlated_b": [
+      0.3,
+      -0.1
+    ],
+    "note": "C类反例；趋势下再平衡可能落后，完全相关时没有本模型的分散增益"
+  },
+  "withdrawal": {
+    "initial_a": 500000,
+    "initial_b": 500000,
+    "return_a": 0.2,
+    "return_b": 0.1,
+    "spending": 50000,
+    "result_a": 550000,
+    "result_b": 550000,
+    "small_spending": 20000,
+    "small_spending_additional_transfer": 15000,
+    "large_spending": 100000,
+    "large_spending_sale_a": 75000,
+    "large_spending_sale_b": 25000
+  },
+  "cost_drag": {
+    "one_way_trade_fraction": 0.065,
+    "unrealized_gain_fraction": 0.5,
+    "tax_rate": 0.25,
+    "exact_drag": 0.008125,
+    "book_approx_drag": 0.0075,
+    "note": "两边成交额与卖出额分开；税率为书中情景，未核适用性"
+  }
+}

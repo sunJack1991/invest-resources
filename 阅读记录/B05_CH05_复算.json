@@ -1,0 +1,114 @@
+{
+  "publication_provenance": {
+    "kind": "书籍阅读、历史案例及教学复算资料",
+    "source_record": "阅读记录/B05_CH05_复算.json",
+    "financial_numbers_origin": "仅为书内案例、历史统计或教学复算；不是维护者或使用者的资产、账户、持仓或交易记录。",
+    "private_account_or_holdings_data": false
+  },
+  "book_id": "B05",
+  "chapter": 5,
+  "title": "兼并与收购",
+  "decode": "B05-v2-2026-10-13",
+  "range": {
+    "start_line": 1689,
+    "end_line": 1931,
+    "line_count": 243,
+    "chars_with_newlines": 20671
+  },
+  "checks": {
+    "farm_merger_example": {
+      "status": "ARITHMETIC_OK",
+      "inputs": {
+        "own_acres": 120,
+        "neighbor_acres": 60,
+        "combined": 180,
+        "each_stake": 0.5
+      },
+      "equivalent_acres": 90,
+      "ratio_to_original": 0.75,
+      "shrinkage": 0.25,
+      "book_printed": "权益缩水25%",
+      "source_verified": false
+    },
+    "two_for_one_acquisition": {
+      "status": "LOGIC_OK",
+      "note": "以2X价格收购市场价X可得的目标＝付出2美元内在价值换1美元；倍数2.0为口径推算",
+      "source_verified": false
+    },
+    "lbo_structure": {
+      "status": "SELF_REPORTED_UNVERIFIED",
+      "note": "典型LBO：90%负债+10%股票资本（芒格西科信语境）",
+      "source_verified": false
+    },
+    "distressed_debt_pricing": {
+      "status": "SELF_REPORTED_UNVERIFIED",
+      "note": "书示：银行债务1美元售价低于0.70美元、公共债务更低（2008年语境）",
+      "source_verified": false
+    },
+    "acquisition_ad_threshold": {
+      "status": "SELF_REPORTED_UNVERIFIED",
+      "note": "收购广告门槛：税前盈利≥7500万美元",
+      "source_verified": false
+    },
+    "six_target_criteria": {
+      "status": "PASS",
+      "items": [
+        "规模够大",
+        "被验证的持续盈利能力",
+        "低负债下良好ROE",
+        "具备管理层",
+        "业务简明",
+        "明确报价"
+      ],
+      "count": 6
+    },
+    "three_core_criteria": {
+      "status": "PASS",
+      "items": [
+        "看得懂",
+        "稳健良好的经济基础",
+        "喜欢/尊敬/信任的管理层"
+      ],
+      "count": 3
+    },
+    "avoid_value_destruction_methods": {
+      "status": "PASS",
+      "items": [
+        "真正企业价值对等估值合并",
+        "收购方股价≥内在价值",
+        "并购后回购等量股票"
+      ],
+      "count": 3
+    },
+    "misc_claims_unverified": {
+      "status": "SELF_REPORTED_UNVERIFIED",
+      "items": [
+        "收购业绩人物（海涅曼/辛格尔顿/扎班/墨菲）评价",
+        "伯克希尔股票收购的综合结果'比不做更糟糕一点'",
+        "'财富多出十亿美元计'",
+        "思考特·费泽250万美元佣金故事",
+        "1995年两起股票收购的税务递延动机"
+      ],
+      "boundary": "均为书内自述/转述，未核原披露；不得作为推导输入"
+    },
+    "arithmetic": {
+      "status": "PASS",
+      "computations": [
+        {
+          "expr": "180*0.5",
+          "value": 90
+        },
+        {
+          "expr": "(180*0.5)/120",
+          "value": 0.75
+        },
+        {
+          "expr": "1-0.75",
+          "value": 0.25
+        }
+      ]
+    }
+  },
+  "math_or_logic_only": true,
+  "investment_performance_validated": false
+}

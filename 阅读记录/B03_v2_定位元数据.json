@@ -1,0 +1,504 @@
+{
+  "publication_provenance": {
+    "kind": "书籍阅读、历史案例及教学复算资料",
+    "source_record": "阅读记录/B03_v2_定位元数据.json",
+    "financial_numbers_origin": "仅为书内案例、历史统计或教学复算；不是维护者或使用者的资产、账户、持仓或交易记录。",
+    "private_account_or_holdings_data": false
+  },
+  "version": "B03-v2-2026-10-13",
+  "source_sha256": "2439d14590549cb68de60ac056d52951c3414dbdb7d95bbc97bd8cac4c73de4c",
+  "decoded_text_sha256": "2ab9600c6a91ce5307aa9f6c72a2902c4c67adba6761c47397e52a8efd76b8f4",
+  "decoded_text_lines": 2922,
+  "decoded_text_chars": 688039,
+  "locators": [
+    {
+      "index": 0,
+      "source": "ops/cover.html",
+      "start_line": 1,
+      "end_line": 1,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 1,
+      "source": "ops/halftitle.html",
+      "start_line": 2,
+      "end_line": 3,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 2,
+      "source": "ops/title.html",
+      "start_line": 4,
+      "end_line": 8,
+      "images": [
+        "ops/pub.jpg"
+      ],
+      "footnote_links": []
+    },
+    {
+      "index": 3,
+      "source": "ops/copyright.html",
+      "start_line": 9,
+      "end_line": 21,
+      "images": [
+        "ops/mgh.jpg"
+      ],
+      "footnote_links": []
+    },
+    {
+      "index": 4,
+      "source": "ops/contents.html",
+      "start_line": 22,
+      "end_line": 48,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 5,
+      "source": "ops/pre.html",
+      "start_line": 49,
+      "end_line": 60,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 6,
+      "source": "ops/intro.html",
+      "start_line": 61,
+      "end_line": 111,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 7,
+      "source": "ops/part01.html",
+      "start_line": 112,
+      "end_line": 117,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 8,
+      "source": "ops/ch01.html",
+      "start_line": 118,
+      "end_line": 313,
+      "images": [
+        "ops/f0005-01.jpg",
+        "ops/f0009-01.jpg",
+        "ops/f0011-01.jpg",
+        "ops/t0012-01.jpg",
+        "ops/f0015-01.jpg",
+        "ops/f0017-01.jpg",
+        "ops/f0018-01.jpg",
+        "ops/f0021-01.jpg",
+        "ops/f0022-01.jpg",
+        "ops/f0023-01.jpg",
+        "ops/f0023-02.jpg",
+        "ops/f0024-01.jpg",
+        "ops/f0025-01.jpg",
+        "ops/f0026-01.jpg",
+        "ops/f0027-01.jpg",
+        "ops/t0029-01.jpg",
+        "ops/f0030-01.jpg",
+        "ops/f0032-01.jpg",
+        "ops/f0033-01.jpg",
+        "ops/t0034-01.jpg",
+        "ops/t0036-01.jpg",
+        "ops/t0036-02.jpg",
+        "ops/t0037-01.jpg",
+        "ops/f0038-01.jpg"
+      ],
+      "footnote_links": [
+        "pg24fn1.html#ch1fn1"
+      ]
+    },
+    {
+      "index": 9,
+      "source": "ops/ch02.html",
+      "start_line": 314,
+      "end_line": 496,
+      "images": [
+        "ops/t0045-01.jpg",
+        "ops/t0047-01.jpg",
+        "ops/t0049-01.jpg",
+        "ops/t0049-02.jpg",
+        "ops/t0049-03.jpg",
+        "ops/f0050-01.jpg",
+        "ops/f0052-01.jpg",
+        "ops/f0053-01.jpg",
+        "ops/f0060-01.jpg",
+        "ops/t0061-01.jpg",
+        "ops/f0062-01.jpg",
+        "ops/t0062-01.jpg",
+        "ops/f0071-01.jpg",
+        "ops/t0072-01.jpg"
+      ],
+      "footnote_links": [
+        "pg43fn1.html#ch2fn1",
+        "pg68fn1.html#ch2fn2"
+      ]
+    },
+    {
+      "index": 10,
+      "source": "ops/ch03.html",
+      "start_line": 497,
+      "end_line": 679,
+      "images": [
+        "ops/f0079-01.jpg",
+        "ops/f0080-01.jpg",
+        "ops/f0081-01.jpg",
+        "ops/t0084-01.jpg",
+        "ops/f0086-01.jpg",
+        "ops/f0093-01.jpg",
+        "ops/t0095-01.jpg",
+        "ops/t0098-01.jpg",
+        "ops/f0101-01.jpg",
+        "ops/t0104-01.jpg"
+      ],
+      "footnote_links": []
+    },
+    {
+      "index": 11,
+      "source": "ops/ch04.html",
+      "start_line": 680,
+      "end_line": 807,
+      "images": [
+        "ops/t0109-01.jpg",
+        "ops/f0111-01.jpg",
+        "ops/f0111-02.jpg",
+        "ops/f0112-01.jpg",
+        "ops/f0112-02.jpg",
+        "ops/f0113-01.jpg",
+        "ops/t0114-01.jpg",
+        "ops/f0115-01.jpg",
+        "ops/f0116-01.jpg",
+        "ops/f0117-01.jpg",
+        "ops/f0118-01.jpg",
+        "ops/f0122-01.jpg"
+      ],
+      "footnote_links": []
+    },
+    {
+      "index": 12,
+      "source": "ops/part02.html",
+      "start_line": 808,
+      "end_line": 813,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 13,
+      "source": "ops/ch05.html",
+      "start_line": 814,
+      "end_line": 950,
+      "images": [
+        "ops/f0133-01.jpg"
+      ],
+      "footnote_links": [
+        "pg151fn1.html#ch5fn1"
+      ]
+    },
+    {
+      "index": 14,
+      "source": "ops/ch06.html",
+      "start_line": 951,
+      "end_line": 1010,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 15,
+      "source": "ops/part03.html",
+      "start_line": 1011,
+      "end_line": 1016,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 16,
+      "source": "ops/ch07.html",
+      "start_line": 1017,
+      "end_line": 1107,
+      "images": [
+        "ops/t0167-01.jpg",
+        "ops/t0171-01.jpg"
+      ],
+      "footnote_links": []
+    },
+    {
+      "index": 17,
+      "source": "ops/ch08.html",
+      "start_line": 1108,
+      "end_line": 1158,
+      "images": [],
+      "footnote_links": [
+        "pg186fn01.html#ch8fn1"
+      ]
+    },
+    {
+      "index": 18,
+      "source": "ops/part04.html",
+      "start_line": 1159,
+      "end_line": 1165,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 19,
+      "source": "ops/ch09.html",
+      "start_line": 1166,
+      "end_line": 1222,
+      "images": [
+        "ops/f0199-01.jpg"
+      ],
+      "footnote_links": []
+    },
+    {
+      "index": 20,
+      "source": "ops/ch10.html",
+      "start_line": 1223,
+      "end_line": 1316,
+      "images": [
+        "ops/t0204-01.jpg",
+        "ops/f0206-01.jpg"
+      ],
+      "footnote_links": []
+    },
+    {
+      "index": 21,
+      "source": "ops/ch11.html",
+      "start_line": 1317,
+      "end_line": 1360,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 22,
+      "source": "ops/part05.html",
+      "start_line": 1361,
+      "end_line": 1367,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 23,
+      "source": "ops/ch12.html",
+      "start_line": 1368,
+      "end_line": 1435,
+      "images": [
+        "ops/f0232-01.jpg",
+        "ops/f0232-02.jpg",
+        "ops/f0233-01.jpg",
+        "ops/f0233-02.jpg",
+        "ops/t0236-01.jpg",
+        "ops/t0238-01.jpg",
+        "ops/t0239-01.jpg"
+      ],
+      "footnote_links": [
+        "pg235fn01.html#ch12fn1",
+        "pg237fn01.html#ch12fn2"
+      ]
+    },
+    {
+      "index": 24,
+      "source": "ops/ch13.html",
+      "start_line": 1436,
+      "end_line": 1640,
+      "images": [
+        "ops/t0247-01.jpg",
+        "ops/f0249-01.jpg",
+        "ops/t0251-01.jpg",
+        "ops/t0252-01.jpg",
+        "ops/t0253-01.jpg",
+        "ops/t0256-01.jpg",
+        "ops/t0258-01.jpg",
+        "ops/f0259-01.jpg",
+        "ops/t0262-01.jpg",
+        "ops/t0267-01.jpg",
+        "ops/t0268-01.jpg",
+        "ops/c00269-01.jpg",
+        "ops/t0270-01.jpg",
+        "ops/t0275-01.jpg"
+      ],
+      "footnote_links": []
+    },
+    {
+      "index": 25,
+      "source": "ops/ch14.html",
+      "start_line": 1641,
+      "end_line": 1718,
+      "images": [
+        "ops/t0284-01.jpg",
+        "ops/t0287-01.jpg",
+        "ops/t0289-01.jpg"
+      ],
+      "footnote_links": [
+        "pg290fn01.html#ch14fn1",
+        "pg292fn01.html#ch14fn2"
+      ]
+    },
+    {
+      "index": 26,
+      "source": "ops/ch15.html",
+      "start_line": 1719,
+      "end_line": 1741,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 27,
+      "source": "ops/biblio.html",
+      "start_line": 1742,
+      "end_line": 1845,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 28,
+      "source": "ops/index.html",
+      "start_line": 1846,
+      "end_line": 2831,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 29,
+      "source": "ops/post.html",
+      "start_line": 2832,
+      "end_line": 2891,
+      "images": [
+        "ops/bull3.jpg",
+        "ops/t0322-01.jpg",
+        "ops/t0323-01.jpg",
+        "ops/t0323-02.jpg",
+        "ops/bull3.jpg",
+        "ops/bull3.jpg",
+        "ops/bull3.jpg",
+        "ops/bull3.jpg",
+        "ops/f0330-01.jpg",
+        "ops/bull3.jpg"
+      ],
+      "footnote_links": [
+        "pg321fn1.html#postfn1",
+        "pg326fn1.html#postfn2",
+        "pg326fn2.html#postfn3",
+        "pg326fn3.html#postfn4"
+      ]
+    },
+    {
+      "index": 30,
+      "source": "ops/abo.html",
+      "start_line": 2892,
+      "end_line": 2896,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 31,
+      "source": "ops/pg24fn1.html",
+      "start_line": 2897,
+      "end_line": 2898,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 32,
+      "source": "ops/pg43fn1.html",
+      "start_line": 2899,
+      "end_line": 2900,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 33,
+      "source": "ops/pg68fn1.html",
+      "start_line": 2901,
+      "end_line": 2902,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 34,
+      "source": "ops/pg151fn1.html",
+      "start_line": 2903,
+      "end_line": 2904,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 35,
+      "source": "ops/pg235fn01.html",
+      "start_line": 2905,
+      "end_line": 2906,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 36,
+      "source": "ops/pg186fn01.html",
+      "start_line": 2907,
+      "end_line": 2908,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 37,
+      "source": "ops/pg237fn01.html",
+      "start_line": 2909,
+      "end_line": 2910,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 38,
+      "source": "ops/pg290fn01.html",
+      "start_line": 2911,
+      "end_line": 2912,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 39,
+      "source": "ops/pg292fn01.html",
+      "start_line": 2913,
+      "end_line": 2914,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 40,
+      "source": "ops/pg321fn1.html",
+      "start_line": 2915,
+      "end_line": 2916,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 41,
+      "source": "ops/pg326fn1.html",
+      "start_line": 2917,
+      "end_line": 2918,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 42,
+      "source": "ops/pg326fn2.html",
+      "start_line": 2919,
+      "end_line": 2920,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 43,
+      "source": "ops/pg326fn3.html",
+      "start_line": 2921,
+      "end_line": 2922,
+      "images": [],
+      "footnote_links": []
+    }
+  ],
+  "limitation": "v1临时全文与抽取器已丢失；所有44项边界与既有记录相符，但未证明v1与v2逐字等同；继承旧阅读不等于重读"
+}

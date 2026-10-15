@@ -1,0 +1,469 @@
+{
+  "publication_provenance": {
+    "kind": "书籍阅读、历史案例及教学复算资料",
+    "source_record": "阅读记录/B09_R96_复算.json",
+    "financial_numbers_origin": "仅为书内案例、历史统计或教学复算；不是维护者或使用者的资产、账户、持仓或交易记录。",
+    "private_account_or_holdings_data": false
+  },
+  "revision": "R96",
+  "book": "B09",
+  "source_sha256": "80c95b78389aa9982e5fcf5693f6e4ac776a527f1c191bcbcf836e4172cb69cb",
+  "decoded_text_sha256": "072a751172bbb26600b897c31c46027e7989fa76910403f9c57c4019725c5a6a",
+  "batch_range": {
+    "start_line": 1587,
+    "end_line": 1688
+  },
+  "status": "BOOK_TRANSCRIPTION_WITH_ARITHMETIC_AND_LIMITED_PRIMARY_CHECKS",
+  "table_13_1": {
+    "rows": [
+      {
+        "start": "1947-01",
+        "end": "1968-12",
+        "stock_pct": 14.0,
+        "bond_pct": 1.8,
+        "inflation_pct": 2.3,
+        "stock_real_pct_from_inputs": 11.436950146627577,
+        "bond_real_pct_from_inputs": -0.48875855327467077
+      },
+      {
+        "start": "1969-01",
+        "end": "1981-12",
+        "stock_pct": 5.6,
+        "bond_pct": 3.8,
+        "inflation_pct": 7.8,
+        "stock_real_pct_from_inputs": -2.0408163265306145,
+        "bond_real_pct_from_inputs": -3.710575139146566
+      },
+      {
+        "start": "1982-01",
+        "end": "2000-03",
+        "stock_pct": 18.3,
+        "bond_pct": 13.6,
+        "inflation_pct": 3.3,
+        "stock_real_pct_from_inputs": 14.520813165537284,
+        "bond_real_pct_from_inputs": 9.970958373668948
+      },
+      {
+        "start": "2000-04",
+        "end": "2009-03",
+        "stock_pct": -6.5,
+        "bond_pct": 6.4,
+        "inflation_pct": 2.4,
+        "stock_real_pct_from_inputs": -8.69140625,
+        "bond_real_pct_from_inputs": 3.90625
+      }
+    ],
+    "status": "BOOK_TRANSCRIPTION_UNVERIFIED",
+    "real_conversion_scope": "将显示年均当作有效年化输入作精确比例换算；不重建历史真实序列，不把算术均值必当CAGR。"
+  },
+  "tables_13_2_to_13_5": {
+    "rows": [
+      {
+        "table": "13—2",
+        "stock_dividend_pct": 5.0,
+        "earnings_growth_pct": 6.6,
+        "valuation_effect_pp": 2.4,
+        "stock_return_pct": 14.0,
+        "bond_initial_ytm_pct": 2.7,
+        "bond_rate_effect_pp": -0.9,
+        "bond_return_pct": 1.8
+      },
+      {
+        "table": "13—3",
+        "stock_dividend_pct": 3.1,
+        "earnings_growth_pct": 8.0,
+        "valuation_effect_pp": -5.5,
+        "stock_return_pct": 5.6,
+        "bond_initial_ytm_pct": 5.9,
+        "bond_rate_effect_pp": -2.1,
+        "bond_return_pct": 3.8
+      },
+      {
+        "table": "13—4",
+        "stock_dividend_pct": 5.8,
+        "earnings_growth_pct": 6.8,
+        "valuation_effect_pp": 5.7,
+        "stock_return_pct": 18.3,
+        "bond_initial_ytm_pct": 13.0,
+        "bond_rate_effect_pp": 0.6,
+        "bond_return_pct": 13.6
+      },
+      {
+        "table": "13—5",
+        "stock_dividend_pct": 1.2,
+        "earnings_growth_pct": 5.8,
+        "valuation_effect_pp": -13.5,
+        "stock_return_pct": -6.5,
+        "bond_initial_ytm_pct": 7.0,
+        "bond_rate_effect_pp": -0.6,
+        "bond_return_pct": 6.4
+      }
+    ],
+    "status": "ADDITIVE_ACCOUNTING_CHECK_ONLY",
+    "scope": "书内年化归因分量为近似/贡献百分点；只核加总，不据此复原任意倍数端点、逐年价格或分红再投资。"
+  },
+  "fisher_example": {
+    "nominal_book": 0.1,
+    "inflation": 0.05,
+    "target_real": 0.05,
+    "exact_real": 0.04761904761904767,
+    "exact_required_nominal": 0.10250000000000004,
+    "status": "APPROXIMATION_DIFFERENCE_OPEN"
+  },
+  "stock_one_period_identity": {
+    "initial_price": 100,
+    "eps_initial": 5,
+    "pe_initial": 20,
+    "growth": 0.047,
+    "dividend_yield_cash": 0.013,
+    "rows": [
+      {
+        "pe_end": 20,
+        "eps_end": 5.234999999999999,
+        "price_end": 104.69999999999999,
+        "cash_dividend": 1.3,
+        "total_return": 0.05999999999999983,
+        "naive_sum": 0.06
+      },
+      {
+        "pe_end": 16,
+        "eps_end": 5.234999999999999,
+        "price_end": 83.75999999999999,
+        "cash_dividend": 1.3,
+        "total_return": -0.1494000000000001,
+        "naive_sum": -0.13999999999999996
+      }
+    ],
+    "status": "C_TIMING_MATCHED_SCENARIO",
+    "qualification": "一期末支付现金股利；P1/P0=(EPS1/EPS0)*(PE1/PE0)，复合交叉项保留，长期年化要按逐期流量与再投资重算。"
+  },
+  "buyback_double_count_example": {
+    "profit_growth": 0,
+    "shares_initial": 100,
+    "shares_final": 95,
+    "eps_growth": 0.05263157894736836,
+    "gross_buyback_yield_assumed": 0.05,
+    "incorrect_combined_growth": 0.10263157894736837,
+    "status": "C_MECHANISM_ONLY",
+    "qualification": "EPS增长已含股数减少，不再叠加同一净回购影响；若改用总盈利/净派现模型须完整桥接。"
+  },
+  "bond_cashflow_example": {
+    "face": 100,
+    "coupon": 5,
+    "years": 3,
+    "ytm": 0.05,
+    "price": 100.0,
+    "cashflows": [
+      {
+        "time": 1,
+        "cash": 5.0
+      },
+      {
+        "time": 2,
+        "cash": 5.0
+      },
+      {
+        "time": 3,
+        "cash": 105.0
+      }
+    ],
+    "reinvestment_rows": [
+      {
+        "coupon_reinvestment_rate": 0,
+        "terminal_wealth": 115,
+        "terminal_wealth_cagr": 0.04768955317164725
+      },
+      {
+        "coupon_reinvestment_rate": 0.05,
+        "terminal_wealth": 115.7625,
+        "terminal_wealth_cagr": 0.050000000000000044
+      },
+      {
+        "coupon_reinvestment_rate": 0.1,
+        "terminal_wealth": 116.55,
+        "terminal_wealth_cagr": 0.05237557370821144
+      }
+    ],
+    "early_exit_yield": 0.08,
+    "early_exit_price_after_coupon": 94.65020576131687,
+    "early_exit_total_return": -0.003497942386831321,
+    "status": "C_ILLUSTRATION_NO_DEFAULT_TAX_OR_FEES",
+    "qualification": "发行人现金流IRR为5%，不因票息的后续安排改变；终点财富CAGR取决于票息再投资。提前卖出另用剩余现金流折现并加已收票息。"
+  },
+  "historical_forecast_2022": {
+    "equity_dividend_upper_approx": 0.013,
+    "eps_growth_assumed": 0.047,
+    "equity_base_approx": 0.06,
+    "corporate_ytm": 0.035,
+    "treasury_ytm": 0.025,
+    "inflation_assumed": 0.02,
+    "corporate_real": 0.014705882352941124,
+    "treasury_real": 0.004901960784313708,
+    "status": "HISTORICAL_AUTHOR_SCENARIO_NOT_CURRENT_ASSUMPTIONS"
+  },
+  "cape_example": {
+    "nominal_price": 200,
+    "earnings": [
+      10,
+      10,
+      10,
+      10,
+      10,
+      10,
+      10,
+      10,
+      10,
+      10
+    ],
+    "cpi_years": [
+      100,
+      110,
+      120,
+      130,
+      140,
+      150,
+      160,
+      170,
+      180,
+      190
+    ],
+    "cpi_now": 200,
+    "adjusted_earnings": [
+      20.0,
+      18.181818181818183,
+      16.666666666666668,
+      15.384615384615385,
+      14.285714285714286,
+      13.333333333333334,
+      12.5,
+      11.764705882352942,
+      11.11111111111111,
+      10.526315789473685
+    ],
+    "average_adjusted_earnings": 14.37542806350856,
+    "cape": 13.912629183383546,
+    "wrong_nominal_average_cape": 20,
+    "status": "C_TEN_YEAR_DEFINITION_EXAMPLE",
+    "qualification": "同一基年CPI调整后再求10年算术平均；五年另标PE5，不等同PE10；原版CAPE与TR-CAPE不可混用。"
+  },
+  "past_embedded_footnote_audit": {
+    "spine_range": [
+      0,
+      18
+    ],
+    "chapter_range": [
+      0,
+      11
+    ],
+    "count": 40,
+    "resources": [
+      {
+        "index": 0,
+        "source": "converter-master/example/313189/titlepage.xhtml",
+        "count": 0,
+        "text_digest": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "read_in_batch": "R96"
+      },
+      {
+        "index": 1,
+        "source": "converter-master/example/313189/summary.html",
+        "count": 0,
+        "text_digest": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "read_in_batch": "R96"
+      },
+      {
+        "index": 2,
+        "source": "converter-master/example/313189/1.html",
+        "count": 1,
+        "text_digest": "8a56b976ddc1160fd5423ffaa5c29c0b67380a9ff773d85f22751fe16c17ebb4",
+        "read_in_batch": "R96"
+      },
+      {
+        "index": 3,
+        "source": "converter-master/example/313189/2.html",
+        "count": 0,
+        "text_digest": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "read_in_batch": "R96"
+      },
+      {
+        "index": 4,
+        "source": "converter-master/example/313189/3.html",
+        "count": 0,
+        "text_digest": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "read_in_batch": "R96"
+      },
+      {
+        "index": 5,
+        "source": "converter-master/example/313189/4.html",
+        "count": 0,
+        "text_digest": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "read_in_batch": "R96"
+      },
+      {
+        "index": 6,
+        "source": "converter-master/example/313189/5.html",
+        "count": 2,
+        "text_digest": "53f3018ea8d888ecf2f27f174e9af300ab91f24ce01796685b96956855bfca7a",
+        "read_in_batch": "R96"
+      },
+      {
+        "index": 7,
+        "source": "converter-master/example/313189/6.html",
+        "count": 6,
+        "text_digest": "355d69c894ddac00e3ed0c4c8d7fa6810802b1afef1836fab34b86422af671e7",
+        "read_in_batch": "R96"
+      },
+      {
+        "index": 8,
+        "source": "converter-master/example/313189/7.html",
+        "count": 2,
+        "text_digest": "60004c1ae42e79a07592f9178663ab46de8ff23ed486abce32d75a97b51cf944",
+        "read_in_batch": "R96"
+      },
+      {
+        "index": 9,
+        "source": "converter-master/example/313189/8.html",
+        "count": 8,
+        "text_digest": "781deea5ef06b42d8203d868f3b1f0d920a19889987ae91bcddea284d5966c9b",
+        "read_in_batch": "R96"
+      },
+      {
+        "index": 10,
+        "source": "converter-master/example/313189/9.html",
+        "count": 0,
+        "text_digest": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "read_in_batch": "R96"
+      },
+      {
+        "index": 11,
+        "source": "converter-master/example/313189/10.html",
+        "count": 5,
+        "text_digest": "9772c1928563fcc13fcb8498c04222cc48969c941daf73e2b8a88c550c3d92a6",
+        "read_in_batch": "R96"
+      },
+      {
+        "index": 12,
+        "source": "converter-master/example/313189/11.html",
+        "count": 2,
+        "text_digest": "eb26cc0a5358b85dcc72c3230da6b871084820bdf03ec36eeb68da7482000b8e",
+        "read_in_batch": "R96"
+      },
+      {
+        "index": 13,
+        "source": "converter-master/example/313189/12.html",
+        "count": 4,
+        "text_digest": "a8dc2282c2cb637f3e68e88fd07715c00bb70c3efc1472c5630a265760286d66",
+        "read_in_batch": "R96"
+      },
+      {
+        "index": 14,
+        "source": "converter-master/example/313189/13.html",
+        "count": 0,
+        "text_digest": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "read_in_batch": "R96"
+      },
+      {
+        "index": 15,
+        "source": "converter-master/example/313189/14.html",
+        "count": 0,
+        "text_digest": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "read_in_batch": "R96"
+      },
+      {
+        "index": 16,
+        "source": "converter-master/example/313189/15.html",
+        "count": 2,
+        "text_digest": "a96d2e1b488c21658931d112d622bf58d4e153258518fc94dfd751cd6cb1b557",
+        "read_in_batch": "R96"
+      },
+      {
+        "index": 17,
+        "source": "converter-master/example/313189/16.html",
+        "count": 5,
+        "text_digest": "0dc8dd446f5e74eca067721fb3fdcbdc336808641058003cd89fabaf8bf723a9",
+        "read_in_batch": "R96"
+      },
+      {
+        "index": 18,
+        "source": "converter-master/example/313189/17.html",
+        "count": 3,
+        "text_digest": "880c64191a9141455c250f5da0a00b79f3de472e08cb048b685258a5bc4377b2",
+        "read_in_batch": "R96"
+      }
+    ],
+    "notes_path": "阅读记录/B09_前章嵌入脚注补读_R96.md",
+    "raw_text_saved_in_delivery": false
+  },
+  "chapter_13_footnotes": {
+    "embedded_count": 7,
+    "ordinary_numbered_count": 1,
+    "ordinary_numbered_location": [
+      1672,
+      1675
+    ],
+    "embedded_topics": [
+      "YTM折现率定义",
+      "初始债券收益率即购买时YTM",
+      "售前重估的市场YTM",
+      "收益率再升则价格更低",
+      "已实现持有期收益的票息/再投资/本金桥接",
+      "卡萨布兰卡人物与演员",
+      "风险溢价是相对短期投资超额及历史年代例子"
+    ]
+  },
+  "audit_supplemental_math": {
+    "leveraged_bond_before_financing_pct": 10.2,
+    "footnote_after_financing_pct": 9.9,
+    "implied_financing_drag_pp": 0.3,
+    "scope": "隐含拖累由书内差额得出，不认证真实历史融资利率。",
+    "weighted_beta_example": 1.0,
+    "coin_flip_exact_at_least_8_of_10_probability": 0.0546875,
+    "expected_out_of_1000": 54.6875
+  },
+  "image_counting": {
+    "batch_references": 12,
+    "batch_unique": 6,
+    "prior_unique": 50,
+    "cumulative_unique": 56,
+    "cumulative_references": 102,
+    "chapter_source": "converter-master/example/313189/20.html"
+  },
+  "external_checks": [
+    {
+      "url": "https://www.federalreserve.gov/releases/h15/20090112/h15.htm",
+      "accessed_utc": "2026-10-14T06:27:11Z",
+      "scope": "原表与脚注实际阅读；核2009-01-09单日T-bill快照，与原书笼统2009范围的冲突保持日期/期限边界",
+      "date": "2009-01-09",
+      "bill_yields_pct": {
+        "4-week": 0.03,
+        "3-month": 0.07,
+        "6-month": 0.28
+      },
+      "status": "PRIMARY_SNAPSHOT_VERIFIED_NOT_FULL_YEAR"
+    },
+    {
+      "url": "https://cowles.yale.edu/sites/default/files/2022-08/d1950.pdf",
+      "accessed_utc": "2026-10-14T06:27:11Z",
+      "scope": "Bunn/Shiller 2014论文摘要及§1.1（PDF第2索引页）的CAPE定义段落实际读取；非全文精读，未核全文模型/回测或书内40%",
+      "status": "PRIMARY_DEFINITION_PARTIAL_READ"
+    },
+    {
+      "url": "https://www.econ.yale.edu/~shiller/data.htm",
+      "accessed_utc": "2026-10-14T06:27:11Z",
+      "scope": "只获搜索索引摘录，直接请求502，未下载或复核数据表",
+      "status": "PAGE_FETCH_FAILED_502"
+    }
+  ],
+  "open_issues": [
+    "1603行股利增长率大幅上升与上下文股利收益率/PE压缩解释不一致，术语待原版核对",
+    "1604/1656把2000-04至2009-03称为十年，表内窗口约9年，不扩大至2009年底",
+    "1612以10%-5%=5%近似实际收益，精确为4.7619%；目标5%实际/5%通胀须10.25%名义",
+    "1658书称2009短期国债3%-4%；Fed 2009-01-09的4周/3月/6月T-bill分别0.03%/0.07%/0.28%，日期和期限待原版核对，不静默改为长债",
+    "1658称2022年1月10年国债不足2%，1662预测期称接近2.5%；测算基准日期未完全一致",
+    "1662以国债2.5%、通胀不高于2%却称真实收益零或负，若同条件精确为+0.4902%，需要额外税费或通胀假设才能成立",
+    "表13—5债券“利率上升造成的影响”列为-0.6，不能由正总收益断言全期债券市场利率必定下降",
+    "CAPE可解释多达40%波动的统计口径、样本/误差带未核；不当作40%方向正确率或保证",
+    "既有第11章嵌入脚注把价值组合定义成小盘多头/大盘空头，与规模机制一致，名称与机制冲突待核",
+    "历史股票/公司债年均收益、GDP/失业/通胀和2022预测原始序列未逐项核验"
+  ]
+}

@@ -1,0 +1,142 @@
+{
+  "publication_provenance": {
+    "kind": "书籍阅读、历史案例及教学复算资料",
+    "source_record": "阅读记录/B06_CH05_复算.json",
+    "financial_numbers_origin": "仅为书内案例、历史统计或教学复算；不是维护者或使用者的资产、账户、持仓或交易记录。",
+    "private_account_or_holdings_data": false
+  },
+  "book": "B06",
+  "book_title": "彼得林奇投资经典全集（共3册）",
+  "volume": "第一册《战胜华尔街》",
+  "chapter": 5,
+  "chapter_title": "麦哲伦基金选股回忆录：中期",
+  "range": {
+    "start_line": 766,
+    "end_line": 863,
+    "line_count": 98,
+    "chars_with_newlines": 17071
+  },
+  "decode": "B06-v2-2026-10-13",
+  "image_files_referenced": [
+    "images/00016.jpg"
+  ],
+  "image_files_newly_viewed_this_batch": [],
+  "image_note": "本章3次图像引用均为 images/00016.jpg（章节装饰图标，已在章0目视）；本章无表格、无图，本批无新图像文件。",
+  "checks": {
+    "johnson_work_hours": {
+      "input": "内德·约翰逊 9:30–21:30",
+      "computation": "12小时",
+      "status": "PASS"
+    },
+    "turnover_reduction": {
+      "input": "换手率从300%下降到110%，'下降了近2/3'",
+      "computation": "(300-110)/300=63.3%",
+      "status": "PASS"
+    },
+    "rule72_at20pct": {
+      "input": "'如果每年能够保持20%的盈利增长速度，那么经过3年半的时间就会增长到现在盈利水平的2倍，而经过7年就会增长到现在盈利水平的4倍'",
+      "computation_72law_years_to_double": "72/20=3.6年",
+      "computation_compounded": "1.2^3.5=1.893; 1.2^7=3.583; 精确翻倍3.80年、4倍7.60年",
+      "status": "PASS_WITH_CAVEAT",
+      "note": "书内数字与72定律口径自洽；与精确复利略有差异（3.5 vs 3.80年、7 vs 7.60年），差异来自72定律本身的近似"
+    },
+    "rule72_at25pct": {
+      "input": "'每年投资回报率是25%……不到3年翻番'",
+      "computation": "72/25=2.88年",
+      "status": "PASS"
+    },
+    "rule72_at15pct": {
+      "input": "'每年投资回报率是15%……不到5年翻番'",
+      "computation": "72/15=4.8年",
+      "status": "PASS"
+    },
+    "trading_time_opportunity_cost": {
+      "input": "'每天要花上一个小时，其实10分钟就足够了'；节省时间'多给两家上市公司打打电话'",
+      "minutes_saved": 50,
+      "per_company_minutes": 25,
+      "status": "PASS"
+    },
+    "djia_point_vs_pct_1982": {
+      "input": "1982年道指990点跌36点被称'1929年以来最大单日跌幅'；1929年道指280点跌36点",
+      "computation": "36/990=3.64%; 36/280=12.86%; 后者为前者3.54倍",
+      "status": "PASS",
+      "note": "复算支持作者关于'只以下跌点数比较跌幅不合理'的批评"
+    },
+    "genetech_first_day": {
+      "input": "基因科技上市开盘25美元、一天内升至75美元",
+      "computation": "3倍",
+      "status": "PASS"
+    },
+    "y1982_new_subscriptions": {
+      "input": "10月4000万、11月7100万、12月5500万",
+      "computation": "合计16600万＝1.66亿美元",
+      "status": "PASS"
+    },
+    "y1983_new_subscriptions": {
+      "input": "2月7600万、3月1亿",
+      "computation": "合计17600万＝1.76亿美元",
+      "status": "PASS"
+    },
+    "fund_size_sequence": {
+      "input": "1981年合并塞拉姆时1亿；1982年底4.5亿；1983年4月10亿",
+      "computation": "相对1亿＝4.5倍、10倍；相对1982底4.5亿＝2.22倍",
+      "status": "PASS"
+    },
+    "chrysler_position_limit": {
+      "input": "法定单只上限5%；作者称若允许会投10%~20%",
+      "computation": "10%~20%为上限的2~4倍",
+      "status": "PASS"
+    },
+    "chrysler_minivan_volume": {
+      "input": "厢型旅行车9年间销售300万辆",
+      "computation": "年均约33.3万辆",
+      "status": "PASS"
+    },
+    "chrysler_minivan_vs_volvo": {
+      "input": "厢型旅行车全美销售总量对沃尔沃为5:1",
+      "status": "BOOK_CLAIM_UNVERIFIED"
+    },
+    "ibm_weight_vs_index": {
+      "input": "麦哲伦持IBM 3%；标普500中IBM市值占4%",
+      "computation": "差1pp",
+      "status": "PASS"
+    },
+    "chrysler_8month_double": {
+      "input": "'克莱斯勒股价在8个月内就上涨了一倍'",
+      "computation": "+100%",
+      "status": "PASS"
+    },
+    "tylenol_market_share": {
+      "input": "危机初市占率降至危机前5%，半年后恢复至37%",
+      "computation": "恢复至危机前37%；从低点算提高约7.4倍",
+      "status": "BOOK_CLAIM_UNVERIFIED",
+      "note": "译者注内容未核"
+    },
+    "rule8_threshold": {
+      "input": "第8条林奇投资法则：'如果长期国债的投资收益率高出标准普尔500股票指数的红利收益率6个百分点或更多，那就应该卖出股票而买入长期国债'",
+      "context_book_stated": "1982年长期国债收益率13%~14%，'连续好几个月成了麦哲伦基金最大的投资头寸'",
+      "status": "RULE_WITH_UNSPECIFIED_COVENANTS",
+      "note": "书内未说明：①两个收益率的计算口径与时点；②偏离幅度上限；③恢复到何种利差水平时恢复原配置。**不构成本项目的自动交易指令**"
+    },
+    "arithmetic": {
+      "status": "PASS",
+      "note": "本章15项可内部检验的算式全部复算通过；1项PASS_WITH_CAVEAT（72定律口径）、1项RULE_WITH_UNSPECIFIED_COVENANTS（第8条法则缺配套条件）、2项BOOK_CLAIM_UNVERIFIED（厢型旅行车对沃尔沃5:1、Tylenol市占率）"
+    }
+  },
+  "ambiguities": [
+    "'20%增长→3年半翻倍、7年4倍'为72定律口径（3.6年），与精确复利（3.80年、7.60年）略有差异；作者随后即给出72定律，两处一致",
+    "1982年10月'债券投资比例降到5%'与'长期国债连续好几个月是最大头寸'并存——时点不同（后者为上半年极端利率期），不构成冲突",
+    "第8条法则的6个百分点阈值缺少配套条件（口径与时点、偏离上限、恢复条件）",
+    "'股价大跌是机会''我更愿意看到股市大跌300点'为主观偏好陈述，不构成择时或加仓规则",
+    "'零售业和餐饮业公司风险普遍要低得多'为1990年代初美国区域连锁扩张环境下的判断，不成立于所有业态",
+    "换手率口径：第4章'首年343%、随后3年300%'与第5章'300%→110%'须统一按年计算"
+  ],
+  "unverified_items": [
+    "全部业绩与规模数据：理柏排名第一与'过去5年最成功'、麦哲伦投资收益率305%、每年拜访200多家公司与阅读700份年报、换手率300%→110%、投资组合200只股票、1亿美元/最后5名、1982与1983各月申购资金、规模序列（1亿→4.5亿→10亿→140亿）、3个月内购买166家公司股票、IBM 3% vs 标普4%、克莱斯勒5%上限与8个月翻倍",
+    "全部价格与倍数：克莱斯勒2美元与账上超10亿美元现金（出售坦克业务给通用动力）、G-124与保时捷加速对比、厢型旅行车9年300万辆与对沃尔沃5:1、基因科技25→75美元、1982年道指990点/1929年280点、标普500 1982–1990涨4倍与1991年+31%",
+    "制度性与人物事实：内德·约翰逊12小时工时、富达'基金经理自己做研究'制度、助理名单与任职（里奇·芬亭、丹尼·富兰克、乔治·诺贝尔、鲍勃·史坦斯基、威尔·丹诺夫、杰夫·维尼克等）、分析师名单（梅吉·吉列姆、约翰·凯兰尼、艾略特·施耐德、乔治·夏皮洛）、1982年宏观数据（基准利率/通胀/失业率两位数）、13%~14%国债收益率、政府为克莱斯勒担保、李·艾柯卡与T-115说法、鲍勃·约翰逊、路易斯·鲁凯泽与3位评论人士、《华尔街一周》800万观众",
+    "Tylenol译者注全部细节（5000万美元销毁费、3100万单位、两家工厂分别生产、FDA怀疑的退货路径、37%/5%）"
+  ],
+  "framework_landing": "〔历史政策关联叙述未公开；节号对应关系见同库历史政策节号映射。〕",
+  "original_report_verified": false
+}

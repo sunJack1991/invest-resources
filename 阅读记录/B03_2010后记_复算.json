@@ -1,0 +1,148 @@
+{
+  "publication_provenance": {
+    "kind": "书籍阅读、历史案例及教学复算资料",
+    "source_record": "阅读记录/B03_2010后记_复算.json",
+    "financial_numbers_origin": "仅为书内案例、历史统计或教学复算；不是维护者或使用者的资产、账户、持仓或交易记录。",
+    "private_account_or_holdings_data": false
+  },
+  "source": "B03 2010 Postscript，书内历史转引",
+  "original_report_verified": false,
+  "tables": [
+    {
+      "resource": "ops/t0322-01.jpg",
+      "period": "Nov. 2007–Feb. 2009",
+      "return_type": "区间累计，非年化",
+      "asset_names": [
+        "sp500",
+        "us_large_value",
+        "us_small",
+        "us_small_value",
+        "reit",
+        "international_large",
+        "international_large_value",
+        "international_small",
+        "emerging"
+      ],
+      "returns": [
+        -0.5095,
+        -0.5439,
+        -0.5205,
+        -0.5188,
+        -0.6558,
+        -0.564,
+        -0.5859,
+        -0.5949,
+        -0.6144
+      ]
+    },
+    {
+      "resource": "ops/t0323-01.jpg",
+      "period": "Sept. 2000–Sept. 2002",
+      "return_type": "区间累计，非年化",
+      "asset_names": [
+        "sp500",
+        "us_large_value",
+        "us_small",
+        "us_small_value",
+        "reit",
+        "international_large",
+        "international_large_value",
+        "international_small",
+        "emerging"
+      ],
+      "returns": [
+        -0.4473,
+        -0.2366,
+        -0.3064,
+        0.0346,
+        0.2628,
+        -0.4217,
+        -0.3592,
+        -0.2792,
+        -0.3402
+      ]
+    },
+    {
+      "resource": "ops/t0323-02.jpg",
+      "period": "Jan. 2000–Dec. 2009",
+      "return_type": "区间累计；自行按10整年作年化演示",
+      "asset_names": [
+        "sp500",
+        "us_large_value",
+        "us_small",
+        "us_small_value",
+        "reit",
+        "international_large",
+        "international_large_value",
+        "international_small",
+        "emerging"
+      ],
+      "returns": [
+        -0.091,
+        0.2762,
+        0.4123,
+        1.2131,
+        1.7086,
+        0.1697,
+        0.4847,
+        0.9429,
+        1.6196
+      ],
+      "illustrative_cagr": [
+        -0.009495647373820026,
+        0.02468852795510945,
+        0.03512475750912114,
+        0.0826799739411892,
+        0.1047766519680311,
+        0.01579822355268079,
+        0.04031262939113711,
+        0.06867351118593779,
+        0.10109172339137973
+      ]
+    }
+  ],
+  "recovery_needed": [
+    1.038735983690112,
+    1.1925016443762337,
+    1.0855057351407713,
+    1.0781379883624274,
+    1.9052876234747242,
+    1.2935779816513757,
+    1.4148756339048538,
+    1.4685262898049865,
+    1.593360995850622
+  ],
+  "growth_example": {
+    "input_class": "C情景，非历史或本人公司",
+    "initial_profit": 100,
+    "initial_shares": 100,
+    "final_profit": 110,
+    "final_shares": 115,
+    "eps_growth": -0.04347826086956519,
+    "limitation": "假设净利和加权股数口径/期间一致；不论证所有融资毁损价值，未假定新投入无价值"
+  },
+  "fee_example": {
+    "open_fund_er": 0.006,
+    "etf_er": 0.0038,
+    "annual_er_difference": 0.0022,
+    "open_fund_purchase_fee": 0.0075,
+    "limitation": "2010书内产品/份额例；持续费用和一次费用维度不同，交易价差/税费/身份未知，无当期产品建议"
+  },
+  "miller_example": {
+    "manager_annualized": 0.085,
+    "benchmark_annualized": 0.0793,
+    "spread": 0.0057,
+    "stated_management_fee": 0.017,
+    "limitation": "1991至2008书中转引，个人资金加权收益与基金净值不同；费用是否已入报告收益未单核，不重复扣"
+  },
+  "liquidity_figure": {
+    "resource": "ops/f0330-01.jpg",
+    "source_label": "Barclays Capital Indices",
+    "horizontal": "2008–2010",
+    "vertical": "one dollar investment value, roughly 0.94–1.12+",
+    "treasury_series": "1–5 Year Treasuries",
+    "corporate_series": "1–5 Year Corporates",
+    "readings": "危机低点公司债曲线约0.95；晚2009公司债约1.12+、国债约1.10。正文约7%为峰到谷跌幅，不能由初始1到0.95改成5%",
+    "precision": "目视近似，未取得原逐期序列；到期期限不等于久期"
+  }
+}

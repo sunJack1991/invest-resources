@@ -1,0 +1,74 @@
+{
+  "publication_provenance": {
+    "kind": "书籍阅读、历史案例及教学复算资料",
+    "source_record": "阅读记录/B04_CH16_复算.json",
+    "financial_numbers_origin": "仅为书内案例、历史统计或教学复算；不是维护者或使用者的资产、账户、持仓或交易记录。",
+    "private_account_or_holdings_data": false
+  },
+  "book_id": "B04",
+  "chapter": 16,
+  "title": "成功本身也有周期",
+  "decode": "B04-v2-2026-10-13",
+  "range": {
+    "start_line": 1641,
+    "end_line": 1721,
+    "line_count": 81,
+    "chars_with_newlines": 10843
+  },
+  "checks": {
+    "four_feedback_loops": {
+      "status": "PASS",
+      "items": [
+        "个人成功→过度自信→纪律与安全边际下降→失败概率上升",
+        "策略成功→资金与竞争涌入→价格/容量/成本恶化→预期收益下降",
+        "公司成功→自满/官僚/创新减弱/越界→竞争与衰退",
+        "早期时机与低拥挤→超额收益→后来者拥挤→不可复制"
+      ]
+    },
+    "strategy_capacity": {
+      "status": "PASS",
+      "dimensions": [
+        "市场深度",
+        "可部署标的数量",
+        "冲击成本",
+        "拥挤交易",
+        "融资条件",
+        "退出通道"
+      ]
+    },
+    "buying_boundaries": {
+      "status": "PASS",
+      "rules": [
+        "不流行不自动构成买入理由",
+        "流行不自动构成卖出理由",
+        "逢低买入受预算/失效条件/现金底线约束",
+        "企业复苏与旧股东价值分账"
+      ]
+    },
+    "sp500_1979_2000": {
+      "status": "PASS_WITH_ROUNDING",
+      "start_level": 107,
+      "end_level": 1527,
+      "price_multiple": 14.271028037383177,
+      "price_cagr_21y": 0.1349430244925769,
+      "price_cagr_20_58y": 0.1378787304967526,
+      "total_wealth_multiple_lower_bound": 28,
+      "total_return_cagr_21y": 0.17195864564499286,
+      "total_return_cagr_20_58y": 0.17575994381603643,
+      "conclusion": "超过14倍一致；13.7%与17.6%更接近按约20.58年计算，书中21年为约数；未核指数与分红口径"
+    },
+    "source_boundaries": {
+      "status": "OPEN",
+      "items": [
+        "1999成长股超越价值股近25个百分点",
+        "可转换债券对冲历史业绩",
+        "施乐反垄断/市场份额/SEC/重组数据",
+        "高收益债早期市场小于30亿美元",
+        "人物引文与转引链"
+      ],
+      "external_verification": false
+    }
+  },
+  "math_or_logic_only": true,
+  "investment_performance_validated": false
+}

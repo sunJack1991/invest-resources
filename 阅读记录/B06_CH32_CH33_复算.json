@@ -1,0 +1,150 @@
+{
+  "publication_provenance": {
+    "kind": "书籍阅读、历史案例及教学复算资料",
+    "source_record": "阅读记录/B06_CH32_CH33_复算.json",
+    "financial_numbers_origin": "仅为书内案例、历史统计或教学复算；不是维护者或使用者的资产、账户、持仓或交易记录。",
+    "private_account_or_holdings_data": false
+  },
+  "batch": "2026-10-14-B06-CH32-CH33",
+  "updated_utc": "2026-10-14T02:00:32Z",
+  "source_sha256": "37e31e9183ac0fb4f4d095069805e2de82a3758ad58fee58e194317411503b65",
+  "decoded_text_sha256": "cf81b321d2d4ee21100bcfd2740d585d50f1b10d09b2213fc8aae211525f12eb",
+  "range": {
+    "start_line": 3972,
+    "end_line": 4104,
+    "line_count": 133,
+    "chars_with_newlines": 23826
+  },
+  "checks": {
+    "flying_tiger": {
+      "buy": 7,
+      "sell": 32.75,
+      "wealth_multiple": 4.678571428571429,
+      "price_return_pct": 367.8571428571429,
+      "book_label": "5倍股",
+      "status": "PASS_WITH_CAVEAT",
+      "reason": "近似；实际盈利驱动与买入假设不同，卖出现金流日期未给，不算年化"
+    },
+    "magellan_assets": {
+      "start_usd": 20000000,
+      "end_usd": 9000000000,
+      "aum_multiple": 450,
+      "status": "AMBIGUOUS_BASIS",
+      "reason": "申赎未知；AUM增幅不能当投资回报"
+    },
+    "index_1977": {
+      "start": 899,
+      "end": 801,
+      "price_return_pct": -10.901001112347053,
+      "status": "ARITHMETIC_OK",
+      "reason": "指数变化不证明林奇升职导致市场下跌"
+    },
+    "maine_supply": {
+      "acres": [
+        0.25,
+        0.5,
+        1.0
+      ],
+      "relative_to_initial": [
+        1,
+        2,
+        4
+      ],
+      "terminal_price_usd": 0.06,
+      "initial_price_usd": null,
+      "status": "INPUT_INCOMPLETE",
+      "reason": "试种范围渐增但无法推出总供给与损失率"
+    },
+    "limited": {
+      "from": 9,
+      "to": 5,
+      "price_return_pct": -44.44444444444444,
+      "multiple_1979_1983": 18.0,
+      "status": "ARITHMETIC_OK"
+    },
+    "sci": {
+      "buy": 12,
+      "sell": 30.375,
+      "wealth_multiple": 2.53125,
+      "price_return_pct": 153.125,
+      "status": "ARITHMETIC_OK"
+    },
+    "client_comparison": {
+      "return_a_pct": 40,
+      "return_b_pct": 28,
+      "difference_pp": 12,
+      "relative_terminal_wealth_difference_pct": 9.375,
+      "status": "QUALITATIVE_EXAMPLE",
+      "reason": "教学叙事；期间与风险不可比"
+    },
+    "appearance_of_profit": {
+      "xerox_return_pct": 62.5,
+      "sears_return_pct": 39.5,
+      "buy_year": 1967,
+      "end_date": null,
+      "annualized_return": null,
+      "status": "INPUT_INCOMPLETE",
+      "reason": "缺期末、股息、费用，不伪算年化"
+    },
+    "seven_oaks": {
+      "buy": 10,
+      "current": 6,
+      "price_return_pct": -40,
+      "recovery_needed_pct": 66.66666666666667,
+      "later_tenfold_start": null,
+      "status": "AMBIGUOUS_BASIS",
+      "reason": "后涨10倍起点未知；不拼接为确定价格路径"
+    },
+    "capacity": {
+      "portfolio_usd": 1000000000,
+      "max_weight_assumed": 0.05,
+      "max_ownership_assumed": 0.1,
+      "equal_weight_counts": [
+        20,
+        40
+      ],
+      "positions_usd": [
+        50000000,
+        25000000
+      ],
+      "min_equity_values_usd": [
+        500000000,
+        250000000
+      ],
+      "minimum_count_if_fully_invested": 20,
+      "status": "CONDITIONAL_ARITHMETIC",
+      "reason": "〔历史政策关联叙述未公开；节号对应关系见同库历史政策节号映射。〕"
+    },
+    "market_cap_gate": {
+      "shares": 20000000,
+      "prices": [
+        1.75,
+        5.25
+      ],
+      "equity_values_usd": [
+        35000000,
+        105000000
+      ],
+      "wealth_multiple": 3,
+      "price_return_pct": 200,
+      "status": "ARITHMETIC_OK",
+      "reason": "价格到三倍对应涨200%；总股数/流通股数口径另核"
+    },
+    "fund_size_ratio": {
+      "large_usd": 9000000000,
+      "small_usd": 800000000,
+      "ratio": 11.25,
+      "status": "ARITHMETIC_OK",
+      "reason": "规模比不是业绩比"
+    }
+  },
+  "original_report_verified": false,
+  "flags": [
+    "BOOK_CLAIM_UNVERIFIED：全部公司、指数、基金与覆盖数据",
+    "NOT_TRANSFERABLE：书内SEC限制未核现行法与适用范围",
+    "TEXT_ERROR_SUSPECTED：4048行“历史记录可以追踪”疑漏字",
+    "AMBIGUOUS_BASIS：七棵橡树后涨10倍起点与日美涨幅倍数口径未知",
+    "NOT_AUTHORIZED：持股数量、空仓、全部积蓄、逢跌加仓、卖空和期权不改政策",
+    "THEORY_SCOPE_LIMIT：成功经理例证不构成系统检验"
+  ]
+}

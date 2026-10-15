@@ -1,0 +1,154 @@
+{
+  "publication_provenance": {
+    "kind": "书籍阅读、历史案例及教学复算资料",
+    "source_record": "阅读记录/B06_CH04_复算.json",
+    "financial_numbers_origin": "仅为书内案例、历史统计或教学复算；不是维护者或使用者的资产、账户、持仓或交易记录。",
+    "private_account_or_holdings_data": false
+  },
+  "book": "B06",
+  "book_title": "彼得林奇投资经典全集（共3册）",
+  "volume": "第一册《战胜华尔街》",
+  "chapter": 4,
+  "chapter_title": "麦哲伦基金选股回忆录：初期",
+  "range": {
+    "start_line": 669,
+    "end_line": 765,
+    "line_count": 97,
+    "chars_with_newlines": 16359
+  },
+  "decode": "B06-v2-2026-10-13",
+  "image_files_referenced": [
+    "images/00039.jpg",
+    "images/00016.jpg",
+    "images/00032.jpg",
+    "images/00114.jpg",
+    "images/00078.jpg"
+  ],
+  "image_files_newly_viewed_this_batch": [
+    "images/00039.jpg",
+    "images/00032.jpg",
+    "images/00114.jpg",
+    "images/00078.jpg"
+  ],
+  "image_note": "5次图像引用/5个图像文件：00039=图4-1家得宝；00016=章节装饰图标（已在前章目视）；00032=图4-2瓦乔维亚；00114=图4-3诺威斯特(NOB)；00078=图4-4 NBD。四幅图表逐幅目视。",
+  "checks": {
+    "magellan_1976_expense_ratio": {
+      "input": "1976年规模600万美元、管理费0.6%、管理费收入3.6万美元",
+      "computation": "600*0.006=3.6万美元",
+      "status": "PASS"
+    },
+    "magellan_1976_merger_size": {
+      "input": "合并后规模1800万美元（麦哲伦600+艾塞克斯1200）",
+      "computation": "600+1200=1800万美元",
+      "status": "PASS"
+    },
+    "congoleum_implied_price": {
+      "input": "康格里默51000股、市值833000美元",
+      "computation": "833000/51000=16.33美元/股",
+      "status": "DERIVED"
+    },
+    "home_depot_multiple": {
+      "input": "家得宝从25美分上涨到65美元、'上涨了260倍'",
+      "computation": "65/0.25=260倍",
+      "status": "PASS"
+    },
+    "home_depot_cagr": {
+      "input": "'15年内'（正文）vs 图4-1覆盖1981-1992（≤12年）",
+      "cagr_15y_pct": 44.88,
+      "cagr_11y_pct": 65.78,
+      "status": "CONFLICT_OPEN",
+      "note": "时段口径不一致：正文称15年，图覆盖约11–12年"
+    },
+    "fedex_multiple": {
+      "input": "联邦快递5美元买入、10美元卖出、两年后70美元",
+      "computation": "70/5=14倍；相对卖出价70/10=7倍",
+      "status": "PASS"
+    },
+    "fifth_third_bank_multiple": {
+      "input": "五三银行从2美元上涨到80美元",
+      "computation": "80/2=40倍",
+      "status": "PASS"
+    },
+    "general_cinema_multiple": {
+      "input": "通用影业'不到1美元'→'30多美元'、'上涨30倍'",
+      "computation": "约30倍（约数推导）",
+      "status": "DERIVED"
+    },
+    "y1977_relative": {
+      "input": "1977年麦哲伦净值+20%；道指-17.6%、标普-9.4%",
+      "vs_djia_pp": 37.6,
+      "vs_sp500_pp": 29.4,
+      "status": "BOOK_CLAIM_UNVERIFIED"
+    },
+    "y1979_relative": {
+      "input": "1979年麦哲伦+51%；标普+18.44%",
+      "excess_pp": 32.56,
+      "status": "BOOK_CLAIM_UNVERIFIED"
+    },
+    "y1980_relative": {
+      "input": "1980年麦哲伦+69.9%；标普+32%",
+      "excess_pp": 37.9,
+      "status": "BOOK_CLAIM_UNVERIFIED"
+    },
+    "y1981_march_report": {
+      "input": "1981年3月年报：净值较1980年3月+94.7%；标普+33.2%",
+      "excess_pp": 61.5,
+      "status": "BOOK_CLAIM_UNVERIFIED"
+    },
+    "size_gap_from_redemptions": {
+      "input": "2000万×4倍应达8000万，实际只有5000万",
+      "computation": "2000*4=8000万；缺口 1-5000/8000=37.5%",
+      "status": "PASS_WITH_CAVEAT",
+      "note": "与正文'赎回1/3'粗略相容；严格按份额赎回时市值增长部分亦按比例被赎走"
+    },
+    "y1981_scale_100m": {
+      "input": "1981年资产规模首次突破1亿美元",
+      "computation": "相对1977年接手时1800万＝5.56倍",
+      "status": "DERIVED"
+    },
+    "subscription_fee": {
+      "input": "申购费率3%、60天内1%优惠",
+      "computation": "3%-1%=2%（与初次发行的2%相同）",
+      "status": "PASS"
+    },
+    "years_managed": {
+      "input": "'过去13年来我到底是如何管理这家基金的'",
+      "computation": "1977→1990＝13年",
+      "status": "PASS"
+    },
+    "chart_readings": {
+      "fig4_1_home_depot": "对数刻度，1981–1992，约0.03→左轴5.5–6（右轴约60–65）；标注多次3-for-2拆股；'LISTED NYSE, OTC prior'；VOLUME Monthly",
+      "fig4_2_wachovia": "1981–1992，约0.30→3.5（左轴对数）；标注'Adjusted data prior to merger with First Atlanta 12/3/85'、'First Wachovia prior to 5/2/91'；拆股1981 2-for-1、1984 3-for-2等",
+      "fig4_3_norwest": "1980–1993，约0.25→2.0；标注'Northwest Bancorp prior to 4/26/83'、'Dial acq. 3/19/82'；拆股1981/1988/1989/1993",
+      "fig4_4_nbd": "1981–1993，约0.20→2.5；拆股1982/1986/1989/1992；含相对强度与'PRICE Monthly Range'标注",
+      "source_note": "三张银行图图源为 Securities Research Co.（Babson-United Investment Advisors分部）；均为目视估读，不构成精确数据",
+      "status": "VISUAL_READING"
+    },
+    "arithmetic": {
+      "status": "PASS",
+      "note": "本章14项可内部检验的算式全部复算通过；1项CONFLICT_OPEN（家得宝'15年'与图覆盖期不一致）、1项PASS_WITH_CAVEAT（规模缺口的赎回口径）、2项DERIVED（隐含股价与折年化）"
+    }
+  },
+  "ambiguities": [
+    "1977年接手规模：683行'1800万美元'（与600+1200吻合）vs 752行'刚开始是2000万美元'，差200万，未说明口径",
+    "换手率与持股家数三处口径未对齐：712行'41种股票'、696行'10个月内投资近50种股票'、752行'1978和1979年持股50~60家'",
+    "本章内部张力：704行主张'进攻再进攻、不断替换'，而712–718行又自我批评换手率过高、'拔掉鲜花浇灌杂草'",
+    "家得宝起点'25美分'（正文）vs 图4-1最低读数约0.03——0.25更像买入时点价",
+    "富达资本基金'50年代增长2倍、60年代前6年增长1倍'口径不明（是否含基准与股息）",
+    "1981年麦哲伦+16.5%未给同期标普对照",
+    "通用影业'不到1美元''30多美元'均为约数",
+    "'克莱斯勒20年后从破产边缘走向复苏'的起止时点未给",
+    "图4-2'10年内上涨10倍'与目视读数约11.7倍（跨11年）相容但不精确"
+  ],
+  "unverified_items": [
+    "全部业绩数据：1977年+20%/道指-17.6%/标普-9.4%；1979年+51%/标普+18.44%；1980年+69.9%/标普+32%；1981年3月+94.7%/标普+33.2%；1981年+16.5%",
+    "换手率343%/300%、持股家数41/50/130/90、持有人数持续下降与赎回1/3、规模序列（600万→1800万→5000万→1亿→10亿→20亿→40亿→100亿→140亿）",
+    "全部价格与倍数：家得宝260倍、Cracker Barrel 50倍、阿尔伯逊300多倍、联邦快递5→70、五三银行2→80、第一亚特兰大合并涨30倍、通用影业约30倍、玩具反斗城、华纳通信、Pic'N'Save",
+    "全部持仓比例：1980年3月保险业25.4%、1980年底银行9%（12家）、银行仓位比同业高4~5倍、公用事业15%、'从未将一半以上资金投资于成长股'、前10大重仓PE 4~6倍（1978）与3~5倍（1979）",
+    "制度性与外部事实：1963年创立与1965-03-31更名、肯尼迪总统对海外投资征税、1972–1974年大崩盘'仅次于1929–1932'、SEC披露监管'根本不允许任何上市公司说谎'（属对当时美国披露环境的描述）、保险业协会邀请演讲、NBD 15%盈利增速、第一亚特兰大'连续12年高收益率'、伯克希尔11000美元/股、富达东京/波士顿路演名单",
+    "大量人名与职务：蔡至勇、内德·约翰逊、迪克·海伯曼、沃伦·卡西、莫里斯·史密斯、杰夫·维尼克、尼德利·查克斯、查理·曼斯费尔德、杰奎斯·佩罗德、盖伊·塞兰德罗、菲尔·塞耶、鲍勃·贝克威特",
+    "四幅图表为目视对数刻度读数，存在估读误差"
+  ],
+  "framework_landing": "〔历史政策关联叙述未公开；节号对应关系见同库历史政策节号映射。〕",
+  "original_report_verified": false
+}

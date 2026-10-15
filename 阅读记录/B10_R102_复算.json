@@ -1,0 +1,490 @@
+{
+  "publication_provenance": {
+    "kind": "书籍阅读、历史案例及教学复算资料",
+    "source_record": "阅读记录/B10_R102_复算.json",
+    "financial_numbers_origin": "仅为书内案例、历史统计或教学复算；不是维护者或使用者的资产、账户、持仓或交易记录。",
+    "private_account_or_holdings_data": false
+  },
+  "batch": "R102",
+  "date_utc": "2026-10-14T09:55:00Z",
+  "book": "B10",
+  "source_file": "投资书籍/聪明的投资者.第4版.epub",
+  "source_sha256": "7fb3de1a117680af0c73bce8799039a09b06d48e6450c8a292fe650c04ffb756",
+  "decoded_text_sha256": "473bd24939dc8d6f2f9b8cf946b749fa8c73121e461823ae25280e71822088a5",
+  "decoded_text_lines": 2396,
+  "range_read": {
+    "start_line": 860,
+    "end_line": 1110,
+    "lines": 251,
+    "chapters": {
+      "7": "860-975（第7章 进攻型投资者的组合策略：正面方法）",
+      "8": "976-1110（第二篇题头与目录976-1021＋第8章 非专业投资者如何分析证券：一般方法1022-1110）"
+    }
+  },
+  "resources_read": [
+    {
+      "index": 57,
+      "source": "index_split_056.html",
+      "raw_sha256": "36862c2f9d77545e0c8835215125b8ad70412779bf0550d77ff93e35f1e2c370",
+      "start_line": 860,
+      "end_line": 866,
+      "images": [],
+      "embedded_attribute_footnotes": 0,
+      "anchor_links": 0,
+      "read_in_batch": "R102"
+    },
+    {
+      "index": 58,
+      "source": "index_split_057.html",
+      "raw_sha256": "8cf73403a1f5f21a732fdf05e75e8e3489532b5938ee48d81ddfdd297feaba92",
+      "start_line": 867,
+      "end_line": 871,
+      "images": [],
+      "embedded_attribute_footnotes": 0,
+      "anchor_links": 0,
+      "read_in_batch": "R102"
+    },
+    {
+      "index": 59,
+      "source": "index_split_058.html",
+      "raw_sha256": "7b7c168bb68a0d4c97c109100fbf123ef5bdf2bacf1f503017eb533d3da31d69",
+      "start_line": 872,
+      "end_line": 885,
+      "images": [],
+      "embedded_attribute_footnotes": 0,
+      "anchor_links": 0,
+      "read_in_batch": "R102"
+    },
+    {
+      "index": 60,
+      "source": "index_split_059.html",
+      "raw_sha256": "9b25a134216fa6911c1bfb24ceaf3a94dd83988c963295045d2878ef80be187a",
+      "start_line": 886,
+      "end_line": 903,
+      "images": [],
+      "embedded_attribute_footnotes": 0,
+      "anchor_links": 0,
+      "read_in_batch": "R102"
+    },
+    {
+      "index": 61,
+      "source": "index_split_060.html",
+      "raw_sha256": "9ca36f37da77c12e348a567ed4d8a71eb6a108ca4bcd53795cda6d6cab847c5a",
+      "start_line": 904,
+      "end_line": 947,
+      "images": [],
+      "embedded_attribute_footnotes": 0,
+      "anchor_links": 0,
+      "read_in_batch": "R102"
+    },
+    {
+      "index": 62,
+      "source": "index_split_061.html",
+      "raw_sha256": "fc19e2f5ed7aec136a4e863a5f5793506527da0c379503ef2273680b71619c4a",
+      "start_line": 948,
+      "end_line": 957,
+      "images": [],
+      "embedded_attribute_footnotes": 0,
+      "anchor_links": 0,
+      "read_in_batch": "R102"
+    },
+    {
+      "index": 63,
+      "source": "index_split_062.html",
+      "raw_sha256": "b389502057d4dc3b765bb6c9c3e62dc2af54cd5ce54674551168ead6864a2e77",
+      "start_line": 958,
+      "end_line": 975,
+      "images": [],
+      "embedded_attribute_footnotes": 0,
+      "anchor_links": 0,
+      "read_in_batch": "R102"
+    },
+    {
+      "index": 64,
+      "source": "index_split_063.html",
+      "raw_sha256": "7fd54ff5b35d7c50b65a20989a97804a9d184d710fa51ec8c81b84ed376c998f",
+      "start_line": 976,
+      "end_line": 1021,
+      "images": [],
+      "embedded_attribute_footnotes": 0,
+      "anchor_links": 0,
+      "read_in_batch": "R102"
+    },
+    {
+      "index": 65,
+      "source": "index_split_064.html",
+      "raw_sha256": "f1810a4325382d48792a15f4266f75f3c0dc92b5a92e90d1a512bdc33e8b1090",
+      "start_line": 1022,
+      "end_line": 1032,
+      "images": [],
+      "embedded_attribute_footnotes": 0,
+      "anchor_links": 0,
+      "read_in_batch": "R102"
+    },
+    {
+      "index": 66,
+      "source": "index_split_065.html",
+      "raw_sha256": "55fe06b263559ef4858bb56bbb76862a6e7c4912fa816b871a4f289a78706fc9",
+      "start_line": 1033,
+      "end_line": 1062,
+      "images": [],
+      "embedded_attribute_footnotes": 0,
+      "anchor_links": 0,
+      "read_in_batch": "R102"
+    },
+    {
+      "index": 67,
+      "source": "index_split_066.html",
+      "raw_sha256": "d166d5b10136a61ff9df4dd8cc08712ce9d5b57edbe662d8480c58ee3bcb6a39",
+      "start_line": 1063,
+      "end_line": 1073,
+      "images": [],
+      "embedded_attribute_footnotes": 0,
+      "anchor_links": 0,
+      "read_in_batch": "R102"
+    },
+    {
+      "index": 68,
+      "source": "index_split_067.html",
+      "raw_sha256": "c5fda78d21c611ce2d2c515247265a0279fbf4273bcf83da62928b3a965bc819",
+      "start_line": 1074,
+      "end_line": 1088,
+      "images": [],
+      "embedded_attribute_footnotes": 0,
+      "anchor_links": 0,
+      "read_in_batch": "R102"
+    },
+    {
+      "index": 69,
+      "source": "index_split_068.html",
+      "raw_sha256": "3798d6a95f53964aeebf80b8add505d4d602901b5ea874466ebf0a5c65ade4e9",
+      "start_line": 1089,
+      "end_line": 1104,
+      "images": [],
+      "embedded_attribute_footnotes": 0,
+      "anchor_links": 0,
+      "read_in_batch": "R102"
+    },
+    {
+      "index": 70,
+      "source": "index_split_069.html",
+      "raw_sha256": "4f4efebb5b2d8860bb230a08f4682ad323391c3dfb59f05383c16a12ac4653d9",
+      "start_line": 1105,
+      "end_line": 1108,
+      "images": [],
+      "embedded_attribute_footnotes": 0,
+      "anchor_links": 0,
+      "read_in_batch": "R102"
+    },
+    {
+      "index": 71,
+      "source": "index_split_070.html",
+      "raw_sha256": "bf8e4446a5d460ecf0c9b88830abee3264cce7f899671eb3d3b1600a0b3ea75e",
+      "start_line": 1109,
+      "end_line": 1110,
+      "images": [],
+      "embedded_attribute_footnotes": 0,
+      "anchor_links": 0,
+      "read_in_batch": "R102"
+    }
+  ],
+  "images_in_batch": {
+    "img_references": 0,
+    "unique_images_viewed": 0,
+    "note": "第7、8章 spine 57-71 均无 img；[IMAGE] 标记在实际 860-1110 行内不存在。本章引用的图（如第5章725行）不属本批。"
+  },
+  "notes_read": {
+    "numbered_ordinary_notes": {
+      "count": 7,
+      "items": [
+        "870 注1 Lucie Tomlinson/Cottle 等公式化投资文献",
+        "871 注2 规则化方案对个体/群体仍可行",
+        "901 注1 同量股票 vs 同量金额两种买入法（表17注1）",
+        "1025 注1 Graham/Dodd《证券分析》1963年第4版",
+        "1035 注1 Charles McGolrick《年终报告的说明》1964（原拼写MoGolrek疑误）",
+        "1073 注1 Philip Fisher《普通股和非普通股利润》1960",
+        "1081 注1 克莱斯勒1963年两种2:1股票分割"
+      ]
+    },
+    "unnumbered_ordinary_notes": {
+      "count": 3,
+      "items": [
+        "874 成长股 vs 有希望的公司",
+        "881 译者注：原文1954被误作1953",
+        "885 两条箴言：没有树长到天上／猪不会赚钱"
+      ]
+    },
+    "table_notes": [
+      "表18 a/b（923：a.1962年低到37.5 b.考虑股票分割金额较小）",
+      "表19 表头与分行标签（927-934）"
+    ]
+  },
+  "computations": {
+    "table17_low_priced_superiority": {
+      "claim": "1937-1962 五个五年期，10种低增值股票平均盈亏逐期优于10种高增值股票与30种道指",
+      "recompute": {
+        "1937-1942": [
+          -2.2,
+          -10.0,
+          -6.3
+        ],
+        "1943-1947": [
+          17.3,
+          8.3,
+          14.9
+        ],
+        "1948-1952": [
+          16.4,
+          4.6,
+          9.9
+        ],
+        "1953-1957": [
+          20.9,
+          10.0,
+          13.7
+        ],
+        "1958-1962": [
+          10.2,
+          -3.3,
+          3.6
+        ]
+      },
+      "result": "逐期 low>high 且 low>DJ，方向性成立；可安全引用方向，不引用终值倍数",
+      "status": "DIRECTION_VERIFIED_VALUE_NOT_REPRODUCED"
+    },
+    "table17_drexel_terminal_values": {
+      "claim": "1936年投入1万美元，按表中比率变动，1962年低价股→11.92万美元，高价股→1.08万美元，道指30→3.5万或6.1万美元",
+      "recompute": {
+        "low": 174312,
+        "high": 13501,
+        "dj": 49275,
+        "years": 26,
+        "windows": "6+5+5+5+5"
+      },
+      "annualized_recomputed": {
+        "low": "11.6203%",
+        "high": "1.1611%",
+        "dj": "6.3260%"
+      },
+      "annualized_book_implied": {
+        "low": "10.0006%",
+        "high": "0.2964%",
+        "dj": "4.9363%~7.2025%"
+      },
+      "difference": "低价股 17.43万 vs 书示11.92万；高价股1.35万 vs 1.08万；道指4.93万落在3.5万~6.1万之间",
+      "status": "CONFLICT_OPEN",
+      "possible_explanation": "原Drexel序列可能含股利再投资、不同分组或不同端点；本书未给出逐年明细",
+      "evidence_needed": "Drexel & Company 1936-1962 原始年度调查"
+    },
+    "table18_chrysler_pe": {
+      "book": {
+        "1952": 10.8,
+        "1954": 26.2,
+        "1955": 8.8,
+        "1956": 22.9,
+        "1963": 11.6
+      },
+      "recomputed": {
+        "1952": 10.8407,
+        "1954": 26.2911,
+        "1955": 9.1524,
+        "1956": 22.7074,
+        "1963": 11.7312
+      },
+      "difference": {
+        "1952": 0.0407,
+        "1954": 0.0911,
+        "1955": 0.3524,
+        "1956": -0.1926,
+        "1963": 0.1312
+      },
+      "status": "PARTIAL_MATCH_1955_OFF_BY_0.35",
+      "possible_explanation": "1955 疑分子用年平均价而非H价；不替原输入配平"
+    },
+    "table19_net_current_asset_bargains": {
+      "groups": {
+        "纽约": [
+          35,
+          748,
+          419,
+          838
+        ],
+        "美洲": [
+          25,
+          495,
+          289,
+          492
+        ],
+        "中西部": [
+          5,
+          163,
+          87,
+          141
+        ],
+        "其他": [
+          20,
+          425,
+          288,
+          433
+        ]
+      },
+      "column_totals": {
+        "companies": 85,
+        "nav_total": 1831,
+        "price_1957": 1083,
+        "price_1959": 1904
+      },
+      "check": "三列合计与表内总计逐项吻合",
+      "cost_to_nav": "1083/1831 = 59.15%（折价40.85%）",
+      "gain_1957_to_1959": "+75.81%（1904/1083-1）",
+      "text_conflict": "正文'75%赚钱'与'78种有相当多利益＋7种持平（78/85=91.8%）'口径不一；'两年中每组每股流动资产总净值都提高'与表中该列每组仅一数值不自洽",
+      "status": "TABLE_INTERNALLY_CONSISTENT_TEXT_STRUCTURE_CONFLICT_OPEN"
+    },
+    "growth_stocks_10y": {
+      "claim": "1954-1963 十年 23种成长股平均总获利270%（价格226%＋股利44%）；非标准股票278%，其中75%来自股利，再投资后318%",
+      "recompute": "226+44=270 自洽",
+      "status": "SIMPLE_SUM_CONSISTENT_SECOND_CLAIM_NOT_REPRODUCIBLE"
+    },
+    "growth_stock_pe_phrasing": {
+      "text": "成长股'有高于20%的市盈率'",
+      "status": "AMBIGUOUS_WORDING_NOT_CONVERTED",
+      "note": "疑为'高于其收益的20倍'或盈利收益率口径，不擅自换算、不设阈值"
+    },
+    "visco_arbitrage": {
+      "claim": "1963年1月买入、12月卖出，套利利润40%",
+      "inputs": {
+        "entry_about": 60,
+        "cash_plus_monsanto_nov": 82,
+        "unlisted_year_end": 88.75
+      },
+      "recompute": {
+        "60_to_88.75": "+47.92%",
+        "implied_entry_for_40pct": 63.3929,
+        "60_to_82": "+36.67%"
+      },
+      "status": "CONFLICT_OPEN",
+      "possible_explanation": "是否含1962年已付2美元股利、或买卖时点非1月/12月末"
+    },
+    "chrysler_management_turnaround": {
+      "eps_1961": 1.24,
+      "eps_1963": 17,
+      "eps_multiple": 13.7097,
+      "price_low_1962": 38.5,
+      "price_high_1963": 200,
+      "price_multiple": 5.1948
+    },
+    "anaconda_decline": {
+      "high_1956": 85,
+      "price_1962": 23.5,
+      "decline": "-72.35%"
+    },
+    "gm_1958_valuation": {
+      "past_avg_eps": 2.73,
+      "forecast_eps": 3.5,
+      "multiplier": 13,
+      "product": 45.5,
+      "book_value": 45,
+      "avg_price_1958": 43,
+      "low_price_1958": 34
+    },
+    "gm_1963_income_conflict": {
+      "book_net_income": "1.6亿美元",
+      "book_eps": 5.5,
+      "implied_shares": "2909万股",
+      "if_16e8_implied_shares": "2.909亿股",
+      "status": "CONFLICT_OPEN_MAGNITUDE_SUSPECTED",
+      "note": "2909万股与1963年通用汽车已发行股数量级不符；疑'1.6亿'应为'16亿'；不引用该净收益数字"
+    },
+    "capitalization_rate_example": {
+      "eps": 4,
+      "value_low": 32,
+      "value_high": 80,
+      "multiples": [
+        8,
+        20
+      ],
+      "status": "CONSISTENT"
+    },
+    "dividend_dual_basis": {
+      "eps": 3,
+      "dps": 2,
+      "eps_multiple": 12,
+      "dps_multiple": 18,
+      "value_both": 36,
+      "status": "EXACT"
+    },
+    "sample_150_companies": {
+      "dj": 30,
+      "nyse_industrial": 30,
+      "other_listed": 30,
+      "unlisted": 60,
+      "total": 150,
+      "second_unlisted_group": {
+        "no_dividend_1963": 16,
+        "only_since_1960": 10,
+        "4y_plus_dividend_record": 4,
+        "sum": 30
+      },
+      "status": "EXACT"
+    },
+    "payout_ratios": {
+      "dj_1963": "57%",
+      "all_us_average": "66%",
+      "old_standard": "约2/3",
+      "status": "INTERNALLY_PLAUSIBLE_SOURCE_UNVERIFIED"
+    },
+    "abnormal_items": {
+      "count": 9,
+      "items": [
+        "固定资产出售损益",
+        "证券出售损益",
+        "到期资本折价或溢价",
+        "人寿保险政策收入",
+        "退税及其利息（或相反）",
+        "诉讼成功或失败",
+        "库存资产账面价值暂时减少",
+        "应收账款账面价值暂时减少",
+        "持续的非经营性财产成本"
+      ]
+    },
+    "forward_reference_unverified": {
+      "table20": "债券/优先股最小平均倍数（公用4/3、铁路5/4、工业7/5、零售5/4）",
+      "table25_26": "1959年《价值曲线》对1962-1964的预测与1963实际比较；在第10章1242行起，本批未读；'道指707美元相当接近'的判断待第10章复核"
+    }
+  },
+  "unavailable_materials": [
+    {
+      "label": "Drexel & Company 1936-1962年度调查（表17原始来源）",
+      "status": "未取得"
+    },
+    {
+      "label": "《标准·普尔每月股票指南》1957年12月低价股清单（表19）",
+      "status": "未取得"
+    },
+    {
+      "label": "《财政分析》1966年6-7月 Nicholson 文（902行）",
+      "status": "未取得"
+    },
+    {
+      "label": "Graham/Dodd《证券分析》1963年第4版（1025注、表20标准出处）",
+      "status": "未取得"
+    },
+    {
+      "label": "Charles McGolrick《年终报告的说明》1964（1035注）",
+      "status": "未取得"
+    },
+    {
+      "label": "Philip Fisher《普通股和非普通股利润》1960（1073注）",
+      "status": "未取得"
+    },
+    {
+      "label": "《价值曲线》1959年预测及第10章表25/表26",
+      "status": "未取得；第10章尚未阅读"
+    },
+    {
+      "label": "美国纤维胶／克莱斯勒／北太平洋／Anaconda／通用汽车原始披露",
+      "status": "未取得"
+    }
+  ],
+  "limitations": "本批全部复算只为核对原书内部一致性；不构成原披露核验，original_report_verified 全部为 false。书内历史价格、指数、税率与作者业绩自述不作为本项目阈值或收益依据。文字表复算不等于投资收益验证。"
+}

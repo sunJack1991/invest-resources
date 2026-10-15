@@ -1,0 +1,287 @@
+{
+  "publication_provenance": {
+    "kind": "书籍阅读、历史案例及教学复算资料",
+    "source_record": "阅读记录/B05_CH07_复算.json",
+    "financial_numbers_origin": "仅为书内案例、历史统计或教学复算；不是维护者或使用者的资产、账户、持仓或交易记录。",
+    "private_account_or_holdings_data": false
+  },
+  "book_id": "B05",
+  "chapter": 7,
+  "title": "会计诡计",
+  "decode": "B05-v2-2026-10-13",
+  "range": {
+    "start_line": 2199,
+    "end_line": 2366,
+    "line_count": 168,
+    "chars_with_newlines": 15245
+  },
+  "images": [
+    {
+      "file": "images/00009.jpeg",
+      "content": "表7-1 美国钢铁公司1935年简明损益表（A报告中数值／B新方案试算值）",
+      "status": "目视阅读",
+      "original_report_verified": false
+    },
+    {
+      "file": "images/00010.jpeg",
+      "content": "表7-2 1935年底简明资产负债表（资产部分）",
+      "status": "目视阅读",
+      "original_report_verified": false
+    },
+    {
+      "file": "images/00011.jpeg",
+      "content": "表7-2 续表（负债与权益部分）",
+      "status": "目视阅读",
+      "original_report_verified": false
+    }
+  ],
+  "note": "A节（美国钢铁公司方案）为作者1990年信件附录A的讽刺性虚构报道，全部数字非历史事实；本节复算只验证表内自洽与作者算例算术。",
+  "checks": {
+    "us_steel_depreciation_trick": {
+      "status": "ARITHMETIC_OK",
+      "items": {
+        "fixed_assets_written_down_from": 1338522858.96,
+        "to": "约负10亿美元",
+        "old_depreciation": 47000000,
+        "new_appreciation_5pct": 50000000
+      },
+      "annual_earnings_boost": "4700万+5000万=9700万",
+      "book_printed": "每年提升不少于9700万美元的盈利",
+      "source_verified": false
+    },
+    "warrant_arithmetic": {
+      "status": "ARITHMETIC_OK",
+      "items": {
+        "exercise_price": 50,
+        "par_value": 0.01,
+        "per_share_income": 49.99,
+        "shares": 5000000,
+        "cash_inflow": 250000000,
+        "wage_saving": 250000000
+      },
+      "checks": [
+        "50-0.01=49.99",
+        "5000000*50=250000000"
+      ],
+      "note": "利润不进损益表而进资本盈余；行使500万股与2.5亿现金/工资节省一致",
+      "source_verified": false
+    },
+    "zero_coupon_swap": {
+      "status": "ARITHMETIC_OK",
+      "items": {
+        "issued_bonds": 1080000000,
+        "years": 10,
+        "annual_face_retired": 108000000,
+        "annual_retired_at_50pct": 54000000,
+        "preferred_dividend_saved": 25000000
+      },
+      "annual_gain": "2500万+5400万=7900万",
+      "book_printed": "大约每年能为公司提供7900万美元的所得",
+      "source_verified": false
+    },
+    "table_7_1_income_statement": {
+      "status": "PARTIAL_MISMATCH_ROUNDED",
+      "unit": "美元",
+      "column_a": {
+        "total_income": 765000000,
+        "compensation": 251000000,
+        "other_costs_tax": 461000000,
+        "depreciation": 47000000,
+        "interest": 5000000,
+        "preferred_dividend": 25000000,
+        "available_to_common": -24000000,
+        "avg_shares": 8703252,
+        "eps": -2.76
+      },
+      "column_b": {
+        "total_income": 765000000,
+        "other_costs_tax": 311000000,
+        "depreciation": -50000000,
+        "interest": 5000000,
+        "bond_discount": -54000000,
+        "available_to_common": 553000000,
+        "avg_shares": 11203252,
+        "eps": 49.8
+      },
+      "cross_check": {
+        "a_column": "765-251-461-47-5-25=-24（百万）",
+        "b_column": "765-311+50-5+54=553（百万）",
+        "a_eps_computed": -2.7576,
+        "b_eps_computed": 49.3607
+      },
+      "book_printed": {
+        "a_eps": "(2.76)",
+        "b_eps": "49.80"
+      },
+      "issues": [
+        "A列全链与每股盈利吻合",
+        "B列可分配红利553,000,000吻合，但每股盈利复算49.36对书示49.80，差0.44",
+        "平均流通股B-A=2,500,000股，与正文“行使500万股股票的认股权证”不一致"
+      ],
+      "source_verified": false
+    },
+    "table_7_2_balance_sheet": {
+      "status": "ARITHMETIC_OK",
+      "unit": "美元",
+      "assets": {
+        "net_shareholder_equity": -1000000000,
+        "cash": 142000000,
+        "receivables": 56000000,
+        "inventory": 1,
+        "misc": 27000000,
+        "total": -774999999
+      },
+      "liabilities_and_equity": {
+        "declared_value": -3500000000,
+        "subsidiary_bonds_stock": 113000000,
+        "new_sinking_fund_notes": 1080000000,
+        "current_liabilities": 69000000,
+        "contingency_reserve": 1000000000,
+        "other_reserves": 74000000,
+        "beginning_surplus": 389000001,
+        "total": -774999999
+      },
+      "cross_check": {
+        "assets": "-1,000,000,000+142,000,000+56,000,000+1+27,000,000=-774,999,999",
+        "liabilities_and_equity": "-3,500,000,000+113,000,000+1,080,000,000+69,000,000+1,000,000,000+74,000,000+389,000,001=-774,999,999",
+        "common_par": "0.01*8,703,252=87,032.52"
+      },
+      "note": "两侧合计均为(774,999,999)，全表勾稽通过；普通股1美分面值与87,032.52美元一致",
+      "source_verified": false
+    },
+    "pension_assumption_reverse": {
+      "status": "ARITHMETIC_OK",
+      "inputs": {
+        "sp500_companies_with_plan": 363,
+        "assumed_return_pct": 8,
+        "bond_cash_share_pct": 28,
+        "bond_cash_expected_pct": 5
+      },
+      "implied_stock_return_pct": 9.166667,
+      "book_printed": "其余72%的资产必须取得9.2%的回报",
+      "check": "0.28*5%+0.72*9.1667%=8.00%",
+      "source_verified": false
+    },
+    "dow_20th_century_cagr": {
+      "status": "ARITHMETIC_OK",
+      "inputs": {
+        "from": 66,
+        "to": 11497,
+        "years": 100
+      },
+      "computed_pct": 5.296,
+      "book_printed": "5.3%",
+      "source_verified": false
+    },
+    "dow_21st_century_target": {
+      "status": "MISMATCH_REGISTERED",
+      "book_printed": "到2099年12月31日，道琼斯指数需要达到2,000,000点（从1.3万点上升到200万点）",
+      "computed_from_11497_100y": 2011044,
+      "computed_from_13000_100y": 2273948,
+      "note": "200万点对应1999年末11,497点起算的百年5.3%（与R50记录2,011,011.23同源）；正文并列的“1.3万点”为2000年代末水平，属口径混用，登记不改",
+      "source_verified": false
+    },
+    "dow_thousand_gates": {
+      "status": "ARITHMETIC_OK",
+      "computed_gates": 1987,
+      "book_printed": "接下来的92年会有1986次这样的癫狂体验",
+      "note": "相差1，属约数",
+      "source_verified": false
+    },
+    "equity_return_ceiling": {
+      "status": "ARITHMETIC_OK",
+      "computation": "5.3%+2%-0.5%=6.8%",
+      "book_printed": "也不会产出超过7%的回报",
+      "source_verified": false
+    },
+    "dow_2100_at_10pct": {
+      "status": "ARITHMETIC_OK",
+      "computation": "1.08^100=2199.76；11,000*2199.76≈24,197,374≈2,420万",
+      "book_printed": "2100年的时候，道琼斯指数达到2400万点",
+      "note": "为约数（若以11,497点起算为2,529万）",
+      "source_verified": false
+    },
+    "special_charges_1998": {
+      "status": "SELF_REPORTED_UNVERIFIED",
+      "items": {
+        "events": 1369,
+        "amount_usd_bn": 72.1,
+        "f500_1997_profit_usd_bn": 324
+      },
+      "ratio_pct": 22.25,
+      "note": "比值22.25%为自行计算，书中未给；原始统计未核",
+      "source_verified": false
+    },
+    "misc_claims_unverified": {
+      "status": "SELF_REPORTED_UNVERIFIED",
+      "items": [
+        "安达信PSG 1992年立场反转与四大/CEO游说",
+        "FASB以7比0通过期权费用化；参议院88对9票反对",
+        "标普500中498家选择不费用化（‘荣誉系统’）",
+        "自2005年6月15日期权计入成本强制生效",
+        "通用再保险报酬成本上升6300万美元；盖可1.9亿美元广告费类比",
+        "期权调整常使每股盈利减少5%，甚至10%",
+        "2006年标普500中363家有退休金计划、假设回报率8%",
+        "莱维特演说与《挑战华尔街》；唐纳森抵御政治压力",
+        "伯克希尔净利润可‘给出任何愿意给出的数字’的表述"
+      ],
+      "boundary": "均为书内自述/转述，未核原披露、监管记录或统计原文；不得作为推导输入",
+      "source_verified": false
+    },
+    "arithmetic": {
+      "status": "PASS",
+      "computations": [
+        {
+          "expr": "553000000/11203252",
+          "value": 49.3607
+        },
+        {
+          "expr": "-24000000/8703252",
+          "value": -2.7576
+        },
+        {
+          "expr": "(0.08-0.28*0.05)/0.72",
+          "pct": 9.166667
+        },
+        {
+          "expr": "(11497/66)^(1/100)-1",
+          "pct": 5.296
+        },
+        {
+          "expr": "11497*1.053^100",
+          "value": 2011044
+        },
+        {
+          "expr": "13000*1.053^100",
+          "value": 2273948
+        },
+        {
+          "expr": "1.08^100",
+          "value": 2199.76
+        },
+        {
+          "expr": "(2000000-13000)/1000",
+          "value": 1987
+        },
+        {
+          "expr": "721/3240",
+          "pct": 22.25
+        },
+        {
+          "expr": "-1000000000+142000000+56000000+1+27000000",
+          "value": -774999999
+        },
+        {
+          "expr": "-3500000000+113000000+1080000000+69000000+1000000000+74000000+389000001",
+          "value": -774999999
+        },
+        {
+          "expr": "0.01*8703252",
+          "value": 87032.52
+        }
+      ]
+    }
+  },
+  "math_or_logic_only": true,
+  "investment_performance_validated": false
+}

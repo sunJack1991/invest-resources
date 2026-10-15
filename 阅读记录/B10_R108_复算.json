@@ -1,0 +1,499 @@
+{
+  "publication_provenance": {
+    "kind": "书籍阅读、历史案例及教学复算资料",
+    "source_record": "阅读记录/B10_R108_复算.json",
+    "financial_numbers_origin": "仅为书内案例、历史统计或教学复算；不是维护者或使用者的资产、账户、持仓或交易记录。",
+    "private_account_or_holdings_data": false
+  },
+  "batch": "R108",
+  "date_utc": "2026-10-14T13:10:00Z",
+  "book": "B10",
+  "source_file": "投资书籍/聪明的投资者.第4版.epub",
+  "source_sha256": "7fb3de1a117680af0c73bce8799039a09b06d48e6450c8a292fe650c04ffb756",
+  "decoded_text_sha256": "473bd24939dc8d6f2f9b8cf946b749fa8c73121e461823ae25280e71822088a5",
+  "decoded_text_lines": 2396,
+  "range_read": {
+    "start_line": 2063,
+    "end_line": 2396,
+    "lines": 334,
+    "chars_including_newlines": 24943,
+    "chapters": {
+      "14": "2063–2198（第三篇题头与目录2063–2076＋第14章 股东与管理层2077–2198）",
+      "15": "2199–2221（第15章 股东与股利政策）",
+      "16": "2222–2396（第四篇题头2222–2227＋第16章 安全边际2228–2266＋书末总目录Table of Contents 2267–2396）"
+    },
+    "boundary_evidence": {
+      "2063": "第三篇 作为公司所有者的投资者",
+      "2077": "第十四章 股东与管理层",
+      "2199": "第十五章 股东与股利政策",
+      "2222": "第四篇 结论",
+      "2228": "第十六章 “安全边际”————投资的核心概念",
+      "2266": "最后的话（正文末段）",
+      "2267": "Table of Contents（书末总目录起点）",
+      "2396": "最后的话（书末目录末行）"
+    },
+    "spine_span_note": "跨 spine index 110–130 共 21 个资源（index_split_109.html–index_split_129.html）；其中 spine130 为书末链接目录（含129个版内锚点链接）。"
+  },
+  "resources_read": [
+    {
+      "index": 110,
+      "source": "index_split_109.html",
+      "start_line": 2063,
+      "end_line": 2076,
+      "raw_sha256": "bb98d85d29c3d317c7a8b1eaa7d8c66636172100acb489cbd9fb5e54f739b849",
+      "images": [],
+      "embedded_attribute_footnotes": 0,
+      "anchor_links": 0,
+      "read_in_batch": "R108"
+    },
+    {
+      "index": 111,
+      "source": "index_split_110.html",
+      "start_line": 2077,
+      "end_line": 2088,
+      "raw_sha256": "d6274a648047c2313a0c14dc24688e44f870a5a7fdcdda38d006ce6c13b5200a",
+      "images": [],
+      "embedded_attribute_footnotes": 0,
+      "anchor_links": 0,
+      "read_in_batch": "R108"
+    },
+    {
+      "index": 112,
+      "source": "index_split_111.html",
+      "start_line": 2089,
+      "end_line": 2114,
+      "raw_sha256": "a4cacd65f1c08635b1e5cef01638371c69b6b5b46e5e1974dddf097d3a086f3d",
+      "images": [],
+      "embedded_attribute_footnotes": 0,
+      "anchor_links": 0,
+      "read_in_batch": "R108"
+    },
+    {
+      "index": 113,
+      "source": "index_split_112.html",
+      "start_line": 2115,
+      "end_line": 2129,
+      "raw_sha256": "a6b11296c33d72aba1a072c1b39c39def9f208d76dff66bfeaceb8e878d82ede",
+      "images": [],
+      "embedded_attribute_footnotes": 0,
+      "anchor_links": 0,
+      "read_in_batch": "R108"
+    },
+    {
+      "index": 114,
+      "source": "index_split_113.html",
+      "start_line": 2130,
+      "end_line": 2142,
+      "raw_sha256": "3151307a92a7fe3abad88dc20221e251d8924a01f0cf12a564fcd50cada57c9a",
+      "images": [],
+      "embedded_attribute_footnotes": 0,
+      "anchor_links": 0,
+      "read_in_batch": "R108"
+    },
+    {
+      "index": 115,
+      "source": "index_split_114.html",
+      "start_line": 2143,
+      "end_line": 2149,
+      "raw_sha256": "3efd34df55f5a59899c0bdcbe5a26c0b063c3f3561b7e93100cb980172b9bc7b",
+      "images": [],
+      "embedded_attribute_footnotes": 0,
+      "anchor_links": 0,
+      "read_in_batch": "R108"
+    },
+    {
+      "index": 116,
+      "source": "index_split_115.html",
+      "start_line": 2150,
+      "end_line": 2157,
+      "raw_sha256": "6acb6c8e581849642ee83d02037164eac49229353432154eaf2afa8c4f211795",
+      "images": [],
+      "embedded_attribute_footnotes": 0,
+      "anchor_links": 0,
+      "read_in_batch": "R108"
+    },
+    {
+      "index": 117,
+      "source": "index_split_116.html",
+      "start_line": 2158,
+      "end_line": 2167,
+      "raw_sha256": "c55072016239f5297dd995fbd88bbd3aa383b346f83a1988ca325886abef4119",
+      "images": [],
+      "embedded_attribute_footnotes": 0,
+      "anchor_links": 0,
+      "read_in_batch": "R108"
+    },
+    {
+      "index": 118,
+      "source": "index_split_117.html",
+      "start_line": 2168,
+      "end_line": 2176,
+      "raw_sha256": "d71d9eb052d7117e4dae26196d647c71c5937ad60cea0844c009dafdc633ad3c",
+      "images": [],
+      "embedded_attribute_footnotes": 0,
+      "anchor_links": 0,
+      "read_in_batch": "R108"
+    },
+    {
+      "index": 119,
+      "source": "index_split_118.html",
+      "start_line": 2177,
+      "end_line": 2180,
+      "raw_sha256": "efaf4019521178ad889fe275f52415508417c1528b223440074bf700819e9541",
+      "images": [],
+      "embedded_attribute_footnotes": 0,
+      "anchor_links": 0,
+      "read_in_batch": "R108"
+    },
+    {
+      "index": 120,
+      "source": "index_split_119.html",
+      "start_line": 2181,
+      "end_line": 2198,
+      "raw_sha256": "4813fd8206fc774957e15cf3a6b4daff0dc4e0f33c869ab3746039ef6aa6b7a7",
+      "images": [],
+      "embedded_attribute_footnotes": 0,
+      "anchor_links": 0,
+      "read_in_batch": "R108"
+    },
+    {
+      "index": 121,
+      "source": "index_split_120.html",
+      "start_line": 2199,
+      "end_line": 2200,
+      "raw_sha256": "a18503f7671b7369b81067ce8e023d5924423f12dc8cb57b9371f974c5b2c7f9",
+      "images": [],
+      "embedded_attribute_footnotes": 0,
+      "anchor_links": 0,
+      "read_in_batch": "R108"
+    },
+    {
+      "index": 122,
+      "source": "index_split_121.html",
+      "start_line": 2201,
+      "end_line": 2212,
+      "raw_sha256": "f95010683b69eccf53f18fd2613f17baf2962e2f7520e913661f89d1a78de23f",
+      "images": [],
+      "embedded_attribute_footnotes": 0,
+      "anchor_links": 0,
+      "read_in_batch": "R108"
+    },
+    {
+      "index": 123,
+      "source": "index_split_122.html",
+      "start_line": 2213,
+      "end_line": 2221,
+      "raw_sha256": "5210f115867f712670a1b6284925fb4aa47565ddd766b2cfe26c20eace7bff13",
+      "images": [],
+      "embedded_attribute_footnotes": 0,
+      "anchor_links": 0,
+      "read_in_batch": "R108"
+    },
+    {
+      "index": 124,
+      "source": "index_split_123.html",
+      "start_line": 2222,
+      "end_line": 2227,
+      "raw_sha256": "879eefdecbdc1e049783ad34ace12c25d01e9b37d59bde9a7bdd80aca310555c",
+      "images": [],
+      "embedded_attribute_footnotes": 0,
+      "anchor_links": 0,
+      "read_in_batch": "R108"
+    },
+    {
+      "index": 125,
+      "source": "index_split_124.html",
+      "start_line": 2228,
+      "end_line": 2244,
+      "raw_sha256": "5e66edfe0ca2dce2aeb88b01238baf9bd4635ef915eb05fec5ba59a16863fb0b",
+      "images": [],
+      "embedded_attribute_footnotes": 0,
+      "anchor_links": 0,
+      "read_in_batch": "R108"
+    },
+    {
+      "index": 126,
+      "source": "index_split_125.html",
+      "start_line": 2245,
+      "end_line": 2247,
+      "raw_sha256": "0f011465e0a7ba07bd98c0f2a22969abbbde2830d75b5c47ea8dbfd34b0c07b2",
+      "images": [],
+      "embedded_attribute_footnotes": 0,
+      "anchor_links": 0,
+      "read_in_batch": "R108"
+    },
+    {
+      "index": 127,
+      "source": "index_split_126.html",
+      "start_line": 2248,
+      "end_line": 2252,
+      "raw_sha256": "5cbbea83c94b8a9ce7279d1253347956019284fcd143a2195daeb398bae548f8",
+      "images": [],
+      "embedded_attribute_footnotes": 0,
+      "anchor_links": 0,
+      "read_in_batch": "R108"
+    },
+    {
+      "index": 128,
+      "source": "index_split_127.html",
+      "start_line": 2253,
+      "end_line": 2259,
+      "raw_sha256": "f9ef3034d58580d7b464522e50e1dd459244950f3371df26d02f9076dd932636",
+      "images": [],
+      "embedded_attribute_footnotes": 0,
+      "anchor_links": 0,
+      "read_in_batch": "R108"
+    },
+    {
+      "index": 129,
+      "source": "index_split_128.html",
+      "start_line": 2260,
+      "end_line": 2266,
+      "raw_sha256": "48d9c897c0264a75187b8b2991fa8261424f1d87d5483c5659e510c84b2e6002",
+      "images": [],
+      "embedded_attribute_footnotes": 0,
+      "anchor_links": 0,
+      "read_in_batch": "R108"
+    },
+    {
+      "index": 130,
+      "source": "index_split_129.html",
+      "start_line": 2267,
+      "end_line": 2396,
+      "raw_sha256": "8c7ad6e9dcc507ee3359bd99a2735951761833ec8227787b1af3bbf7728dc495",
+      "images": [],
+      "embedded_attribute_footnotes": 0,
+      "anchor_links": 129,
+      "read_in_batch": "R108"
+    }
+  ],
+  "images_in_batch": {
+    "img_references": 0,
+    "unique_images_viewed": 0,
+    "note": "第14–16章及书末目录共21个资源均无img/image标签；本批无新图，全书图像仍仅cover.jpeg。附录1原件未识别、725行与第12章图1–3未取得（登记为未取得，不推为原版无图）。"
+  },
+  "notes_read": {
+    "numbered_ordinary_notes": {
+      "count": 0,
+      "items": []
+    },
+    "unnumbered_ordinary_notes": {
+      "count": 2,
+      "items": [
+        "2184–2193行【注1. 这些法令是：（1）1933年《证券法》…（8）1940年《合伙投资顾问法》…好生感激。】（八法令块注，挂于2182–2183行SEC段落）",
+        "2204行【注1. 对证券的研究表明…自1950年以来，工业企业股利率已有更多的标准。】（股利研究注，挂于2203行）"
+      ],
+      "classification_note": "本章批无编号普通注；2条方括号注均按未编号类计入。"
+    },
+    "table_notes": [
+      "表52（2102–2108行）：属展示性三行数据（净资产净收入、净销售净收入、净销售增长）；无独立表注"
+    ],
+    "total_new_notes": 2
+  },
+  "computations": {
+    "pmc_efficiency_table52": {
+      "title": "表52 1938年和1947年PMC与4家竞争公司的效率指数（％）",
+      "rows_as_printed": {
+        "净资产中的净收入": {
+          "1938": {
+            "PMC": 24.6,
+            "4家竞争公司": 13.4
+          },
+          "1947": {
+            "PMC": 8.6,
+            "4家竞争公司": 13.3
+          }
+        },
+        "净销售中的净收入": {
+          "1938": {
+            "PMC": 20.6,
+            "4家竞争公司": 17.0
+          },
+          "1947": {
+            "PMC": 7.1,
+            "4家竞争公司": 8.8
+          }
+        },
+        "净销售增长(1947对1938)": {
+          "PMC": 170,
+          "4家竞争公司": 156
+        }
+      },
+      "ratios": {
+        "PMC净资产净收入比值1938": 1.835820895522388,
+        "PMC净资产净收入比值1947": 0.6466165413533834,
+        "净销售增长比值": 1.0897435897435896
+      },
+      "changes_pp": {
+        "净资产净收入PMC": -16.0,
+        "净资产净收入竞争": -0.09999999999999964,
+        "净销售净收入PMC": -13.500000000000002,
+        "净销售净收入竞争": -8.2
+      },
+      "text_claims": {
+        "surface_growth": "与'过去几年里菲利浦·莫里斯在销售上的优势地位'一致（PASS：170对156）",
+        "decline": "'其他指标却都下降了'与四项变化（PMC两降、竞争净收入降）方向一致（PASS）",
+        "below_2pct": "'贴除利息后其税后净利润率低于2％'与'10年中绝大部分年份PMC的销售优势'无原始年报可复算（UNVERIFIED）"
+      },
+      "status": "TABLE_AS_PRINTED_NO_THIRD_PARTY_CLOSURE",
+      "conclusion": "表52为两时点横截对照，数字无内部勾稽可复算；可验证的仅是变化方向与叙述一致（PMC净资产净收入降16.0个百分点、竞争者几乎持平-0.1）。'利大于销售'的叙述登记为原书断言。"
+    },
+    "fwo_case": {
+      "title": "弗兰克-怀俄明石油公司（FWO）案例",
+      "numbers": {
+        "1958_1962盈利率": "每股1.52％～1.50％之间（原文单位表述可疑，登记不改）",
+        "每股红利": 1.2,
+        "1963成交价": 36,
+        "Lazard Freres报价": 55,
+        "董事会声称债券投资价超过": 40,
+        "董事会声称合理价": 80,
+        "合理价隐含盈利": "2％",
+        "合理价隐含红利回报": "1.5％"
+      },
+      "checks": {
+        "offer_vs_market": 1.5277777777777777,
+        "offer_vs_market_pct": 52.77777777777777,
+        "board_value_vs_market": 2.2222222222222223,
+        "market_vs_board_value_pct": 45.0,
+        "post_offer_70_vs_55": 1.2727272727272727,
+        "post_offer_110_vs_55": 2.0
+      },
+      "unverified": [
+        "'远高于5年内每股最高价'（无历史价序列）",
+        "'单独的公司债券投资价就超过了40美元'（无债券条款）"
+      ],
+      "status": "PARTIAL_ARITHMETIC_ONLY",
+      "conclusion": "报价55对市价36=+52.8%（叙述'高于市场价50％'近似）；董事会声称合理价80对市价36=2.22倍（'market价比合理价低了一半'按36/80=45%近似）。报价后部分股票涨至70（+27.3%）与110（2倍）为叙述性登记，不构成方法验证。"
+    },
+    "mission_case": {
+      "title": "MISSION公司案例（持股公司折扣）",
+      "numbers": {
+        "1937年底折扣": "35％",
+        "10年折扣平均": "35％",
+        "内部/外部差异表述": "'内部股东价格高出40％～50％'",
+        "1947合并西太平洋获得": "7900万美元现金",
+        "1963年底折扣": "很小"
+      },
+      "status": "NARRATIVE_ONLY",
+      "conclusion": "持股公司折扣与解散的历史叙述；无价格序列可复算，不引用折扣百分比为阈值。"
+    },
+    "dividend_policy_ch15": {
+      "title": "第15章 股东与股利政策：历史案例与新制度口径",
+      "traditional_payout": {
+        "经营顺利公司": "利润的60％～80％",
+        "主张常规": "2/3"
+      },
+      "texas_instruments": {
+        "价格1953→1960": "5→256美元",
+        "倍数": 51.2,
+        "EPS 0.43→3.91": 9.093023255813954,
+        "1962": "付息年EPS 2.14、股价49（对256为-80.86%）"
+      },
+      "superior_oil": {
+        "1948": "EPS 35.26/红利3/价235",
+        "1953": "红利1/价660（对235为2.81倍）",
+        "1957": "无红利/价2000（对235为8.51倍）",
+        "1962": "EPS 49.50/红利7.50/价795（对2000为-60.25%；EPS对1948为1.40倍）"
+      },
+      "att_ibm": {
+        "AT&T 1961": "卖价25倍当年收益",
+        "IBM 1960": "红利为股价高点0.5％"
+      },
+      "stock_dividend": {
+        "NYSE分界线": "25％",
+        "典型股票红利": "≤5％",
+        "税负差异": "股票红利有有利税率"
+      },
+      "status": "APPROX_REGISTERED_NOT_THRESHOLDS",
+      "conclusion": "股利政策与股价的历史关系登记；'2/3常规'与'25％分界'为原书/制度口径，NOT_ADOPTED为本项目阈值。"
+    },
+    "safety_margin_ch16": {
+      "title": "第16章 安全边际：全书核心概念",
+      "bond_buffer": {
+        "债务": 1000,
+        "价值": 3000,
+        "recompute": 0.6666666666666667,
+        "text": "'在价值上还有2/3的收缩空间'"
+      },
+      "railway_5x": "铁路债券（税前）应取得高于5倍的总固定收入（原书当时口径）",
+      "old_edition_example": {
+        "收益率": "9％",
+        "债券利率": "4％",
+        "边际": "5个百分点",
+        "十年超额": "可能达到所付价格的50％（原书历史口径）"
+      },
+      "conditions_1964": {
+        "16倍": "6.25％收益回报",
+        "红利收益率": "4.40％",
+        "再投资": "稍低于2％",
+        "十年超出债券收益": "'总计仅有约1/5'（原书、无逐项数据）"
+      },
+      "diversification": {
+        "保险原理": "利润总和超过损失总和是肯定的",
+        "轮盘例": "31对33:1为负安全边际；35为每轮+2美元"
+      },
+      "spec_vs_invest": "安全边际作试金石：'基于统计数据的简单和确定的算术推理'",
+      "generalization": {
+        "核心句": "'充分低的价格可以将劣质证券转变成为很好的投资机会'",
+        "不动产债券例": "面值销售→萧条跌至1美元低于10美分→其后真实价值为市场报价的4–5倍"
+      },
+      "four_principles": [
+        "知道你在做什么",
+        "不要让他人经营你的业务（除非可控制或完全信任）",
+        "基于可靠计算的算术不基于信心；远离收益很少损失很大的冒险",
+        "利用知识、经验和勇气"
+      ],
+      "status": "EXACT_WHERE_COMPUTABLE",
+      "conclusion": "安全边际为本书核心引用条款：可复算的仅2/3缓冲（1-1000/3000）与16倍→6.25％；其余为原书历史口径，均不设为本项目阈值。"
+    },
+    "end_toc": {
+      "lines": "2267–2396（130行）",
+      "links": 129,
+      "coverage_check": "16章与4篇标题均在目录中复现（第一章至第十六章、第一篇至第四篇）",
+      "status": "TOC_VERIFIED_AS_NAVIGATION",
+      "conclusion": "书末总目录为导航页：与正文各章标题一致，无新实质内容；129个链接均为版内锚点。"
+    },
+    "chapter_wide_defects": {
+      "text_defects_count": 8,
+      "items": [
+        "'导致股票股票几乎经常以被压得相当低'（重复字）",
+        "'这就是著名的Isull金字塔式'（Isull疑转录缺陷）",
+        "'在30年代的萧条中上'（衍字）",
+        "'大多数经营顺利的公司被利润的60％～80％支付红利'（语句残缺）",
+        "'在空间上铺得太大的交流'（疑'交叉'）",
+        "第15章章首导语与2203行整句重复",
+        "'大部分外部股东总是抛出股票时选错了时机'（语义残缺）",
+        "'它协调代理人在年度或特别会议上的各种要求'（语义残缺）"
+      ],
+      "status": "REGISTERED_NOT_CORRECTED",
+      "conclusion": "文字缺陷只登记不改原文；引用相关句以自述语义为准。"
+    }
+  },
+  "unavailable_materials": [
+    {
+      "label": "菲利浦·莫里斯公司1948年3月年报（表52原始来源）",
+      "status": "未取得"
+    },
+    {
+      "label": "FWO公司1958–1963年年度报告与Lazard Freres 1964年4月报价文件",
+      "status": "未取得"
+    },
+    {
+      "label": "MISSION公司1935–1964年资料（合并、清算与Skelly/Tidewater价格）",
+      "status": "未取得"
+    },
+    {
+      "label": "SEC八法令原文（1933年《证券法》等）",
+      "status": "未取得"
+    },
+    {
+      "label": "得克萨斯仪器、苏必略石油、AT&T、IBM当期行情原始记录",
+      "status": "未取得"
+    },
+    {
+      "label": "附录1原件（本地版未识别spine）与725行、第12章图1–3引用图",
+      "status": "未取得（累积）"
+    }
+  ],
+  "limitations": "本批复算只核对原书内部一致性与表间勾稽；不构成原披露核验，original_report_verified 全部为 false。第14–16章的历史案例价格、股利与SEC制度描述均不作为本项目阈值或收益依据；表52、FWO/MISSION折扣、'50%超额量'、'1/5'、'2/3常规'、'25%分界'、5倍总固定收入等一律不引用为阈值。安全边际条款以'可核实现在价值优先、价格与价值差为核'的既有表述落地。文字表复算不等于投资收益验证。"
+}

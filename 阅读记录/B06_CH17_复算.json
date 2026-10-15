@@ -1,0 +1,94 @@
+{
+  "publication_provenance": {
+    "kind": "书籍阅读、历史案例及教学复算资料",
+    "source_record": "阅读记录/B06_CH17_复算.json",
+    "financial_numbers_origin": "仅为书内案例、历史统计或教学复算；不是维护者或使用者的资产、账户、持仓或交易记录。",
+    "private_account_or_holdings_data": false
+  },
+  "book": "B06",
+  "volume": "第一册《战胜华尔街》",
+  "chapter": 17,
+  "chapter_title": "山姆大叔的旧货出售：联合资本II公司",
+  "range": {
+    "start_line": 1749,
+    "end_line": 1790,
+    "line_count": 42,
+    "chars_with_newlines": 5414
+  },
+  "decode": "B06-v2-2026-10-13",
+  "image_files_referenced": [
+    "images/00119.jpg",
+    "images/00071.jpg",
+    "images/00004.jpg"
+  ],
+  "image_files_newly_viewed_this_batch": [
+    "images/00119.jpg",
+    "images/00071.jpg",
+    "images/00004.jpg"
+  ],
+  "image_note": "spine28（index_split_027.html）覆盖1749–1790行；00119表17-1英国女皇旧货出售基金（8家公司／发行日期／一年后涨幅）、00071表17-2发展中国家电话公司基金（5家公司／增长率／投资期间）、00004表17-3小结（ALII 19.00，1992-1-13）。图像在章末1788–1790行。spine28无脚注链，含译者注1条。",
+  "checks": {
+    "partially_paid_bt": {
+      "input": "英国电信以每股30美元公开发行，投资者首付6美元；股票涨到36美元时卖出，'让他的资金增长一倍'",
+      "computation": "6/30=20%首付；30→36=+20%；6美元本金获利6美元=+100%（资金翻倍）✅",
+      "status": "PASS"
+    },
+    "partially_paid_water_dividend": {
+      "input": "'这些自来水公司当年就支付股票价格8%的红利……你可以从以40%的首付买入的股票上获得其全部股票价格的8%的红利，这样，在第一年中……获得20%的回报'",
+      "computation": "8%/40%=20%✅（与作者原话精确一致）",
+      "status": "PASS"
+    },
+    "downpayment_basis_conflict": {
+      "input": "自来水公司'先支付40%的首付'；英国电信案为6/30=20%",
+      "computation": "两处首付比例不同（40%对20%）",
+      "status": "AMBIGUOUS_BASIS",
+      "note": "或为不同发行条件；若统一按40%则英国电信算例不成立"
+    },
+    "table17_1_mean": {
+      "input": "表17-1八家公司一年后涨幅：103.0/194.0/116.0/200.0/75.9/54.6/76.9/74.4",
+      "computation": "(103.0+194.0+116.0+200.0+75.9+54.6+76.9+74.4)/8=111.85%（算术平均，表内无平均行）",
+      "status": "PASS_WITH_CAVEAT",
+      "note": "均为项目自行计算，非书内数据"
+    },
+    "table17_2_mean": {
+      "input": "表17-2五家公司：智利210.0%/墨西哥774.8%/香港72.3%/西班牙100.0%/菲律宾565.0%",
+      "computation": "(210.0+774.8+72.3+100.0+565.0)/5=344.4%；各行投资期间1.25~4.75年不等",
+      "status": "PASS_WITH_CAVEAT",
+      "note": "期间不可比，均值不具可比性"
+    },
+    "conrail": {
+      "input": "1987年3月上市、募资16亿美元、发行价每股10美元，本书写作时46美元；政府累计投入超70亿美元",
+      "computation": "10→46=4.6倍；投入70亿对募资16亿的比较书内未给出",
+      "status": "BOOK_CLAIM_UNVERIFIED"
+    },
+    "allied_capital_i": {
+      "input": "1960年I期公开发行，1万美元投资现值150万美元",
+      "computation": "150倍；约32年折年化≈17.4%",
+      "status": "BOOK_CLAIM_UNVERIFIED"
+    },
+    "allied_capital_ii_leverage": {
+      "input": "发行9200万美元；以自有9200万作抵押再融资9200万→资金池1.84亿美元；借款成本8%、收购贷款利息10%",
+      "computation": "9200万×2=1.84亿✅；10%-8%=2%利差（未扣管理费、违约与回收成本）",
+      "status": "PASS_WITH_CAVEAT",
+      "note": "书内未给违约率与费用率"
+    },
+    "water_company_terms": {
+      "input": "英国政府承担旧债、提供'嫁妆'资金、10年更新项目；水费每年100英镑且可加倍、需求年增1%；5家公司3年翻番",
+      "computation": "定性（结构条款）",
+      "status": "BOOK_CLAIM_UNVERIFIED"
+    },
+    "rule21": {
+      "input": "第21条林奇投资法则：'不管英国女王在卖什么，买！'",
+      "computation": "定性",
+      "status": "NOT_AUTHORIZED",
+      "note": "依赖选举约束下的低价定价这一制度前提，且1983年Britoil/Amersham为反例"
+    }
+  },
+  "flags": [
+    "AMBIGUOUS_BASIS：部分支付股首付比例（自来水40%对英国电信6/30=20%）",
+    "NOT_AUTHORIZED：第21条法则只作研究触发，不得外推为'凡政府出售必买'",
+    "BOOK_CLAIM_UNVERIFIED：表17-1/17-2全部公司数据、300万人认购、水费100英镑与需求+1%、5家自来水3年翻番、全球私有化2000亿美元、Conrail的70亿/16亿、联合资本I期150倍与II期条款",
+    "MARGIN_NOTE：2%利差为毛利差，未扣管理费、违约损失与回收成本；RTC贷款以'可靠抵押物'为前提（作者用词为'一些'）",
+    "original_report_verified=false（全部图像与数字）"
+  ]
+}

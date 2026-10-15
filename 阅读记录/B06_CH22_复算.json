@@ -1,0 +1,83 @@
+{
+  "publication_provenance": {
+    "kind": "书籍阅读、历史案例及教学复算资料",
+    "source_record": "阅读记录/B06_CH22_复算.json",
+    "financial_numbers_origin": "仅为书内案例、历史统计或教学复算；不是维护者或使用者的资产、账户、持仓或交易记录。",
+    "private_account_or_holdings_data": false
+  },
+  "book": "B06",
+  "volume": "第一册《战胜华尔街》",
+  "chapter": 22,
+  "chapter_title": "25条股票投资黄金法则（卷末清单）",
+  "range": {
+    "start_line": 2088,
+    "end_line": 2116,
+    "line_count": 29,
+    "chars_with_newlines": 2643
+  },
+  "decode": "B06-v2-2026-10-13",
+  "image_files_referenced": [],
+  "image_files_newly_viewed_this_batch": [],
+  "image_note": "spine33（index_split_032.html）覆盖2088–2116行，图像数0；无脚注链、无译者注。目录（v2第54行）将本条与第21章、后记并列为第一册卷末条目。",
+  "checks": {
+    "rule_count": {
+      "input": "标题'25条股票投资黄金法则'；实读条目1–25",
+      "computation": "计25条",
+      "status": "ARITHMETIC_OK"
+    },
+    "hit_rate_consistency": {
+      "input": "'如果你研究了10家公司，你就会找到1家远远高于预期的好公司。如果你研究了50家公司，你就会找到5家'",
+      "computation": "1/10=10%，5/50=10%，两处同口径",
+      "status": "BOOK_CLAIM_UNVERIFIED",
+      "note": "经验比例，本书未给样本、期间与偏差"
+    },
+    "track_pool_vs_holdings": {
+      "input": "同一第8条：'最多也只能研究追踪8~12只股票'与'在任何时候都不要同时持有5只以上的股票'",
+      "computation": "跟踪池（8~12只）与组合持有（≤5只）为两个不同对象；作者未说明如何在5只上限内维持8~12只跟踪池",
+      "status": "PASS_WITH_CAVEAT"
+    },
+    "ips_conflict_holdings_limit": {
+      "input": "第8条'在任何时候都不要同时持有5只以上的股票'；第14条'业余投资者完全可以集中投资少数几家优秀公司的股票'",
+      "computation": "〔历史政策关联叙述未公开；节号对应关系见同库历史政策节号映射。〕",
+      "status": "NOT_AUTHORIZED",
+      "note": "〔历史政策关联叙述未公开；节号对应关系见同库历史政策节号映射。〕"
+    },
+    "asymmetric_payoff_claim": {
+      "input": "第14条：'在1只股票上投资1000元，即使全部亏光也最多不过是亏损1000元，但是如果你耐心持有的话，可能就会赚到1000元甚至50000元'",
+      "computation": "50000/1000=50倍，与'甚至50000元'自洽；但未给概率、时间与再投资收益",
+      "status": "NOT_AUTHORIZED",
+      "note": "不能据此推期望值或凯利仓位"
+    },
+    "global_rank_8": {
+      "input": "第24条：'在过去10年里，美国股市平均投资收益率在全球股市中仅仅排名第8'",
+      "computation": "10年期平均投资收益率的相对排名；本书未给国家名单、口径（本币/美元、含息与否）与起止年份",
+      "status": "BOOK_CLAIM_UNVERIFIED",
+      "note": "不得由此推出'必须配置海外基金'"
+    },
+    "certainty_wording": {
+      "input": "第5条'一家公司业绩表现肯定与其股价表现是完全相关的'；第25条'精心挑选的投资组合，业绩表现肯定要远远胜过一个由债券或债券基金构成的投资组合'",
+      "computation": "定性（作者的长期信念表述，无区间与概率）",
+      "status": "NOT_AUTHORIZED",
+      "note": "〔历史政策关联叙述未公开；节号对应关系见同库历史政策节号映射。〕"
+    },
+    "fud_diversification_note": {
+      "input": "第23条：'投资于6只投资风格相同的股票基金并非分散投资'；换基'得支付很高的资本利得税'；'如果你投资的一只或几只基金业绩表现不错，就不要随便抛弃它们'",
+      "computation": "定性（风格分散与换手税负成本）",
+      "status": "PASS_WITH_CAVEAT"
+    },
+    "behavior_clauses": {
+      "input": "第3条'业余投资者尽可以忽略这群专业机构投资者，照样战胜市场'；第16条大跌'对于事先早做准备的投资者来说反而是一个低价买入的绝佳机会'；第18条'除非公司基本面恶化，否则坚决不要恐慌害怕而抛出手中的好公司股票'；第17条'胆小怕跌的你最好不要投资股票'",
+      "computation": "定性（行为纪律表述，无条件与阈值）",
+      "status": "NOT_AUTHORIZED",
+      "note": "按§2.18'法则缺配套条件'处理：缺条件不得执行"
+    }
+  },
+  "flags": [
+    "ARITHMETIC_OK：条数25条；第20条1/10与5/50同口径；第14条50000/1000=50倍",
+    "PASS_WITH_CAVEAT：第8条'8~12只跟踪池'与'≤5只持有'为两个对象；第23条风格分散",
+    "〔历史政策关联叙述未公开；节号对应关系见同库历史政策节号映射。〕",
+    "BOOK_CLAIM_UNVERIFIED：第20条命中率、第24条全球排名第8、第22条沃尔玛后5年、第23条换基税负量级",
+    "REQUIRED_PAIR：第11条（避开热门股）与第22条（错过前5年仍可持有）须并置；第13条与'赶马车鞭子/电子管永无复苏'的反例保留",
+    "original_report_verified=false"
+  ]
+}

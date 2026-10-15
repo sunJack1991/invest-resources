@@ -1,0 +1,834 @@
+{
+  "publication_provenance": {
+    "kind": "书籍阅读、历史案例及教学复算资料",
+    "source_record": "阅读记录/B10_R104_复算.json",
+    "financial_numbers_origin": "仅为书内案例、历史统计或教学复算；不是维护者或使用者的资产、账户、持仓或交易记录。",
+    "private_account_or_holdings_data": false
+  },
+  "batch": "R104",
+  "date_utc": "2026-10-14T11:35:00Z",
+  "book": "B10",
+  "source_file": "投资书籍/聪明的投资者.第4版.epub",
+  "source_sha256": "7fb3de1a117680af0c73bce8799039a09b06d48e6450c8a292fe650c04ffb756",
+  "decoded_text_sha256": "473bd24939dc8d6f2f9b8cf946b749fa8c73121e461823ae25280e71822088a5",
+  "decoded_text_lines": 2396,
+  "range_read": {
+    "start_line": 1242,
+    "end_line": 1514,
+    "lines": 273,
+    "chars_including_newlines": 14577,
+    "chapters": {
+      "10": "1242-1514（第十章 进攻型投资者的证券选择：评估方法）"
+    },
+    "boundary_evidence": {
+      "1242": "第十章 进攻型投资者的证券选择：评估方法",
+      "1515": "第十一章 应用股票分析技术发现贬值的题材：六个案例"
+    },
+    "spine_span_note": "第10章跨 spine index 73–80 共 8 个资源（index_split_072.html–index_split_079.html）。"
+  },
+  "resources_read": [
+    {
+      "index": 73,
+      "source": "index_split_072.html",
+      "start_line": 1242,
+      "end_line": 1270,
+      "raw_sha256": "c3304fb50a82b55898203de6152a733b2e98a0cf87d7eac0fda835e1ca5dc499",
+      "images": [],
+      "embedded_attribute_footnotes": 0,
+      "anchor_links": 0,
+      "read_in_batch": "R104"
+    },
+    {
+      "index": 74,
+      "source": "index_split_073.html",
+      "start_line": 1271,
+      "end_line": 1349,
+      "raw_sha256": "07dc6f8e038887117f0a092175b84f38b064e7868677ebfad458fcde4833de9d",
+      "images": [],
+      "embedded_attribute_footnotes": 0,
+      "anchor_links": 0,
+      "read_in_batch": "R104"
+    },
+    {
+      "index": 75,
+      "source": "index_split_074.html",
+      "start_line": 1350,
+      "end_line": 1426,
+      "raw_sha256": "4efec36bef0f09f51969b7d52d3e84bff172602523ff61372b433dea6a8efe52",
+      "images": [],
+      "embedded_attribute_footnotes": 0,
+      "anchor_links": 0,
+      "read_in_batch": "R104"
+    },
+    {
+      "index": 76,
+      "source": "index_split_075.html",
+      "start_line": 1427,
+      "end_line": 1437,
+      "raw_sha256": "9fb2c5c611ec2430326a25fec403dad5966a55af4793ffe9911dc2911c2262cf",
+      "images": [],
+      "embedded_attribute_footnotes": 0,
+      "anchor_links": 0,
+      "read_in_batch": "R104"
+    },
+    {
+      "index": 77,
+      "source": "index_split_076.html",
+      "start_line": 1438,
+      "end_line": 1464,
+      "raw_sha256": "65b98d56870b152d70136a2f3096747fc19555534ae22c00ee7ee850a3894771",
+      "images": [],
+      "embedded_attribute_footnotes": 0,
+      "anchor_links": 0,
+      "read_in_batch": "R104"
+    },
+    {
+      "index": 78,
+      "source": "index_split_077.html",
+      "start_line": 1465,
+      "end_line": 1486,
+      "raw_sha256": "eb26479664cc0af19aa447e2a3be3e264236ba8089322575b527c9b98ae71cae",
+      "images": [],
+      "embedded_attribute_footnotes": 0,
+      "anchor_links": 0,
+      "read_in_batch": "R104"
+    },
+    {
+      "index": 79,
+      "source": "index_split_078.html",
+      "start_line": 1487,
+      "end_line": 1504,
+      "raw_sha256": "e459c376f002f88bd13f2140bd006a03381652a6f99b2f5f0101501374b99f6f",
+      "images": [],
+      "embedded_attribute_footnotes": 0,
+      "anchor_links": 0,
+      "read_in_batch": "R104"
+    },
+    {
+      "index": 80,
+      "source": "index_split_079.html",
+      "start_line": 1505,
+      "end_line": 1514,
+      "raw_sha256": "6c6483f7181615629b0b3b8a9f93d4def7e188b17bda494015e93f5c09f200f0",
+      "images": [],
+      "embedded_attribute_footnotes": 0,
+      "anchor_links": 0,
+      "read_in_batch": "R104"
+    }
+  ],
+  "images_in_batch": {
+    "img_references": 0,
+    "unique_images_viewed": 0,
+    "note": "第10章 8 个资源均无 img/image 标签；本批无新图，全书图像仍仅 cover.jpeg。'无图'不等于原版无图。"
+  },
+  "notes_read": {
+    "numbered_ordinary_notes": {
+      "count": 1,
+      "items": [
+        "1514行注1：承蒙查尔斯·麦高瑞克（《财务状况分析》合著者）提供‘中级股’投资方法——出处 Harper & Row, 1964（正文1506行（注1）处引用）"
+      ]
+    },
+    "unnumbered_ordinary_notes": {
+      "count": 0,
+      "items": [],
+      "classification_note": "本章无译者注与方括号未编号注；1513行后的算式行与表格注单列于table_notes。"
+    },
+    "table_notes": [
+      "表24 注a（1263行）：假设在此期间内45%以上的分红以及平均收益用于再投资",
+      "表25 注a–注d（1311–1312行）：a.以1963年为基数的长期普通价；b.1962~1964年的潜在价；c.已调整；d.包括了通用汽车所有的一半股份（行内标记见1289行杜邦的283）",
+      "表26 注a–注c（1348行）：a.或者是1962~1964年的平均值；b.参照1959年的基数；c.包括在一半平均价时的分红",
+      "表29 注a–注b（1463行）：a.适应1964年6月分红；b.1961—1963年平均数对1951~1953年平均数",
+      "表27/表28 表头与合计行（1390–1391、1424–1425行）",
+      "表30 术语行（1477–1478行）"
+    ],
+    "total_new_notes": 1
+  },
+  "computations": {
+    "table24_fund_vs_index": {
+      "title": "表24 普通股投资基金的平均收益（%）",
+      "annual_block": {
+        "header": [
+          "名称",
+          "1962年",
+          "1963年",
+          "1962~1963年"
+        ],
+        "rows": [
+          [
+            "43种多样化增长基金",
+            -19,
+            20.0,
+            -3
+          ],
+          [
+            "32种收入增长基金",
+            -12,
+            28.0,
+            3
+          ],
+          [
+            "17种收入增长基金",
+            -7,
+            17.0,
+            8
+          ],
+          [
+            "标准·普尔500种股票综合指数",
+            -9,
+            22.4,
+            11
+          ]
+        ],
+        "compound_recompute": [
+          [
+            "43种",
+            -2.8,
+            "≈-3 ✓"
+          ],
+          [
+            "32种",
+            12.64,
+            "对书示+3 ✗"
+          ],
+          [
+            "17种",
+            8.81,
+            "≈+8 ✓"
+          ],
+          [
+            "标普500",
+            11.38,
+            "≈+11 ✓"
+          ]
+        ],
+        "status": "CONFLICT_OPEN",
+        "conclusion": "综合列按复利口径复算，43种（-2.80≈-3）、17种（+8.81≈+8）、标普（+11.38≈+11）三项吻合；**32种收入增长基金一格不自洽**（0.88×1.28=1.1264即+12.64%，书示+3%），疑与下一行1963年+17.0%串行，登记为单格冲突，不引用该格。"
+      },
+      "ten_year_block": {
+        "header": [
+          "名称",
+          "资本收益",
+          "收入股利",
+          "综合"
+        ],
+        "rows": [
+          [
+            "23种多样化增长基金",
+            226,
+            44,
+            270
+          ],
+          [
+            "31种收入增长基金",
+            156,
+            52,
+            208
+          ],
+          [
+            "14种收入增长基金",
+            152,
+            68,
+            220
+          ],
+          [
+            "标准·普尔500种股票综合指数",
+            203,
+            75,
+            278
+          ],
+          [
+            "标准·普尔500种股票综合指数（已调整）",
+            273,
+            45,
+            318
+          ]
+        ],
+        "recompute": "5行全部满足 资本收益+收入股利=综合（270/208/220/278/318 精确）",
+        "status": "PASS",
+        "conclusion": "十年块五行加总全部精确吻合。结论方向：1954–1963 十年三类基金综合 270/208/220 全部低于标普 278（已调整口径 318），即**完全投资于普通股的基金长期未跑赢标普500**，与本段正文一致。"
+      },
+      "note_a": "注a 假设45%以上的分红及平均收益用于再投资——为原书口径，不移植。"
+    },
+    "table25_price_forecast_vs_actual": {
+      "title": "表25 1959年‘普通价’预测与实际结果比较",
+      "rows": 30,
+      "sum_two_forecast_columns": {
+        "naess_thomas": 2697,
+        "price_line": 2830,
+        "printed": 2697,
+        "check": "两列合计 2697/2830 与书示**精确吻合**"
+      },
+      "sum_actual_column": {
+        "recompute": 2967,
+        "printed": 3078,
+        "difference": 111,
+        "conclusion": "第三列（实际平均价，注c‘已调整’）逐行合计2967与书示3078差111；该列带配股调整（联合化学2配1、AT&T3配1、美国烟草4配1、克莱斯勒4配1等），**调整口径与逐行未调整价不可直接相加**，登记为口径差异（不是错误），不引用其合计。"
+      },
+      "status": "COLUMN_TOTAL_NOT_RECONCILED",
+      "comparable_side": "第一、二预测列合计精确吻合，可用于引用‘预测总价’的量级。"
+    },
+    "table26_eps_dividend_forecast": {
+      "title": "表26 1959年收益和分红预测与实际结果比较",
+      "rows_printed_in_local_text": 29,
+      "missing_row_vs_table25": [
+        "联合碳化物"
+      ],
+      "printed_totals": {
+        "eps": [
+          222.45,
+          195.45,
+          179.94
+        ],
+        "dividend": [
+          128.75,
+          110.9,
+          99.99
+        ]
+      },
+      "recompute_sums": {
+        "eps": [
+          214.95,
+          188.0,
+          174.62
+        ],
+        "dividend": [
+          124.25,
+          105.15,
+          98.85
+        ]
+      },
+      "differences": {
+        "eps": [
+          7.5,
+          7.45,
+          5.32
+        ],
+        "dividend": [
+          4.5,
+          5.75,
+          1.14
+        ]
+      },
+      "conclusion": "本地版本表26比表25少‘联合碳化物’一行；六个合计格与逐行合计的差额（EPS 7.50/7.45/5.32，股利 4.50/5.75/1.14）可由该缺行的量级解释，故登记为**转录缺陷（缺行）**而非计算冲突。方向性结论仍成立：预测EPS 222.45/195.45 均高于实际 179.94，预测股利 128.75/110.90 均高于实际 99.99，与正文‘预测在总价中的比例过高’一致。",
+      "status": "TRANSCRIPTION_DEFECT_ROW_MISSING"
+    },
+    "table27_naess_thomas_1964": {
+      "title": "表27 基于1959年的道·琼斯工业平均值和 Naess & Thomas 评价（1964年6月30日）",
+      "rows_printed_in_local_text": 29,
+      "missing_row": [
+        "通用电气"
+      ],
+      "printed_totals": {
+        "price": 2222.0,
+        "long_term_earnings": 150.9,
+        "long_term_cash_dividend": 84.45,
+        "long_term_value": 2492
+      },
+      "printed_average_row": {
+        "raw": "平均（除以2.67） 832.0 56.50 31.60 933"
+      },
+      "average_row_recompute": {
+        "832.0": 832.2097378277153,
+        "56.50": 56.516853932584276,
+        "31.60": 31.62921348314607,
+        "933": 933.3333333333334,
+        "check": "四格全部吻合（832.2/56.55/31.63/933.3）"
+      },
+      "row_sum_recompute": {
+        "price": 2141.5,
+        "long_term_earnings": 167.55,
+        "dividend": 83.45,
+        "long_term_value": 2391.0
+      },
+      "differences_vs_printed": {
+        "price": -80.5,
+        "earnings": 16.65,
+        "dividend": -1.0,
+        "value": -101.0
+      },
+      "add_back_missing_ge": {
+        "price_with_ge": 2228.5,
+        "vs_printed_price": 2222.0,
+        "gap": -6.5
+      },
+      "anomaly": {
+        "row": "国际纸业",
+        "price": 32.0,
+        "long_term_earnings": 23.5,
+        "long_term_cash_dividend": 1.4,
+        "yield_col": 16.0,
+        "long_term_value": 38,
+        "note": "该行‘长期普通收益23.5’与相邻行量级（2.10–11.00）明显不符，与本行‘价格收益率16.0’亦矛盾（32.0/2.35≈13.6%），疑为2.35或2.75的转录错误；若按2.35计，逐行合计降至146.4（对书示150.90 差−4.5）。"
+      },
+      "status": "TRANSCRIPTION_DEFECT_PLUS_DIVISOR_VERIFIED",
+      "conclusion": "①**‘平均（除以2.67）’四格完全自洽**（2222.0/2.67=832.2、150.90/2.67=56.55、84.45/2.67=31.63、2492/2.67=933.3），由此确认该书使用**道指除数2.67（1964年6月）**，为表21‘道·琼斯平均’行提供参照（但表21各列比值2.645–2.916不一致，仍不能复现）。②本地版本表27缺‘通用电气’一行（该股在正文‘5种最便宜’名单中被引用），补入其题面价87.0后价格合计2228.5仍与书示2222.0差−6.5；③国际纸业收益格23.5量级异常。均登记为转录缺陷，不据合计反算。"
+    },
+    "table28_value_line_1967_1969": {
+      "title": "表28 道·琼斯工业平均值：1967~1969年价值线预测（1964年6月30日作）",
+      "rows_printed_in_local_text": 29,
+      "missing_row": [
+        "通用汽车"
+      ],
+      "printed_totals": {
+        "earnings": 138.25,
+        "dividend": 81.65,
+        "price_potential": 2186
+      },
+      "recompute_sums": {
+        "earnings": 129.05,
+        "dividend": 75.15,
+        "price_potential": 2061.0
+      },
+      "differences": {
+        "earnings": 9.2,
+        "dividend": 6.5,
+        "price_potential": 125.0
+      },
+      "add_back_missing_gm_using_table27_values": {
+        "earnings": 136.3,
+        "dividend": 80.15,
+        "vs_printed": [
+          138.25,
+          81.65
+        ]
+      },
+      "printed_average_row": {
+        "raw": "平均（除以2.67）52.00 30.60 820",
+        "recompute": {
+          "52.00": 51.77902621722846,
+          "30.60": 30.58052434456929,
+          "820": 818.7265917602997
+        },
+        "check": "138.25/2.67=51.78、81.65/2.67=30.58、2186/2.67=818.7，舍入后可通"
+      },
+      "duplicate_rows": {
+        "name": [
+          "国际镍业",
+          "国际纸业"
+        ],
+        "values": [
+          2.25,
+          1.3,
+          36
+        ],
+        "note": "两行数值完全相同，疑为重复转录（国际纸业一格应另有数值）"
+      },
+      "status": "TRANSCRIPTION_DEFECT_ROW_MISSING_AND_DUPLICATE",
+      "conclusion": "表28缺‘通用汽车’一行（用表27的横截面量级7.25/5.00补入后可解释大部分差额），且国际镍业与国际纸业两行数值完全相同。登记为转录缺陷，不据其合计反算。"
+    },
+    "growth_formula_table29": {
+      "title": "表29 收益倍数、增长率、所选股票的价格：1963",
+      "formula": "价值 = 当前（普通）收益 × (8.5 + 2 × 预期年增长率)；增长率取未来7–10年预测",
+      "part_a": "",
+      "part_a_multiplier_check": {
+        "rates": [
+          0,
+          2.5,
+          5.0,
+          7.2,
+          10.0,
+          14.3,
+          20.0
+        ],
+        "printed": [
+          8.5,
+          13.5,
+          18.5,
+          22.7,
+          28.5,
+          37.1,
+          48.5
+        ],
+        "recompute": [
+          8.5,
+          13.5,
+          18.5,
+          22.9,
+          28.5,
+          37.1,
+          48.5
+        ],
+        "result": "6/7吻合；7.2%一格复算22.9对书示22.7（差0.2，8.5+2×7.1=22.7，即该格增长率更像7.1%）"
+      },
+      "part_a_ten_year_growth_check": {
+        "pairs": [
+          [
+            2.5,
+            28.0
+          ],
+          [
+            5.0,
+            63.0
+          ],
+          [
+            7.2,
+            100.0
+          ],
+          [
+            10.0,
+            159.0
+          ],
+          [
+            14.3,
+            280.0
+          ],
+          [
+            20.0,
+            519.0
+          ]
+        ],
+        "recompute": [
+          28.01,
+          62.89,
+          100.42,
+          159.37,
+          280.59,
+          519.17
+        ],
+        "result": "6/6吻合（十年复利）"
+      },
+      "part_a_other_methods": {
+        "molodovsky": [
+          11.5,
+          13.5,
+          16.1,
+          18.9,
+          23.0,
+          31.2,
+          46.9
+        ],
+        "tatham": [
+          18.0,
+          25.0
+        ],
+        "graham_dodd_cottle": [
+          8.5,
+          13.5,
+          17.0,
+          20.0,
+          23.5,
+          31.5,
+          41.5
+        ],
+        "note": "Tatham表仅列2格（行不完整）"
+      },
+      "part_b_implied_growth": {
+        "formula": "隐含增长率 g = (P/E − 8.5) / 2",
+        "rows": [
+          [
+            "道·琼斯",
+            763.0,
+            41.11,
+            18.6,
+            5.1,
+            3.4
+          ],
+          [
+            "美国电话电报",
+            69.5,
+            3.03,
+            23.0,
+            7.3,
+            4.7
+          ],
+          [
+            "通用电气",
+            87.0,
+            3.0,
+            29.0,
+            10.3,
+            4.6
+          ],
+          [
+            "通用汽车",
+            78.5,
+            5.55,
+            14.1,
+            2.8,
+            9.4
+          ],
+          [
+            "国际商业机器",
+            406.0,
+            10.55,
+            38.5,
+            15.0,
+            21.2
+          ],
+          [
+            "国际收割机",
+            60.0,
+            4.58,
+            13.2,
+            2.4,
+            null
+          ],
+          [
+            "施乐",
+            85.0,
+            1.13,
+            75.0,
+            33.8,
+            32.4
+          ]
+        ],
+        "recompute_pe": [
+          18.56,
+          22.94,
+          29.0,
+          14.14,
+          38.48,
+          13.1,
+          75.22
+        ],
+        "recompute_g": [
+          5.05,
+          7.25,
+          10.25,
+          2.8,
+          15.0,
+          2.35,
+          33.25
+        ],
+        "result": "P/E 7/7吻合（13.10对13.2为舍入）；隐含增长率6/7吻合，施乐33.25对书示33.8（差0.55）"
+      },
+      "status": "REPRODUCIBLE_WITH_MINOR_DEVIATIONS",
+      "conclusion": "表29的十年增长列（6/6）与公式倍数（6/7）以及由市盈率反算的隐含增长率（6/7）均可复现，是本批**最可复算**的一组数据。据此可把公式登记为‘反算市场隐含增长率的提问工具’，并须同时声明：公式是对预测增长率的线性映射、不含风险溢价与均值回归，**不得用于定价**。正文‘施乐33.8%与通用汽车2.8%的差别惊人’可由表中数据支撑。"
+    },
+    "table30_five_stocks_screen": {
+      "title": "表30 1957年末的5种交易股票（四条投资价值标准）",
+      "criteria": [
+        "基本规模：流动资本>1000万美元",
+        "主要‘廉价’标准：价格低于净流动资产2/3",
+        "低市盈率：价格不超过1957年收益的8倍",
+        "良好的分红历史：至少以前10年分过红利"
+      ],
+      "rows": [
+        [
+          "Alco Products",
+          11,
+          18.0,
+          1.51,
+          1.0,
+          1946,
+          18.0
+        ],
+        [
+          "Baldwin-Lima-Hamilton",
+          9,
+          16.0,
+          1.48,
+          0.45,
+          1942,
+          16.5
+        ],
+        [
+          "哥伦比亚影业",
+          13,
+          22.5,
+          1.76,
+          1.2,
+          1942,
+          18.0
+        ],
+        [
+          "Hart, Schaffner",
+          22,
+          41.0,
+          4.34,
+          1.6,
+          1939,
+          50.0
+        ],
+        [
+          "Schenley Industries",
+          19,
+          37.0,
+          2.45,
+          1.0,
+          1941,
+          36.0
+        ]
+      ],
+      "criteria_check": {
+        "price_below_two_thirds_nca": "5/5通过（11<12.00、9<10.67、13<15.00、22<27.33、19<24.67）",
+        "pe_under_8": "5/5通过（7.28、6.08、7.39、5.07、7.76）",
+        "dividend_history_10y": "5/5通过（1946/1942/1942/1939/1941 → 11/15/15/18/16年）",
+        "size_over_10m": "5/5通过（净流动资产16.0–41.0美元/股，量级远超1000万美元）",
+        "total": "15/15条标准全部通过"
+      },
+      "printed_totals": {
+        "price": 74,
+        "net_current_assets": 134.5,
+        "earnings": 11.45,
+        "dividend": 5.25,
+        "price_1959_12": 138.5
+      },
+      "recompute_sums": {
+        "price": 74.0,
+        "net_current_assets": 134.5,
+        "earnings": 11.54,
+        "dividend": 5.25,
+        "price_1959_12": 138.5
+      },
+      "differences": {
+        "earnings": 0.09
+      },
+      "status": "SCREEN_REPRODUCED_TOTAL_EPS_MINOR_DIFF",
+      "conclusion": "四条标准在5只股票上**逐条可复现（15/15）**；合计中价74、净流动资产134.5、股利5.25、1959年12月价138.5 精确吻合，仅‘1957年收益合计’复算11.54对书示11.45（差0.09）。正文‘1959年12月的总价值略微超过前两年的净流动资产价值’亦可验证（138.5>134.5）。**该范式登记为历史筛选方法，本项目不设为筛选器**（与§2.12.3 净流动资产纪律一致）。"
+    },
+    "asset_value_and_liquid_assets": {
+      "principle": "过量流动资产价值可作为明确的‘增长因素’；可将流动资产价值超过收益能力价值量的一半加入收益能力价值",
+      "burton_dixie_1964_03": {
+        "price_per_share": 20,
+        "book_value_per_share": 50,
+        "average_earnings_per_share": 1.5,
+        "earnings_1963_per_share": 1.03,
+        "independent_working_capital_per_share": 30,
+        "cash_assets_per_share": 16,
+        "valuation": "12 × 1.50 = 18（收益能力价值）；加 (30 − 18) / 2 = 6 → 24",
+        "recompute": {
+          "earnings_value": 18.0,
+          "half_of_excess": 6.0,
+          "final": 24.0
+        },
+        "check": "18/6/24 三数精确自洽",
+        "note": "现金16 < 独立流动资金30 < 账面50，量级自洽"
+      },
+      "cross_reference": {
+        "line_1205": "1963年纽约中央铁路股票背后有141美元资产却以15美元低价卖出；施乐以87美元卖出（本处与后文施乐132美元/27亿美元市值需分开引用）",
+        "table22_reference": "巨蟒以自身有形资产价的一半卖出、东方柯达以超过5倍卖出（与第9章表22一致）"
+      },
+      "status": "SELF_CONSISTENT_EXAMPLE",
+      "conclusion": "‘加差额一半’的操作与193行、rule 7 三处表述一致（rule 7 译本措辞残缺），Burton-Dixie 算例三数精确自洽，可作**资产锚与收益锚加权的提问模板**；但现金/流动资产**不得重复计入**（沿用§2.12.3 折价纪律）。"
+    },
+    "eleven_valuation_rules": {
+      "title": "评估普通股的规则（1487–1504行，11条）",
+      "count": 11,
+      "key_parameters": {
+        "neutral_multiple": 12,
+        "neutral_definition": "每股收益年预期增长不超过2%",
+        "max_multiple": 20,
+        "min_multiple": 8,
+        "rate_sensitivity": "倍数范围应随基本利率反向变动（原书自陈‘能否在实际中这样做还值得怀疑’）",
+        "safety_margin_rule": "第10条：只有在评估价至少超过市场价1/3时，评估价对指导当前购买才具有明显价值",
+        "asset_adjustment": "第6条：有形资产价值少于收益能力价值时按缺陷减少；第7条：净流动资产价值超过收益能力价值时可加大（差额一半）",
+        "speculative_adjustment": "第8条：战争收益、临时使用权、租赁条件、税损减免等非正常因素应估计后加减；第9条：优先股与普通股之间的总价值分配应针对企业总价值进行",
+        "speculation_caveat": "第11条：普通股投机性越强，鉴定价值的实际根据越少；成长型公司的总价值中很可能有无法可靠计算的真正投机性成分"
+      },
+      "text_defects": [
+        "rule 5 含OCR乱码串‘20|Qī|shu|ωang|’（最大倍数20处）与句读错误",
+        "rule 6/7/9 译本语义残缺（‘最后传达室价值’等）",
+        "1469行‘很难鑿地划清’、1506行前后多处OCR/别字"
+      ],
+      "status": "REGISTERED_AS_METHOD_HISTORY_NOT_THRESHOLDS",
+      "conclusion": "〔历史政策关联叙述未公开；节号对应关系见同库历史政策节号映射。〕"
+    },
+    "investment_vs_speculation_split": {
+      "principle": "以‘20倍当前收益’为最大投资价值线，超过部分明确称为投机成分；市场价的平衡代表投资者对企业投机可能性的估计",
+      "ibm_1961": {
+        "price": 607,
+        "earnings": 9.1,
+        "max_investment_value": 182.0,
+        "recompute": "20×9.10=182",
+        "check": "182 < 607/3=202.33 ✓ 与正文‘低于市场价的1/3’一致",
+        "implied_shares_from_12bn_market_value": {
+          "value": 19.77,
+          "unit": "百万股",
+          "status": "UNVERIFIED"
+        }
+      },
+      "international_harvester_1961": {
+        "price": 55.25,
+        "earnings": 2.41,
+        "book_value": 68,
+        "five_year_average_earnings": 3.2,
+        "max_investment_value": 48.2,
+        "printed": 48,
+        "speculative_component": 7.05,
+        "printed_speculative": 7,
+        "check": "20×2.41=48.2≈48；55.25−48.2=7.05≈7 ✓"
+      },
+      "text_defect": "正文该处在1961年例中写‘20倍于1963年收益’，年份疑误（应为1961年收益）",
+      "status": "SELF_CONSISTENT_EXAMPLE_WITH_YEAR_TYPO",
+      "conclusion": "‘投资成分（≤20×当前收益）’与‘投机成分（超出部分）’的**结构区分**登记入手册与模板G2/G4；‘20倍’本身为原书口径，不设为阈值。"
+    },
+    "fund_underperformance_cross_reference": {
+      "line_1247": "当扩展这些资金时，他们动作的费用平均每年大约0.5%或者更少些……（该句译本含残句）",
+      "status": "CROSS_REFERENCE_TO_B09_B03",
+      "conclusion": "表24（基金长期跑输标普）与B09、B03关于主动管理成本的结论同向，本项目沿用既有条款，不新增阈值。"
+    },
+    "sale_rule_mcglorick": {
+      "title": "选择‘中级’股的一个方法（1505–1514行）",
+      "buy_multipliers": {
+        "A+": 20.0,
+        "A": 18.5,
+        "A-": 17.0,
+        "B+": 15.5
+      },
+      "arithmetic_step": 1.5,
+      "method": "以过去6年平均收益×等级乘数为买点；从购买日起‘现年或不足现年时间内’卖出并获25%收益",
+      "note": "正文称‘近些年来有3个最高等级的普通股不能采用最大乘数，但在B+类（中间级）中大约有12种股票的价格在所需价格范围内’；注1出处 Harper & Row, 1964",
+      "project_status": "NOT_ADOPTED_AS_AUTOMATIC_SELL_RULE",
+      "conclusion": "〔历史政策关联叙述未公开；节号对应关系见同库历史政策节号映射。〕"
+    },
+    "cheapest_five_list_check": {
+      "value_line_list": [
+        "联合化学",
+        "巨蟒",
+        "伯利恒钢铁",
+        "联合碳化物",
+        "西屋"
+      ],
+      "printed": "‘潜在价’385美元与1964年6月价505美元相比，跌24%",
+      "recompute_potential": 397,
+      "recompute_june_price": 292.5,
+      "check": "385/505−1=−23.76%（句内自洽）；但385≠表28该5种潜力合计397（差−12），505≠表27该5种6月价合计292.5（差+212.5）",
+      "status": "CONFLICT_OPEN",
+      "conclusion": "该句两个美元数与表27/表28的逐行数据均不能复现（385对397、505对292.5），仅其内部比值−23.76%≈‘跌24%’自洽。不引用‘385/505’作计量口径。"
+    },
+    "naess_thomas_cheapest_six_named_as_five": {
+      "printed_list": [
+        "联合化学",
+        "ALCOA",
+        "克莱斯勒",
+        "通用电气",
+        "迅捷",
+        "沃尔沃"
+      ],
+      "count": 6,
+      "printed_total": 296,
+      "june_price": 300,
+      "check": "296/300−1=−1.33%≈‘跌1%’ ✓ 句内自洽",
+      "status": "LIST_COUNT_DEFECT",
+      "conclusion": "正文称‘5种最便宜的股票’却列出6个名称（其中‘通用电气’在表27中缺行）；句内比值−1.33%自洽。"
+    }
+  },
+  "unavailable_materials": [
+    {
+      "label": "威森伯格《投资公司手册》1964年版（表24原始来源）",
+      "status": "未取得"
+    },
+    {
+      "label": "Naess & Thomas 与 价值线（Value Line）1959/1964年原始预测报告",
+      "status": "未取得"
+    },
+    {
+      "label": "Charles McGolrick《财务状况分析》（表30后的‘中级股’方法出处）",
+      "status": "未取得"
+    },
+    {
+      "label": "A&P、迅捷公司等历史流动资产价格案例原始资料",
+      "status": "未取得"
+    },
+    {
+      "label": "Burton-Dixie 公司1963–1964年财务报表",
+      "status": "未取得"
+    },
+    {
+      "label": "表25/26 的1963年实际收益与股利的原始披露",
+      "status": "未取得"
+    }
+  ],
+  "limitations": "本批复算只核对原书内部一致性与表间勾稽；不构成原披露核验，original_report_verified 全部为 false。表24–表30 的历史收益、预测与价格均不作为本项目阈值或收益依据；表25第三列、表26/27/28的缺行与异常格、‘385/505’与‘增长3.2倍’类数字一律不引用。文字表复算不等于投资收益验证。"
+}

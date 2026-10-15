@@ -1,0 +1,158 @@
+{
+  "publication_provenance": {
+    "kind": "书籍阅读、历史案例及教学复算资料",
+    "source_record": "阅读记录/B05_CH00_复算.json",
+    "financial_numbers_origin": "仅为书内案例、历史统计或教学复算；不是维护者或使用者的资产、账户、持仓或交易记录。",
+    "private_account_or_holdings_data": false
+  },
+  "book_id": "B05",
+  "chapter": 0,
+  "title": "版本、序言、开场白与九个章导言",
+  "decode": "B05-v2-2026-10-13",
+  "range": {
+    "start_line": 1,
+    "end_line": 402,
+    "line_count": 402,
+    "chars_with_newlines": 32783
+  },
+  "checks": {
+    "decoded_range": {
+      "status": "PASS",
+      "note": "1–402行为封面至九个章导言（spine 0–16）；下一断点403行（第1章）。各区段字符数以v2合并全文实测（spine 0–16 合计 32,783 字符含换行）"
+    },
+    "berkshire_book_value": {
+      "status": "ARITHMETIC_OK_BOUNDARY_NOTE",
+      "start_year": 1964,
+      "start_value_usd": 19.46,
+      "end_value_usd": 100000,
+      "assumed_span_years": 46,
+      "multiple": 5138.75,
+      "cagr_46y": 0.2041,
+      "book_printed": "年复合增长率20%",
+      "conclusion": "46年口径复算20.4%，与书示20%（约数）量级相符；'如今'年份未写明（按2010推定）",
+      "source_verified": false
+    },
+    "per_share_investments": {
+      "status": "MISMATCH_OPEN",
+      "start_year": 1965,
+      "start_value_usd": 4,
+      "end_year": 2010,
+      "end_value_usd": 95000,
+      "span_years": 45,
+      "multiple": 23750,
+      "cagr_45y": 0.2509,
+      "book_printed": "折合年复合增长率20%",
+      "difference": "书示20% vs 复算25.1%（−5.1pp）",
+      "alternatives": [
+        "若至2014年（49年）：22.8%，仍不符",
+        "若至2005年（40年）：28.6%，仍不符"
+      ],
+      "possible_explanations": [
+        "区间或起点金额口径未写明",
+        "中文版数字疑误或与另组数据串行（同段账面价值条目的20%是正确量级）",
+        "英文原版可能印不同数字"
+      ],
+      "evidence_needed": "英文原版Introduction及伯克希尔2010年年报per-share investments表",
+      "source_verified": false
+    },
+    "per_share_operating_earnings": {
+      "status": "MISMATCH_OPEN",
+      "start_year": 1965,
+      "start_value_usd": 4,
+      "end_year": 2010,
+      "end_value_usd": 6000,
+      "span_years": 45,
+      "multiple": 1500,
+      "cagr_45y": 0.1765,
+      "book_printed": "折合年复合增长率21%",
+      "difference": "书示21% vs 复算17.7%（+3.3pp）",
+      "alternatives": [
+        "若至2014年（49年）：16.1%，仍不符",
+        "若为40年区间：20.06%（接近书示20%，但标的与区间均不吻合）"
+      ],
+      "possible_explanations": [
+        "区间或口径未写明",
+        "中文版数字疑误"
+      ],
+      "evidence_needed": "英文原版Introduction及伯克希尔年报",
+      "source_verified": false
+    },
+    "principles_count_conflict": {
+      "status": "OPEN",
+      "text_says": "1983年，我总结了13条与所有者相关的企业原则……这全部的13条时至今日，依然有效",
+      "actual_listed": 15,
+      "items": "正文连续列出1–15条（第14、15条为后来增补的典型条目：股价与价值同步、与标普500比较）",
+      "possible_explanation": "1983年原始版本为13条，后更新至15条；正文起始句未同步更新（属书内更新痕迹）",
+      "evidence_needed": "英文原版开场白起始句；1983年致股东信与1996年《所有者手册》对照",
+      "source_verified": false
+    },
+    "translator_claims": {
+      "status": "SELF_REPORTED_UNVERIFIED",
+      "items": [
+        "译者自述1995秋至2017秋约1000倍回报（22年，复算约36.9%/年为隐含值）",
+        "译者自述'十年半十倍'（隐含约24.5%/年）"
+      ],
+      "boundary": "均为个人业绩自述，无审计数据；不得作为推导输入"
+    },
+    "editor_numbers_unverified": {
+      "status": "SELF_REPORTED_UNVERIFIED",
+      "items": [
+        "巴菲特超40年超20%年复合回报、同期股市两倍（编者转述）",
+        "交易成本约占全美企业年度总利润20%（巴菲特估计）",
+        "交易成本吞噬10%或更多利润（巴菲特估计）",
+        "公司慈善捐助上限一般不超过年度利润10%（美国州法律）",
+        "浮存金与递延税合计约1000亿美元（2011年后更新的数字）",
+        "GAAP商誉摊销通常历时40年（旧规则）",
+        "1998年以来股价超50000美元；2017年6月超250000美元（译者注）"
+      ],
+      "boundary": "均为书内陈述，未核原披露；不得作为推导输入"
+    },
+    "stock_split_numbering": {
+      "status": "OPEN",
+      "text": "股票分拆有三个后果：（1）…（2）…（5）…",
+      "note": "epub原文即（1）（2）（5），非提取错误；三项内容完整（交易成本上升、吸引短线客、股价偏离价值）",
+      "possible_explanation": "原书排版编号疑误或编辑删节后未重编号",
+      "evidence_needed": "英文原版对应段落"
+    },
+    "arithmetic": {
+      "status": "PASS",
+      "computations": [
+        {
+          "expr": "100000/19.46",
+          "value": 5138.751284,
+          "note": "倍数量级"
+        },
+        {
+          "expr": "5138.751284^(1/46)-1",
+          "value": 0.20407
+        },
+        {
+          "expr": "95000/4",
+          "value": 23750
+        },
+        {
+          "expr": "23750^(1/45)-1",
+          "value": 0.25093
+        },
+        {
+          "expr": "6000/4",
+          "value": 1500
+        },
+        {
+          "expr": "1500^(1/45)-1",
+          "value": 0.1765
+        },
+        {
+          "expr": "1000^(1/22)-1",
+          "value": 0.36903
+        },
+        {
+          "expr": "10^(1/10.5)-1",
+          "value": 0.24489
+        }
+      ]
+    }
+  },
+  "math_or_logic_only": true,
+  "investment_performance_validated": false
+}

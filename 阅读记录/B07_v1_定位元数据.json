@@ -1,0 +1,264 @@
+{
+  "publication_provenance": {
+    "kind": "书籍阅读、历史案例及教学复算资料",
+    "source_record": "阅读记录/B07_v1_定位元数据.json",
+    "financial_numbers_origin": "仅为书内案例、历史统计或教学复算；不是维护者或使用者的资产、账户、持仓或交易记录。",
+    "private_account_or_holdings_data": false
+  },
+  "version": "B07-v1-2026-10-14",
+  "source_sha256": "40e5af60872781057d43a20819ea1765a91d93eba79183334b2d8d06aa8339ec",
+  "decoded_text_sha256": "0ed39a0f9d03e9252b4f0a14d304dc9e5ca7d9f864ec38db6827b32e8374604e",
+  "decoded_text_lines": 790,
+  "decoded_text_chars": 162016,
+  "locators": [
+    {
+      "index": 0,
+      "source": "titlepage.xhtml",
+      "start_line": 1,
+      "end_line": 1,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 1,
+      "source": "text/part0000.html",
+      "start_line": 2,
+      "end_line": 32,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 2,
+      "source": "text/part0001.html",
+      "start_line": 33,
+      "end_line": 53,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 3,
+      "source": "text/part0002.html",
+      "start_line": 54,
+      "end_line": 55,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 4,
+      "source": "text/part0003.html",
+      "start_line": 56,
+      "end_line": 67,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 5,
+      "source": "text/part0004.html",
+      "start_line": 68,
+      "end_line": 92,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 6,
+      "source": "text/part0005.html",
+      "start_line": 93,
+      "end_line": 103,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 7,
+      "source": "text/part0006.html",
+      "start_line": 104,
+      "end_line": 188,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 8,
+      "source": "text/part0007.html",
+      "start_line": 189,
+      "end_line": 212,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 9,
+      "source": "text/part0008.html",
+      "start_line": 213,
+      "end_line": 256,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 10,
+      "source": "text/part0009.html",
+      "start_line": 257,
+      "end_line": 279,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 11,
+      "source": "text/part0010.html",
+      "start_line": 280,
+      "end_line": 297,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 12,
+      "source": "text/part0011.html",
+      "start_line": 298,
+      "end_line": 332,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 13,
+      "source": "text/part0012.html",
+      "start_line": 333,
+      "end_line": 409,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 14,
+      "source": "text/part0013.html",
+      "start_line": 410,
+      "end_line": 438,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 15,
+      "source": "text/part0014.html",
+      "start_line": 439,
+      "end_line": 445,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 16,
+      "source": "text/part0015.html",
+      "start_line": 446,
+      "end_line": 447,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 17,
+      "source": "text/part0016.html",
+      "start_line": 448,
+      "end_line": 455,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 18,
+      "source": "text/part0017.html",
+      "start_line": 456,
+      "end_line": 473,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 19,
+      "source": "text/part0018.html",
+      "start_line": 474,
+      "end_line": 501,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 20,
+      "source": "text/part0019.html",
+      "start_line": 502,
+      "end_line": 513,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 21,
+      "source": "text/part0020.html",
+      "start_line": 514,
+      "end_line": 531,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 22,
+      "source": "text/part0021.html",
+      "start_line": 532,
+      "end_line": 542,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 23,
+      "source": "text/part0022.html",
+      "start_line": 543,
+      "end_line": 559,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 24,
+      "source": "text/part0023.html",
+      "start_line": 560,
+      "end_line": 561,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 25,
+      "source": "text/part0024.html",
+      "start_line": 562,
+      "end_line": 593,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 26,
+      "source": "text/part0025.html",
+      "start_line": 594,
+      "end_line": 634,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 27,
+      "source": "text/part0026.html",
+      "start_line": 635,
+      "end_line": 673,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 28,
+      "source": "text/part0027.html",
+      "start_line": 674,
+      "end_line": 722,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 29,
+      "source": "text/part0028.html",
+      "start_line": 723,
+      "end_line": 759,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 30,
+      "source": "text/part0029.html",
+      "start_line": 760,
+      "end_line": 790,
+      "images": [],
+      "footnote_links": []
+    }
+  ],
+  "limitation": "R1仅做结构索引（31 spine，未合并全文）；本v1为可复现合并版本，行号只在v1下有效，历史重点阅读不等于逐段精读。版本为费雪《怎样选择成长股》，含三部分、附录与目录页；正文无img标签引用，仅images/00001.jpeg封面资源。"
+}

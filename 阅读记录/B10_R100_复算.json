@@ -1,0 +1,771 @@
+{
+  "publication_provenance": {
+    "kind": "书籍阅读、历史案例及教学复算资料",
+    "source_record": "阅读记录/B10_R100_复算.json",
+    "financial_numbers_origin": "仅为书内案例、历史统计或教学复算；不是维护者或使用者的资产、账户、持仓或交易记录。",
+    "private_account_or_holdings_data": false
+  },
+  "revision": "R100",
+  "book": "B10",
+  "source_sha256": "7fb3de1a117680af0c73bce8799039a09b06d48e6450c8a292fe650c04ffb756",
+  "decoded_text_sha256": "473bd24939dc8d6f2f9b8cf946b749fa8c73121e461823ae25280e71822088a5",
+  "batch_range": {
+    "start_line": 419,
+    "end_line": 635
+  },
+  "read_blocks": [
+    [
+      419,
+      451
+    ],
+    [
+      452,
+      493
+    ],
+    [
+      494,
+      530
+    ],
+    [
+      531,
+      575
+    ],
+    [
+      576,
+      610
+    ],
+    [
+      611,
+      635
+    ]
+  ],
+  "read_chars_with_newlines": 17849,
+  "chapter3_unnumbered_index_table": {
+    "rows": [
+      {
+        "date": "1961-12",
+        "DJIA": 735,
+        "SP500": 72.64
+      },
+      {
+        "date": "1962-06",
+        "DJIA": 536,
+        "SP500": 52.32
+      },
+      {
+        "date": "1964-09",
+        "DJIA": 892,
+        "SP500": 86.28
+      }
+    ],
+    "dj_peak_to_low_change": -0.2707482993197279,
+    "dj_low_to_1964_recovery": 0.664179104477612,
+    "sp_peak_to_low_change": -0.2797356828193832,
+    "sp_low_to_1964_recovery": 0.6490825688073394,
+    "ibm_607_to_300_price_change": -0.5057660626029654,
+    "return_type": "给定月的价格点差，不含股息/税费/拆股或汇率"
+  },
+  "table9": {
+    "rows": [
+      {
+        "year": 1948,
+        "close_index": 177,
+        "ten_year_avg_earnings": 10.97,
+        "current_year_earnings": 23.07,
+        "dividend_as_shown": 11,
+        "approx_book_asset": 170
+      },
+      {
+        "year": 1953,
+        "close_index": 281,
+        "ten_year_avg_earnings": 19.11,
+        "current_year_earnings": 27.23,
+        "dividend_as_shown": 16.11,
+        "approx_book_asset": 225
+      },
+      {
+        "year": 1958,
+        "close_index": 584,
+        "ten_year_avg_earnings": 29.42,
+        "current_year_earnings": 28.67,
+        "dividend_as_shown": 19.58,
+        "approx_book_asset": 300
+      },
+      {
+        "year": 1963,
+        "close_index": 763,
+        "ten_year_avg_earnings": 33.73,
+        "current_year_earnings": 41.11,
+        "dividend_as_shown": 24.7,
+        "approx_book_asset": 415
+      }
+    ],
+    "changes_1948_1963": {
+      "close_index": 3.3107344632768365,
+      "ten_year_avg_earnings": 2.074749316317228,
+      "current_year_earnings": 0.7819679237104464,
+      "dividend_as_shown": 1.2454545454545456,
+      "approx_book_asset": 1.4411764705882355
+    },
+    "stock_growth_shown_approx_pct": 320,
+    "stock_growth_computed_pct": 331.07344632768365,
+    "stock_dividends_note": "一半平均价计入股票红利，非全部现金分红"
+  },
+  "table10": {
+    "rows": [
+      {
+        "year": 1929,
+        "peak_index": 381,
+        "ten_year_earnings": 11.21,
+        "ten_year_pe_shown": 33.9,
+        "trailing_earnings": 15.36,
+        "trailing_pe_shown": 24.8,
+        "dividend_yield_shown": 0.0315,
+        "bond_yield_shown": 0.0469,
+        "ten_year_pe_computed": 33.98751115075825,
+        "trailing_pe_computed": 24.8046875,
+        "earnings_yield_computed": 0.04031496062992126,
+        "dividend_minus_bond_pp": -1.5399999999999996,
+        "scope": "年平均Aaa、不同高点与12月期收益等时间基准不全同；盈利收益率/股息率/债券到期回报不混作总收益"
+      },
+      {
+        "year": 1937,
+        "peak_index": 194,
+        "ten_year_earnings": 8.6,
+        "ten_year_pe_shown": 22.6,
+        "trailing_earnings": 10.07,
+        "trailing_pe_shown": 19.3,
+        "dividend_yield_shown": 0.0363,
+        "bond_yield_shown": 0.0342,
+        "ten_year_pe_computed": 22.558139534883722,
+        "trailing_pe_computed": 19.26514399205561,
+        "earnings_yield_computed": 0.051907216494845365,
+        "dividend_minus_bond_pp": 0.20999999999999977,
+        "scope": "年平均Aaa、不同高点与12月期收益等时间基准不全同；盈利收益率/股息率/债券到期回报不混作总收益"
+      },
+      {
+        "year": 1946,
+        "peak_index": 213,
+        "ten_year_earnings": 9.88,
+        "ten_year_pe_shown": 21.6,
+        "trailing_earnings": 10.56,
+        "trailing_pe_shown": 20.2,
+        "dividend_yield_shown": 0.0313,
+        "bond_yield_shown": 0.0246,
+        "ten_year_pe_computed": 21.558704453441294,
+        "trailing_pe_computed": 20.170454545454543,
+        "earnings_yield_computed": 0.049577464788732394,
+        "dividend_minus_bond_pp": 0.6700000000000002,
+        "scope": "年平均Aaa、不同高点与12月期收益等时间基准不全同；盈利收益率/股息率/债券到期回报不混作总收益"
+      },
+      {
+        "year": 1964,
+        "peak_index": 892,
+        "ten_year_earnings": 35.48,
+        "ten_year_pe_shown": 25.1,
+        "trailing_earnings": 45.58,
+        "trailing_pe_shown": 19.6,
+        "dividend_yield_shown": 0.0292,
+        "bond_yield_shown": 0.0442,
+        "ten_year_pe_computed": 25.140924464487036,
+        "trailing_pe_computed": 19.569986836331726,
+        "earnings_yield_computed": 0.05109865470852018,
+        "dividend_minus_bond_pp": -1.5000000000000002,
+        "scope": "年平均Aaa、不同高点与12月期收益等时间基准不全同；盈利收益率/股息率/债券到期回报不混作总收益"
+      }
+    ],
+    "dates_not_uniform": true,
+    "bond_year_average_except1964": true
+  },
+  "table11_1": {
+    "rows": [
+      {
+        "name_as_shown": "吉斯腾",
+        "formula_status": "价均/红利均×现红利，输入序列未取得",
+        "jan1955": 316,
+        "jan1964": 630,
+        "market_jan1955": 404,
+        "market_jan1964": 763,
+        "market_over_old_value1964": 0.21111111111111103
+      },
+      {
+        "name_as_shown": "威斯顿",
+        "formula_status": "GNP的96.75% 28.2；源布局/单位无法确定，不重建",
+        "jan1955": 378,
+        "jan1964": 600,
+        "market_jan1955": 404,
+        "market_jan1964": 763,
+        "market_over_old_value1964": 0.2716666666666667
+      },
+      {
+        "name_as_shown": "标准乘数",
+        "formula_status": "13.5×上一年收入",
+        "jan1955": 377,
+        "jan1964": 560,
+        "market_jan1955": 404,
+        "market_jan1964": 763,
+        "market_over_old_value1964": 0.36250000000000004
+      },
+      {
+        "name_as_shown": "格雷厄姆中心值",
+        "formula_status": "10年平均收入/(2×Aaa债息率)",
+        "jan1955": 376,
+        "jan1964": 391,
+        "market_jan1955": 404,
+        "market_jan1964": 763,
+        "market_over_old_value1964": 0.9514066496163682
+      }
+    ],
+    "weston_original_ambiguous_formula": "GNP的96.75% 28.2",
+    "unknown_inputs_not_fitted_to_quoted_price": true
+  },
+  "table11_2": {
+    "weston": {
+      "earnings": 46,
+      "bond_rate": 0.0431,
+      "deduction_percentage_points": 2,
+      "denominator": 0.0662,
+      "computed_value": 694.8640483383687,
+      "shown_value": 695,
+      "wrong_decimal_denominator": -1.9138,
+      "denominator_must_be_positive": true
+    },
+    "graham_dodd_cottle": {
+      "ten_year_earnings": 33.74,
+      "bond_rate": 0.0431,
+      "bond_coefficient": 1.3333333333333333,
+      "denominator": 0.057466666666666666,
+      "computed_value": 587.122969837587,
+      "shown_value": 587,
+      "old_source_value": 391,
+      "new_vs_old_value_change": 0.5012787723785166
+    },
+    "projections": [
+      {
+        "name_as_shown": "尼斯和汤姆斯",
+        "future_value": 933,
+        "future_label": "1969",
+        "present_shown": 730,
+        "capital_discount_rate": 0.045,
+        "usual_years_test": [
+          5,
+          6
+        ],
+        "present_values_for_test_years": [
+          748.6868263851381,
+          716.4467238135294
+        ],
+        "implied_years_diagnostic": 5.574239621493146,
+        "date_basis_verified": false
+      },
+      {
+        "name_as_shown": "价值线",
+        "future_value": 820,
+        "future_label": "1967–1969",
+        "present_shown": 670,
+        "capital_discount_rate": 0.045,
+        "usual_years_test": [
+          3,
+          4,
+          5
+        ],
+        "present_values_for_test_years": [
+          718.5632153250257,
+          687.6203017464361,
+          658.0098581305608
+        ],
+        "implied_years_diagnostic": 4.589752908693929,
+        "date_basis_verified": false
+      }
+    ],
+    "total_required_return_as_shown": 0.075,
+    "capital_discount_rate_as_shown": 0.045,
+    "dividend_yield_note": "less_than_3_percent",
+    "required_return_is_not_current_ips_discount_rate": true
+  },
+  "table12": {
+    "rows": [
+      {
+        "name_as_shown": "价值线调查",
+        "earnings_forecast": 52.5,
+        "multiple_forecast": 12.8,
+        "value_shown": 665,
+        "value_computed": 672.0,
+        "product_minus_shown": 7.0,
+        "input_rounding_product_interval": [
+          671.6735249999999,
+          672.3265250000001
+        ],
+        "matches_integer_output_rounding": false,
+        "earnings_error_vs_41_11": 11.39,
+        "source_group": 0,
+        "price_point_in_actual_annual_range": true,
+        "scope": "1959原书转引对1963预测；比较指标事前是否指定未知"
+      },
+      {
+        "name_as_shown": "尼斯和汤姆斯",
+        "earnings_forecast": 46,
+        "multiple_forecast": 13.75,
+        "value_shown": 635,
+        "value_computed": 632.5,
+        "product_minus_shown": -2.5,
+        "input_rounding_product_interval": [
+          632.2012749999999,
+          632.7987750000001
+        ],
+        "matches_integer_output_rounding": false,
+        "earnings_error_vs_41_11": 4.890000000000001,
+        "source_group": 1,
+        "price_point_in_actual_annual_range": false,
+        "scope": "1959原书转引对1963预测；比较指标事前是否指定未知"
+      },
+      {
+        "name_as_shown": "威斯顿",
+        "earnings_forecast": 45,
+        "multiple_forecast": 15.4,
+        "value_shown": 693,
+        "value_computed": 693.0,
+        "product_minus_shown": 0.0,
+        "input_rounding_product_interval": [
+          692.6980249999999,
+          693.3020250000001
+        ],
+        "matches_integer_output_rounding": true,
+        "earnings_error_vs_41_11": 3.8900000000000006,
+        "source_group": 2,
+        "price_point_in_actual_annual_range": true,
+        "scope": "1959原书转引对1963预测；比较指标事前是否指定未知"
+      },
+      {
+        "name_as_shown": "莫罗多夫斯卡短期趋势3%",
+        "earnings_forecast": 37.1,
+        "multiple_forecast": 16.8,
+        "value_shown": 625,
+        "value_computed": 623.2800000000001,
+        "product_minus_shown": -1.7199999999999136,
+        "input_rounding_product_interval": [
+          623.010525,
+          623.549525
+        ],
+        "matches_integer_output_rounding": false,
+        "earnings_error_vs_41_11": -4.009999999999998,
+        "source_group": 3,
+        "price_point_in_actual_annual_range": false,
+        "scope": "1959原书转引对1963预测；比较指标事前是否指定未知"
+      },
+      {
+        "name_as_shown": "莫罗多夫斯卡长期趋势4%",
+        "earnings_forecast": 29.25,
+        "multiple_forecast": 22,
+        "value_shown": 645,
+        "value_computed": 643.5,
+        "product_minus_shown": -1.5,
+        "input_rounding_product_interval": [
+          643.243775,
+          643.756275
+        ],
+        "matches_integer_output_rounding": false,
+        "earnings_error_vs_41_11": -11.86,
+        "source_group": 3,
+        "price_point_in_actual_annual_range": false,
+        "scope": "1959原书转引对1963预测；比较指标事前是否指定未知"
+      }
+    ],
+    "actual_earnings": 41.11,
+    "actual_annual_price_low": 647,
+    "actual_annual_price_high": 767,
+    "actual_pe_high_shown": 18.6,
+    "actual_pe_low_shown": 15.8,
+    "actual_pe_average_shown": 17.2,
+    "actual_pe_high_computed": 18.657261007054245,
+    "actual_pe_low_computed": 15.738263196302603,
+    "endpoint_definition_unknown": true,
+    "earnings_mean_error": 0.8600000000000009,
+    "earnings_mae": 7.208,
+    "range_overlap_count": 2,
+    "not_skill_probability": true,
+    "two_rows_share_source": true
+  },
+  "table13": {
+    "rows": [
+      {
+        "year": 1900,
+        "consumer_index": 28,
+        "second_series_as_shown": null
+      },
+      {
+        "year": 1929,
+        "consumer_index": 60,
+        "second_series_as_shown": 57
+      },
+      {
+        "year": 1953,
+        "consumer_index": 93.2,
+        "second_series_as_shown": 92.7
+      },
+      {
+        "year": 1963,
+        "consumer_index": 106.7,
+        "second_series_as_shown": 100.3
+      }
+    ],
+    "base": "1957–1959=100",
+    "second_series_label_as_shown": "总销售价格（美元）",
+    "second_series_unit_not_certified": true,
+    "growth_rows": [
+      {
+        "start": 1900,
+        "end": 1929,
+        "start_consumer_index": 28,
+        "end_consumer_index": 60,
+        "growth_shown_pct": 117,
+        "growth_computed_pct": 114.28571428571428,
+        "input_rounding_interval_pct": [
+          113.72549019607843,
+          114.84794275491947
+        ],
+        "compatible_with_whole_percent_rounding": false
+      },
+      {
+        "start": 1929,
+        "end": 1963,
+        "start_consumer_index": 60,
+        "end_consumer_index": 106.7,
+        "growth_shown_pct": 77,
+        "growth_computed_pct": 77.83333333333333,
+        "input_rounding_interval_pct": [
+          77.60199833472107,
+          78.0650542118432
+        ],
+        "compatible_with_whole_percent_rounding": false
+      }
+    ],
+    "post1953_consumer_index_cagr_10y": 0.01361925213311821,
+    "post1953_second_series_cagr_10y": 0.00791084895380223
+  },
+  "inflation_price_counterexample": {
+    "stock_start": 212,
+    "stock_end": 162,
+    "inflation": 0.33,
+    "nominal_price_change": -0.23584905660377353,
+    "real_price_change": -0.42545041849907783,
+    "dividends_not_included": true,
+    "status": "BOOK_ASSUMPTIONS_PRICE_PURCHASING_POWER_DIAGNOSTIC"
+  },
+  "capital_total_return_cashflow_example": {
+    "initial_price": 100,
+    "capital_growth": 0.045,
+    "dividend_yield_on_start_price": 0.03,
+    "total_discount_rate": 0.075,
+    "years": 5,
+    "prices": [
+      100,
+      104.5,
+      109.20249999999999,
+      114.11661249999997,
+      119.25186006249996,
+      124.61819376531244
+    ],
+    "end_of_year_dividends": [
+      3.0,
+      3.135,
+      3.2760749999999996,
+      3.423498374999999,
+      3.5775558018749987
+    ],
+    "terminal_price": 124.61819376531244,
+    "full_cashflow_pv": 99.99999999999997,
+    "terminal_at_capital_rate_pv": 99.99999999999997,
+    "status": "〔历史政策关联叙述未公开；节号对应关系见同库历史政策节号映射。〕"
+  },
+  "formula_domain": [
+    {
+      "bond_rate": 0.0431,
+      "denominator": 0.0662,
+      "valid_positive_denominator": true
+    },
+    {
+      "bond_rate": 0.01,
+      "denominator": 0,
+      "valid_positive_denominator": false
+    },
+    {
+      "bond_rate": 0.005,
+      "denominator": -0.01,
+      "valid_positive_denominator": false
+    }
+  ],
+  "uncertainty_half_half_examples": [
+    {
+      "label": "up",
+      "initial_total": 100,
+      "stock_initial": 50,
+      "bond_initial": 50,
+      "stock_return": 0.5,
+      "bond_return": 0,
+      "terminal_total": 125.0,
+      "inflation": 0.05,
+      "real_terminal_total": 119.04761904761904,
+      "probability": null,
+      "status": "〔历史政策关联叙述未公开；节号对应关系见同库历史政策节号映射。〕"
+    },
+    {
+      "label": "flat",
+      "initial_total": 100,
+      "stock_initial": 50,
+      "bond_initial": 50,
+      "stock_return": 0,
+      "bond_return": 0,
+      "terminal_total": 100,
+      "inflation": 0.05,
+      "real_terminal_total": 95.23809523809524,
+      "probability": null,
+      "status": "〔历史政策关联叙述未公开；节号对应关系见同库历史政策节号映射。〕"
+    },
+    {
+      "label": "down",
+      "initial_total": 100,
+      "stock_initial": 50,
+      "bond_initial": 50,
+      "stock_return": -0.5,
+      "bond_return": 0,
+      "terminal_total": 75.0,
+      "inflation": 0.05,
+      "real_terminal_total": 71.42857142857143,
+      "probability": null,
+      "status": "〔历史政策关联叙述未公开；节号对应关系见同库历史政策节号映射。〕"
+    }
+  ],
+  "footnotes": {
+    "embedded_count_batch": 0,
+    "ordinary_numbered_notes_batch": 2,
+    "ordinary_note_lines": [
+      572,
+      622
+    ],
+    "ordinary_note_sources": [
+      "index_split_024.html",
+      "index_split_030.html"
+    ],
+    "table_notes_read": true,
+    "former_appendix1_unavailable_inherited": true
+  },
+  "raw_resource_audit": [
+    {
+      "index": 19,
+      "source": "index_split_018.html",
+      "raw_sha256": "508068aa2996e6bdf7315f25677555108a7da3cceb768369fab0469050cf5bdf",
+      "embedded_attribute_footnotes": 0,
+      "anchor_links": 0,
+      "images": [],
+      "start_line": 419,
+      "end_line": 435,
+      "read_in_batch": "R100"
+    },
+    {
+      "index": 20,
+      "source": "index_split_019.html",
+      "raw_sha256": "4747a2b5792e109881dd80635640931fdb6c864b80480132674895cb789035f3",
+      "embedded_attribute_footnotes": 0,
+      "anchor_links": 0,
+      "images": [],
+      "start_line": 436,
+      "end_line": 467,
+      "read_in_batch": "R100"
+    },
+    {
+      "index": 21,
+      "source": "index_split_020.html",
+      "raw_sha256": "b2e2bc6773f2426eda870a594a5163adde69fcec47e2669b574f512f7c6a0bf5",
+      "embedded_attribute_footnotes": 0,
+      "anchor_links": 0,
+      "images": [],
+      "start_line": 468,
+      "end_line": 498,
+      "read_in_batch": "R100"
+    },
+    {
+      "index": 22,
+      "source": "index_split_021.html",
+      "raw_sha256": "d2b4f97148f898433c293f8d28fe5e36b719626ea9c385443aad5638f9305f7c",
+      "embedded_attribute_footnotes": 0,
+      "anchor_links": 0,
+      "images": [],
+      "start_line": 499,
+      "end_line": 517,
+      "read_in_batch": "R100"
+    },
+    {
+      "index": 23,
+      "source": "index_split_022.html",
+      "raw_sha256": "65325c33c7cb3486a9c345182b1b75a61931aa9b9cdb503083880c17649b7f8d",
+      "embedded_attribute_footnotes": 0,
+      "anchor_links": 0,
+      "images": [],
+      "start_line": 518,
+      "end_line": 529,
+      "read_in_batch": "R100"
+    },
+    {
+      "index": 24,
+      "source": "index_split_023.html",
+      "raw_sha256": "40c633e467ac22c348514176b50080691385cdefe3a0174a01b9ecd6ff761f4b",
+      "embedded_attribute_footnotes": 0,
+      "anchor_links": 0,
+      "images": [],
+      "start_line": 530,
+      "end_line": 537,
+      "read_in_batch": "R100"
+    },
+    {
+      "index": 25,
+      "source": "index_split_024.html",
+      "raw_sha256": "f3e5ab79a14c45a5f6ce8fe9e2f440062f7979bc3f43826fd212c762caccaf34",
+      "embedded_attribute_footnotes": 0,
+      "anchor_links": 0,
+      "images": [],
+      "start_line": 538,
+      "end_line": 575,
+      "read_in_batch": "R100"
+    },
+    {
+      "index": 26,
+      "source": "index_split_025.html",
+      "raw_sha256": "bf6b903298e01971adf9b9ef4f08e578d43713ec3491e036c1d8eb6a946e4b16",
+      "embedded_attribute_footnotes": 0,
+      "anchor_links": 0,
+      "images": [],
+      "start_line": 576,
+      "end_line": 581,
+      "read_in_batch": "R100"
+    },
+    {
+      "index": 27,
+      "source": "index_split_026.html",
+      "raw_sha256": "78455a7dc398c0a62bcf52faa20dc0ac87f8f39dc9aa1a6bd01b1afed5a25f0f",
+      "embedded_attribute_footnotes": 0,
+      "anchor_links": 0,
+      "images": [],
+      "start_line": 582,
+      "end_line": 595,
+      "read_in_batch": "R100"
+    },
+    {
+      "index": 28,
+      "source": "index_split_027.html",
+      "raw_sha256": "e8bdcb61c98700ac994319b4d73a6cab7f93b73b038ff23b768dc2d8a0f6ac6c",
+      "embedded_attribute_footnotes": 0,
+      "anchor_links": 0,
+      "images": [],
+      "start_line": 596,
+      "end_line": 598,
+      "read_in_batch": "R100"
+    },
+    {
+      "index": 29,
+      "source": "index_split_028.html",
+      "raw_sha256": "2f100c16fddf3dafbda6ff7e53a69522e0e932eaf88a474fb93d4a81dc4c1377",
+      "embedded_attribute_footnotes": 0,
+      "anchor_links": 0,
+      "images": [],
+      "start_line": 599,
+      "end_line": 607,
+      "read_in_batch": "R100"
+    },
+    {
+      "index": 30,
+      "source": "index_split_029.html",
+      "raw_sha256": "5d18b728fc75d0cfde6876e2f2c3b5a560767ca846b90497e70a8eb27813a29f",
+      "embedded_attribute_footnotes": 0,
+      "anchor_links": 0,
+      "images": [],
+      "start_line": 608,
+      "end_line": 618,
+      "read_in_batch": "R100"
+    },
+    {
+      "index": 31,
+      "source": "index_split_030.html",
+      "raw_sha256": "02006dda9645e384d2e68031c1fa6f0af6c72a289514b14b1a66dc2db9da4659",
+      "embedded_attribute_footnotes": 0,
+      "anchor_links": 0,
+      "images": [],
+      "start_line": 619,
+      "end_line": 622,
+      "read_in_batch": "R100"
+    },
+    {
+      "index": 32,
+      "source": "index_split_031.html",
+      "raw_sha256": "edfb6d57365818ae9f85bc19dd70b359a6a774bb901f272cd11f6bda52911573",
+      "embedded_attribute_footnotes": 0,
+      "anchor_links": 0,
+      "images": [],
+      "start_line": 623,
+      "end_line": 627,
+      "read_in_batch": "R100"
+    },
+    {
+      "index": 33,
+      "source": "index_split_032.html",
+      "raw_sha256": "41af5a462944de5b89711a6a0c98870db13f481f044f11f139fb754657e5c16d",
+      "embedded_attribute_footnotes": 0,
+      "anchor_links": 0,
+      "images": [],
+      "start_line": 628,
+      "end_line": 630,
+      "read_in_batch": "R100"
+    },
+    {
+      "index": 34,
+      "source": "index_split_033.html",
+      "raw_sha256": "e2f350d15c5fda468432fde0996b92266c8fc1c14781495443cf32cdfc90874e",
+      "embedded_attribute_footnotes": 0,
+      "anchor_links": 0,
+      "images": [],
+      "start_line": 631,
+      "end_line": 635,
+      "read_in_batch": "R100"
+    }
+  ],
+  "new_image_reference_count": 0,
+  "new_unique_images_viewed": 0,
+  "old_cover_reading_inherited_not_repeated": true,
+  "external_checks": [
+    {
+      "source": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-47",
+      "read_scope": "2022公告计算方法/费用税/保证/目标/回测/选择样本/基准相关段",
+      "status": "PRIMARY_GENERAL_EDUCATION_NOT_PERFORMANCE_CERTIFICATION"
+    },
+    {
+      "source": "https://www.investor.gov/CRS",
+      "read_scope": "关系摘要服务/费用冲突/标准/纪律、双登记角色与服务权限相关段",
+      "status": "PRIMARY_GENERAL_ROLE_DISCLOSURE_NOT_PERSONAL_APPLICABILITY"
+    },
+    {
+      "source": "https://www.cfainstitute.org/about/history",
+      "read_scope": "1963首次CFA考试及机构历史相关段",
+      "first_exam_year": 1963,
+      "first_candidates": 284,
+      "status": "LIMITED_PRIMARY_HISTORICAL_DATE_VERIFICATION_NOT_CREDENTIAL_OR_FIRM_CERTIFICATION"
+    }
+  ],
+  "open_issues": [
+    "419–581为1964时点讨论，股票最多50%/暂停新DCA/不得借贷等是作者当时建议；不转成本人增减仓或新政策",
+    "本章735/736、535/536及1929高381/391不完全一致，须原指数/日期核对；不静默选择最方便的值",
+    "表9 177→763显示上涨331.0734%与正文约320%不同，可能粗估/起止点，原收入80%/平均收入超过200%/股息超过100%仍可复算",
+    "表9股息24.70注按一半平均价含股票红利，不能全部当现金派息；折旧/摊销和税法关系未获原附注",
+    "表11-1威斯顿“GNP的96.75% 28.2”原HTML本身缺清楚运算布局/单位，公式未重建，GDP不等于普通股每股收益",
+    "表11-2分母2×4.31%-2只能按减2个百分点推得6.62%才能支持695，不按减2.0（负分母）算正价值",
+    "表11-2 933/730、820/670称以4.5%折现，但按通常整年5或3–5不唯一复现；终点月份/时间约定未知，逆算n仅诊断",
+    "表12收益×乘子源显示665/635/625/645与积672/632.5/623.28/643.5不同，原预算、近似或录入待核，不配平输入",
+    "表12五条价格预测仅两条在647–767年度范围内；这不是预先定义的期末预测测试，也不是能力或未来命中率；同来源两条非独立",
+    "表13 60/28-1=114.2857%对原117%，106.7/60-1=77.8333%对原77%；按显示一位小数/整数百分比仍不全兼容，列/时期待核",
+    "表13第二列原标签“总销售价格（美元）”与1957–1959=100指数基数不一致，1900缺值；不当美元金额或填缺值",
+    "“预测最不可能走向”、政府保护任何收益不下落、市场反映估值必正等强措辞与不确定性论旨不合；只采纳情景/证据，不保证",
+    "597行顾问超过10%资金投债券与同时列政府债语义不明；601机构不/很少技术预测的说法与后文批评预测关系含混，不照字面设权限",
+    "第4章熟悉/名望/付费/职业称号不证明收益或全面适用；CFA业务注册、决策委托、保管和分析来源需分别核",
+    "1963CFA起始年份已作有限原机构历史核对；8000会员、具体券商质量、Delphi/预测资料、GDP/税法/指数/利润/物价原序列未核",
+    "R99表7“1923”高DJ381，本章表10明确写1929高381，内部支持原年份标注可疑，仍不改旧记录或冒称外部原数据已核"
+  ]
+}

@@ -1,0 +1,292 @@
+{
+  "publication_provenance": {
+    "kind": "书籍阅读、历史案例及教学复算资料",
+    "source_record": "阅读记录/B06_R84_阅读覆盖.json",
+    "financial_numbers_origin": "仅为书内案例、历史统计或教学复算；不是维护者或使用者的资产、账户、持仓或交易记录。",
+    "private_account_or_holdings_data": false
+  },
+  "batch": "2026-10-14-B06-END",
+  "utc": "2026-10-14T02:40:40Z",
+  "blocks": [
+    {
+      "start_line": 4205,
+      "end_line": 4232,
+      "status": "实际读入；截断块见repairs"
+    },
+    {
+      "start_line": 4233,
+      "end_line": 4273,
+      "status": "实际读入；截断块见repairs"
+    },
+    {
+      "start_line": 4274,
+      "end_line": 4302,
+      "status": "实际读入；截断块见repairs"
+    },
+    {
+      "start_line": 4303,
+      "end_line": 4331,
+      "status": "实际读入；截断块见repairs"
+    },
+    {
+      "start_line": 4332,
+      "end_line": 4367,
+      "status": "实际读入；截断块见repairs"
+    },
+    {
+      "start_line": 4368,
+      "end_line": 4399,
+      "status": "实际读入；截断块见repairs"
+    },
+    {
+      "start_line": 4400,
+      "end_line": 4462,
+      "status": "实际读入；截断块见repairs"
+    },
+    {
+      "start_line": 4463,
+      "end_line": 4491,
+      "status": "实际读入；截断块见repairs"
+    },
+    {
+      "start_line": 4492,
+      "end_line": 4523,
+      "status": "实际读入；截断块见repairs"
+    },
+    {
+      "start_line": 4524,
+      "end_line": 4552,
+      "status": "实际读入；截断块见repairs"
+    },
+    {
+      "start_line": 4553,
+      "end_line": 4581,
+      "status": "实际读入；截断块见repairs"
+    },
+    {
+      "start_line": 4582,
+      "end_line": 4608,
+      "status": "实际读入；截断块见repairs"
+    },
+    {
+      "start_line": 4609,
+      "end_line": 4657,
+      "status": "实际读入；截断块见repairs"
+    },
+    {
+      "start_line": 4658,
+      "end_line": 4694,
+      "status": "实际读入；截断块见repairs"
+    },
+    {
+      "start_line": 4695,
+      "end_line": 4731,
+      "status": "实际读入；截断块见repairs"
+    },
+    {
+      "start_line": 4732,
+      "end_line": 4755,
+      "status": "实际读入；截断块见repairs"
+    },
+    {
+      "start_line": 4756,
+      "end_line": 4780,
+      "status": "实际读入；截断块见repairs"
+    },
+    {
+      "start_line": 4781,
+      "end_line": 4812,
+      "status": "实际读入；截断块见repairs"
+    },
+    {
+      "start_line": 4813,
+      "end_line": 4843,
+      "status": "实际读入；截断块见repairs"
+    },
+    {
+      "start_line": 4844,
+      "end_line": 4872,
+      "status": "实际读入；截断块见repairs"
+    },
+    {
+      "start_line": 4873,
+      "end_line": 4900,
+      "status": "实际读入；截断块见repairs"
+    },
+    {
+      "start_line": 4901,
+      "end_line": 4930,
+      "status": "实际读入；截断块见repairs"
+    },
+    {
+      "start_line": 4931,
+      "end_line": 4964,
+      "status": "实际读入；截断块见repairs"
+    },
+    {
+      "start_line": 4965,
+      "end_line": 4996,
+      "status": "实际读入；截断块见repairs"
+    },
+    {
+      "start_line": 4997,
+      "end_line": 5030,
+      "status": "实际读入；截断块见repairs"
+    },
+    {
+      "start_line": 5031,
+      "end_line": 5071,
+      "status": "实际读入；截断块见repairs"
+    },
+    {
+      "start_line": 5072,
+      "end_line": 5092,
+      "status": "实际读入；截断块见repairs"
+    },
+    {
+      "start_line": 5093,
+      "end_line": 5139,
+      "status": "实际读入；截断块见repairs"
+    },
+    {
+      "start_line": 5141,
+      "end_line": 5180,
+      "status": "实际读入；截断块见repairs"
+    },
+    {
+      "start_line": 5181,
+      "end_line": 5203,
+      "status": "实际读入；截断块见repairs"
+    },
+    {
+      "start_line": 5204,
+      "end_line": 5229,
+      "status": "实际读入；截断块见repairs"
+    },
+    {
+      "start_line": 5230,
+      "end_line": 5264,
+      "status": "实际读入；截断块见repairs"
+    },
+    {
+      "start_line": 5265,
+      "end_line": 5303,
+      "status": "实际读入；截断块见repairs"
+    },
+    {
+      "start_line": 5304,
+      "end_line": 5334,
+      "status": "实际读入；截断块见repairs"
+    },
+    {
+      "start_line": 5335,
+      "end_line": 5377,
+      "status": "实际读入；截断块见repairs"
+    },
+    {
+      "start_line": 5378,
+      "end_line": 5422,
+      "status": "实际读入；截断块见repairs"
+    },
+    {
+      "start_line": 5423,
+      "end_line": 5455,
+      "status": "实际读入；截断块见repairs"
+    },
+    {
+      "start_line": 5456,
+      "end_line": 5496,
+      "status": "实际读入；截断块见repairs"
+    },
+    {
+      "start_line": 5497,
+      "end_line": 5524,
+      "status": "实际读入；截断块见repairs"
+    },
+    {
+      "start_line": 5525,
+      "end_line": 5552,
+      "status": "实际读入；截断块见repairs"
+    }
+  ],
+  "repairs": [
+    {
+      "start_line": 4418,
+      "end_line": 4435,
+      "status": "补读完整，无截断"
+    },
+    {
+      "start_line": 5117,
+      "end_line": 5140,
+      "status": "补读完整，无截断"
+    },
+    {
+      "start_line": 5435,
+      "end_line": 5446,
+      "status": "补读完整，无截断"
+    },
+    {
+      "start_line": 5470,
+      "end_line": 5484,
+      "status": "补读完整，无截断"
+    }
+  ],
+  "new_images_opened": [
+    "images/00103.jpg",
+    "images/00026.jpg",
+    "images/00037.jpg",
+    "images/00050.jpg",
+    "images/00059.jpg",
+    "images/00064.jpg",
+    "images/00022.jpg",
+    "images/00060.jpg",
+    "images/00109.jpg",
+    "images/00012.jpg",
+    "images/00133.jpg",
+    "images/00066.jpg",
+    "images/00008.jpg",
+    "images/00011.jpg",
+    "images/00121.jpg",
+    "images/00065.jpg",
+    "images/00002.jpg",
+    "images/00128.jpg",
+    "images/00024.jpg",
+    "images/00118.jpg",
+    "images/00013.jpg",
+    "images/00084.jpg",
+    "images/00025.jpg",
+    "images/00040.jpg",
+    "images/00129.jpg",
+    "images/00134.jpg",
+    "images/00140.jpg",
+    "images/00075.jpg",
+    "images/00010.jpg",
+    "images/00063.jpg",
+    "images/00035.jpg"
+  ],
+  "reused_image": "images/00122.jpg（继承既有目视）",
+  "low_resolution_limitations": [
+    "Ford十年员工历史数据小字",
+    "历史走势图部分资本/事件细字"
+  ],
+  "chapter_notes": [
+    "阅读记录/逐章笔记/B06_36_不要预测股市.md",
+    "阅读记录/逐章笔记/B06_37_寻找10倍股.md",
+    "阅读记录/逐章笔记/B06_38_6种类型公司股票.md",
+    "阅读记录/逐章笔记/B06_39_13条选股准则.md",
+    "阅读记录/逐章笔记/B06_40_我避而不买的股票.md",
+    "阅读记录/逐章笔记/B06_41_收益收益还是收益.md",
+    "阅读记录/逐章笔记/B06_42_下单之前沉思两分钟.md",
+    "阅读记录/逐章笔记/B06_43_如何获得真实的公司信息.md",
+    "阅读记录/逐章笔记/B06_44_一些重要的财务分析指标.md",
+    "阅读记录/逐章笔记/B06_45_定期重新核查公司分析.md",
+    "阅读记录/逐章笔记/B06_46_股票分析要点一览表.md",
+    "阅读记录/逐章笔记/B06_47_构建投资组合.md",
+    "阅读记录/逐章笔记/B06_48_买入和卖出的最佳时机选择.md",
+    "阅读记录/逐章笔记/B06_49_12种关于股价的说法.md",
+    "阅读记录/逐章笔记/B06_50_期权期货与卖空交易.md",
+    "阅读记录/逐章笔记/B06_51_5万个专业投资者也许都是错的.md",
+    "阅读记录/逐章笔记/B06_52_后记_马里兰之旅的感悟.md"
+  ],
+  "scope": "本批4205–5552；1–4204继承；未核原披露"
+}

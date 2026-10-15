@@ -1,0 +1,271 @@
+{
+  "publication_provenance": {
+    "kind": "书籍阅读、历史案例及教学复算资料",
+    "source_record": "阅读记录/B05_CH08_CH09_复算.json",
+    "financial_numbers_origin": "仅为书内案例、历史统计或教学复算；不是维护者或使用者的资产、账户、持仓或交易记录。",
+    "private_account_or_holdings_data": false
+  },
+  "book_id": "B05",
+  "chapter": "8-9-postscript",
+  "title": "会计政策／税务问题／后记",
+  "decode": "B05-v2-2026-10-13",
+  "ranges": {
+    "chapter_8": {
+      "start_line": 2367,
+      "end_line": 2423,
+      "line_count": 57,
+      "chars_with_newlines": 5297
+    },
+    "chapter_9": {
+      "start_line": 2424,
+      "end_line": 2494,
+      "line_count": 71,
+      "chars_with_newlines": 7535
+    },
+    "postscript": {
+      "start_line": 2495,
+      "end_line": 2543,
+      "line_count": 49,
+      "chars_with_newlines": 5306
+    },
+    "total": {
+      "start_line": 2367,
+      "end_line": 2543,
+      "line_count": 177,
+      "chars_with_newlines": 18138
+    }
+  },
+  "images": [],
+  "image_note": "本章批无图；全书9幅图像（封面00003、第6章00004-00008、第7章00009-00011）已全部目视。",
+  "checks": {
+    "chapter_8_deferred_tax_layer": {
+      "status": "ARITHMETIC_OK",
+      "inputs": {
+        "pre1986_unrealized_bn": 12,
+        "pre1986_rate_pct": 28,
+        "post1986_unrealized_bn": 6,
+        "post1986_rate_pct": 34
+      },
+      "old_provision_bn": 5.4,
+      "all_at_34pct_bn": 6.12,
+      "delta_bn": 0.72,
+      "book_printed": "减少7100万美元",
+      "note": "复算7200万美元，与书示差100万（舍入），登记不改",
+      "source_verified": false
+    },
+    "chapter_8_trade_tax_rate": {
+      "status": "ARITHMETIC_OK",
+      "capital_gain_musd": 224,
+      "tax_musd": 76,
+      "computed_pct": 33.93,
+      "note": "约34%，与1987年生效的公司资本利得税率一致",
+      "source_verified": false
+    },
+    "chapter_8_1993_rule_effect": {
+      "status": "PARTIAL_MISMATCH_ROUNDED",
+      "inputs": {
+        "total_unrealized_bn": 76,
+        "at_34pct_bn": 64,
+        "at_28pct_bn": 12
+      },
+      "old_provision_bn": 25.12,
+      "all_at_34pct_bn": 25.84,
+      "delta_bn": 0.72,
+      "book_printed": "使净值减少7000万美元",
+      "note": "复算7200万美元，与书示差200万，登记不改",
+      "source_verified": false
+    },
+    "chapter_9_after_tax_passthrough": {
+      "status": "ARITHMETIC_OK",
+      "new_law": 0.72,
+      "old_law": 0.8,
+      "check": "1-28%=0.72；1-20%=0.80",
+      "source_verified": false
+    },
+    "chapter_9_insurance_dividend_tax": {
+      "status": "ARITHMETIC_OK",
+      "computation": "20%+80%*15%=32%",
+      "note": "20%为普遍征收；余下80%的15%为1987-08-07后买入股票的财险/灾害险专属变化",
+      "source_verified": false
+    },
+    "chapter_9_dividend_exclusion": {
+      "status": "ARITHMETIC_OK",
+      "general_pct": 70,
+      "holding_company_pct": 59.5,
+      "check": "70%*85%=59.5%",
+      "source_verified": false
+    },
+    "chapter_9_capital_gain_rate_gap": {
+      "status": "ARITHMETIC_OK",
+      "corporate_pct": 35,
+      "individual_pct": 20,
+      "gap_pct": 75,
+      "check": "35%/20%-1=75%",
+      "source_verified": false
+    },
+    "chapter_9_unrealized_tax_effect": {
+      "status": "PARTIAL_MISMATCH_ROUNDED",
+      "unrealized_bn": 12,
+      "rate_change_pct": 6,
+      "computed_musd": 720,
+      "book_printed": "约7300万美元会从我们的GAAP净资产中消失",
+      "note": "复算7200万美元，与书示差100万；第8章同名事项书示7100万、1993年规则书示7000万，三处口径不一，登记不改",
+      "source_verified": false
+    },
+    "chapter_9_1993_tax_composition": {
+      "status": "ARITHMETIC_OK",
+      "operating_musd": 200,
+      "capital_gain_musd": 190,
+      "total_musd": 390,
+      "check": "2+1.9=3.9亿",
+      "source_verified": false
+    },
+    "abner_compounding": {
+      "status": "ARITHMETIC_OK",
+      "items": {
+        "doublings_to_million": "2^20=1,048,576",
+        "after_tax_annual_double_20y_usd": 22371,
+        "book_printed_20y": "22370美元",
+        "years_to_million_after_tax": 7.59,
+        "book_printed_extra_years": "7.5年",
+        "single_holding_27_5y_pre_tax_usd": 189812531,
+        "book_printed_pre_tax": "约2亿美元",
+        "book_printed_after_tax": "1.3亿美元（书内口径 2亿-0.7亿）"
+      },
+      "check_after_tax_model": "净值每年×1.65（翻番后缴35%税）：1.65^20=22,371",
+      "source_verified": false
+    },
+    "minority_vs_full_tax": {
+      "status": "ARITHMETIC_OK",
+      "subsidiary_after_tax_musd": 100,
+      "ten_pct_share_musd": 100,
+      "dividend_tax_musd": 14,
+      "capital_gain_tax_musd": 35,
+      "note": "免税门槛为持股80%及以上；80%以上时政府只做一次“合伙人”，10%时做两次",
+      "source_verified": false
+    },
+    "chapter_9_2003_tax_share": {
+      "status": "ARITHMETIC_OK",
+      "bury_tax_usd_bn": 3.3,
+      "all_corporate_tax_usd_bn": 132.0,
+      "share_pct": 2.5,
+      "market_cap_share_pct": 1,
+      "check": "3.3/132=2.5%",
+      "source_verified": false
+    },
+    "chapter_9_540_companies": {
+      "status": "ARITHMETIC_OK",
+      "companies": 540,
+      "each_usd_bn": 3.3,
+      "total_usd_tn": 1.782,
+      "check": "3.3*540=1,782亿=1.782万亿",
+      "note": "注[3]的1998年信口径为625家，属不同年份，登记不改",
+      "source_verified": false
+    },
+    "postscript_bacteria": {
+      "status": "ARITHMETIC_OK",
+      "per_hour": 4,
+      "per_day": 96,
+      "check": "60/15=4；24*60/15=96",
+      "source_verified": false
+    },
+    "postscript_net_worth_multiple": {
+      "status": "ARITHMETIC_OK",
+      "current_usd_bn": 11.9,
+      "initial_usd_musd": 22,
+      "multiple": 540.9,
+      "note": "对应约1994年净资产口径（未核）",
+      "source_verified": false
+    },
+    "postscript_charity_timeline": {
+      "status": "ARITHMETIC_OK",
+      "computation": "10年（遗嘱变现期）+3年（后事）=13年；13+12=25年",
+      "source_verified": false
+    },
+    "misc_claims_unverified": {
+      "status": "SELF_REPORTED_UNVERIFIED",
+      "items": [
+        "禧诗糖果品牌价值“过去78年”成长（创立年份未在本书给出）",
+        "三大持股年末市值超17亿美元、接近净资产75%、仅900万美元年收入",
+        "1989年只出售一小部分持股产生2.24亿资本利得与7,600万交易税",
+        "年末按市价出售全部证券应缴税超过11亿美元",
+        "“新起点”方法效益3,000~4,000万美元（一次性）",
+        "1993年所投资公司份额纳税超4亿美元、占全美公司税收0.5%",
+        "2002年纳税17.5亿美元、纳税单8,905页、摞起超7英尺、总部15.8人",
+        "公司所得税占联邦税收7.4%（2003财年）与1952年32%",
+        "1985/1995/2003三年纳税对照（1.32亿/610亿；2.86亿/1,570亿；33亿/1,320亿）",
+        "道指一天大跌508点、国债收益率2.8%~17.4%、芒格82岁、作者“还有12年生命预期”",
+        "三个CEO候选人与投资端尚未准备好（2006年前后状态）"
+      ],
+      "boundary": "均为书内自述/转述或预测性表述，未核原财报、官方统计或事件记录；不得作为推导输入",
+      "source_verified": false
+    },
+    "arithmetic": {
+      "status": "PASS",
+      "computations": [
+        {
+          "expr": "12*0.28+6*0.34",
+          "value": 5.4
+        },
+        {
+          "expr": "18*0.34",
+          "value": 6.12
+        },
+        {
+          "expr": "76*0.34-(64*0.34+12*0.28)",
+          "value": 0.72
+        },
+        {
+          "expr": "76/224",
+          "pct": 33.93
+        },
+        {
+          "expr": "1-0.28",
+          "value": 0.72
+        },
+        {
+          "expr": "0.20+0.8*0.15",
+          "value": 0.32
+        },
+        {
+          "expr": "0.70*0.85",
+          "value": 0.595
+        },
+        {
+          "expr": "35/20-1",
+          "value": 0.75
+        },
+        {
+          "expr": "2**20",
+          "value": 1048576
+        },
+        {
+          "expr": "1.65**20",
+          "value": 22371
+        },
+        {
+          "expr": "2**27.5",
+          "value": 189812531
+        },
+        {
+          "expr": "3.3*540",
+          "value": 1782
+        },
+        {
+          "expr": "3.3/132",
+          "pct": 2.5
+        },
+        {
+          "expr": "11.9e8/2.2e7",
+          "value": 540.9
+        },
+        {
+          "expr": "24*60/15",
+          "value": 96
+        }
+      ]
+    }
+  },
+  "math_or_logic_only": true,
+  "investment_performance_validated": false
+}

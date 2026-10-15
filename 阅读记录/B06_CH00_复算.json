@@ -1,0 +1,257 @@
+{
+  "publication_provenance": {
+    "kind": "书籍阅读、历史案例及教学复算资料",
+    "source_record": "阅读记录/B06_CH00_复算.json",
+    "financial_numbers_origin": "仅为书内案例、历史统计或教学复算；不是维护者或使用者的资产、账户、持仓或交易记录。",
+    "private_account_or_holdings_data": false
+  },
+  "book_id": "B06",
+  "chapter": 0,
+  "title": "版本、三册结构与外围材料（《战胜华尔街》封面/版权/目录/推荐序/译者序/序言/平装本序言/引言）",
+  "decode": "B06-v2-2026-10-13",
+  "range": {
+    "start_line": 1,
+    "end_line": 251,
+    "line_count": 251,
+    "chars_with_newlines": 40030
+  },
+  "decode_meta": {
+    "decoded_text_lines": 5552,
+    "decoded_text_chars": 707710,
+    "decoded_text_sha256": "cf81b321d2d4ee21100bcfd2740d585d50f1b10d09b2213fc8aae211525f12eb",
+    "source_sha256": "37e31e9183ac0fb4f4d095069805e2de82a3758ad58fee58e194317411503b65",
+    "spine_count": 135,
+    "image_refs_total": 315,
+    "image_files_total": 139
+  },
+  "collection_structure": {
+    "note": "spine顺序与合集标题列举顺序不同，以正文为准",
+    "beating_the_street": {
+      "start_line": 1,
+      "end_line": 2203,
+      "isbn": "978-7-111-30252-0",
+      "paper_year": 2010
+    },
+    "learn_to_earn": {
+      "start_line": 2204,
+      "end_line": 3697
+    },
+    "one_up_on_wall_street": {
+      "start_line": 3698,
+      "end_line": 5552
+    }
+  },
+  "images": [
+    {
+      "file": "images/00090.jpg",
+      "content": "《战胜华尔街》封面（华章经典·金融投资/机械工业出版社）",
+      "refs": 1,
+      "status": "目视阅读",
+      "original_report_verified": false
+    },
+    {
+      "file": "images/00016.jpg",
+      "content": "章节装饰图标（网点底纹上的上升曲线小图）",
+      "refs": 4,
+      "status": "目视阅读",
+      "original_report_verified": false
+    },
+    {
+      "file": "images/00014.jpg",
+      "content": "表0-1 20世纪各年代平均年投资收益率（%）",
+      "refs": 1,
+      "status": "目视阅读",
+      "original_report_verified": false
+    },
+    {
+      "file": "images/00079.jpg",
+      "content": "图0-1 1926~1989年标准普尔500指数的增长（对数刻度）",
+      "refs": 1,
+      "status": "目视阅读",
+      "original_report_verified": false
+    }
+  ],
+  "checks": {
+    "magellan_13y_29pct": {
+      "status": "ARITHMETIC_OK",
+      "inputs": {
+        "years": 13,
+        "cagr": 0.29
+      },
+      "compound_multiple": 27.39,
+      "book_printed": "总投资收益率高达27倍",
+      "reverse_cagr_pct": 28.86,
+      "book_printed_cagr": "29%",
+      "source_verified": false
+    },
+    "magellan_scale_growth": {
+      "status": "MISMATCH_REGISTERED",
+      "inputs": {
+        "start_usd_bn": 0.018,
+        "end_usd_bn": 14,
+        "years": 13
+      },
+      "multiple": 777.8,
+      "implied_cagr_pct": 66.87,
+      "note": "远高于同期29%的收益率，系资金净流入所致；书中未给同一口径的规模CAGR，登记",
+      "source_verified": false
+    },
+    "stocks_vs_bonds_decades": {
+      "status": "ARITHMETIC_OK",
+      "check": "表0-1逐年代比较（标普500 vs 长期政府债券）：20年代19.2>5.0、30年代0.0<4.9（债券胜）、40年代9.2>3.2、50年代19.4>-0.1、60年代7.8>1.4、70年代5.9>5.5（基本持平）、80年代17.5>12.6 → 股票胜6个年代、债券胜1个年代",
+      "book_printed": "一直持有股票的投资者，就有6∶1的机会能够比那些一直持有债券的投资者取得更高的收益率",
+      "source_verified": false
+    },
+    "neff_55_46": {
+      "status": "ARITHMETIC_OK",
+      "inputs": {
+        "start_year": 1964,
+        "end_year": 1995,
+        "years": 31,
+        "multiple": 55.46
+      },
+      "implied_cagr_pct": 13.83,
+      "book_printed_excess": "每年平均值都超过市场报酬率3%以上",
+      "note": "与\"市场约10.8%+3%\"相容",
+      "source_verified": false
+    },
+    "triple_3pct_24y": {
+      "status": "ARITHMETIC_OK",
+      "computation": "1.03^24=2.033",
+      "book_printed": "每年3%，只要24年，原本的投资便会倍增",
+      "source_verified": false
+    },
+    "intro_43y_comparison": {
+      "status": "SEVERE_ANOMALY_OPEN",
+      "book_printed": "1926~1969年的整整43年间，1000美元投资长期政府债券增值到160万美元，投资标准普尔500增值到2550万美元",
+      "computed_cagr_bonds_pct": 18.72,
+      "computed_cagr_sp500_pct": 26.61,
+      "reference_levels": "长期政府债券同期年化约2%~5%、含股息标普500约8%~10%",
+      "chart_cross_check": "图0-1对数刻度读数1928年约10、1989年约480~500，折合61年约48~50倍、年化约6.6%~6.7%",
+      "note": "隐含年化显著高于同期历史水平，且与图0-1读出的年化不一致；疑为OCR、单位（“万”字）或口径（再投资/名义倍数）问题。方向性结论（股票长期远胜债券）不受影响，但具体倍数不得引用。待核原书或Ibbotson SBBI 1993原始数据",
+      "source_verified": false
+    },
+    "five_stock_principle": {
+      "status": "AMBIGUOUS_DENOMINATOR",
+      "book_printed": "把投资组合限制在5只股票以内，只要其中一只股票上涨10倍，即使其他4只都没有涨，投资组合总体上也能上涨3倍",
+      "computed_total_multiple": 2.8,
+      "computed_gain_multiple": 1.8,
+      "note": "等权5只中一只涨10倍（其余不变）→总倍数2.8倍；若“上涨3倍”指总倍数3倍，则需个股涨约11倍。书中“上涨3倍”口径未写明，登记",
+      "source_verified": false
+    },
+    "walmart_stores_vs_price": {
+      "status": "DIFFERENT_METRICS",
+      "book_printed": "1970年上市38家分店→1975年104家、股价涨4倍→1980年276家、涨20倍→1991年涨100倍→2007年6月全球6800家、股价涨将近1000倍",
+      "store_multiple_1970_2007": 178.9,
+      "price_1000x_implied_cagr_pct": 20.5,
+      "note": "门店数与股价倍数为不同口径；书内未逐项给出门店与股价的对照关系，登记",
+      "source_verified": false
+    },
+    "citi_windsor_positions": {
+      "status": "AMBIGUOUS_BASIS",
+      "shares_mn": 23,
+      "price_1990_usd": 14,
+      "avg_cost_usd": 33,
+      "implied_value_at_14_usd_musd": 322,
+      "implied_value_at_33_usd_musd": 759,
+      "book_printed": "温莎基金此时持有2300万股花旗股票，有5亿美元资产被套牢",
+      "note": "“5亿美元被套牢”与按市价或按成本的推算均不吻合（3.22亿/7.59亿），口径不明，登记",
+      "source_verified": false
+    },
+    "fannie_mae_price_path": {
+      "status": "SELF_REPORTED_UNVERIFIED",
+      "arc": "1974年9美元→1981年2美元→1982年9美元→1984年4美元→1985年9美元→1986年8~12美元（EPS 0.52→1.44）→1987年12/16/12/16/8美元→1988年EPS 2.14→1989年16→42美元（仓位加至5%上限）→1990年42/24/38美元→1991年后38→60美元",
+      "checks": {
+        "1974_to_1981_pct": -77.8,
+        "1989_16_to_42_pct": 162.5
+      },
+      "source_verified": false
+    },
+    "misc_claims_unverified": {
+      "status": "SELF_REPORTED_UNVERIFIED",
+      "items": [
+        "管理麦哲伦期间买过的股票总数15000多只；持有约1400种证券（最大100种占一半资产、最大200家占2/3）",
+        "普通工作日买进与卖出各约5000万美元、每天各约100种股票、不到5%的交易大于10000股",
+        "1977年1800万美元规模/41种股票/换手率343%，其后3年均300%；1982年3个月买166只；1983年底900只/16亿美元",
+        "900只中700只的资产总和不到基金总资产的10%",
+        "1986年访问上市公司570家（1980年214/1982年330/1983年489/1984年411/1985年463）",
+        "福特与克莱斯勒各赚超1亿美元、沃尔沃赚7900万美元；汽车股占基金10.3%",
+        "房利美：富达旗下基金1980年代获利超10亿美元；巴菲特持有220万股",
+        "美国投资俱乐部协会（NAIC）1万多家俱乐部、1992年69.4%的业余投资者战胜市场、一半以上俱乐部5年中有4年战胜市场",
+        "美国家庭财产投资股票比例：60年代40%、80年代25%、90年代17%；股票基金资金比例80年代70%、90年代43%",
+        "道琼斯指数等同期上涨4倍；过去历史上发生过40次股市大跌",
+        "林奇自述1990年5月31日离职、任期13年、43岁（1985年道指冲破2000点）与父亲46岁离世的对照",
+        "封闭式基金可稳拿0.75%管理费（20亿美元基金每年1500万美元）"
+      ],
+      "boundary": "均为书内自述或转述，未核原披露、基金年报或行业统计；不得作为推导输入",
+      "source_verified": false
+    },
+    "arithmetic": {
+      "status": "PASS",
+      "computations": [
+        {
+          "expr": "1.29**13",
+          "value": 27.39
+        },
+        {
+          "expr": "27**(1/13)-1",
+          "pct": 28.86
+        },
+        {
+          "expr": "140/0.18",
+          "value": 777.8
+        },
+        {
+          "expr": "(140/0.18)**(1/13)-1",
+          "pct": 66.87
+        },
+        {
+          "expr": "1600**(1/43)-1",
+          "pct": 18.72
+        },
+        {
+          "expr": "25500**(1/43)-1",
+          "pct": 26.61
+        },
+        {
+          "expr": "55.46**(1/31)-1",
+          "pct": 13.83
+        },
+        {
+          "expr": "1.03**24",
+          "value": 2.033
+        },
+        {
+          "expr": "6800/38",
+          "value": 178.9
+        },
+        {
+          "expr": "1000**(1/37)-1",
+          "pct": 20.5
+        },
+        {
+          "expr": "(10+1+1+1+1)/5",
+          "value": 2.8
+        },
+        {
+          "expr": "2300*14/100",
+          "value": 322
+        },
+        {
+          "expr": "2300*33/100",
+          "value": 759
+        },
+        {
+          "expr": "(2-9)/9",
+          "pct": -77.8
+        },
+        {
+          "expr": "(42-16)/16",
+          "pct": 162.5
+        }
+      ]
+    }
+  },
+  "math_or_logic_only": true,
+  "investment_performance_validated": false
+}

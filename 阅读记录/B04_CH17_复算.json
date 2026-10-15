@@ -1,0 +1,79 @@
+{
+  "publication_provenance": {
+    "kind": "书籍阅读、历史案例及教学复算资料",
+    "source_record": "阅读记录/B04_CH17_复算.json",
+    "financial_numbers_origin": "仅为书内案例、历史统计或教学复算；不是维护者或使用者的资产、账户、持仓或交易记录。",
+    "private_account_or_holdings_data": false
+  },
+  "book_id": "B04",
+  "chapter": 17,
+  "title": "周期的未来",
+  "decode": "B04-v2-2026-10-13",
+  "range": {
+    "start_line": 1722,
+    "end_line": 1767,
+    "line_count": 46,
+    "chars_with_newlines": 5843
+  },
+  "checks": {
+    "mechanism_vs_manifestation": {
+      "status": "PASS",
+      "persistent_mechanisms": [
+        "情绪与从众",
+        "趋势外推",
+        "杠杆与期限错配",
+        "信贷顺周期",
+        "资本开支与库存过冲",
+        "价格与价值偏离"
+      ],
+      "changeable_manifestations": [
+        "长度",
+        "振幅",
+        "触发因素",
+        "政策反应",
+        "金融工具",
+        "传播速度",
+        "损失承担者"
+      ]
+    },
+    "regime_change_four_way_test": {
+      "status": "PASS",
+      "questions": [
+        "什么机制改变",
+        "什么人性或激励未变",
+        "风险转移到哪里",
+        "什么证据会证伪"
+      ]
+    },
+    "anti_extrapolation": {
+      "status": "PASS",
+      "rule": "每个继续增长/跑赢/低风险情景至少配一个均值回归、供给反应、融资收紧或政策失效反情景"
+    },
+    "economist_poll": {
+      "status": "ARITHMETIC_PASS_SOURCE_OPEN",
+      "positive_forecasts": 51,
+      "total_forecasts": 53,
+      "ratio": 0.9622641509433962,
+      "source_verified": false
+    },
+    "oil_price_claim": {
+      "status": "ARITHMETIC_PASS_SOURCE_OPEN",
+      "start_usd_per_barrel": 20,
+      "end_usd_per_barrel": 60,
+      "multiple": 3.0,
+      "boundary": "名义/实际、地区、品种与时间点未说明",
+      "source_verified": false
+    },
+    "absolute_claims_boundary": {
+      "status": "PASS",
+      "items": [
+        "周期永远不会停止",
+        "极端最终必须修正",
+        "赌周期不再来必输"
+      ],
+      "framework_treatment": "改写为机制、情景与风险门，不作确定性时点或收益预测"
+    }
+  },
+  "math_or_logic_only": true,
+  "investment_performance_validated": false
+}

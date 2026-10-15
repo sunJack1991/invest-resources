@@ -1,0 +1,636 @@
+{
+  "publication_provenance": {
+    "kind": "书籍阅读、历史案例及教学复算资料",
+    "source_record": "阅读记录/B10_R101_复算.json",
+    "financial_numbers_origin": "仅为书内案例、历史统计或教学复算；不是维护者或使用者的资产、账户、持仓或交易记录。",
+    "private_account_or_holdings_data": false
+  },
+  "revision": "R101",
+  "book": "B10",
+  "source_sha256": "7fb3de1a117680af0c73bce8799039a09b06d48e6450c8a292fe650c04ffb756",
+  "decoded_text_sha256": "473bd24939dc8d6f2f9b8cf946b749fa8c73121e461823ae25280e71822088a5",
+  "batch_range": {
+    "start_line": 636,
+    "end_line": 859
+  },
+  "read_blocks": [
+    [
+      636,
+      700
+    ],
+    [
+      701,
+      742
+    ],
+    [
+      743,
+      781
+    ],
+    [
+      782,
+      823
+    ],
+    [
+      824,
+      859
+    ]
+  ],
+  "read_chars_with_newlines": 24353,
+  "raw_resource_audit": [
+    {
+      "index": 35,
+      "source": "index_split_034.html",
+      "start_line": 636,
+      "end_line": 639,
+      "raw_sha256": "3db5caa5fa18833941488135efa3d93730bd730592d020d18a6f7276b34116c4",
+      "images": [],
+      "embedded_attribute_footnotes": 0,
+      "anchor_links": 0,
+      "read_in_batch": "R101"
+    },
+    {
+      "index": 36,
+      "source": "index_split_035.html",
+      "start_line": 640,
+      "end_line": 648,
+      "raw_sha256": "614dc493731f5ef673a39b31f6e1374023a11523e1e9a1fca824db8b15e7b3c0",
+      "images": [],
+      "embedded_attribute_footnotes": 0,
+      "anchor_links": 0,
+      "read_in_batch": "R101"
+    },
+    {
+      "index": 37,
+      "source": "index_split_036.html",
+      "start_line": 649,
+      "end_line": 713,
+      "raw_sha256": "126fc0608e7781555edbe40cf38d1af663323c8ea0b5356a69e619747dd7d4d7",
+      "images": [],
+      "embedded_attribute_footnotes": 0,
+      "anchor_links": 0,
+      "read_in_batch": "R101"
+    },
+    {
+      "index": 38,
+      "source": "index_split_037.html",
+      "start_line": 714,
+      "end_line": 718,
+      "raw_sha256": "2a7df32547d1203d648eb9e84ce4ff2389ddd5cf51751030cfe29ceaa12b6870",
+      "images": [],
+      "embedded_attribute_footnotes": 0,
+      "anchor_links": 0,
+      "read_in_batch": "R101"
+    },
+    {
+      "index": 39,
+      "source": "index_split_038.html",
+      "start_line": 719,
+      "end_line": 722,
+      "raw_sha256": "fde9e02b81acb8cc9224a825b904f6fba0807e3e50d66a5c84e7bad4e4c06e63",
+      "images": [],
+      "embedded_attribute_footnotes": 0,
+      "anchor_links": 0,
+      "read_in_batch": "R101"
+    },
+    {
+      "index": 40,
+      "source": "index_split_039.html",
+      "start_line": 723,
+      "end_line": 727,
+      "raw_sha256": "733798e574982740e368269254f4d7b7b8b0f086f912f26c3ac3ea92249cbf8c",
+      "images": [],
+      "embedded_attribute_footnotes": 0,
+      "anchor_links": 0,
+      "read_in_batch": "R101"
+    },
+    {
+      "index": 41,
+      "source": "index_split_040.html",
+      "start_line": 728,
+      "end_line": 733,
+      "raw_sha256": "0a1269c11b0d5d5ce27727143d639e32f7e1844812349dcaad9420a46e22bf17",
+      "images": [],
+      "embedded_attribute_footnotes": 0,
+      "anchor_links": 0,
+      "read_in_batch": "R101"
+    },
+    {
+      "index": 42,
+      "source": "index_split_041.html",
+      "start_line": 734,
+      "end_line": 737,
+      "raw_sha256": "3e1c502e293b5ed47b17a5017e6e75a22035db7c5faa66af31b653f9b7b98ed0",
+      "images": [],
+      "embedded_attribute_footnotes": 0,
+      "anchor_links": 0,
+      "read_in_batch": "R101"
+    },
+    {
+      "index": 43,
+      "source": "index_split_042.html",
+      "start_line": 738,
+      "end_line": 745,
+      "raw_sha256": "7de367cd01b4b08b016aa1d76b39e5ede297063054d33908f1ac2e5c3412eaca",
+      "images": [],
+      "embedded_attribute_footnotes": 0,
+      "anchor_links": 0,
+      "read_in_batch": "R101"
+    },
+    {
+      "index": 44,
+      "source": "index_split_043.html",
+      "start_line": 746,
+      "end_line": 750,
+      "raw_sha256": "cfbefa4a8e3560458320aaa42c0e7f04003b3d7ea7368d082aa68b079cb81096",
+      "images": [],
+      "embedded_attribute_footnotes": 0,
+      "anchor_links": 0,
+      "read_in_batch": "R101"
+    },
+    {
+      "index": 45,
+      "source": "index_split_044.html",
+      "start_line": 751,
+      "end_line": 753,
+      "raw_sha256": "8dac1216a4f923f2d1978d1cd914314b76536c62d363b52a8a17141e5854b824",
+      "images": [],
+      "embedded_attribute_footnotes": 0,
+      "anchor_links": 0,
+      "read_in_batch": "R101"
+    },
+    {
+      "index": 46,
+      "source": "index_split_045.html",
+      "start_line": 754,
+      "end_line": 759,
+      "raw_sha256": "56b0789089c13b1afd826728f04a0f81c3bf825b330b196b204bf596a760c27d",
+      "images": [],
+      "embedded_attribute_footnotes": 0,
+      "anchor_links": 0,
+      "read_in_batch": "R101"
+    },
+    {
+      "index": 47,
+      "source": "index_split_046.html",
+      "start_line": 760,
+      "end_line": 771,
+      "raw_sha256": "d5e740b76cdee3c48d7fc05a5fa91196265c3ee8237140e0ae15821b99f71c13",
+      "images": [],
+      "embedded_attribute_footnotes": 0,
+      "anchor_links": 0,
+      "read_in_batch": "R101"
+    },
+    {
+      "index": 48,
+      "source": "index_split_047.html",
+      "start_line": 772,
+      "end_line": 777,
+      "raw_sha256": "0ec7d94ae52d32d1a02ed59d9c521f511a6b3f38c48d4eddc67d93607d389efa",
+      "images": [],
+      "embedded_attribute_footnotes": 0,
+      "anchor_links": 0,
+      "read_in_batch": "R101"
+    },
+    {
+      "index": 49,
+      "source": "index_split_048.html",
+      "start_line": 778,
+      "end_line": 781,
+      "raw_sha256": "01bc6f33264708f8a0f7ead59bd6a1de235b0680e9e349f6d05154fe0c8318c1",
+      "images": [],
+      "embedded_attribute_footnotes": 0,
+      "anchor_links": 0,
+      "read_in_batch": "R101"
+    },
+    {
+      "index": 50,
+      "source": "index_split_049.html",
+      "start_line": 782,
+      "end_line": 787,
+      "raw_sha256": "8b2ce463385ce0a41d400880aa91acfcb93303651e1e987b30cb3e77f8df3b41",
+      "images": [],
+      "embedded_attribute_footnotes": 0,
+      "anchor_links": 0,
+      "read_in_batch": "R101"
+    },
+    {
+      "index": 51,
+      "source": "index_split_050.html",
+      "start_line": 788,
+      "end_line": 796,
+      "raw_sha256": "55e70dd9fb1839641b7b217ef0549dcc8ca9c2931b5d0a3018c23ee3d25474fb",
+      "images": [],
+      "embedded_attribute_footnotes": 0,
+      "anchor_links": 0,
+      "read_in_batch": "R101"
+    },
+    {
+      "index": 52,
+      "source": "index_split_051.html",
+      "start_line": 797,
+      "end_line": 801,
+      "raw_sha256": "efa0c0baafa7b8bdbcbbb61dde8d86383842d5e2cef7a6bf3f044c7a1084179d",
+      "images": [],
+      "embedded_attribute_footnotes": 0,
+      "anchor_links": 0,
+      "read_in_batch": "R101"
+    },
+    {
+      "index": 53,
+      "source": "index_split_052.html",
+      "start_line": 802,
+      "end_line": 808,
+      "raw_sha256": "5abca50e17fe1333fd1f8f9cbfaed906321c66f53c8ecbe2edc7da9eebb62928",
+      "images": [],
+      "embedded_attribute_footnotes": 0,
+      "anchor_links": 0,
+      "read_in_batch": "R101"
+    },
+    {
+      "index": 54,
+      "source": "index_split_053.html",
+      "start_line": 809,
+      "end_line": 832,
+      "raw_sha256": "c4b184c3d77c92e103ce1a5c6eda4be7856fdb4ed13084db758b5d73605840ef",
+      "images": [],
+      "embedded_attribute_footnotes": 0,
+      "anchor_links": 0,
+      "read_in_batch": "R101"
+    },
+    {
+      "index": 55,
+      "source": "index_split_054.html",
+      "start_line": 833,
+      "end_line": 843,
+      "raw_sha256": "91a1b9436a3f401f5d74afc12d9f042b6dca9ec1c1d19e140563994d39186694",
+      "images": [],
+      "embedded_attribute_footnotes": 0,
+      "anchor_links": 0,
+      "read_in_batch": "R101"
+    },
+    {
+      "index": 56,
+      "source": "index_split_055.html",
+      "start_line": 844,
+      "end_line": 859,
+      "raw_sha256": "e0e50c3a85ccd94024ce1893643843a94719d62340099d23efed2e96de6da36b",
+      "images": [],
+      "embedded_attribute_footnotes": 0,
+      "anchor_links": 0,
+      "read_in_batch": "R101"
+    }
+  ],
+  "new_image_reference_count": 0,
+  "new_unique_images_viewed": 0,
+  "ordinary_notes_batch": 1,
+  "ordinary_note_lines": [
+    795
+  ],
+  "ordinary_note_kind": "未编号普通注；不是表注或属性脚注",
+  "table_notes_read": [
+    "表14 a–d",
+    "新股表 a：六个月"
+  ],
+  "embedded_footnotes_batch": 0,
+  "missing_figure": {
+    "label": "股票对债券维持的实际收入",
+    "first_reference_line": 725,
+    "source": "index_split_039.html",
+    "status": "本地资源未识别；引用已读，图像未取得未读"
+  },
+  "open_issues": [
+    "645行将公债券不多于一半与普通股不多于50%相接，指代疑点保留，不替作者修文或择时。",
+    "表14多行表头错位，1919/1928/1932仅六数而后五行七数；空列未显式定位，不自动填0/映射。",
+    "表15原写1931–1932年高、1939–1940高低，标签不改；高低点差不当个人总回报。",
+    "725行提到股票对债券维持的实际收入图，本地只有cover.jpeg且本批无图标签；引用已读、图未取得未读，不能宣称所有实质图已复核。",
+    "第5章历史E/H系列条款、评级、税制、金额、回报和配比未核当前适用，不作为本人政策。",
+    "定额投资1927–1946逐年股份/余款/股息时点缺失；80/55减1为45.4545%不等于显示44%，原因未知，非已验证总回报。",
+    "23个重叠十年窗口且允许延后五年，21.5%非年化/事前成功率；NBER普通注没有研究题名，原研究未取得。",
+    "表16首行7/0无明确行标签、40%以上区间开放；无法仅用频数组证明平均9%/30%或转换权因果。",
+    "外国主权司法管辖/救济的绝对语句仅为作者历史立场，本批未核合同或现代法律；古巴20美分/面值报价单位保留。",
+    "埃费夏普2股变3股后：每100面值换3.75股，7.375下转换价值27.65625，对原约27/损失75%有差异；不替原输入配平。",
+    "新股案例表头普通股净资产与每股收益可能不配口径；1960年6月仅六个月，不直接同年增长；延期42000/0.11语义未明，不当已验证正利润。",
+    "新股筹资净额、发行前后股数/费用和逐年原披露未知；154000×9仅毛发行额，不能直接证明净资产变化。"
+  ],
+  "external_verification": "本批未新做历史市场数据/税法/法律/原研究/公司披露外核；不作当前投资推荐",
+  "rebalance": [
+    {
+      "stock": 55,
+      "bond": 45,
+      "target_stock": 50,
+      "transfer": 5,
+      "funding_asset": "stock",
+      "transfer_fraction": 0.09090909090909091,
+      "stock_after": 50,
+      "bond_after": 50
+    },
+    {
+      "stock": 45,
+      "bond": 55,
+      "target_stock": 50,
+      "transfer": -5,
+      "funding_asset": "bond",
+      "transfer_fraction": 0.09090909090909091,
+      "stock_after": 50,
+      "bond_after": 50
+    }
+  ],
+  "call_case": {
+    "coupon_per_100": 5,
+    "purchase": 101,
+    "low": 62.5,
+    "call_price": 106,
+    "purchase_current_yield": 0.04950495049504951,
+    "low_current_yield": 0.08,
+    "price_change_low": -0.3811881188118812,
+    "uncalled_perpetuity_at3pct": 166.66666666666669,
+    "call_gain_ex_coupon_tax": 0.04950495049504955,
+    "warning": "永续近似说明方向，不等同100年债券实际YTM或估值；久期/剩余期限/赎回规则未知"
+  },
+  "historical_corporate_tax": {
+    "income": 100,
+    "tax_rate": 0.48,
+    "taxable_dividend_fraction": 0.15,
+    "dividend_tax": 7.199999999999999,
+    "interest_tax": 48.0,
+    "not_current_personal_rule": true
+  },
+  "growth_case": {
+    "start_price": 5,
+    "end_price": 256,
+    "start_eps": 0.4,
+    "end_eps": 3.91,
+    "price_multiple": 51.2,
+    "eps_multiple": 9.775,
+    "pe_start": 12.5,
+    "pe_end": 65.47314578005115,
+    "pe_multiple": 5.2378516624040925,
+    "drawdown": -0.80859375,
+    "ten_year_double_cagr": 0.07177346253629313,
+    "book_approx_fivefold_vs_eps": true
+  },
+  "fund_comparison": {
+    "nav": 20,
+    "closed_price": 16,
+    "closed_discount": -0.19999999999999996,
+    "open_price": 21.6,
+    "open_entry_mark_to_nav": -0.07407407407407418,
+    "closed_mark_to_nav_if_converges": 0.25,
+    "guaranteed_convergence": false,
+    "trust_income_yield_shown": 0.0376,
+    "trust_nav_change_shown": 0.073,
+    "trust_simple_sum_diagnostic": 0.1106,
+    "trust_total_return_verified": false
+  },
+  "dca_book": {
+    "annual_cash": 1000,
+    "years": 20,
+    "avg_shares_shown": 18.2,
+    "avg_price_shown": 55,
+    "end_price_shown": 80,
+    "gain_shown": 0.44,
+    "price_over_avg_cost": 0.4545454545454546,
+    "shares_implied_cost": 54.94505494505495,
+    "shares_implied_gain": 0.45599999999999996,
+    "dividend_cost_yield_shown": 0.063,
+    "rolling_windows": 23,
+    "window_years": 10,
+    "extra_wait_years_up_to": 5,
+    "end_mean_gain_shown": 0.215,
+    "actual_cashflow_irr": null,
+    "annual_details_available": false,
+    "guarantees_future": false
+  },
+  "dca_counterexample": {
+    "tag": "C教学情景，零费/无股息/可买碎股",
+    "cash_each": 100,
+    "prices": [
+      100,
+      50
+    ],
+    "shares": 3,
+    "cost": 200,
+    "avg_cost": 66.66666666666667,
+    "arithmetic_price": 75,
+    "terminal_price": 25,
+    "terminal_value": 75,
+    "return_rate": -0.625,
+    "periods": 2,
+    "probability": null
+  },
+  "low_grade": {
+    "coupon": 5,
+    "price": 68,
+    "current_yield": 0.07352941176470588,
+    "interest_coverage": 1.5,
+    "book_required_coverage": 5,
+    "ten_bond_high_avg": 102.5,
+    "low_avg": 68,
+    "price_change": -0.3365853658536585,
+    "extra_income_pp": 1.75,
+    "bankruptcy_recovery_unknown": true,
+    "price70_to100_gain": 0.4285714285714286
+  },
+  "sovereign_paths": {
+    "czech_prices": [
+      96.5,
+      112,
+      67.75,
+      106,
+      6,
+      117,
+      35,
+      19.125
+    ],
+    "czech117_to19_125_change": -0.8365384615384616,
+    "cuba_original_quote": "1953年117美元；1963年20美分",
+    "cuba_quote_unit_ambiguity_preserved": true,
+    "legal_remedy_verified": false
+  },
+  "table16": {
+    "first_unlabelled": [
+      7,
+      0
+    ],
+    "ranges": [
+      "0–10%",
+      "10–20%",
+      "20–40%",
+      "40%以上"
+    ],
+    "direct": [
+      16,
+      11,
+      3,
+      0
+    ],
+    "convertible": [
+      2,
+      6,
+      22,
+      12
+    ],
+    "totals": [
+      37,
+      42
+    ],
+    "direct_20plus_bucket_share": 0.08108108108108109,
+    "convertible_20plus_bucket_share": 0.8095238095238095,
+    "mean_declines_shown": [
+      0.09,
+      0.3
+    ],
+    "mean_declines_reconstructed": false,
+    "causal_comparison": false
+  },
+  "conversion": {
+    "face": 1000,
+    "conversion_price": 25,
+    "shares": 40,
+    "stock_price": 30,
+    "conversion_value": 1200,
+    "quote_per100": 125,
+    "premium_to_conversion_value": 0.04166666666666674,
+    "quote_income_yield": 0.028,
+    "stock_fall_quote": 80,
+    "drawdown125_to80": -0.36,
+    "call_exit_price_or_timing_unknown": true
+  },
+  "eversharp": {
+    "face_basis": 100,
+    "start_quote": 103,
+    "conversion_price": 40,
+    "pre_split_shares": 2.5,
+    "new_per_old": 1.5,
+    "post_split_shares": 3.75,
+    "post_split_peak_stock": 88,
+    "peak_conversion_value": 330,
+    "low_stock": 7.375,
+    "low_conversion_value": 27.65625,
+    "loss_from103": -0.731492718446602,
+    "book_value_approx": 27,
+    "book_loss_approx": 0.75,
+    "original_coupon_label": "两种4.5美元收入企业债券",
+    "unconverted_bond_floor_known": false
+  },
+  "aetna": {
+    "rows": [
+      {
+        "date": "1961-06",
+        "months": 12,
+        "sales": 3615000,
+        "ambiguous_common_net_assets_label": 187000,
+        "eps": 0.69,
+        "implied_shares_if_label_were_net_profit": 271014.4927536232
+      },
+      {
+        "date": "1960-06",
+        "months": 6,
+        "sales": 1527000,
+        "ambiguous_common_net_assets_label": 25000,
+        "eps": 0.09,
+        "implied_shares_if_label_were_net_profit": 277777.7777777778
+      },
+      {
+        "date": "1959-12",
+        "months": 12,
+        "sales": 2215000,
+        "ambiguous_common_net_assets_label": 48000,
+        "eps": 0.17,
+        "implied_shares_if_label_were_net_profit": 282352.94117647054
+      },
+      {
+        "date": "1958-12",
+        "months": 12,
+        "sales": 1389000,
+        "ambiguous_common_net_assets_label": 16000,
+        "eps": 0.06,
+        "implied_shares_if_label_were_net_profit": 266666.6666666667
+      },
+      {
+        "date": "1957-12",
+        "months": 12,
+        "sales": 1083000,
+        "ambiguous_common_net_assets_label": 21000,
+        "eps": 0.07,
+        "implied_shares_if_label_were_net_profit": 300000.0
+      },
+      {
+        "date": "1956-12",
+        "months": 12,
+        "sales": 1003000,
+        "ambiguous_common_net_assets_label": 2000,
+        "eps": 0.01,
+        "implied_shares_if_label_were_net_profit": 200000.0
+      },
+      {
+        "date": "1962-06",
+        "months": 12,
+        "sales": 4234000,
+        "ambiguous_common_net_assets_label": 149000,
+        "eps": 0.36,
+        "implied_shares_if_label_were_net_profit": 413888.8888888889
+      },
+      {
+        "date": "1963-06",
+        "months": 12,
+        "sales": 4681000,
+        "ambiguous_common_net_assets_label": 42000,
+        "eps": 0.11,
+        "implied_shares_if_label_were_net_profit": 381818.1818181818
+      }
+    ],
+    "issue_shares": 154000,
+    "issue_price": 9,
+    "gross_proceeds": 1386000,
+    "book_before_per_share": 1.2,
+    "book_after_per_share": "略高于3",
+    "peak_price": 15,
+    "price_1962": 2.375,
+    "price_1964": 0.875,
+    "issue_to1964_change": -0.9027777777777778,
+    "peak_to1964_change": -0.9416666666666667,
+    "eps1961_to1962_change": -0.4782608695652174,
+    "sales1961_to1962_change": 0.17123098201936382,
+    "post1963_label": "（延期）42000/（延期）0.11；语义未明",
+    "original_profit_label_verified": false,
+    "net_proceeds_and_share_bridge_verified": false
+  },
+  "table14_raw_rows": [
+    "1919年 4.73 4.46 5.55 6.99 6.07 4.00",
+    "1928年 3.33 4.05 4.73 5.71 4.90 4.39",
+    "1932年 3.68 4.65 5.09 8.76 5.89 3.71",
+    "1935年 2.90 2.69 3.40 3.53 4.51 4.45 2.23",
+    "1940年 2.90 2.21 2.50 2.44 4.08 4.00 1.94",
+    "1946年 2.90 2.19 1.64 2.44 2.84 3.50 1.66",
+    "1953年 3.00 2.92 2.72 3.12 3.55 4.10 2.52",
+    "1963年 3.75 4.14 3.34 4.35 4.85 4.32 4.08"
+  ],
+  "table15_raw_rows": [
+    "1905年高 105.50 79.00",
+    "1920年低 69.00 49.50",
+    "1928年高 99.00 73.00",
+    "1931～1932年高 75.00 46.75",
+    "1936年高 117.25 85.25",
+    "1939～1940高低 99.50 31.50",
+    "1946年高 141.00 94.75",
+    "1948～1949年低 115.75 56.00",
+    "1950～1954年高 131.375 81.00",
+    "1957～1961年低 88.00 55.00",
+    "1963年平均值 90.25 59.75"
+  ],
+  "table15_point_comparisons": [
+    {
+      "asset": "高质量",
+      "high": 141,
+      "low": 88,
+      "price_change": -0.375886524822695
+    },
+    {
+      "asset": "中等质量",
+      "high": 94.75,
+      "low": 55,
+      "price_change": -0.4195250659630607
+    }
+  ]
+}

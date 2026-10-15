@@ -1,0 +1,90 @@
+{
+  "publication_provenance": {
+    "kind": "书籍阅读、历史案例及教学复算资料",
+    "source_record": "阅读记录/B04_CH01_CH03_复算.json",
+    "financial_numbers_origin": "仅为书内案例、历史统计或教学复算；不是维护者或使用者的资产、账户、持仓或交易记录。",
+    "private_account_or_holdings_data": false
+  },
+  "book": "B04",
+  "title": "周期（MASTERING THE MARKET CYCLE，霍华德·马克斯，中信2019年2月第1版）",
+  "source_sha256": "eb3b4267bcb8989da0c2e36fb1cc14fe7cfbf3c887827f74019bd81de73c7d2a",
+  "decoded_text_sha256": "256aeeb261ac4bf9f866e2fb658b25b123b1a6f7e851c522cafa2934ebd313d6",
+  "decoded_text_lines": 1921,
+  "batch": "2026-10-13-B04-CH01-CH03",
+  "ranges": [
+    "1-141 前后材料",
+    "142-221 第1章",
+    "222-310 第2章（含两条脚注）",
+    "311-342 第3章"
+  ],
+  "checks": [
+    {
+      "id": "urn_expectation",
+      "where": "v2 L183（第1章）",
+      "claim": "罐中70黑球/30白球，赌10美元，10次中7赢3输，期望盈利40美元",
+      "arithmetic": {
+        "single_bet_edge_usd_expr": "7/10*10 - 3/10*10 = 7 - 3 = 4（精确）",
+        "ten_bets_usd_expr": "10 × 4 = 40（精确）",
+        "fair_payout_ratio_upper_bound_expr": "30/70 = 3/7"
+      },
+      "result": {
+        "single_bet_edge_usd": 4,
+        "ten_bets_usd": 40,
+        "fair_payout_ratio_upper_bound": "3/7 ≈ 0.4286"
+      },
+      "status": "PASS",
+      "note": "书内'期望盈利40美元'与算术一致；公平赔率下限约0.4286，对应书中'对手会给你30%的赔率'（≈0.30）时不具优势的定性结论。短期偏离由书内自注'受随机性影响可能大幅偏离平均结果'覆盖。"
+    },
+    {
+      "id": "coincidence_vs_causation_checklist",
+      "where": "v2 L336-338（第3章）",
+      "claim": "高收益债'发行期满两年常违约'的经验规律",
+      "checklist": [
+        {
+          "item": "机制（是否给出因果解释）",
+          "book_answer": "未给出；作者判断'绝大多数高收益债违约与其发行后存续年限毫无关系'"
+        },
+        {
+          "item": "样本（年限与样本量）",
+          "book_answer": "'整个高收益债的历史不到20年'，作者据此怀疑样本是否足够"
+        },
+        {
+          "item": "对手（是否人人皆知并已反映在价格中）",
+          "book_answer": "作者指出危险日买价会压低、过了危险期回买价格会抬高，策略自我抵消"
+        }
+      ],
+      "status": "PASS",
+      "note": "三项均只在逻辑层面可核对；书中未给数据、样本或区间，因此不构成可复现的历史统计，只登记为检查框架。"
+    },
+    {
+      "id": "cycle_definition_alignment",
+      "where": "v2 L315-322 与 L311-342（第3章；另见第2章 L235-249 的八阶段与中轴线）",
+      "claim": "本书的'周期'不要求终点回到起点，也不保证固定幅度/频率与可预测性",
+      "checklist": [
+        {
+          "dimension": "终点是否回到起点",
+          "physics_math": "要求",
+          "this_book": "不要求（很多周期围绕长期向上的趋势线波动）"
+        },
+        {
+          "dimension": "幅度/频率是否固定",
+          "physics_math": "要求",
+          "this_book": "不要求（细节每次不同，模式相似）"
+        },
+        {
+          "dimension": "是否可可靠预测",
+          "physics_math": "可预测",
+          "this_book": "不可（随机性与人的心理行为；且完全可预测就没有超额收益空间）"
+        }
+      ],
+      "status": "PASS",
+      "note": "用于防止把'周期性'误读为'可预测/可择时'；引用本书结论时必须一并写明该口径。"
+    }
+  ],
+  "not_verified": [
+    "译者序转引的橡树资本规模/业绩与伯克希尔长期业绩（原文未取得）",
+    "《醉汉的脚步》引文、词典定义、阿尔钦'偶然因素'的原始出处",
+    "2007-2008 金融危机成因的监管与公司原始文件",
+    "所有图中数据（概念示意图，无刻度与样本）"
+  ]
+}

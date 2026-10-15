@@ -1,0 +1,217 @@
+{
+  "publication_provenance": {
+    "kind": "书籍阅读、历史案例及教学复算资料",
+    "source_record": "阅读记录/B11_R113_复算.json",
+    "financial_numbers_origin": "仅为书内案例、历史统计或教学复算；不是维护者或使用者的资产、账户、持仓或交易记录。",
+    "private_account_or_holdings_data": false
+  },
+  "batch": "R113",
+  "date_utc": "2026-10-14",
+  "book": "B11",
+  "book_title": "金钱心理学：财富、人性和幸福的永恒真相",
+  "source_file": "投资书籍/金钱心理学.epub",
+  "source_sha256": "6ba1f8484392fac2611911fc1eaf84ac047f73fb5d395468cef3628f429d8f3b",
+  "decoded_text_sha256": "49a436df4e11c10fa8afbdb607656a7597773f9caaad288e900fff2fab8f4311",
+  "decoded_text_lines": 1917,
+  "decoded_text_chars": 123755,
+  "range_read": {
+    "start_line": 1337,
+    "end_line": 1586,
+    "lines": 250,
+    "chars_including_newlines": 15515,
+    "chapters": {
+      "17": "1337–1467（第17章 悲观主义的诱惑）",
+      "18": "1468–1586（第18章 当你相信一切的时候；止于1586行，第19章起于1587行）"
+    },
+    "chapter_chars": {
+      "1337-1467": 7989,
+      "1468-1586": 7525,
+      "1337-1586": 15515
+    },
+    "cumulative_1_1586_chars": 103447,
+    "boundary_evidence": "spine 21–22（chapter_22.xhtml–chapter_23.xhtml）连续无空洞；1586行后即第19章标题行1587；前1–1336行由R109–R112实读，本批仅继承"
+  },
+  "resources_read": [
+    {
+      "index": 21,
+      "source": "EPUB/chapter_22.xhtml",
+      "start_line": 1337,
+      "end_line": 1467,
+      "chapter": "第17章 悲观主义的诱惑",
+      "raw_bytes": 26454,
+      "raw_sha256": "83ae33b3349c31cb62f27c0066ea9c8bf84b3cfd0adb3147fd555d054f2fb934",
+      "images": [],
+      "zuixiaoyao_notes": 13,
+      "embedded_attribute_footnotes": 0,
+      "anchor_links": 0,
+      "read_in_batch": "R113"
+    },
+    {
+      "index": 22,
+      "source": "EPUB/chapter_23.xhtml",
+      "start_line": 1468,
+      "end_line": 1586,
+      "chapter": "第18章 当你相信一切的时候",
+      "raw_bytes": 25241,
+      "raw_sha256": "5637f39a999535b77cd52d033244f5f858ad9de0357f7b02513d769b9a968a0d",
+      "images": [],
+      "zuixiaoyao_notes": 5,
+      "embedded_attribute_footnotes": 0,
+      "anchor_links": 0,
+      "read_in_batch": "R113"
+    }
+  ],
+  "images_in_batch": {
+    "img_references": 0,
+    "files": [],
+    "viewed": [],
+    "viewed_count_batch": 0,
+    "viewed_count_cumulative": 8,
+    "image_reference_count_cumulative": 15,
+    "image_files_in_epub": 11,
+    "unavailable_in_batch": []
+  },
+  "notes_read": {
+    "batch_notes": {
+      "第17章": 13,
+      "第18章": 5,
+      "合计": 18
+    },
+    "cumulative_notes": {
+      "序言": 5,
+      "第1章": 7,
+      "第2章": 3,
+      "第3章": 11,
+      "第4章": 3,
+      "第5章": 5,
+      "第6章": 10,
+      "第7章": 6,
+      "第8章": 0,
+      "第9章": 2,
+      "第10章": 3,
+      "第11章": 9,
+      "第12章": 7,
+      "第13章": 5,
+      "第14章": 5,
+      "第15章": 4,
+      "第16章": 2,
+      "第17章": 13,
+      "第18章": 5,
+      "合计": 105
+    },
+    "book_total": 129,
+    "hidden_footnotes_batch": 0,
+    "note": "zuixiaoyao ㊟【】为电子版第三方行内注，独立计数，不与原书正文混同"
+  },
+  "computations": {
+    "century_market_growth": {
+      "title": "第17章“过去一个世纪股市市值增长1.7万倍（含股息）”",
+      "self_computed": "17000^(1/100)-1=0.102312（10.23%/年）",
+      "status": "DERIVED",
+      "detail": "与第15章“道指1950—2019约11%”同量级可互证方向，但基准期不同（百年 vs 69年），不得混用"
+    },
+    "oil_production_gap": {
+      "title": "第17章 世界石油日产量超出布朗预测最高值",
+      "self_computed": "100/85-1=0.176471（+17.65%）",
+      "status": "CONFLICT_OPEN（幅度不符）",
+      "detail": "书内表述“超出布朗预计的最高值20%”，与按8,500万桶基数自算的+17.65%相差约2.4个百分点；可能为四舍五入或基准取数不同，登记不配平，引用用“约+18%”"
+    },
+    "katrina_equivalence": {
+      "title": "第17章“每周5次卡特里娜飓风也抵消不了心脏病死亡率降幅”",
+      "self_computed": "5次/周×52周×1,800人=468,000人＜500,000人",
+      "status": "PASS",
+      "detail": "内部一致（卡特里娜死亡人数按“超过1,800人”取1,800）；原始死亡率序列未核"
+    },
+    "japan_postwar": {
+      "title": "第17章 战后日本轨迹",
+      "given": {
+        "经济体量": "增长近14倍",
+        "人均寿命": "几乎翻倍",
+        "失业率": "40多年不高于6%"
+      },
+      "status": "NOT_VERIFIABLE",
+      "detail": "转引历史叙述；用于说明“乐观预测不被当真”的对照"
+    },
+    "stock_ownership": {
+      "title": "第17章 持股比例（1929年2.5% vs 近年一半以上家庭）",
+      "status": "口径提示",
+      "detail": "两处口径不同（个人直接持股 vs 家庭直接持股），不得直接比较或计算倍数"
+    },
+    "nasa_precision": {
+      "title": "第18章 新视野号（48亿公里/9年半，用时比预计少约1分钟）",
+      "self_computed": {
+        "9.5年折合分钟": 4996620.0,
+        "相对误差": 2.001e-07,
+        "准确率": "99.99998%"
+      },
+      "status": "PASS（精确）",
+      "detail": "与书内99.99998%一致；本书少有的可精确复现项"
+    },
+    "nyboston_analogy": {
+      "title": "第18章“纽约到波士顿精确到百万分之四秒”类比",
+      "self_computed": "4小时=14,400秒；按2×10⁻⁷相对误差应为0.002882秒（约2.9毫秒）",
+      "status": "CONFLICT_OPEN（类比不自洽）",
+      "detail": "书内类比给4微秒，与同一相对精度推算的2.9毫秒相差约700倍；仅登记类比口径不精确，不影响“新视野号精度极高”的事实判断"
+    },
+    "fed_forecast_error": {
+      "title": "第18章 美联储2007年预测误差“近3倍”",
+      "given": {
+        "预测区间": "1.6%–2.8%",
+        "实际": "GDP萎缩超过2%"
+      },
+      "self_computed": {
+        "按区间宽度": 3.0,
+        "按预测值": 2.25
+      },
+      "status": "口径不明（登记）",
+      "detail": "误差3.6个百分点；以区间宽度1.2个百分点为分母恰为3倍（与书内“近3倍”吻合），以预测值为分母为2.25倍；口径未注明，只登记不配平"
+    },
+    "wealth_loss_scope": {
+      "title": "第18章 2009年家庭财富缩水16万亿美元",
+      "status": "CONFLICT_OPEN（与第16章口径不同）",
+      "detail": "第16章为分项（互联网泡沫6.2万亿、房地产泡沫超8万亿），本章为2007—2009时段合计16万亿；两者不可相加或互相替代"
+    },
+    "market_halving": {
+      "title": "第18章 股市市值“只有两年前的一半”",
+      "self_computed": "-50%",
+      "status": "PASS",
+      "detail": "描述性表述，原始指数未核"
+    },
+    "active_funds": {
+      "title": "第18章 主动型共同基金",
+      "given": {
+        "跑输基准比例": "85%（近10年，截至2018）",
+        "管理规模": "近5万亿美元"
+      },
+      "status": "NOT_VERIFIABLE",
+      "detail": "转引（CNBC／ICI Factbook）；与B03“费率与主动性代价”方向一致，可作为研究提示而非精确统计"
+    },
+    "startup_control_bias": {
+      "title": "第18章 初创公司创始人自评（没有人给出低于80%）",
+      "status": "NOT_VERIFIABLE",
+      "detail": "卡尼曼自述提问结果，未给样本、年份与问法"
+    },
+    "author_forecast_claim": {
+      "title": "第18章“平均增长假设的预测比前20位策略师更准”",
+      "status": "NOT_VERIFIABLE",
+      "detail": "作者自陈计算，未给方法、样本与期间；不得引用为预测能力的证据"
+    },
+    "gain_loss_attention": {
+      "title": "第17章“6个月跌40%启动国会调查／6年涨140%无人注意”",
+      "self_computed": "涨140%≈2.4倍",
+      "status": "NARRATIVE_ONLY",
+      "detail": "用于说明关注度不对称，不是收益预期或阈值"
+    }
+  },
+  "narrative_not_verifiable": [
+    "第17章 帕纳林预测（WSJ头版，2008）、密尔与里德利引语、卡尼曼损失厌恶的演化解释、罗威／熊彼特引语、布朗《Plan B 3.0》与FRED油价、耶金86%、塞尔福里奇事件、NIH心脏病数据、霍金访谈",
+    "第18章 外星人思想实验（作者构造）、哈贾吉与笛福《瘟疫年纪事》引文、麦道夫案情细节、利德尔·哈特与泰洛克引语、卡尼曼三种误解与初创公司提问、作者对自身预测准确性的自述"
+  ],
+  "unavailable_materials": [],
+  "limitations": [
+    "本批复算均为书内数字的内部一致性/算术检查，不验证原始企业披露、历史统计或投资收益",
+    "第17–18章无图片，本批无图像目视；累计目视仍为8/11（P003在zip中缺席）",
+    "前1–1336行（R109–R112）仅继承，未在本批重读；原书文件未修改",
+    "电子版第三方注记（zuixiaoyao ㊟【】）独立计数，不作为原书正文或来源依据"
+  ]
+}

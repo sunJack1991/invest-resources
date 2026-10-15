@@ -1,0 +1,142 @@
+{
+  "publication_provenance": {
+    "kind": "书籍阅读、历史案例及教学复算资料",
+    "source_record": "阅读记录/B05_CH01_复算.json",
+    "financial_numbers_origin": "仅为书内案例、历史统计或教学复算；不是维护者或使用者的资产、账户、持仓或交易记录。",
+    "private_account_or_holdings_data": false
+  },
+  "book_id": "B05",
+  "chapter": 1,
+  "title": "公司治理",
+  "decode": "B05-v2-2026-10-13",
+  "range": {
+    "start_line": 403,
+    "end_line": 780,
+    "line_count": 378,
+    "chars_with_newlines": 37217
+  },
+  "checks": {
+    "double_in_18y": {
+      "status": "ARITHMETIC_OK",
+      "expr": "1.08^18",
+      "value": 3.996019,
+      "book_printed": "8%利率经过18年本金增长到原先的四倍",
+      "conclusion": "近似成立（3.996≈4）"
+    },
+    "savings_account_10y": {
+      "status": "ARITHMETIC_OK",
+      "inputs": {
+        "principal": 100000,
+        "rate": 0.08,
+        "payout_ratio": 0.25
+      },
+      "growth_factor": "1+0.08×0.75=1.06",
+      "end_value_10y": 179084.77,
+      "book_printed_end": 179084,
+      "year10_earnings": 13515.83,
+      "book_printed_earnings": 13515,
+      "year10_dividend": 3378.96,
+      "book_printed_dividend": 3378,
+      "year1_dividend": 2000.0,
+      "conclusion": "全链精确复算通过；书示数值为截断取整（179,084.77→179,084）",
+      "source_verified": false
+    },
+    "stagnant_company_option": {
+      "status": "ARITHMETIC_OK_WITH_CONVENTION_NOTE",
+      "inputs": {
+        "net_assets_usd_bn": 10,
+        "annual_earnings_usd_bn": 1,
+        "shares_initial": 100000000,
+        "pe": 10,
+        "fred_option_shares": 1000000,
+        "strike": 100
+      },
+      "buyback_math": "每年回购=0.1×股本（0.9^t）",
+      "shares_after_9_buybacks": 38742000,
+      "book_printed_shares": "3,870万股",
+      "convention_note": "书示对应9次回购口径（0.9^9=3,874.2万≈3,870万）；若按10次回购则为3,486.8万，与书示不符",
+      "eps_y10": 25.8117,
+      "book_printed_eps": 25.8,
+      "price_y10": 258.1175,
+      "book_printed_price": 258.1,
+      "price_gain_pct": 1.5812,
+      "book_printed_gain": "158%",
+      "fred_profit_usd": 158117500,
+      "book_printed_profit": "1.58亿美元",
+      "conclusion": "全链精确复算通过（含9次回购口径备注）",
+      "source_verified": false
+    },
+    "stagnant_company_profit_down_20pct": {
+      "status": "ARITHMETIC_OK",
+      "annual_earnings_usd_bn": 0.8,
+      "shares_after_9_buybacks": 38742000,
+      "eps": 20.6494,
+      "price": 206.494,
+      "fred_profit_usd": 106490000,
+      "book_printed": "利润下滑20%，弗莱德依然可以获利超过1亿美元",
+      "conclusion": "复算1.065亿>1亿，成立"
+    },
+    "five_percent_project_case": {
+      "status": "OPEN_NOT_RECOMPUTED",
+      "book_printed": "5%回报的项目下，弗莱德的期权将为其带来630万美元",
+      "note": "算法与口径未明（未说明资本化方式与参数），未复算；登记待核"
+    },
+    "fifteen_pct_growth_test": {
+      "status": "OPEN_UNVERIFIED",
+      "book_printed": "2000年最赚钱的200家公司中，未来20年保持15%每股盈利增长的不超过10家（作者打赌式陈述）",
+      "note": "无样本与口径，未核"
+    },
+    "misc_numbers_unverified": {
+      "status": "SELF_REPORTED_UNVERIFIED",
+      "items": [
+        "伯克希尔年会参会人数：1972年12人/1997年约7500人/2000年15000人/2008年35000人",
+        "纺织业务：9年销售5.3亿美元亏损1000万；账面净资产2200万（1964）；1980年以来250家纺织厂关闭",
+        "伯灵顿工业：1964年销售额12亿/股价60美元；1985年28亿；再投资30亿（每股200美元）；CPI超3倍",
+        "四大金融机构股东损失共5000亿美元",
+        "股东指定捐赠：932,206股95.6%回应（剔除后90%）；1,783,655美元分派675机构；2002年累计1.97亿美元",
+        "伯克希尔董事：11位、每人≥400万美元身家；布朗鞋业高管年薪7800美元",
+        "伯克希尔约75%经理人财务自由"
+      ],
+      "boundary": "均为书内自述/转述，未核原披露；不得作为推导输入"
+    },
+    "arithmetic": {
+      "status": "PASS",
+      "computations": [
+        {
+          "expr": "1.08^18",
+          "value": 3.996019
+        },
+        {
+          "expr": "1.06^10",
+          "value": 1.790848
+        },
+        {
+          "expr": "100000*1.06^10",
+          "value": 179084.77
+        },
+        {
+          "expr": "0.9^9",
+          "value": 0.38742
+        },
+        {
+          "expr": "1e9/(1e8*0.9^9)",
+          "value": 25.8117
+        },
+        {
+          "expr": "10*25.8117",
+          "value": 258.117
+        },
+        {
+          "expr": "1e6*(258.117-100)",
+          "value": 158117000
+        },
+        {
+          "expr": "8e8/(1e8*0.9^9)",
+          "value": 20.6494
+        }
+      ]
+    }
+  },
+  "math_or_logic_only": true,
+  "investment_performance_validated": false
+}

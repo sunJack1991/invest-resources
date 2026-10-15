@@ -1,0 +1,1470 @@
+{
+  "publication_provenance": {
+    "kind": "书籍阅读、历史案例及教学复算资料",
+    "source_record": "阅读记录/B06_v2_定位元数据.json",
+    "financial_numbers_origin": "仅为书内案例、历史统计或教学复算；不是维护者或使用者的资产、账户、持仓或交易记录。",
+    "private_account_or_holdings_data": false
+  },
+  "version": "B06-v2-2026-10-13",
+  "source_sha256": "37e31e9183ac0fb4f4d095069805e2de82a3758ad58fee58e194317411503b65",
+  "decoded_text_sha256": "cf81b321d2d4ee21100bcfd2740d585d50f1b10d09b2213fc8aae211525f12eb",
+  "decoded_text_lines": 5552,
+  "decoded_text_chars": 707710,
+  "locators": [
+    {
+      "index": 0,
+      "source": "titlepage.xhtml",
+      "start_line": 1,
+      "end_line": 1,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 1,
+      "source": "index_split_000.html",
+      "start_line": 2,
+      "end_line": 7,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 2,
+      "source": "index_split_001.html",
+      "start_line": 8,
+      "end_line": 13,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 3,
+      "source": "index_split_002.html",
+      "start_line": 14,
+      "end_line": 15,
+      "images": [
+        "images/00090.jpg"
+      ],
+      "footnote_links": []
+    },
+    {
+      "index": 4,
+      "source": "index_split_003.html",
+      "start_line": 16,
+      "end_line": 24,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 5,
+      "source": "index_split_004.html",
+      "start_line": 25,
+      "end_line": 55,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 6,
+      "source": "index_split_005.html",
+      "start_line": 56,
+      "end_line": 125,
+      "images": [
+        "images/00016.jpg",
+        "images/00016.jpg",
+        "images/00016.jpg",
+        "images/00016.jpg"
+      ],
+      "footnote_links": []
+    },
+    {
+      "index": 7,
+      "source": "index_split_006.html",
+      "start_line": 126,
+      "end_line": 141,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 8,
+      "source": "index_split_007.html",
+      "start_line": 142,
+      "end_line": 168,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 9,
+      "source": "index_split_008.html",
+      "start_line": 169,
+      "end_line": 196,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 10,
+      "source": "index_split_009.html",
+      "start_line": 197,
+      "end_line": 214,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 11,
+      "source": "index_split_010.html",
+      "start_line": 215,
+      "end_line": 251,
+      "images": [
+        "images/00014.jpg",
+        "images/00079.jpg"
+      ],
+      "footnote_links": []
+    },
+    {
+      "index": 12,
+      "source": "index_split_011.html",
+      "start_line": 252,
+      "end_line": 354,
+      "images": [
+        "images/00016.jpg",
+        "images/00072.jpg",
+        "images/00061.jpg",
+        "images/00016.jpg",
+        "images/00016.jpg"
+      ],
+      "footnote_links": []
+    },
+    {
+      "index": 13,
+      "source": "index_split_012.html",
+      "start_line": 355,
+      "end_line": 447,
+      "images": [
+        "images/00016.jpg"
+      ],
+      "footnote_links": []
+    },
+    {
+      "index": 14,
+      "source": "index_split_013.html",
+      "start_line": 448,
+      "end_line": 668,
+      "images": [
+        "images/00016.jpg",
+        "images/00054.jpg",
+        "images/00047.jpg",
+        "images/00016.jpg",
+        "images/00016.jpg",
+        "images/00124.jpg",
+        "images/00016.jpg",
+        "images/00080.jpg",
+        "images/00016.jpg",
+        "images/00016.jpg",
+        "images/00016.jpg",
+        "images/00016.jpg",
+        "images/00016.jpg",
+        "images/00016.jpg"
+      ],
+      "footnote_links": []
+    },
+    {
+      "index": 15,
+      "source": "index_split_014.html",
+      "start_line": 669,
+      "end_line": 765,
+      "images": [
+        "images/00039.jpg",
+        "images/00016.jpg",
+        "images/00032.jpg",
+        "images/00114.jpg",
+        "images/00078.jpg"
+      ],
+      "footnote_links": []
+    },
+    {
+      "index": 16,
+      "source": "index_split_015.html",
+      "start_line": 766,
+      "end_line": 863,
+      "images": [
+        "images/00016.jpg",
+        "images/00016.jpg",
+        "images/00016.jpg"
+      ],
+      "footnote_links": []
+    },
+    {
+      "index": 17,
+      "source": "index_split_016.html",
+      "start_line": 864,
+      "end_line": 1012,
+      "images": [
+        "images/00016.jpg",
+        "images/00016.jpg",
+        "images/00016.jpg",
+        "images/00089.jpg",
+        "images/00038.jpg",
+        "images/00113.jpg",
+        "images/00125.jpg",
+        "images/00016.jpg",
+        "images/00137.jpg"
+      ],
+      "footnote_links": []
+    },
+    {
+      "index": 18,
+      "source": "index_split_017.html",
+      "start_line": 1013,
+      "end_line": 1057,
+      "images": [
+        "images/00016.jpg",
+        "images/00083.jpg",
+        "images/00003.jpg",
+        "images/00096.jpg",
+        "images/00105.jpg"
+      ],
+      "footnote_links": []
+    },
+    {
+      "index": 19,
+      "source": "index_split_018.html",
+      "start_line": 1058,
+      "end_line": 1113,
+      "images": [
+        "images/00100.jpg"
+      ],
+      "footnote_links": []
+    },
+    {
+      "index": 20,
+      "source": "index_split_019.html",
+      "start_line": 1114,
+      "end_line": 1206,
+      "images": [
+        "images/00016.jpg",
+        "images/00016.jpg",
+        "images/00016.jpg",
+        "images/00115.jpg",
+        "images/00123.jpg",
+        "images/00055.jpg",
+        "images/00132.jpg",
+        "images/00138.jpg"
+      ],
+      "footnote_links": []
+    },
+    {
+      "index": 21,
+      "source": "index_split_020.html",
+      "start_line": 1207,
+      "end_line": 1239,
+      "images": [
+        "images/00057.jpg"
+      ],
+      "footnote_links": []
+    },
+    {
+      "index": 22,
+      "source": "index_split_021.html",
+      "start_line": 1240,
+      "end_line": 1330,
+      "images": [
+        "images/00016.jpg",
+        "images/00007.jpg",
+        "images/00016.jpg",
+        "images/00016.jpg",
+        "images/00016.jpg",
+        "images/00016.jpg",
+        "images/00016.jpg",
+        "images/00016.jpg",
+        "images/00016.jpg",
+        "images/00016.jpg",
+        "images/00021.jpg"
+      ],
+      "footnote_links": []
+    },
+    {
+      "index": 23,
+      "source": "index_split_022.html",
+      "start_line": 1331,
+      "end_line": 1413,
+      "images": [
+        "images/00016.jpg",
+        "images/00016.jpg",
+        "images/00016.jpg",
+        "images/00016.jpg",
+        "images/00033.jpg"
+      ],
+      "footnote_links": []
+    },
+    {
+      "index": 24,
+      "source": "index_split_023.html",
+      "start_line": 1414,
+      "end_line": 1531,
+      "images": [
+        "images/00016.jpg",
+        "images/00016.jpg",
+        "images/00016.jpg",
+        "images/00016.jpg",
+        "images/00016.jpg",
+        "images/00016.jpg",
+        "images/00044.jpg",
+        "images/00016.jpg",
+        "images/00056.jpg",
+        "images/00068.jpg",
+        "images/00077.jpg"
+      ],
+      "footnote_links": []
+    },
+    {
+      "index": 25,
+      "source": "index_split_024.html",
+      "start_line": 1532,
+      "end_line": 1623,
+      "images": [
+        "images/00016.jpg",
+        "images/00016.jpg",
+        "images/00016.jpg",
+        "images/00093.jpg",
+        "images/00106.jpg",
+        "images/00016.jpg",
+        "images/00116.jpg"
+      ],
+      "footnote_links": []
+    },
+    {
+      "index": 26,
+      "source": "index_split_025.html",
+      "start_line": 1624,
+      "end_line": 1698,
+      "images": [
+        "images/00016.jpg",
+        "images/00130.jpg",
+        "images/00092.jpg",
+        "images/00016.jpg",
+        "images/00048.jpg",
+        "images/00009.jpg"
+      ],
+      "footnote_links": []
+    },
+    {
+      "index": 27,
+      "source": "index_split_026.html",
+      "start_line": 1699,
+      "end_line": 1748,
+      "images": [
+        "images/00018.jpg",
+        "images/00028.jpg",
+        "images/00019.jpg",
+        "images/00126.jpg",
+        "images/00073.jpg"
+      ],
+      "footnote_links": []
+    },
+    {
+      "index": 28,
+      "source": "index_split_027.html",
+      "start_line": 1749,
+      "end_line": 1790,
+      "images": [
+        "images/00119.jpg",
+        "images/00071.jpg",
+        "images/00004.jpg"
+      ],
+      "footnote_links": []
+    },
+    {
+      "index": 29,
+      "source": "index_split_028.html",
+      "start_line": 1791,
+      "end_line": 1898,
+      "images": [
+        "images/00016.jpg",
+        "images/00016.jpg",
+        "images/00016.jpg",
+        "images/00016.jpg",
+        "images/00016.jpg",
+        "images/00016.jpg",
+        "images/00016.jpg",
+        "images/00016.jpg",
+        "images/00016.jpg",
+        "images/00016.jpg",
+        "images/00016.jpg",
+        "images/00016.jpg",
+        "images/00016.jpg",
+        "images/00017.jpg"
+      ],
+      "footnote_links": []
+    },
+    {
+      "index": 30,
+      "source": "index_split_029.html",
+      "start_line": 1899,
+      "end_line": 1922,
+      "images": [
+        "images/00031.jpg"
+      ],
+      "footnote_links": []
+    },
+    {
+      "index": 31,
+      "source": "index_split_030.html",
+      "start_line": 1923,
+      "end_line": 1949,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 32,
+      "source": "index_split_031.html",
+      "start_line": 1950,
+      "end_line": 2087,
+      "images": [
+        "images/00041.jpg",
+        "images/00052.jpg",
+        "images/00062.jpg",
+        "images/00053.jpg",
+        "images/00088.jpg",
+        "images/00016.jpg",
+        "images/00016.jpg",
+        "images/00016.jpg",
+        "images/00016.jpg",
+        "images/00016.jpg",
+        "images/00016.jpg",
+        "images/00016.jpg",
+        "images/00016.jpg",
+        "images/00016.jpg",
+        "images/00016.jpg",
+        "images/00016.jpg",
+        "images/00016.jpg",
+        "images/00016.jpg",
+        "images/00016.jpg",
+        "images/00016.jpg"
+      ],
+      "footnote_links": []
+    },
+    {
+      "index": 33,
+      "source": "index_split_032.html",
+      "start_line": 2088,
+      "end_line": 2116,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 34,
+      "source": "index_split_033.html",
+      "start_line": 2117,
+      "end_line": 2201,
+      "images": [
+        "images/00102.jpg",
+        "images/00112.jpg",
+        "images/00016.jpg",
+        "images/00127.jpg",
+        "images/00136.jpg",
+        "images/00016.jpg"
+      ],
+      "footnote_links": []
+    },
+    {
+      "index": 35,
+      "source": "index_split_034.html",
+      "start_line": 2202,
+      "end_line": 2203,
+      "images": [
+        "images/00049.jpg"
+      ],
+      "footnote_links": []
+    },
+    {
+      "index": 36,
+      "source": "index_split_035.html",
+      "start_line": 2204,
+      "end_line": 2213,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 37,
+      "source": "index_split_036.html",
+      "start_line": 2214,
+      "end_line": 2299,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 38,
+      "source": "index_split_037.html",
+      "start_line": 2300,
+      "end_line": 2321,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 39,
+      "source": "index_split_038.html",
+      "start_line": 2322,
+      "end_line": 2333,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 40,
+      "source": "index_split_039.html",
+      "start_line": 2334,
+      "end_line": 2349,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 41,
+      "source": "index_split_040.html",
+      "start_line": 2350,
+      "end_line": 2359,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 42,
+      "source": "index_split_041.html",
+      "start_line": 2360,
+      "end_line": 2389,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 43,
+      "source": "index_split_042.html",
+      "start_line": 2390,
+      "end_line": 2398,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 44,
+      "source": "index_split_043.html",
+      "start_line": 2399,
+      "end_line": 2450,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 45,
+      "source": "index_split_044.html",
+      "start_line": 2451,
+      "end_line": 2467,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 46,
+      "source": "index_split_045.html",
+      "start_line": 2468,
+      "end_line": 2483,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 47,
+      "source": "index_split_046.html",
+      "start_line": 2484,
+      "end_line": 2496,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 48,
+      "source": "index_split_047.html",
+      "start_line": 2497,
+      "end_line": 2511,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 49,
+      "source": "index_split_048.html",
+      "start_line": 2512,
+      "end_line": 2522,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 50,
+      "source": "index_split_049.html",
+      "start_line": 2523,
+      "end_line": 2536,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 51,
+      "source": "index_split_050.html",
+      "start_line": 2537,
+      "end_line": 2559,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 52,
+      "source": "index_split_051.html",
+      "start_line": 2560,
+      "end_line": 2582,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 53,
+      "source": "index_split_052.html",
+      "start_line": 2583,
+      "end_line": 2601,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 54,
+      "source": "index_split_053.html",
+      "start_line": 2602,
+      "end_line": 2631,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 55,
+      "source": "index_split_054.html",
+      "start_line": 2632,
+      "end_line": 2640,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 56,
+      "source": "index_split_055.html",
+      "start_line": 2641,
+      "end_line": 2650,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 57,
+      "source": "index_split_056.html",
+      "start_line": 2651,
+      "end_line": 2658,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 58,
+      "source": "index_split_057.html",
+      "start_line": 2659,
+      "end_line": 2674,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 59,
+      "source": "index_split_058.html",
+      "start_line": 2675,
+      "end_line": 2691,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 60,
+      "source": "index_split_059.html",
+      "start_line": 2692,
+      "end_line": 2700,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 61,
+      "source": "index_split_060.html",
+      "start_line": 2701,
+      "end_line": 2710,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 62,
+      "source": "index_split_061.html",
+      "start_line": 2711,
+      "end_line": 2715,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 63,
+      "source": "index_split_062.html",
+      "start_line": 2716,
+      "end_line": 2729,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 64,
+      "source": "index_split_063.html",
+      "start_line": 2730,
+      "end_line": 2743,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 65,
+      "source": "index_split_064.html",
+      "start_line": 2744,
+      "end_line": 2762,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 66,
+      "source": "index_split_065.html",
+      "start_line": 2763,
+      "end_line": 2784,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 67,
+      "source": "index_split_066.html",
+      "start_line": 2785,
+      "end_line": 2852,
+      "images": [
+        "images/00006.jpg",
+        "images/00015.jpg",
+        "images/00005.jpg"
+      ],
+      "footnote_links": []
+    },
+    {
+      "index": 68,
+      "source": "index_split_067.html",
+      "start_line": 2853,
+      "end_line": 2873,
+      "images": [
+        "images/00110.jpg"
+      ],
+      "footnote_links": []
+    },
+    {
+      "index": 69,
+      "source": "index_split_068.html",
+      "start_line": 2874,
+      "end_line": 2888,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 70,
+      "source": "index_split_069.html",
+      "start_line": 2889,
+      "end_line": 2902,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 71,
+      "source": "index_split_070.html",
+      "start_line": 2903,
+      "end_line": 2917,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 72,
+      "source": "index_split_071.html",
+      "start_line": 2918,
+      "end_line": 2963,
+      "images": [
+        "images/00070.jpg"
+      ],
+      "footnote_links": []
+    },
+    {
+      "index": 73,
+      "source": "index_split_072.html",
+      "start_line": 2964,
+      "end_line": 2987,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 74,
+      "source": "index_split_073.html",
+      "start_line": 2988,
+      "end_line": 2992,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 75,
+      "source": "index_split_074.html",
+      "start_line": 2993,
+      "end_line": 3026,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 76,
+      "source": "index_split_075.html",
+      "start_line": 3027,
+      "end_line": 3035,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 77,
+      "source": "index_split_076.html",
+      "start_line": 3036,
+      "end_line": 3071,
+      "images": [
+        "images/00067.jpg",
+        "images/00069.jpg",
+        "images/00135.jpg",
+        "images/00069.jpg",
+        "images/00135.jpg",
+        "images/00058.jpg",
+        "images/00051.jpg",
+        "images/00046.jpg",
+        "images/00045.jpg",
+        "images/00043.jpg",
+        "images/00036.jpg",
+        "images/00034.jpg",
+        "images/00027.jpg",
+        "images/00023.jpg"
+      ],
+      "footnote_links": []
+    },
+    {
+      "index": 78,
+      "source": "index_split_077.html",
+      "start_line": 3072,
+      "end_line": 3087,
+      "images": [
+        "images/00042.jpg"
+      ],
+      "footnote_links": []
+    },
+    {
+      "index": 79,
+      "source": "index_split_078.html",
+      "start_line": 3088,
+      "end_line": 3104,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 80,
+      "source": "index_split_079.html",
+      "start_line": 3105,
+      "end_line": 3134,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 81,
+      "source": "index_split_080.html",
+      "start_line": 3135,
+      "end_line": 3156,
+      "images": [
+        "images/00074.jpg",
+        "images/00081.jpg",
+        "images/00085.jpg"
+      ],
+      "footnote_links": []
+    },
+    {
+      "index": 82,
+      "source": "index_split_081.html",
+      "start_line": 3157,
+      "end_line": 3179,
+      "images": [
+        "images/00094.jpg"
+      ],
+      "footnote_links": []
+    },
+    {
+      "index": 83,
+      "source": "index_split_082.html",
+      "start_line": 3180,
+      "end_line": 3205,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 84,
+      "source": "index_split_083.html",
+      "start_line": 3206,
+      "end_line": 3226,
+      "images": [
+        "images/00098.jpg"
+      ],
+      "footnote_links": []
+    },
+    {
+      "index": 85,
+      "source": "index_split_084.html",
+      "start_line": 3227,
+      "end_line": 3235,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 86,
+      "source": "index_split_085.html",
+      "start_line": 3236,
+      "end_line": 3250,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 87,
+      "source": "index_split_086.html",
+      "start_line": 3251,
+      "end_line": 3274,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 88,
+      "source": "index_split_087.html",
+      "start_line": 3275,
+      "end_line": 3296,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 89,
+      "source": "index_split_088.html",
+      "start_line": 3297,
+      "end_line": 3303,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 90,
+      "source": "index_split_089.html",
+      "start_line": 3304,
+      "end_line": 3341,
+      "images": [
+        "images/00107.jpg",
+        "images/00101.jpg"
+      ],
+      "footnote_links": []
+    },
+    {
+      "index": 91,
+      "source": "index_split_090.html",
+      "start_line": 3342,
+      "end_line": 3360,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 92,
+      "source": "index_split_091.html",
+      "start_line": 3361,
+      "end_line": 3381,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 93,
+      "source": "index_split_092.html",
+      "start_line": 3382,
+      "end_line": 3404,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 94,
+      "source": "index_split_093.html",
+      "start_line": 3405,
+      "end_line": 3447,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 95,
+      "source": "index_split_094.html",
+      "start_line": 3448,
+      "end_line": 3469,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 96,
+      "source": "index_split_095.html",
+      "start_line": 3470,
+      "end_line": 3536,
+      "images": [
+        "images/00117.jpg",
+        "images/00120.jpg",
+        "images/00131.jpg",
+        "images/00097.jpg",
+        "images/00139.jpg",
+        "images/00082.jpg",
+        "images/00086.jpg",
+        "images/00087.jpg",
+        "images/00091.jpg",
+        "images/00095.jpg"
+      ],
+      "footnote_links": []
+    },
+    {
+      "index": 97,
+      "source": "index_split_096.html",
+      "start_line": 3537,
+      "end_line": 3617,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 98,
+      "source": "index_split_097.html",
+      "start_line": 3618,
+      "end_line": 3677,
+      "images": [
+        "images/00099.jpg",
+        "images/00104.jpg",
+        "images/00076.jpg"
+      ],
+      "footnote_links": []
+    },
+    {
+      "index": 99,
+      "source": "index_split_098.html",
+      "start_line": 3678,
+      "end_line": 3682,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 100,
+      "source": "index_split_099.html",
+      "start_line": 3683,
+      "end_line": 3691,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 101,
+      "source": "index_split_100.html",
+      "start_line": 3692,
+      "end_line": 3695,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 102,
+      "source": "index_split_101.html",
+      "start_line": 3696,
+      "end_line": 3697,
+      "images": [
+        "images/00108.jpg"
+      ],
+      "footnote_links": []
+    },
+    {
+      "index": 103,
+      "source": "index_split_102.html",
+      "start_line": 3698,
+      "end_line": 3706,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 104,
+      "source": "index_split_103.html",
+      "start_line": 3707,
+      "end_line": 3738,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 105,
+      "source": "index_split_104.html",
+      "start_line": 3739,
+      "end_line": 3745,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 106,
+      "source": "index_split_105.html",
+      "start_line": 3746,
+      "end_line": 3771,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 107,
+      "source": "index_split_106.html",
+      "start_line": 3772,
+      "end_line": 3775,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 108,
+      "source": "index_split_107.html",
+      "start_line": 3776,
+      "end_line": 3855,
+      "images": [
+        "images/00111.jpg"
+      ],
+      "footnote_links": []
+    },
+    {
+      "index": 109,
+      "source": "index_split_108.html",
+      "start_line": 3856,
+      "end_line": 3887,
+      "images": [
+        "images/00122.jpg",
+        "images/00122.jpg"
+      ],
+      "footnote_links": []
+    },
+    {
+      "index": 110,
+      "source": "index_split_109.html",
+      "start_line": 3888,
+      "end_line": 3970,
+      "images": [
+        "images/00122.jpg",
+        "images/00001.jpg",
+        "images/00122.jpg",
+        "images/00122.jpg",
+        "images/00122.jpg",
+        "images/00122.jpg",
+        "images/00122.jpg",
+        "images/00122.jpg"
+      ],
+      "footnote_links": []
+    },
+    {
+      "index": 111,
+      "source": "index_split_110.html",
+      "start_line": 3971,
+      "end_line": 3973,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 112,
+      "source": "index_split_111.html",
+      "start_line": 3974,
+      "end_line": 4021,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 113,
+      "source": "index_split_112.html",
+      "start_line": 4022,
+      "end_line": 4104,
+      "images": [
+        "images/00122.jpg",
+        "images/00122.jpg",
+        "images/00122.jpg",
+        "images/00122.jpg"
+      ],
+      "footnote_links": []
+    },
+    {
+      "index": 114,
+      "source": "index_split_113.html",
+      "start_line": 4105,
+      "end_line": 4168,
+      "images": [
+        "images/00122.jpg",
+        "images/00122.jpg",
+        "images/00020.jpg",
+        "images/00122.jpg",
+        "images/00122.jpg"
+      ],
+      "footnote_links": []
+    },
+    {
+      "index": 115,
+      "source": "index_split_114.html",
+      "start_line": 4169,
+      "end_line": 4204,
+      "images": [
+        "images/00122.jpg",
+        "images/00122.jpg",
+        "images/00122.jpg"
+      ],
+      "footnote_links": []
+    },
+    {
+      "index": 116,
+      "source": "index_split_115.html",
+      "start_line": 4205,
+      "end_line": 4270,
+      "images": [
+        "images/00122.jpg",
+        "images/00122.jpg",
+        "images/00122.jpg",
+        "images/00122.jpg"
+      ],
+      "footnote_links": []
+    },
+    {
+      "index": 117,
+      "source": "index_split_116.html",
+      "start_line": 4271,
+      "end_line": 4273,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 118,
+      "source": "index_split_117.html",
+      "start_line": 4274,
+      "end_line": 4331,
+      "images": [
+        "images/00122.jpg",
+        "images/00103.jpg",
+        "images/00122.jpg",
+        "images/00122.jpg",
+        "images/00026.jpg",
+        "images/00037.jpg",
+        "images/00050.jpg"
+      ],
+      "footnote_links": []
+    },
+    {
+      "index": 119,
+      "source": "index_split_118.html",
+      "start_line": 4332,
+      "end_line": 4462,
+      "images": [
+        "images/00122.jpg",
+        "images/00122.jpg",
+        "images/00122.jpg",
+        "images/00059.jpg",
+        "images/00064.jpg",
+        "images/00022.jpg",
+        "images/00060.jpg",
+        "images/00109.jpg",
+        "images/00122.jpg",
+        "images/00122.jpg"
+      ],
+      "footnote_links": []
+    },
+    {
+      "index": 120,
+      "source": "index_split_119.html",
+      "start_line": 4463,
+      "end_line": 4581,
+      "images": [
+        "images/00122.jpg",
+        "images/00012.jpg",
+        "images/00133.jpg",
+        "images/00066.jpg",
+        "images/00122.jpg"
+      ],
+      "footnote_links": []
+    },
+    {
+      "index": 121,
+      "source": "index_split_120.html",
+      "start_line": 4582,
+      "end_line": 4657,
+      "images": [
+        "images/00122.jpg",
+        "images/00008.jpg",
+        "images/00122.jpg",
+        "images/00122.jpg",
+        "images/00011.jpg",
+        "images/00122.jpg",
+        "images/00122.jpg",
+        "images/00122.jpg"
+      ],
+      "footnote_links": []
+    },
+    {
+      "index": 122,
+      "source": "index_split_121.html",
+      "start_line": 4658,
+      "end_line": 4731,
+      "images": [
+        "images/00121.jpg",
+        "images/00065.jpg",
+        "images/00002.jpg",
+        "images/00122.jpg",
+        "images/00128.jpg",
+        "images/00122.jpg",
+        "images/00122.jpg",
+        "images/00122.jpg"
+      ],
+      "footnote_links": []
+    },
+    {
+      "index": 123,
+      "source": "index_split_122.html",
+      "start_line": 4732,
+      "end_line": 4780,
+      "images": [
+        "images/00122.jpg",
+        "images/00122.jpg"
+      ],
+      "footnote_links": []
+    },
+    {
+      "index": 124,
+      "source": "index_split_123.html",
+      "start_line": 4781,
+      "end_line": 4900,
+      "images": [
+        "images/00122.jpg",
+        "images/00122.jpg",
+        "images/00122.jpg",
+        "images/00122.jpg",
+        "images/00122.jpg",
+        "images/00122.jpg",
+        "images/00122.jpg",
+        "images/00024.jpg",
+        "images/00118.jpg",
+        "images/00013.jpg",
+        "images/00084.jpg"
+      ],
+      "footnote_links": []
+    },
+    {
+      "index": 125,
+      "source": "index_split_124.html",
+      "start_line": 4901,
+      "end_line": 5071,
+      "images": [
+        "images/00122.jpg",
+        "images/00122.jpg",
+        "images/00122.jpg",
+        "images/00122.jpg",
+        "images/00122.jpg",
+        "images/00025.jpg",
+        "images/00122.jpg",
+        "images/00122.jpg",
+        "images/00122.jpg",
+        "images/00122.jpg",
+        "images/00122.jpg",
+        "images/00122.jpg",
+        "images/00122.jpg",
+        "images/00040.jpg",
+        "images/00122.jpg",
+        "images/00129.jpg"
+      ],
+      "footnote_links": []
+    },
+    {
+      "index": 126,
+      "source": "index_split_125.html",
+      "start_line": 5072,
+      "end_line": 5092,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 127,
+      "source": "index_split_126.html",
+      "start_line": 5093,
+      "end_line": 5177,
+      "images": [
+        "images/00122.jpg",
+        "images/00122.jpg"
+      ],
+      "footnote_links": []
+    },
+    {
+      "index": 128,
+      "source": "index_split_127.html",
+      "start_line": 5178,
+      "end_line": 5180,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 129,
+      "source": "index_split_128.html",
+      "start_line": 5181,
+      "end_line": 5229,
+      "images": [
+        "images/00122.jpg",
+        "images/00122.jpg",
+        "images/00122.jpg"
+      ],
+      "footnote_links": []
+    },
+    {
+      "index": 130,
+      "source": "index_split_129.html",
+      "start_line": 5230,
+      "end_line": 5334,
+      "images": [
+        "images/00134.jpg",
+        "images/00140.jpg",
+        "images/00122.jpg",
+        "images/00075.jpg",
+        "images/00010.jpg",
+        "images/00122.jpg",
+        "images/00122.jpg",
+        "images/00122.jpg"
+      ],
+      "footnote_links": []
+    },
+    {
+      "index": 131,
+      "source": "index_split_130.html",
+      "start_line": 5335,
+      "end_line": 5422,
+      "images": [
+        "images/00122.jpg",
+        "images/00122.jpg",
+        "images/00122.jpg",
+        "images/00063.jpg",
+        "images/00122.jpg",
+        "images/00122.jpg",
+        "images/00122.jpg",
+        "images/00122.jpg",
+        "images/00122.jpg",
+        "images/00122.jpg",
+        "images/00035.jpg",
+        "images/00122.jpg",
+        "images/00122.jpg",
+        "images/00122.jpg"
+      ],
+      "footnote_links": []
+    },
+    {
+      "index": 132,
+      "source": "index_split_131.html",
+      "start_line": 5423,
+      "end_line": 5455,
+      "images": [
+        "images/00122.jpg",
+        "images/00122.jpg"
+      ],
+      "footnote_links": []
+    },
+    {
+      "index": 133,
+      "source": "index_split_132.html",
+      "start_line": 5456,
+      "end_line": 5542,
+      "images": [
+        "images/00122.jpg",
+        "images/00122.jpg"
+      ],
+      "footnote_links": []
+    },
+    {
+      "index": 134,
+      "source": "index_split_133.html",
+      "start_line": 5543,
+      "end_line": 5552,
+      "images": [],
+      "footnote_links": []
+    }
+  ],
+  "limitation": "R1仅做结构索引（135 spine，未合并全文）；本v2为可复现合并版本，行号只在v2下有效，历史重点阅读不等于逐段精读。三册合集：《彼得林奇的成功投资（珍藏版）》《战胜华尔街（珍藏版）》《彼得林奇教你理财》。",
+  "locators_note": "按OPF spine顺序合并；三册顺序实为《战胜华尔街》(spine0-35/行1-2203) → 《彼得林奇教你理财》(spine36-102/行2204-3697) → 《彼得林奇的成功投资》(spine103-134/行3698-5552)，与合集标题列举顺序不同。"
+}

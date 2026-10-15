@@ -1,0 +1,97 @@
+{
+  "publication_provenance": {
+    "kind": "书籍阅读、历史案例及教学复算资料",
+    "source_record": "阅读记录/B06_CH18_复算.json",
+    "financial_numbers_origin": "仅为书内案例、历史统计或教学复算；不是维护者或使用者的资产、账户、持仓或交易记录。",
+    "private_account_or_holdings_data": false
+  },
+  "book": "B06",
+  "volume": "第一册《战胜华尔街》",
+  "chapter": 18,
+  "chapter_title": "我的房利美公司纪事",
+  "range": {
+    "start_line": 1791,
+    "end_line": 1898,
+    "line_count": 108,
+    "chars_with_newlines": 10128
+  },
+  "decode": "B06-v2-2026-10-13",
+  "image_files_referenced": [
+    "images/00016.jpg",
+    "images/00017.jpg"
+  ],
+  "image_files_newly_viewed_this_batch": [
+    "images/00017.jpg"
+  ],
+  "image_note": "spine29（index_split_028.html）覆盖1791–1898行；00016装饰图标×13（已在章0目视）、00017表18-1小结（FNM／房利美公司／68.75美元，1992-1-13）。图像集中在章末1885–1898行，表题在1883行。spine29无脚注链，含译者注1条。",
+  "checks": {
+    "spread_economics": {
+      "input": "'它可以借到利息为8%的15年期贷款，然后用这笔资金购买利息为9%的15年期住房抵押合约，从中赚取1%的差价'；'额度为1000亿的贷款的1%的差额仍然有10亿美元之多'",
+      "computation": "9%-8%=1%✅；1000亿×1%=10亿美元✅",
+      "status": "PASS"
+    },
+    "opex_advantage": {
+      "input": "'银行的一般管理费用要占到2%~3%，房利美只需支出0.2%的一般管理费用就足够了'；1300名员工",
+      "computation": "0.2%对2%~3%=低10~15倍",
+      "status": "PASS_WITH_CAVEAT",
+      "note": "'美国银行拥有的支行和房利美拥有的职工一般多'为修辞式比较"
+    },
+    "old_fannie_negative_spread": {
+      "input": "老房利美：长期抵押合约收益8%~10%，短期贷款利率冲高至18%~20%；股价1974年9美元跌到2美元",
+      "computation": "借入18%~20%对贷出8%~10%=-8%~-12%；9→2=-77.8%",
+      "status": "PASS"
+    },
+    "granite_block": {
+      "input": "1983年仍持有600亿高价买进的旧抵押合约（收益9.24%、成本11.87%）；1986年笔记'已售出100亿，剩300亿'；其后'再次卖出100亿'",
+      "computation": "1983账面-200亿的差额在三处叙述中未被逐一勾稽；负利差=9.24%-11.87%=-2.63%",
+      "status": "PASS_WITH_CAVEAT",
+      "note": "规模序列需并列引用，不单独采用某一处数字"
+    },
+    "securitization_scale": {
+      "input": "1983年每月10亿；1985年每年打包230亿；1989年累计2250亿、该业务利润4亿美元；目标行业规模3000亿",
+      "computation": "10亿/月×12=120亿/年（1983）→230亿（1985）→累计2250亿；4亿/2250亿=0.18%的利润率（口径不明）",
+      "status": "BOOK_CLAIM_UNVERIFIED"
+    },
+    "rate_sensitivity_claim": {
+      "input": "1987年10月13日马克斯韦尔：'如果利率上涨3个百分点，房利美的收益只会下降50美分'",
+      "computation": "对1987年EPS 1.55美元=下降32.3%",
+      "status": "BOOK_CLAIM_UNVERIFIED",
+      "note": "单点陈述，未给传导细节"
+    },
+    "valuation": {
+      "input": "1992年股价69美元、每股盈利6美元、市盈率11倍；市场平均23倍；1985年'如果EPS达7美元，则PE为1倍'；1992年股价68.75美元（表18-1）",
+      "computation": "69/6=11.5倍（书称11倍）✅；市场23倍→相对折价约50%；1985年9/7=1.29倍（书称1倍为约数）",
+      "status": "PASS_WITH_CAVEAT"
+    },
+    "delinquency": {
+      "input": "90日拖欠率从1988年的1.1%下降到1989年的0.6%",
+      "computation": "1.1%→0.6%=-45.5%",
+      "status": "PASS"
+    },
+    "position_limit": {
+      "input": "1990年尝试维持SEC规定的5%单只上限；因股价上涨实际达6%；1989年4%→一度5%",
+      "computation": "5%为制度上限；超额因价格变动",
+      "status": "PASS_WITH_CAVEAT",
+      "note": "不构成买入授权"
+    },
+    "extreme_claim": {
+      "input": "'只要人们继续支付按揭贷款，房利美公司就会是这个星球上留下的最后一个有利可图的公司'；'好公司的股票永远值得珍藏'",
+      "computation": "定性",
+      "status": "NOT_AUTHORIZED",
+      "note": "极端情景修辞；'永远值得珍藏'须与退出纪律并行"
+    },
+    "accounting_change": {
+      "input": "新会计准则要求还贷费用按每笔按揭生命期平均分摊；此前'还款一到账就马上计为收入'造成季度收入剧烈起伏",
+      "computation": "定性（会计政策变更）",
+      "status": "PASS_WITH_CAVEAT",
+      "note": "'自这些法规生效后再未出现季度收入骤降'的改善来自会计政策，须与经营改善分离"
+    }
+  },
+  "flags": [
+    "BOOK_CLAIM_UNVERIFIED：员工/利润对比、5亿美元头仓与10亿美元收益、打包规模与利润、3000亿行业规模、房价与拖欠率、巴菲特220万股、回购500万股、可赎回债券等",
+    "PASS_WITH_CAVEAT：'花岗岩块'规模三处叙述未勾稽；1985年'PE 1倍'为约数；会计政策变更带来的改善须单列",
+    "NOT_AUTHORIZED：'最后一个有利可图的公司'与'好公司的股票永远值得珍藏'不构成估值或安全边际依据",
+    "INSTITUTIONAL_PREMISE：准政府机构融资成本优势为核心前提，依赖制度与监管，不可外推",
+    "original_report_verified=false（全部图像与数字）"
+  ]
+}

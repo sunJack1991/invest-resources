@@ -1,0 +1,267 @@
+{
+  "publication_provenance": {
+    "kind": "书籍阅读、历史案例及教学复算资料",
+    "source_record": "阅读记录/B09_R88_复算.json",
+    "financial_numbers_origin": "仅为书内案例、历史统计或教学复算；不是维护者或使用者的资产、账户、持仓或交易记录。",
+    "private_account_or_holdings_data": false
+  },
+  "book": "B09",
+  "title": "漫步华尔街（原书第13版）",
+  "author": "伯顿·G.马尔基尔（Burton G. Malkiel）",
+  "version": "R88-2026-10-14（第1批：卷首材料＋第1–2章，1–271行）",
+  "source_file": "投资书籍/漫步华尔街.epub",
+  "source_sha256": "80c95b78389aa9982e5fcf5693f6e4ac776a527f1c191bcbcf836e4172cb69cb",
+  "decoded_text_sha256": "072a751172bbb26600b897c31c46027e7989fa76910403f9c57c4019725c5a6a",
+  "decoded_text_lines": 2002,
+  "decoded_text_chars": 249791,
+  "batch_range": {
+    "start_line": 1,
+    "end_line": 271
+  },
+  "scope": "本批只处理书中可复算的算术与图内数值；指数/基金收益对比、历史价格与史书数字均为书内转述，未核原披露。",
+  "index_vs_active_1977_2022": {
+    "initial": 10000,
+    "index_fund_terminal": 2143500,
+    "average_active_fund_terminal": 1477033,
+    "difference": 666467,
+    "years": 45,
+    "index_cagr": 0.12668560123117545,
+    "active_cagr": 0.11740001042765269,
+    "status": "BOOK_TRANSCRIPTION_ARITHMETIC_OK",
+    "note": "差额=2,143,500−1,477,033=666,467（自洽）；年化由本书端点反推，属本底稿自行计算（B类），书中未给年化。"
+  },
+  "monthly_saving_example": {
+    "initial": 500,
+    "monthly": 100,
+    "total_contributed_claim": 53200,
+    "implied_months": 527,
+    "implied_years": 43.916666666666664,
+    "book_period_years": 45,
+    "book_terminal": 1500000,
+    "status": "CONFLICT_OPEN",
+    "conflict_note": "书称‘45年、首投500美元＋每月100美元共投入53,200美元’；按45年540期应为54,500美元，53,200美元对应527期（≈43.9年）。差异未解决（作者亦称该计算为虚构例证）。"
+  },
+  "inflation_table_1_1": {
+    "source_image": "converter-master/example/313189/content_51766_0.jpg",
+    "rows": [
+      {
+        "item": "消费者价格指数",
+        "y1962": 30.2,
+        "y2021": 273,
+        "growth_pct": 804.0,
+        "cagr_pct": 3.8
+      },
+      {
+        "item": "好时巧克力棒",
+        "y1962": 0.05,
+        "y2021": 1.0,
+        "growth_pct": 1900.0,
+        "cagr_pct": 5.2
+      },
+      {
+        "item": "《纽约时报》",
+        "y1962": 0.05,
+        "y2021": 3.0,
+        "growth_pct": 5900.0,
+        "cagr_pct": 7.2
+      },
+      {
+        "item": "1类邮资",
+        "y1962": 0.04,
+        "y2021": 0.55,
+        "growth_pct": 1275.0,
+        "cagr_pct": 4.5
+      },
+      {
+        "item": "汽油（美加仑）",
+        "y1962": 0.31,
+        "y2021": 3.18,
+        "growth_pct": 925.8,
+        "cagr_pct": 4.0
+      },
+      {
+        "item": "双层汉堡（麦当劳）",
+        "y1962": 0.28,
+        "y2021": 4.79,
+        "growth_pct": 1611.0,
+        "cagr_pct": 4.9
+      },
+      {
+        "item": "雪佛兰轿车",
+        "y1962": 2529.0,
+        "y2021": 27500.0,
+        "growth_pct": 987.4,
+        "cagr_pct": 4.1
+      },
+      {
+        "item": "带冷冻室的冰箱",
+        "y1962": 470.0,
+        "y2021": 1498.0,
+        "growth_pct": 218.7,
+        "cagr_pct": 2.0
+      }
+    ],
+    "viewed": true,
+    "status": "BOOK_TRANSCRIPTION_ARITHMETIC_OK",
+    "note": "逐行复算 growth=(y2021/y1962−1) 与 cagr=(y2021/y1962)^(1/59)−1 均与图内数值一致（CPI行为指数口径）。"
+  },
+  "tulip_call_option": {
+    "bulb_price": 100,
+    "premium": 20,
+    "premium_pct_of_price": 0.2,
+    "premium_range_in_book": [
+      0.15,
+      0.2
+    ],
+    "price_after": 200,
+    "option_profit": 80,
+    "option_capital_multiple": 4.0,
+    "direct_holding_return": 1.0,
+    "book_claim": "资金增值了3倍（＝增至4倍），直接持有仅翻倍",
+    "status": "TEACHING_EXAMPLE"
+  },
+  "south_sea_bubble": {
+    "government_debt_absorbed_gbp": 10000000,
+    "iou_buy_price_gbp": 55,
+    "converted_share_value_gbp": 100,
+    "refinancing_plan_gbp": 31000000,
+    "price_path_gbp": [
+      130,
+      300,
+      400,
+      550,
+      800,
+      1000
+    ],
+    "mississippi_price_path_francs": [
+      100,
+      2000
+    ],
+    "mississippi_market_cap_vs_national_gold_silver_multiple": 80,
+    "bubble_projects": "约100个新发行项目（含“无人知晓是什么事业”的空壳）",
+    "status": "BOOK_TRANSCRIPTION_UNVERIFIED"
+  },
+  "crash_1929_tables": {
+    "table_2_1_1928_03_03_to_1929_09_03": [
+      {
+        "name": "美国电话电报公司",
+        "open": 179.5,
+        "peak": 335.625,
+        "gain_pct": 87.0
+      },
+      {
+        "name": "伯利恒钢铁公司",
+        "open": 56.875,
+        "peak": 140.375,
+        "gain_pct": 146.8
+      },
+      {
+        "name": "通用电气公司",
+        "open": 128.75,
+        "peak": 396.25,
+        "gain_pct": 207.8
+      },
+      {
+        "name": "蒙哥马利沃特公司",
+        "open": 132.75,
+        "peak": 466.5,
+        "gain_pct": 251.4
+      },
+      {
+        "name": "全美现金出纳机公司",
+        "open": 50.75,
+        "peak": 127.5,
+        "gain_pct": 151.2
+      },
+      {
+        "name": "美国无线电公司",
+        "open": 94.5,
+        "peak": 505.0,
+        "gain_pct": 434.5
+      }
+    ],
+    "table_2_2_1929_09_03_1929_11_13_1932_low": [
+      {
+        "name": "美国电话电报公司",
+        "peak": 304.0,
+        "low_1929": 197.25,
+        "low_1932": 70.25
+      },
+      {
+        "name": "伯利恒钢铁公司",
+        "peak": 140.375,
+        "low_1929": 78.25,
+        "low_1932": 7.25
+      },
+      {
+        "name": "通用电气公司",
+        "peak": 396.25,
+        "low_1929": 168.125,
+        "low_1932": 8.5
+      },
+      {
+        "name": "蒙哥马利沃特公司",
+        "peak": 137.875,
+        "low_1929": 49.25,
+        "low_1932": 3.5
+      },
+      {
+        "name": "全美现金出纳机公司",
+        "peak": 127.5,
+        "low_1929": 59.0,
+        "low_1932": 6.25
+      },
+      {
+        "name": "美国无线电公司",
+        "peak": 101.0,
+        "low_1929": 28.0,
+        "low_1932": 2.5
+      }
+    ],
+    "decline_1929_peak_to_1932_low_pct": {
+      "美国电话电报公司": -0.7689144736842105,
+      "伯利恒钢铁公司": -0.9483526268922529,
+      "通用电气公司": -0.9785488958990536,
+      "蒙哥马利沃特公司": -0.9746146872166818,
+      "全美现金出纳机公司": -0.9509803921568627,
+      "美国无线电公司": -0.9752475247524752
+    },
+    "status": "BOOK_TRANSCRIPTION_ARITHMETIC_OK_WITH_SCOPE_CONFLICT",
+    "scope_conflict": "两表的1929年最高价不一致（ATT 335.625 vs 304；蒙哥马利沃特 466.5 vs 137.875；美国无线电 505 vs 101），因调整基准日不同（1928-03-03后 vs 1929-09-03后的拆股/除权）。记为CONFLICT_OPEN，引用须注明以哪张表为准。"
+  },
+  "market_facts_1920s": {
+    "margin_debt_1921_usd": 1000000000,
+    "margin_debt_1929_usd": 9000000000,
+    "margin_account_holders_1929": 1000000,
+    "volume_black_thursday": 13000000,
+    "volume_oct_29_1929": 16400000,
+    "closed_end_fund_discount_normal": [
+      -0.2,
+      -0.1
+    ],
+    "closed_end_fund_premium_1929": 0.5,
+    "goldman_sachs_trading_premium": 2.0,
+    "tri_continental_premium_of_nav": 2.56,
+    "wiggin_short_shares": 42000,
+    "status": "BOOK_TRANSCRIPTION_UNVERIFIED"
+  },
+  "gamestop_2021": {
+    "price_low": 15,
+    "price_peak": "近500",
+    "price_change_pct": 32.333333333333336,
+    "status": "BOOK_TRANSCRIPTION_UNVERIFIED"
+  },
+  "image_counting": {
+    "references_total_book": 134,
+    "unique_files_book": 83,
+    "epub_image_files": 84,
+    "references_batch_1_271": 13,
+    "unique_viewed_batch": 7,
+    "note": "本批唯一图像7个：作者照片1、'注'字标记图1（重复出现）、表1—1、表2—1、表2—2 与两张版权/排版图。"
+  },
+  "unverified": [
+    "指数/主动基金对比、每月定投示例为作者或先锋基金口径，未核原始序列",
+    "郁金香/南海/密西西比/1929年史实与数字来自二手史书（麦基、卡斯维尔等），未核原始档案",
+    "封闭式基金溢价数据与'约100个泡沫项目'等为书内转述"
+  ]
+}

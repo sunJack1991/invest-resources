@@ -1,0 +1,1066 @@
+{
+  "publication_provenance": {
+    "kind": "书籍阅读、历史案例及教学复算资料",
+    "source_record": "阅读记录/B10_v1_定位.json",
+    "financial_numbers_origin": "仅为书内案例、历史统计或教学复算；不是维护者或使用者的资产、账户、持仓或交易记录。",
+    "private_account_or_holdings_data": false
+  },
+  "version": "B10-v1-2026-10-14",
+  "source_sha256": "7fb3de1a117680af0c73bce8799039a09b06d48e6450c8a292fe650c04ffb756",
+  "decoded_text_sha256": "473bd24939dc8d6f2f9b8cf946b749fa8c73121e461823ae25280e71822088a5",
+  "decoded_text_lines": 2396,
+  "decoded_text_chars": 175813,
+  "locators": [
+    {
+      "index": 0,
+      "source": "titlepage.xhtml",
+      "start_line": 1,
+      "end_line": 1,
+      "images": [
+        "cover.jpeg"
+      ],
+      "footnote_links": []
+    },
+    {
+      "index": 1,
+      "source": "index_split_000.html",
+      "start_line": 2,
+      "end_line": 44,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 2,
+      "source": "index_split_001.html",
+      "start_line": 45,
+      "end_line": 106,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 3,
+      "source": "index_split_002.html",
+      "start_line": 107,
+      "end_line": 116,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 4,
+      "source": "index_split_003.html",
+      "start_line": 117,
+      "end_line": 140,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 5,
+      "source": "index_split_004.html",
+      "start_line": 141,
+      "end_line": 150,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 6,
+      "source": "index_split_005.html",
+      "start_line": 151,
+      "end_line": 157,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 7,
+      "source": "index_split_006.html",
+      "start_line": 158,
+      "end_line": 182,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 8,
+      "source": "index_split_007.html",
+      "start_line": 183,
+      "end_line": 201,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 9,
+      "source": "index_split_008.html",
+      "start_line": 202,
+      "end_line": 206,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 10,
+      "source": "index_split_009.html",
+      "start_line": 207,
+      "end_line": 214,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 11,
+      "source": "index_split_010.html",
+      "start_line": 215,
+      "end_line": 277,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 12,
+      "source": "index_split_011.html",
+      "start_line": 278,
+      "end_line": 313,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 13,
+      "source": "index_split_012.html",
+      "start_line": 314,
+      "end_line": 325,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 14,
+      "source": "index_split_013.html",
+      "start_line": 326,
+      "end_line": 329,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 15,
+      "source": "index_split_014.html",
+      "start_line": 330,
+      "end_line": 389,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 16,
+      "source": "index_split_015.html",
+      "start_line": 390,
+      "end_line": 399,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 17,
+      "source": "index_split_016.html",
+      "start_line": 400,
+      "end_line": 411,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 18,
+      "source": "index_split_017.html",
+      "start_line": 412,
+      "end_line": 418,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 19,
+      "source": "index_split_018.html",
+      "start_line": 419,
+      "end_line": 435,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 20,
+      "source": "index_split_019.html",
+      "start_line": 436,
+      "end_line": 467,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 21,
+      "source": "index_split_020.html",
+      "start_line": 468,
+      "end_line": 498,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 22,
+      "source": "index_split_021.html",
+      "start_line": 499,
+      "end_line": 517,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 23,
+      "source": "index_split_022.html",
+      "start_line": 518,
+      "end_line": 529,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 24,
+      "source": "index_split_023.html",
+      "start_line": 530,
+      "end_line": 537,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 25,
+      "source": "index_split_024.html",
+      "start_line": 538,
+      "end_line": 575,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 26,
+      "source": "index_split_025.html",
+      "start_line": 576,
+      "end_line": 581,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 27,
+      "source": "index_split_026.html",
+      "start_line": 582,
+      "end_line": 595,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 28,
+      "source": "index_split_027.html",
+      "start_line": 596,
+      "end_line": 598,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 29,
+      "source": "index_split_028.html",
+      "start_line": 599,
+      "end_line": 607,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 30,
+      "source": "index_split_029.html",
+      "start_line": 608,
+      "end_line": 618,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 31,
+      "source": "index_split_030.html",
+      "start_line": 619,
+      "end_line": 622,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 32,
+      "source": "index_split_031.html",
+      "start_line": 623,
+      "end_line": 627,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 33,
+      "source": "index_split_032.html",
+      "start_line": 628,
+      "end_line": 630,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 34,
+      "source": "index_split_033.html",
+      "start_line": 631,
+      "end_line": 635,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 35,
+      "source": "index_split_034.html",
+      "start_line": 636,
+      "end_line": 639,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 36,
+      "source": "index_split_035.html",
+      "start_line": 640,
+      "end_line": 648,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 37,
+      "source": "index_split_036.html",
+      "start_line": 649,
+      "end_line": 713,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 38,
+      "source": "index_split_037.html",
+      "start_line": 714,
+      "end_line": 718,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 39,
+      "source": "index_split_038.html",
+      "start_line": 719,
+      "end_line": 722,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 40,
+      "source": "index_split_039.html",
+      "start_line": 723,
+      "end_line": 727,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 41,
+      "source": "index_split_040.html",
+      "start_line": 728,
+      "end_line": 733,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 42,
+      "source": "index_split_041.html",
+      "start_line": 734,
+      "end_line": 737,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 43,
+      "source": "index_split_042.html",
+      "start_line": 738,
+      "end_line": 745,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 44,
+      "source": "index_split_043.html",
+      "start_line": 746,
+      "end_line": 750,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 45,
+      "source": "index_split_044.html",
+      "start_line": 751,
+      "end_line": 753,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 46,
+      "source": "index_split_045.html",
+      "start_line": 754,
+      "end_line": 759,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 47,
+      "source": "index_split_046.html",
+      "start_line": 760,
+      "end_line": 771,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 48,
+      "source": "index_split_047.html",
+      "start_line": 772,
+      "end_line": 777,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 49,
+      "source": "index_split_048.html",
+      "start_line": 778,
+      "end_line": 781,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 50,
+      "source": "index_split_049.html",
+      "start_line": 782,
+      "end_line": 787,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 51,
+      "source": "index_split_050.html",
+      "start_line": 788,
+      "end_line": 796,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 52,
+      "source": "index_split_051.html",
+      "start_line": 797,
+      "end_line": 801,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 53,
+      "source": "index_split_052.html",
+      "start_line": 802,
+      "end_line": 808,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 54,
+      "source": "index_split_053.html",
+      "start_line": 809,
+      "end_line": 832,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 55,
+      "source": "index_split_054.html",
+      "start_line": 833,
+      "end_line": 843,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 56,
+      "source": "index_split_055.html",
+      "start_line": 844,
+      "end_line": 859,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 57,
+      "source": "index_split_056.html",
+      "start_line": 860,
+      "end_line": 866,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 58,
+      "source": "index_split_057.html",
+      "start_line": 867,
+      "end_line": 871,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 59,
+      "source": "index_split_058.html",
+      "start_line": 872,
+      "end_line": 885,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 60,
+      "source": "index_split_059.html",
+      "start_line": 886,
+      "end_line": 903,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 61,
+      "source": "index_split_060.html",
+      "start_line": 904,
+      "end_line": 947,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 62,
+      "source": "index_split_061.html",
+      "start_line": 948,
+      "end_line": 957,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 63,
+      "source": "index_split_062.html",
+      "start_line": 958,
+      "end_line": 975,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 64,
+      "source": "index_split_063.html",
+      "start_line": 976,
+      "end_line": 1021,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 65,
+      "source": "index_split_064.html",
+      "start_line": 1022,
+      "end_line": 1032,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 66,
+      "source": "index_split_065.html",
+      "start_line": 1033,
+      "end_line": 1062,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 67,
+      "source": "index_split_066.html",
+      "start_line": 1063,
+      "end_line": 1073,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 68,
+      "source": "index_split_067.html",
+      "start_line": 1074,
+      "end_line": 1088,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 69,
+      "source": "index_split_068.html",
+      "start_line": 1089,
+      "end_line": 1104,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 70,
+      "source": "index_split_069.html",
+      "start_line": 1105,
+      "end_line": 1108,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 71,
+      "source": "index_split_070.html",
+      "start_line": 1109,
+      "end_line": 1110,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 72,
+      "source": "index_split_071.html",
+      "start_line": 1111,
+      "end_line": 1241,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 73,
+      "source": "index_split_072.html",
+      "start_line": 1242,
+      "end_line": 1270,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 74,
+      "source": "index_split_073.html",
+      "start_line": 1271,
+      "end_line": 1349,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 75,
+      "source": "index_split_074.html",
+      "start_line": 1350,
+      "end_line": 1426,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 76,
+      "source": "index_split_075.html",
+      "start_line": 1427,
+      "end_line": 1437,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 77,
+      "source": "index_split_076.html",
+      "start_line": 1438,
+      "end_line": 1464,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 78,
+      "source": "index_split_077.html",
+      "start_line": 1465,
+      "end_line": 1486,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 79,
+      "source": "index_split_078.html",
+      "start_line": 1487,
+      "end_line": 1504,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 80,
+      "source": "index_split_079.html",
+      "start_line": 1505,
+      "end_line": 1514,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 81,
+      "source": "index_split_080.html",
+      "start_line": 1515,
+      "end_line": 1518,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 82,
+      "source": "index_split_081.html",
+      "start_line": 1519,
+      "end_line": 1563,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 83,
+      "source": "index_split_082.html",
+      "start_line": 1564,
+      "end_line": 1598,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 84,
+      "source": "index_split_083.html",
+      "start_line": 1599,
+      "end_line": 1634,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 85,
+      "source": "index_split_084.html",
+      "start_line": 1635,
+      "end_line": 1672,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 86,
+      "source": "index_split_085.html",
+      "start_line": 1673,
+      "end_line": 1704,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 87,
+      "source": "index_split_086.html",
+      "start_line": 1705,
+      "end_line": 1732,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 88,
+      "source": "index_split_087.html",
+      "start_line": 1733,
+      "end_line": 1745,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 89,
+      "source": "index_split_088.html",
+      "start_line": 1746,
+      "end_line": 1751,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 90,
+      "source": "index_split_089.html",
+      "start_line": 1752,
+      "end_line": 1752,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 91,
+      "source": "index_split_090.html",
+      "start_line": 1753,
+      "end_line": 1761,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 92,
+      "source": "index_split_091.html",
+      "start_line": 1762,
+      "end_line": 1763,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 93,
+      "source": "index_split_092.html",
+      "start_line": 1764,
+      "end_line": 1778,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 94,
+      "source": "index_split_093.html",
+      "start_line": 1779,
+      "end_line": 1781,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 95,
+      "source": "index_split_094.html",
+      "start_line": 1782,
+      "end_line": 1812,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 96,
+      "source": "index_split_095.html",
+      "start_line": 1813,
+      "end_line": 1818,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 97,
+      "source": "index_split_096.html",
+      "start_line": 1819,
+      "end_line": 1832,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 98,
+      "source": "index_split_097.html",
+      "start_line": 1833,
+      "end_line": 1837,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 99,
+      "source": "index_split_098.html",
+      "start_line": 1838,
+      "end_line": 1842,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 100,
+      "source": "index_split_099.html",
+      "start_line": 1843,
+      "end_line": 1846,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 101,
+      "source": "index_split_100.html",
+      "start_line": 1847,
+      "end_line": 1861,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 102,
+      "source": "index_split_101.html",
+      "start_line": 1862,
+      "end_line": 1874,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 103,
+      "source": "index_split_102.html",
+      "start_line": 1875,
+      "end_line": 1882,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 104,
+      "source": "index_split_103.html",
+      "start_line": 1883,
+      "end_line": 1905,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 105,
+      "source": "index_split_104.html",
+      "start_line": 1906,
+      "end_line": 1915,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 106,
+      "source": "index_split_105.html",
+      "start_line": 1916,
+      "end_line": 1964,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 107,
+      "source": "index_split_106.html",
+      "start_line": 1965,
+      "end_line": 1993,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 108,
+      "source": "index_split_107.html",
+      "start_line": 1994,
+      "end_line": 2015,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 109,
+      "source": "index_split_108.html",
+      "start_line": 2016,
+      "end_line": 2062,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 110,
+      "source": "index_split_109.html",
+      "start_line": 2063,
+      "end_line": 2076,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 111,
+      "source": "index_split_110.html",
+      "start_line": 2077,
+      "end_line": 2088,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 112,
+      "source": "index_split_111.html",
+      "start_line": 2089,
+      "end_line": 2114,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 113,
+      "source": "index_split_112.html",
+      "start_line": 2115,
+      "end_line": 2129,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 114,
+      "source": "index_split_113.html",
+      "start_line": 2130,
+      "end_line": 2142,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 115,
+      "source": "index_split_114.html",
+      "start_line": 2143,
+      "end_line": 2149,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 116,
+      "source": "index_split_115.html",
+      "start_line": 2150,
+      "end_line": 2157,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 117,
+      "source": "index_split_116.html",
+      "start_line": 2158,
+      "end_line": 2167,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 118,
+      "source": "index_split_117.html",
+      "start_line": 2168,
+      "end_line": 2176,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 119,
+      "source": "index_split_118.html",
+      "start_line": 2177,
+      "end_line": 2180,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 120,
+      "source": "index_split_119.html",
+      "start_line": 2181,
+      "end_line": 2198,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 121,
+      "source": "index_split_120.html",
+      "start_line": 2199,
+      "end_line": 2200,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 122,
+      "source": "index_split_121.html",
+      "start_line": 2201,
+      "end_line": 2212,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 123,
+      "source": "index_split_122.html",
+      "start_line": 2213,
+      "end_line": 2221,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 124,
+      "source": "index_split_123.html",
+      "start_line": 2222,
+      "end_line": 2227,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 125,
+      "source": "index_split_124.html",
+      "start_line": 2228,
+      "end_line": 2244,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 126,
+      "source": "index_split_125.html",
+      "start_line": 2245,
+      "end_line": 2247,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 127,
+      "source": "index_split_126.html",
+      "start_line": 2248,
+      "end_line": 2252,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 128,
+      "source": "index_split_127.html",
+      "start_line": 2253,
+      "end_line": 2259,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 129,
+      "source": "index_split_128.html",
+      "start_line": 2260,
+      "end_line": 2266,
+      "images": [],
+      "footnote_links": []
+    },
+    {
+      "index": 130,
+      "source": "index_split_129.html",
+      "start_line": 2267,
+      "end_line": 2396,
+      "images": [],
+      "footnote_links": []
+    }
+  ],
+  "limitation": "B10 v1按OPF原spine顺序、正文段落逐行、保留全部内联文字注；跳过HTML head样板。img和SVG image分别识别并统一路径；空footnote_links不是无内联注的证明。131spine不是131章；本地导言/16章/末尾目录，正文历史截至1963年前后。版本确切英译底本未核；全文提取不等于实际阅读。"
+}

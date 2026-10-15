@@ -1,0 +1,256 @@
+{
+  "publication_provenance": {
+    "kind": "书籍阅读、历史案例及教学复算资料",
+    "source_record": "阅读记录/B09_R119_表15与附表处理.json",
+    "financial_numbers_origin": "仅为书内案例、历史统计或教学复算；不是维护者或使用者的资产、账户、持仓或交易记录。",
+    "private_account_or_holdings_data": false
+  },
+  "round": "R119",
+  "date_utc": "2026-10-14",
+  "book": "B09",
+  "scope": "P1第①组：表15系列＋附表9/10（open_issues 第39–43、50条）",
+  "mode": "只读复核（原书图像逐幅）＋逐行精确复算；不改原书/原条目/政策",
+  "evidence_images": [
+    {
+      "use": "表15—1(1/2)",
+      "file": "content_51783_1.jpg",
+      "spine": 23
+    },
+    {
+      "use": "表15—1(2/2)",
+      "file": "content_51783_2.jpg",
+      "spine": 23
+    },
+    {
+      "use": "表15—2(1/2)",
+      "file": "content_51783_4.jpg",
+      "spine": 23
+    },
+    {
+      "use": "表15—2(2/2)",
+      "file": "content_51783_5.jpg",
+      "spine": 23
+    },
+    {
+      "use": "附表5",
+      "file": "content_51785_5.jpg",
+      "spine": 25
+    },
+    {
+      "use": "附表9",
+      "file": "content_51785_9.jpg",
+      "spine": 25
+    },
+    {
+      "use": "附表10",
+      "file": "content_51785_10.jpg",
+      "spine": 25
+    }
+  ],
+  "table15_1": {
+    "printed": {
+      "现金": 5,
+      "债券及替代品": 27.5,
+      "债券及替代品_明细": {
+        "美国长期公司债ETF": 7.5,
+        "新兴市场政府债基金": 7.5,
+        "股利增长型基金": 12.5
+      },
+      "房地产投资信托": 12.5,
+      "股票": 55,
+      "股票_明细": {
+        "美国国内": 27,
+        "其他发达国家": 14,
+        "新兴市场": 14
+      }
+    },
+    "recomputed": {
+      "合计": 100,
+      "债券及替代品明细合计": 27.5,
+      "股票明细合计": 55,
+      "真实股票经济敞口": 67.5,
+      "真实债券敞口": 15
+    },
+    "status": "RESOLVED"
+  },
+  "issue40": {
+    "status": "RESOLVED_WITHDRAWN",
+    "evidence": "表15—1与图14—2c原图均为27.5%；解码全文 grep '37.5' 与 '27.5' 均零命中",
+    "verdict": "原登记的37.5%/合计110%在本机证据中不存在"
+  },
+  "idev_fee": {
+    "table15_2_IDEV": 0.07,
+    "appendix5_IDEV": 0.05,
+    "appendix5_note": "表头为'近期费率'，资产净值为2022年，设立时间2017",
+    "status": "RESOLVED_WITH_CAVEAT",
+    "verdict": "时点/版本差；并列引用，优先附表5（2022年口径）"
+  },
+  "appendix9_vs_10": {
+    "appendix9_rows": [
+      "TDF 中国",
+      "CAF 中国",
+      "IFN 印度",
+      "CHN 中国大型公司",
+      "MXE 墨西哥",
+      "AEF 所有新兴市场",
+      "EMF 所有新兴市场"
+    ],
+    "appendix10_rows": [
+      "BBF 全美",
+      "VKQ 全美",
+      "NEV 全美",
+      "BFZ 加利福尼亚州",
+      "NVG 全美",
+      "NUO 俄亥俄州",
+      "MPA 宾夕法尼亚州",
+      "NAN 纽约州",
+      "NXJ 新泽西州"
+    ],
+    "status": "CONFIRMED_DEFECT",
+    "verdict": "附表9/附表10标题互换（9=国家/新兴市场股票封闭式基金；10=市政债券封闭式基金）"
+  },
+  "appendix10_recompute": {
+    "BBF": {
+      "nav": 15.63,
+      "price": 14.67,
+      "printed": -6.1,
+      "recomputed": -6.141906
+    },
+    "VKQ": {
+      "nav": 13.03,
+      "price": 12.16,
+      "printed": -6.7,
+      "recomputed": -6.6769
+    },
+    "NEV": {
+      "nav": 15.61,
+      "price": 15.06,
+      "printed": -3.5,
+      "recomputed": -3.523383
+    },
+    "BFZ": {
+      "nav": 15.6,
+      "price": 14.08,
+      "printed": -9.7,
+      "recomputed": -9.74359
+    },
+    "NVG": {
+      "nav": 17.13,
+      "price": 16.66,
+      "printed": -2.7,
+      "recomputed": -2.744892
+    },
+    "NUO": {
+      "nav": 17.2,
+      "price": 15.61,
+      "printed": -2.6,
+      "recomputed": -9.244186,
+      "diff_pp": 6.644186,
+      "status": "CONFIRMED_DEFECT",
+      "note": "价格与折价率与MPA行完全相同（15.61/-2.6），疑整行数值误抄/排版重复"
+    },
+    "MPA": {
+      "nav": 16.02,
+      "price": 15.61,
+      "printed": -2.6,
+      "recomputed": -2.559301
+    },
+    "NAN": {
+      "nav": 15.27,
+      "price": 14.11,
+      "printed": -7.6,
+      "recomputed": -7.596595
+    },
+    "NXJ": {
+      "nav": 16.21,
+      "price": 14.61,
+      "printed": -9.9,
+      "recomputed": -9.870451
+    }
+  },
+  "appendix9_recompute": {
+    "TDF": {
+      "nav": 18.17,
+      "price": 16.64,
+      "printed": -8.5,
+      "recomputed": -8.420473
+    },
+    "CAF": {
+      "nav": 21.64,
+      "price": 19.78,
+      "printed": -9.4,
+      "recomputed": -8.595194,
+      "diff_pp": 0.804806,
+      "status": "CONFIRMED_INCONSISTENCY"
+    },
+    "IFN": {
+      "nav": 24.33,
+      "price": 22.2,
+      "printed": -8.8,
+      "recomputed": -8.754624
+    },
+    "CHN": {
+      "nav": 20.0,
+      "price": 18.54,
+      "printed": -7.3,
+      "recomputed": -7.3
+    },
+    "MXE": {
+      "nav": 11.31,
+      "price": 9.09,
+      "printed": -19.6,
+      "recomputed": -19.628647
+    },
+    "AEF": {
+      "nav": 8.87,
+      "price": 8.1,
+      "printed": -8.7,
+      "recomputed": -8.680947
+    },
+    "EMF": {
+      "nav": 18.12,
+      "price": 16.3,
+      "printed": -10.5,
+      "recomputed": -10.044151,
+      "diff_pp": 0.455849,
+      "status": "CONFIRMED_INCONSISTENCY"
+    }
+  },
+  "followups": [
+    {
+      "seq": 39,
+      "status": "RESOLVED",
+      "note": "真实股票经济敞口67.5%（含计入债券替代品的12.5%股利股票）、债券15%"
+    },
+    {
+      "seq": 40,
+      "status": "RESOLVED_WITHDRAWN",
+      "note": "表15—1与图14—2c均为27.5%；37.5%/110%不可复现"
+    },
+    {
+      "seq": 41,
+      "status": "RESOLVED_WITH_CAVEAT",
+      "note": "表15—2=0.07%（无年份）对附表5=0.05%（2022年）；并列引用，优先附表5"
+    },
+    {
+      "seq": 42,
+      "status": "CONFIRMED_DEFECT",
+      "note": "附表9/10标题互换；按内容归类引用"
+    },
+    {
+      "seq": 43,
+      "status": "CONFIRMED_DEFECT",
+      "note": "NUO折价应为-9.24%（印-2.6%且与MPA行相同）；其余8行吻合"
+    },
+    {
+      "seq": 50,
+      "status": "CONFIRMED_INCONSISTENCY",
+      "note": "CAF-8.60对-9.4、EMF-10.04对-10.5；其余五行吻合"
+    }
+  ],
+  "limitations": [
+    "仅基于本机电子版图像与解码文本；基金费率档案与封闭式基金历史净值/价格序列未取得",
+    "缺陷判定限于本电子版数值自洽层面",
+    "不改原条目、不改原书、不改政策参数"
+  ]
+}

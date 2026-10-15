@@ -1,0 +1,341 @@
+{
+  "publication_provenance": {
+    "kind": "书籍阅读、历史案例及教学复算资料",
+    "source_record": "阅读记录/B05_CH06_复算.json",
+    "financial_numbers_origin": "仅为书内案例、历史统计或教学复算；不是维护者或使用者的资产、账户、持仓或交易记录。",
+    "private_account_or_holdings_data": false
+  },
+  "book_id": "B05",
+  "chapter": 6,
+  "title": "估值与会计",
+  "decode": "B05-v2-2026-10-13",
+  "range": {
+    "start_line": 1932,
+    "end_line": 2197,
+    "line_count": 266,
+    "chars_with_newlines": 25269
+  },
+  "images": [
+    {
+      "file": "images/00004.jpeg",
+      "content": "表6-1 每股投资（1965/1975/1985/1995/2005；1965–2005 28.0%；1995–2005 13.0%）",
+      "status": "目视阅读",
+      "original_report_verified": false
+    },
+    {
+      "file": "images/00005.jpeg",
+      "content": "表6-2 每股利润（1965/1975/1985/1995/2005；1965–2005 17.2%；1995–2005 30.2%）",
+      "status": "目视阅读",
+      "original_report_verified": false
+    },
+    {
+      "file": "images/00006.jpeg",
+      "content": "表6-3 利润表上半（斯科特·费泽 O公司/N公司；单位千美元）",
+      "status": "目视阅读",
+      "original_report_verified": false
+    },
+    {
+      "file": "images/00007.jpeg",
+      "content": "表6-3 利润表续（运营利润至净利润）",
+      "status": "目视阅读",
+      "original_report_verified": false
+    },
+    {
+      "file": "images/00008.jpeg",
+      "content": "表6-4 资产负债表（O公司/N公司）",
+      "status": "目视阅读",
+      "original_report_verified": false
+    }
+  ],
+  "checks": {
+    "table_6_1_per_share_investments_cagr": {
+      "status": "PARTIAL_MISMATCH_ROUNDED",
+      "inputs": {
+        "1965": 4,
+        "1995": 21817,
+        "2005": 74129
+      },
+      "computed_1975_2005_40y_pct": 27.85,
+      "computed_1995_2005_10y_pct": 13.01,
+      "book_printed": {
+        "1965_2005": "28.0%",
+        "1995_2005": "13.0%"
+      },
+      "note": "40年RE差0.15个百分点，属量级一致；10年一致",
+      "source_verified": false
+    },
+    "table_6_2_per_share_earnings_cagr": {
+      "status": "MISMATCH_REGISTERED",
+      "inputs": {
+        "1965": 4,
+        "1975": 4,
+        "1985": 52,
+        "1995": 175,
+        "2005": 2441
+      },
+      "computed_1965_2005_40y_pct": 17.39,
+      "computed_1995_2005_10y_pct": 30.15,
+      "book_printed": {
+        "1965_2005": "17.2%",
+        "1995_2005": "30.2%"
+      },
+      "note": "40年复算17.39%对书示17.2%，差0.19个百分点，疑为基期/终期口径或舍入；登记不改原书",
+      "source_verified": false
+    },
+    "table_6_3_income_statement": {
+      "status": "ARITHMETIC_OK",
+      "unit": "千美元",
+      "company_o": {
+        "revenue": 677240,
+        "cogs": 349471,
+        "gross_profit": 327769,
+        "expenses": 260286,
+        "operating_profit": 67483,
+        "pretax": 71618,
+        "tax": 31387,
+        "net_income": 40231
+      },
+      "company_n": {
+        "revenue": 677240,
+        "cogs": 359504,
+        "gross_profit": 317736,
+        "expenses": 260881,
+        "operating_profit": 56855,
+        "pretax": 60990,
+        "tax": 32385,
+        "net_income": 28605
+      },
+      "cross_check": {
+        "o_cogs": "341170+8301=349471",
+        "n_cogs": "341170+4979+13355=359504",
+        "n_expenses": "260286+595=260881",
+        "net_income_diff": 11626,
+        "addback_sum": "4979+5054+595+998=11626",
+        "depreciation_delta": "13355-8301=5054"
+      },
+      "book_printed": "净利差1160万美元",
+      "source_verified": false
+    },
+    "purchase_premium_allocation": {
+      "status": "ARITHMETIC_OK",
+      "book_value_net_assets": 1.724,
+      "purchase_price": 3.15,
+      "premium": 1.426,
+      "allocation": {
+        "inventory": 0.373,
+        "fixed_assets": 0.68,
+        "deferred_tax": -0.13,
+        "goodwill": 0.243
+      },
+      "cross_check": "3.15-1.724=1.426; 1.426-0.373-0.810=0.243; 0.810=0.680+0.130",
+      "source_verified": false
+    },
+    "table_6_4_balance_sheet": {
+      "status": "ARITHMETIC_OK",
+      "unit": "千美元",
+      "company_o": {
+        "total_assets": 362347,
+        "total_liabilities": 189970,
+        "equity": 172377
+      },
+      "company_n": {
+        "total_assets": 491989,
+        "total_liabilities": 176993,
+        "equity": 314996
+      },
+      "deltas": {
+        "inventory": 37275,
+        "ppe": 67993,
+        "deferred_tax": 12977,
+        "goodwill_other": 24374,
+        "equity": 142619
+      },
+      "book_printed": {
+        "equity_gap": "1.426亿美元",
+        "inventory": "3730万",
+        "ppe": "6800万",
+        "deferred_tax": "1300万",
+        "goodwill": "2430万"
+      },
+      "note": "表内各项差额与书示均为四舍五入关系（如商誉差额实为2437.4万），登记不改",
+      "source_verified": false
+    },
+    "gap_narrowing_1986": {
+      "status": "ARITHMETIC_OK",
+      "start": 1.426,
+      "charges": 0.11626,
+      "end": 1.30974,
+      "book_printed": "从1.426亿美元缩小至1.310亿美元",
+      "source_verified": false
+    },
+    "sees_goodwill_amortization": {
+      "status": "PARTIAL_MISMATCH_ROUNDED",
+      "purchase_price": 2500,
+      "tangible_assets": 800,
+      "goodwill": 1700,
+      "annual_amortization": 42.5,
+      "after_11_years": 1232.5,
+      "book_printed_after_11y": "1250万",
+      "delta": 17.5,
+      "sixty_percent": 739.5,
+      "book_printed_60pct": "约750万",
+      "note": "书示750万按1250x60%得出，属书内自洽但步骤未复原；11年摊销复算1232.5万，差17.5万",
+      "source_verified": false
+    },
+    "sees_goodwill_1983_split": {
+      "status": "ARITHMETIC_OK",
+      "purchased_net_assets_excess": 5170,
+      "sees": 2840,
+      "buffalo_news": 2330,
+      "sum_check": "2840+2330=5170"
+    },
+    "sees_goodwill_balance_1983_1996": {
+      "status": "ARITHMETIC_OK",
+      "start_1983": 3600,
+      "end_1996": 2300,
+      "years": 13,
+      "annual": 100,
+      "check": "(3600-2300)/13=100"
+    },
+    "sees_operating_ratios": {
+      "status": "SELF_REPORTED_UNVERIFIED",
+      "items": [
+        "1972 有形资产800万/税后利润200万=25.0%",
+        "1983 净运营资产1100万/税前利润2700万",
+        "1995 净运营资产500万/利润5000万",
+        "1986 有形净资产2000万/税后盈利1300万"
+      ],
+      "source_verified": false
+    },
+    "inflation_example": {
+      "status": "LOGIC_OK",
+      "plain_company": {
+        "tangible_assets": 1800,
+        "earnings": 200,
+        "roa_pct": 11.11,
+        "book_note": "书示11%"
+      },
+      "sees_extra_needed": 800,
+      "sees_nominal_gain": 2500,
+      "sees_gain_per_dollar": 3.125,
+      "plain_extra_needed": 1800,
+      "plain_gain_per_dollar": 1.0,
+      "book_printed": "禧诗每1美元得3美元；平凡公司1美元得1美元",
+      "note": "禧诗估值为按1972年收购估值12.5倍推得（2500/200）",
+      "source_verified": false
+    },
+    "look_through_earnings_1990": {
+      "status": "ARITHMETIC_OK",
+      "investment_earnings": 2.5,
+      "hypothetical_tax": 0.3,
+      "operating_earnings": 3.71,
+      "computed": 5.91,
+      "book_printed": "约5.9亿美元",
+      "unit": "亿美元"
+    },
+    "capital_cities_abc": {
+      "status": "ARITHMETIC_OK",
+      "stake_pct": 17,
+      "attributable_earnings_musd": 8300,
+      "dividend_received_musd": 60,
+      "tax_in_dividend_musd": 7,
+      "recorded_net_musd": 53,
+      "retained_musd": 8247,
+      "book_printed": "余下8200多万美元",
+      "source_verified": false
+    },
+    "black_scholes_extreme": {
+      "status": "ARITHMETIC_OK",
+      "put_notional_busd": 10,
+      "maturity_years": 100,
+      "strike": 903,
+      "formula_premium_musd": 250,
+      "prob_decline_pct": 1,
+      "max_drawdown_pct": 50,
+      "expected_loss_musd": 500,
+      "premium_fv_musd": 502.21,
+      "coverage_check": "250*1.007^100=502.21 足以覆盖500万预期损失",
+      "worst_case_implied_rate_pct": 6.175,
+      "book_printed_worst_case": "6.2%",
+      "inflation_2pct_100y_usd": 0.138,
+      "book_printed_inflation": "0.14美元",
+      "note": "20世纪道指上升约175倍为作者自述，未核",
+      "source_verified": false
+    },
+    "misc_claims_unverified": {
+      "status": "SELF_REPORTED_UNVERIFIED",
+      "items": [
+        "1999年潘恩·韦伯-盖洛普调查：投资者预期未来十年平均年回报19%",
+        "1987年少数股权市值超20亿美元而税后利润仅1100万美元、对应税后盈利超1亿美元",
+        "1964年每股账面19.46美元；1996-03-31每股账面15180美元",
+        "1995年股价每股36000美元",
+        "伯克希尔长期股东占比在美国大型公司中可能名列第一",
+        "盖可保险收购商誉约16亿美元、年摊销4000万美元",
+        "1983年底后一类持股税前市值超7000万美元、税后约5000万美元",
+        "'1美元留存转化至少1美元市场价值'的长期记录",
+        "20世纪道琼斯指数上升约175倍",
+        "1970年11月商誉摊销准则起点（未核APB第17号原文与生效日）"
+      ],
+      "boundary": "均为书内自述/转述，未核原披露与准则原文；不得作为推导输入"
+    },
+    "arithmetic": {
+      "status": "PASS",
+      "computations": [
+        {
+          "expr": "(74129/4)^(1/40)-1",
+          "pct": 27.85
+        },
+        {
+          "expr": "(74129/21817)^(1/10)-1",
+          "pct": 13.01
+        },
+        {
+          "expr": "(2441/4)^(1/40)-1",
+          "pct": 17.39
+        },
+        {
+          "expr": "(2441/175)^(1/10)-1",
+          "pct": 30.15
+        },
+        {
+          "expr": "40231-28605",
+          "value": 11626
+        },
+        {
+          "expr": "4979+5054+595+998",
+          "value": 11626
+        },
+        {
+          "expr": "314996-172377",
+          "value": 142619
+        },
+        {
+          "expr": "1700-42.5*11",
+          "value": 1232.5
+        },
+        {
+          "expr": "2.5-0.3+3.71",
+          "value": 5.91
+        },
+        {
+          "expr": "10*0.01*0.5",
+          "value": 0.05
+        },
+        {
+          "expr": "250*1.007^100",
+          "value": 502.21
+        },
+        {
+          "expr": "(400)^(1/100)-1",
+          "pct": 6.175
+        },
+        {
+          "expr": "1.02^-100",
+          "value": 0.138
+        }
+      ]
+    }
+  },
+  "math_or_logic_only": true,
+  "investment_performance_validated": false
+}

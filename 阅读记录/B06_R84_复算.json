@@ -1,0 +1,414 @@
+{
+  "publication_provenance": {
+    "kind": "书籍阅读、历史案例及教学复算资料",
+    "source_record": "阅读记录/B06_R84_复算.json",
+    "financial_numbers_origin": "仅为书内案例、历史统计或教学复算；不是维护者或使用者的资产、账户、持仓或交易记录。",
+    "private_account_or_holdings_data": false
+  },
+  "batch": "2026-10-14-B06-END",
+  "updated_utc": "2026-10-14T02:40:40Z",
+  "range": {
+    "start_line": 4205,
+    "end_line": 5552,
+    "line_count": 1348,
+    "chars_with_newlines": 187694
+  },
+  "source_sha256": "37e31e9183ac0fb4f4d095069805e2de82a3758ad58fee58e194317411503b65",
+  "decoded_text_sha256": "cf81b321d2d4ee21100bcfd2740d585d50f1b10d09b2213fc8aae211525f12eb",
+  "checks": {
+    "adp": {
+      "prices": [
+        0.06,
+        40
+      ],
+      "wealth_multiple": 666.6666666666667,
+      "book_multiple": 600,
+      "status": "PASS_WITH_CAVEAT"
+    },
+    "tagamet": {
+      "starting_prices": [
+        7.5,
+        11
+      ],
+      "end_price": 72,
+      "wealth_multiples": [
+        9.6,
+        6.545454545454546
+      ],
+      "actual_basis": null,
+      "status": "AMBIGUOUS_BASIS"
+    },
+    "product_contribution": {
+      "bufferin_sales": 75000000,
+      "group_sales": 5300000000,
+      "ratio": 0.014150943396226415,
+      "sterling_sales_share": 0.065,
+      "sterling_profit_share": 0.15,
+      "retina_sales_usd": 30000000,
+      "retina_market_cap_change_usd": 1400000000,
+      "comparable_profit_basis": null,
+      "status": "DIFFERENT_DENOMINATORS"
+    },
+    "pebble_beach": {
+      "shares": 1700000,
+      "prices": [
+        14.5,
+        42.5
+      ],
+      "equity_values": [
+        24650000,
+        72250000
+      ],
+      "book_equity_values": [
+        25000000,
+        72000000
+      ],
+      "quarry_sale": 30000000,
+      "net_equity_from_quarry": null,
+      "status": "PASS_WITH_CAVEAT"
+    },
+    "buyback": {
+      "initial_shares": 100,
+      "remaining_shares": 50,
+      "profit_assumed_unchanged": 100,
+      "eps_before": 1,
+      "eps_after": 2,
+      "value_created": null,
+      "tender_premium": 0.3999999999999999,
+      "status": "CONDITIONAL_ARITHMETIC"
+    },
+    "bildungs": {
+      "buy": 13,
+      "terminal": 0.125,
+      "hold_to_terminal_return": -0.9903846153846154,
+      "actual_realized_return": null,
+      "book_realized_range": [
+        -0.95,
+        -0.5
+      ],
+      "status": "DIFFERENT_HOLDING_PATH"
+    },
+    "static_pe": {
+      "price": 35,
+      "eps": 3.5,
+      "pe": 10,
+      "hundred_share_profit": 350,
+      "cash_distribution_assumed": null,
+      "payback_is_discounted": false,
+      "status": "NOT_CASH_PAYBACK"
+    },
+    "polaroid": {
+      "prices": [
+        143,
+        14.125
+      ],
+      "price_return": -0.9012237762237763,
+      "book_return": -0.89,
+      "status": "CONFLICT_OPEN"
+    },
+    "ford_balance_1987": {
+      "unit": "百万美元；原书图表转引，未核原报告",
+      "cash": 5672.9,
+      "securities": 4424.1,
+      "long_debt": 1751.9,
+      "short_debt": 1803.3,
+      "current_long_debt": 79.4,
+      "total_assets": 44955.7,
+      "liabilities_components": [
+        17793.4,
+        1751.9,
+        4426.5,
+        2354.7,
+        136.5
+      ],
+      "equity": 18492.7,
+      "net_cash_long_only": 8345.1,
+      "after_short_and_current": 6462.4,
+      "shares_book_approx_m": 511,
+      "per_share_after_all_listed_debt": 12.646575342465752,
+      "financial_capital_free_to_distribute": null,
+      "status": "BOOK_SHORTCUT_REQUIRES_BRIDGE"
+    },
+    "ford_sotp": {
+      "quote": 38,
+      "cash_book_per_share": 16.3,
+      "finance_eps": 1.66,
+      "finance_multiple_assumed": 10,
+      "residual": 5.1,
+      "auto_eps": 7,
+      "naive_residual_pe": 0.7285714285714285,
+      "finance_cash_overlap": null,
+      "status": "UNVERIFIED_DOUBLE_COUNT_RISK"
+    },
+    "assets_recovery": {
+      "book_assets": 400,
+      "debt": 300,
+      "realizable_assets": 200,
+      "book_equity": 100,
+      "realizable_equity": -100,
+      "status": "SCENARIO_ONLY"
+    },
+    "loom_recovery": {
+      "book_total_usd": 866000,
+      "auction_total_usd": 163000,
+      "ratio": 0.18822170900692842,
+      "individual_cost_usd": 5000,
+      "individual_auction_usd": 26,
+      "individual_ratio": 0.0052,
+      "same_scope": null,
+      "status": "AMBIGUOUS_SCOPE"
+    },
+    "csx": {
+      "rail_value_book_usd": 11000000,
+      "after_tax_income_book_usd": 264000000,
+      "ratio": 24,
+      "actual_sale_basis": null,
+      "status": "CONFLICT_OPEN"
+    },
+    "channel5": {
+      "sale_usd": 450000000,
+      "original_book_usd": 2500000,
+      "original_cost_multiple": 180,
+      "book_claim_multiple": 300,
+      "book_net_after_depreciation": null,
+      "status": "AMBIGUOUS_BASIS"
+    },
+    "goodwill": {
+      "book_life_years": 40,
+      "bottler_reported_eps": 0.63,
+      "amortization_eps": 0.5,
+      "simple_addback_eps": 1.13,
+      "modern_rule_verified": false,
+      "economic_cost_disappears": false,
+      "status": "NOT_TRANSFERABLE"
+    },
+    "fcf_runoff": {
+      "price": 20,
+      "annual_fcf_assumed": 7,
+      "years": 10,
+      "undiscounted_total": 70,
+      "discount_rate_scenario": 0.1,
+      "pv_end_year_payments": 43.011969739932766,
+      "shareholder_cash_paid": null,
+      "borrowing_authorized": false,
+      "status": "SCENARIO_ONLY"
+    },
+    "inventory": {
+      "sale": 450,
+      "earliest_cost": 40,
+      "latest_cost": 400,
+      "lifo_profit": 50,
+      "fifo_profit": 410,
+      "gigo_fish_are_accounting_methods": false,
+      "status": "ARITHMETIC_OK"
+    },
+    "pension": {
+      "assets": [
+        8.5,
+        2.3
+      ],
+      "vested_obligations": [
+        7.3,
+        3.8
+      ],
+      "surplus_bn": [
+        1.2,
+        -1.5
+      ],
+      "modern_full_obligation_verified": false,
+      "status": "BOOK_CLAIM_UNVERIFIED"
+    },
+    "pricing_margin": {
+      "initial_revenue": 100,
+      "initial_cost": 90,
+      "price_change": 0.06,
+      "cost_change": 0.04,
+      "new_revenue": 106,
+      "new_cost": 93.6,
+      "new_profit": 12.4,
+      "profit_growth": 0.24,
+      "new_margin": 0.1169811320754717,
+      "book_profit_growth": 0.2,
+      "status": "CONFLICT_OPEN"
+    },
+    "price_cut": {
+      "initial_revenue": 100,
+      "new_revenue": 90,
+      "costs_assumed_fixed": [
+        88,
+        98
+      ],
+      "profits": [
+        2,
+        -8
+      ],
+      "new_margins": [
+        0.022222222222222223,
+        -0.08888888888888889
+      ],
+      "book_percent_values": [
+        0.02,
+        -0.08
+      ],
+      "status": "AMBIGUOUS_DENOMINATOR"
+    },
+    "table13_1": {
+      "years": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        10
+      ],
+      "a_book_eps": [
+        1,
+        1.2,
+        1.44,
+        1.73,
+        2.07,
+        2.49,
+        3.58,
+        6.19
+      ],
+      "b_book_eps": [
+        1,
+        1.1,
+        1.21,
+        1.33,
+        1.46,
+        1.61,
+        1.95,
+        2.59
+      ],
+      "a_rate": 0.2,
+      "b_rate": 0.1,
+      "a_year10_exact": 6.191736422399997,
+      "b_year10_exact": 2.5937424601000023,
+      "a_end_pe15_value": 92.87604633599996,
+      "a_if_growth25_end_pe15": 139.69838619232178,
+      "status": "CONDITIONAL_COMPOUND"
+    },
+    "table13_2": {
+      "sales_before": 100,
+      "sales_after": 110,
+      "costs_before": [
+        88,
+        98
+      ],
+      "costs_after": [
+        92.4,
+        102.9
+      ],
+      "profits_after": [
+        17.6,
+        7.1
+      ],
+      "profit_growth": [
+        0.4666666666666668,
+        2.55
+      ],
+      "profit_multiples": [
+        1.4666666666666668,
+        3.55
+      ],
+      "status": "ARITHMETIC_OK"
+    },
+    "lockheed": {
+      "defense_eps": 8.04,
+      "aircraft_loss_eps": 6.54,
+      "net_eps_before": 1.5,
+      "after_eps": 10.78,
+      "ratio": 7.1866666666666665,
+      "status": "BOOK_CLAIM_UNVERIFIED"
+    },
+    "active_costs": {
+      "initial": 10000,
+      "years": 10,
+      "terminal15": 40455.57735707907,
+      "terminal10": 25937.424601000024,
+      "target_net": 0.15,
+      "cost_fraction_scenario": 0.04,
+      "gross_for_net_multiplicative": 0.19791666666666652,
+      "book_gross_additive": 0.19,
+      "status": "PASS_WITH_CAVEAT"
+    },
+    "six_rotations": {
+      "period_return": 0.3,
+      "periods": 6,
+      "wealth_multiple": 4.826809000000001,
+      "book_multiple": 4,
+      "costs_and_time": null,
+      "status": "PASS_WITH_CAVEAT"
+    },
+    "philip_morris": {
+      "start": 0.75,
+      "end": 124.5,
+      "multiple": 166,
+      "initial": 1000,
+      "price_terminal": 166000,
+      "separate_cash_dividends_book": 23000,
+      "reinvestment_basis": null,
+      "status": "BOOK_CLAIM_UNVERIFIED"
+    },
+    "option_case": {
+      "provenance": "原书虚构万无一失教学例，不授权衍生交易",
+      "premium_per_share": 1,
+      "capital": 3000,
+      "underlying_shares": 3000,
+      "strike": 20,
+      "stock_if_on_time": 35,
+      "gross_value_if_on_time": 45000,
+      "net_profit_if_on_time": 42000,
+      "if_stock20_at_expiry_payoff": 0,
+      "if_stock35_after_expiry_original_payoff": 0,
+      "contract_multiplier": null,
+      "status": "CONDITIONAL_PAYOFF"
+    },
+    "short_case": {
+      "shares": 1000,
+      "sell_price": 140,
+      "buy_back_prices": [
+        14,
+        300
+      ],
+      "gross_pnl": [
+        126000,
+        -160000
+      ],
+      "borrowing_costs": null,
+      "collateral_available": null,
+      "status": "CONDITIONAL_PAYOFF"
+    },
+    "acquisition_counterfactual": {
+      "taco_offer": 40,
+      "standalone_hypothetical": 150,
+      "generic_buy": 10,
+      "offer": 20,
+      "hypothetical_future": 100,
+      "realized_if_offer": 10,
+      "counterfactual_unearned": 80,
+      "actual_future_path": null,
+      "status": "SCENARIO_ONLY"
+    },
+    "postscript": {
+      "index_start": 776,
+      "one_day_points": 38.8,
+      "one_day_return": 0.05,
+      "next_day_points_book": 30.7,
+      "date_basis_complete": false,
+      "status": "BOOK_CLAIM_UNVERIFIED"
+    }
+  },
+  "original_report_verified": false,
+  "flags": [
+    "CONFLICT_OPEN：Polaroid跌幅、CSX数值、定价增长口径",
+    "AMBIGUOUS_BASIS：Tagamet起点、第五频道折旧后账面、LaQuinta15倍/个人11倍、1973星期一点数、日本美股1/2倍",
+    "NOT_TRANSFERABLE：历史税制、债务/期权/保证金、商誉/专利/LIFO制度",
+    "NOT_AUTHORIZED：满仓、房屋抵押、下跌25%追加、只数/目标收益率、卖空衍生交易",
+    "IMAGE_SOURCE_LIMITATION：Ford十年员工历史行与图中部分资本/事件小字低清，未用模糊值复算",
+    "BOOK_CLAIM_UNVERIFIED：全部公司事实、市场数据与统计"
+  ]
+}

@@ -1,0 +1,360 @@
+{
+  "publication_provenance": {
+    "kind": "书籍阅读、历史案例及教学复算资料",
+    "source_record": "阅读记录/B08_R87_复算.json",
+    "financial_numbers_origin": "仅为书内案例、历史统计或教学复算；不是维护者或使用者的资产、账户、持仓或交易记录。",
+    "private_account_or_holdings_data": false
+  },
+  "book": "B08",
+  "title": "投资最重要的事（全新升级版）",
+  "author": "霍华德·马克斯（Howard Marks）",
+  "version": "R87-2026-10-14（第2批：第8–21章，含全书完成）",
+  "source_file": "投资书籍/投资最重要的事.epub",
+  "source_sha256": "54f68a8091fa9f9c171b9a4c378e0bde29c4d1be1823ae3da725cf945b63b55d",
+  "decoded_text_sha256": "7f267ab2fa041a653d03649744d48f6c01ca7008f42c99509e922a558ad4d991",
+  "decoded_text_lines": 1739,
+  "decoded_text_chars": 139594,
+  "batch_range": {
+    "start_line": 692,
+    "end_line": 1739,
+    "line_count": 1048
+  },
+  "scope": "本批读完第8–21章并完成B08全书；图像仅统计与目视核对，历史事件与第三方研究均为书内转述、未核原披露。",
+  "alpha_beta_tables": {
+    "benchmark": [
+      10,
+      6,
+      0,
+      -10,
+      20
+    ],
+    "figure_files": [
+      "p254.jpg",
+      "p255-1.jpg",
+      "p255-2.jpg",
+      "p255-3.jpg",
+      "p255-4.jpg",
+      "p256.jpg"
+    ],
+    "cases": [
+      {
+        "file": "p254.jpg",
+        "label": "无技术（等于基准）",
+        "portfolio": [
+          10,
+          6,
+          0,
+          -10,
+          20
+        ],
+        "alpha_sum": 0
+      },
+      {
+        "file": "p255-1.jpg",
+        "label": "无技术（基准的一半）",
+        "portfolio": [
+          5,
+          3,
+          0,
+          -5,
+          10
+        ],
+        "alpha_sum": 0
+      },
+      {
+        "file": "p255-2.jpg",
+        "label": "无技术（基准的两倍）",
+        "portfolio": [
+          20,
+          12,
+          0,
+          -20,
+          40
+        ],
+        "alpha_sum": 0
+      },
+      {
+        "file": "p255-3.jpg",
+        "label": "有些技术",
+        "portfolio": [
+          11,
+          8,
+          -1,
+          -9,
+          21
+        ],
+        "alpha_sum": 4
+      },
+      {
+        "file": "p255-4.jpg",
+        "label": "技术水平较高",
+        "portfolio": [
+          12,
+          10,
+          3,
+          2,
+          30
+        ],
+        "alpha_sum": 31
+      },
+      {
+        "file": "p256.jpg",
+        "label": "技术水平最高（需容忍波动）",
+        "portfolio": [
+          25,
+          20,
+          -5,
+          -20,
+          25
+        ],
+        "alpha_sum": 19
+      }
+    ],
+    "asymmetry_example_p256": {
+      "up_period_excess": 34,
+      "down_period_deficit": -15,
+      "note": "上涨季超额(+15/+14/+5)大于下跌季损失(−5/−20)，即作者所指的不对称性。"
+    },
+    "style_matrix_file": "p257.jpg",
+    "style_matrix": {
+      "rows": [
+        "无技术",
+        "有技术"
+      ],
+      "cols": [
+        "积极进取型投资者",
+        "防御型投资者"
+      ],
+      "cells": {
+        "无技术/积极": "市场上涨时获利丰厚，市场下跌时损失惨重",
+        "无技术/防御": "市场下跌时损失不多，但市场上涨时获利也不多",
+        "有技术/积极": "市场上涨时获利丰厚，市场下跌时不会造成同等程度下跌",
+        "有技术/防御": "市场下跌时损失不多，但市场上涨时获利颇丰"
+      }
+    },
+    "formula": "y = alpha + beta * x",
+    "viewed": true,
+    "is_teaching_example": true,
+    "note": "作者自述为举例说明；缺乏技术者只是风格的两倍/一半波动。β与α建立在‘风险＝波动’框架上，与作者第5章立场存在张力（点评者亦指出）。"
+  },
+  "market_thermometer": {
+    "source_image": "OEBPS/Images/p207.jpg",
+    "rows": 18,
+    "pairs": {
+      "经济": [
+        "活跃",
+        "呆滞"
+      ],
+      "前景": [
+        "积极",
+        "消极"
+      ],
+      "贷款人": [
+        "急切",
+        "谨慎"
+      ],
+      "资本市场": [
+        "宽松",
+        "紧缩"
+      ],
+      "资本": [
+        "充足",
+        "短缺"
+      ],
+      "条款": [
+        "宽松",
+        "严格"
+      ],
+      "利率": [
+        "低",
+        "高"
+      ],
+      "利差": [
+        "窄",
+        "宽"
+      ],
+      "投资者": [
+        "乐观/自信/渴望买入",
+        "悲观/担忧/丧失购买兴趣"
+      ],
+      "资产持有人": [
+        "乐于持有",
+        "急于出手"
+      ],
+      "卖家": [
+        "少",
+        "多"
+      ],
+      "市场": [
+        "拥挤",
+        "急需关注"
+      ],
+      "基金": [
+        "申购门槛高/每天都有新基金/普通合伙人全权管控",
+        "对所有人开放/只有最好的才能募集到资金/有限合伙人有议价能力"
+      ],
+      "近期表现": [
+        "强",
+        "弱"
+      ],
+      "资产价格": [
+        "高",
+        "低"
+      ],
+      "预期的回报": [
+        "低",
+        "高"
+      ],
+      "风险": [
+        "高",
+        "低"
+      ],
+      "人群特征": [
+        "积极进取/广泛投资",
+        "谨慎守纪/有选择地投资"
+      ]
+    },
+    "viewed": true,
+    "note": "作者称左栏标记多则应‘看紧自己的钱包’；表格无权重，只能作现状描述，不得当作买卖信号。"
+  },
+  "taleb_dichotomy": {
+    "source_image": "OEBPS/Images/p212.jpg",
+    "pairs": [
+      [
+        "运气",
+        "技能"
+      ],
+      [
+        "随机论",
+        "决定论"
+      ],
+      [
+        "可能性",
+        "必然性"
+      ],
+      [
+        "想法，假说",
+        "知识，真理"
+      ],
+      [
+        "理论",
+        "现实"
+      ],
+      [
+        "逸事，巧合",
+        "因果，法则"
+      ],
+      [
+        "生存偏差",
+        "市场优异表现"
+      ],
+      [
+        "幸运的傻瓜",
+        "专业的投资者"
+      ]
+    ],
+    "viewed": true,
+    "source_in_book": "塔勒布《随机漫步的傻瓜》，作者摘录"
+  },
+  "prediction_study": {
+    "source": "1996年8月22日备忘录对《华尔街日报》半年经济调查的检验",
+    "average_forecast_error_pct": 0.15,
+    "long_bond_rate_error_bp": 96,
+    "per_1000_usd_effect": 120,
+    "implied_duration_years": 12.5,
+    "average_effectiveness": 0.05,
+    "best_single_forecast_error_bp": [
+      10,
+      20
+    ],
+    "consensus_error_bp": [
+      70,
+      130
+    ],
+    "status": "BOOK_TRANSCRIPTION_UNVERIFIED",
+    "note": "隐含久期由‘96bp对应每1000美元120美元’反推：120/1000/0.0096≈12.5年，与约30年期债券的量级相符；作者结论是‘一次准确不重要，长期准确几乎不可能’。"
+  },
+  "coin_flip_competition": {
+    "participants": 225000000,
+    "day10_survivors": 220000,
+    "day10_winnings_usd": 1000,
+    "day20_survivors": 215,
+    "day20_winnings_usd": 1000000,
+    "implied_survivors_day10": 219726.5625,
+    "implied_survivors_day20": 214.57672119140625,
+    "implied_winnings_day10": 1024,
+    "implied_winnings_day20": 1048576,
+    "status": "BOOK_TRANSCRIPTION_ARITHMETIC_OK",
+    "note": "存活人数＝2.25亿÷2^n，奖金＝2^n美元；书中‘22万/215人’与‘1000/100万’同两条口径都吻合（取整）。"
+  },
+  "madoff": {
+    "claimed_annual_return": 0.1,
+    "claimed_consistency_years": "近20年",
+    "elements_satisfied": 0,
+    "five_elements": [
+      "低迷时买进",
+      "杰出技能（无人了解其方法）",
+      "强风险承受力（非其所称）",
+      "强力杠杆（其称未用）",
+      "好运气（不可能持续20年）"
+    ],
+    "comparison": "美股长期年均约10%，但单一年份很少正好10%，波动显著",
+    "status": "BOOK_TRANSCRIPTION_UNVERIFIED"
+  },
+  "absolute_return_funds_2008": {
+    "average_loss": -0.18,
+    "status": "BOOK_TRANSCRIPTION_UNVERIFIED",
+    "note": "‘绝对收益’基金2008年平均损失约18%，说明短语被滥用。"
+  },
+  "investor_vs_fund_return": {
+    "fund_best_decade_annual": 0.18,
+    "investor_annual": -0.08,
+    "source_in_book": "第16章点评（格林布拉特）",
+    "status": "UNVERIFIED_THIRD_PARTY",
+    "is_threshold": false
+  },
+  "crisis_lessons_2007": {
+    "count": 11,
+    "items_head": [
+      "过多资本导致资金流向错误",
+      "资本过剩使不合格借款人获得资本",
+      "以更低收益与更小错误边际竞争",
+      "普遍忽视风险",
+      "尽职调查不足",
+      "过热期资金流向经不起时间考验的新产品",
+      "组合内的隐形相关性",
+      "心理与技术短期主导基本面",
+      "市场变化导致模型失效",
+      "杠杆放大收益但不增加价值",
+      "矫枉过正使价格仅靠自重崩溃"
+    ],
+    "status": "AUTHOR_SUMMARY"
+  },
+  "cyclical_stages": {
+    "bull": 3,
+    "bear": 3,
+    "bull_stages": [
+      "少数有远见者相信会更好",
+      "多数人意识到进步已发生",
+      "人人断言永远会更好"
+    ],
+    "bear_stages": [
+      "少数人意识到好景不可能永远",
+      "多数人意识到恶化",
+      "人人相信只会更糟"
+    ]
+  },
+  "image_counting": {
+    "references_total": 125,
+    "unique_files": 18,
+    "epub_image_files": 20,
+    "references_batch1_lines_1_691": 42,
+    "references_batch2_lines_692_1739": 83,
+    "correction": "R86批次记录与验证结果曾把第1批引用数写为36，复核实为42（spine 0–34的img引用合计），R87已更正。"
+  },
+  "unverified": [
+    "2007–2008年事件链条、雷曼/贝尔斯登/美林、通用与克莱斯勒、麦道夫均为书内叙述或公开事件转述，未核原始披露",
+    "1996年《华尔街日报》调查统计、18%/8%基金与投资者对比为转述，未核原始研究",
+    "p207市场温度计与p212塔勒布二分法为图像内容，已逐行录入，但表格无权重"
+  ]
+}

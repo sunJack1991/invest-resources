@@ -1,0 +1,90 @@
+{
+  "publication_provenance": {
+    "kind": "书籍阅读、历史案例及教学复算资料",
+    "source_record": "阅读记录/B06_R124_低清复核.json",
+    "financial_numbers_origin": "仅为书内案例、历史统计或教学复算；不是维护者或使用者的资产、账户、持仓或交易记录。",
+    "private_account_or_holdings_data": false
+  },
+  "round": "R124",
+  "date_utc": "2026-10-14",
+  "book": "B06",
+  "scope": "低清细字复核（R84遗留；含B06#42与#43点名的5处冲突）",
+  "mode": "只读复核：原图按native分辨率查看＋全库图像分辨率普查；不改原书/原条目/框架/政策",
+  "resource_census": {
+    "images_total": 138,
+    "content_images_width_px": "≈566（个别504）",
+    "icon_images": "<60px，装饰用",
+    "conclusion": "本版图像资源为版面缩略宽度，**坐标刻度、图例小字、公司名后缀与数据点数值不可靠辨认**；中文注释大体可辨"
+  },
+  "sampled": [
+    {
+      "file": "00103.jpg",
+      "size": "504x751",
+      "company": "SMITHKLINE BECKMAN CORPORATION (SKB)",
+      "readable_annotation": "FDA批准泰胃美（Tagamet）上市后两年内买入该股，至少还可获利3倍",
+      "fine_print": "不可靠（坐标/图例）"
+    },
+    {
+      "file": "00121.jpg",
+      "size": "566x694",
+      "company": "DOW CHEMICAL COMPANY (DOW)",
+      "readable_annotation": "收益增长，股价随之上涨／收益下跌，股价随之下跌／收益上下波动像放一张破唱片",
+      "fine_print": "不可靠"
+    },
+    {
+      "file": "00065.jpg",
+      "size": "566x392",
+      "company": "NA-PAC PRODUCTS INCORPORATED (NPAC)",
+      "readable_annotation": "股价低于账面价值／后来该股最终上涨约一倍（后半句文字不完整，不可引）",
+      "fine_print": "不可靠"
+    },
+    {
+      "file": "00025.jpg",
+      "size": "566x528",
+      "company": "CONSOLIDATED EDISON CO. OF N.Y., INC. (ED)",
+      "readable_annotation": "现代会计手段的魔法…收益看起来仍十分不错，尽管大部分并不是现金／从破产边缘恢复后积累几十亿美元现金并继续提高股息",
+      "fine_print": "不可靠"
+    }
+  ],
+  "named_conflicts": [
+    {
+      "item": "B06#43 Tagamet价格起点",
+      "status": "UNRESOLVED_AT_RESOURCE_LEVEL",
+      "action": "维持“不引用”；升级条件＝更高分辨率版本或纸质原书"
+    },
+    {
+      "item": "B06#43 Polaroid跌幅",
+      "status": "UNRESOLVED_AT_RESOURCE_LEVEL",
+      "action": "同上"
+    },
+    {
+      "item": "B06#43 CSX铁路价值/税后收入",
+      "status": "UNRESOLVED_AT_RESOURCE_LEVEL",
+      "action": "同上"
+    },
+    {
+      "item": "B06#43 电视台账面基期",
+      "status": "UNRESOLVED_AT_RESOURCE_LEVEL",
+      "action": "同上"
+    },
+    {
+      "item": "B06#43 定价/利润率分母",
+      "status": "UNRESOLVED_AT_RESOURCE_LEVEL",
+      "action": "同上"
+    },
+    {
+      "item": "B06#42 Ford十年员工资料等小字",
+      "status": "UNRESOLVED_AT_RESOURCE_LEVEL",
+      "action": "维持“不用于计算”，升级条件同上"
+    }
+  ],
+  "findings": [
+    "本轮抽样核出4张图的**公司归属与可辨中文注释**（SKB/DOW/NPAC/ED），可作为“图名—注释”登记；其中00121为陶氏化学（DOW）图，非Polaroid图，R84的登记需按此更正",
+    "“低清细字”的性质是**资源分辨率**（566px宽）而非阅读遗漏：在native分辨率下逐值辨认不可行，放大不产生新信息",
+    "可辨层级：图内**中文注释**（说明性文字）可引；**坐标、图例、英文小字与数据点**不可引"
+  ],
+  "limitations": [
+    "未取得更高分辨率版本或纸质原书，5处冲突与Ford小字**仍未核实**",
+    "本轮只做分辨率普查与4张抽样；未对138张逐一重读（不夸大覆盖）"
+  ]
+}

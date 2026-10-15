@@ -1,0 +1,318 @@
+{
+  "publication_provenance": {
+    "kind": "书籍阅读、历史案例及教学复算资料",
+    "source_record": "阅读记录/B11_R109_复算.json",
+    "financial_numbers_origin": "仅为书内案例、历史统计或教学复算；不是维护者或使用者的资产、账户、持仓或交易记录。",
+    "private_account_or_holdings_data": false
+  },
+  "batch": "R109",
+  "date_utc": "2026-10-14T13:35:40Z",
+  "book": "B11",
+  "book_title": "金钱心理学：财富、人性和幸福的永恒真相（摩根·豪泽尔，民主与建设出版社，2023）",
+  "source_file": "投资书籍/金钱心理学.epub",
+  "source_sha256": "6ba1f8484392fac2611911fc1eaf84ac047f73fb5d395468cef3628f429d8f3b",
+  "decoded_text_sha256": "49a436df4e11c10fa8afbdb607656a7597773f9caaad288e900fff2fab8f4311",
+  "decoded_text_lines": 1917,
+  "decoded_text_chars": 123755,
+  "range_read": {
+    "start_line": 1,
+    "end_line": 452,
+    "lines": 452,
+    "chars_including_newlines": 28793,
+    "chapters": {
+      "00": "1–98（封面1＋版权2–11＋献词12–14＋题词15–18＋序言「地球上最伟大的表演」19–98）",
+      "01": "99–196（第1章 没有人真的对钱失去理智）",
+      "02": "197–294（第2章 运气与风险）",
+      "03": "295–388（第3章 永不知足）",
+      "04": "389–452（第4章 复利之谜；止于452行，第5章起于453行）"
+    },
+    "chapter_chars": {
+      "1-98": 5174,
+      "99-196": 7185,
+      "197-294": 6914,
+      "295-388": 4991,
+      "389-452": 4525,
+      "1-452": 28793
+    },
+    "boundary_evidence": "spine 0–8（cover.xhtml、chapter_2.xhtml–chapter_9.xhtml）连续无空洞；452行后即第5章标题行453"
+  },
+  "resources_read": [
+    {
+      "index": 0,
+      "source": "EPUB/cover.xhtml",
+      "start_line": 1,
+      "end_line": 1,
+      "raw_sha256": "0d6cd801aa773c0863560607cbbca87be19df7a14ccc975e33894a022c84aade",
+      "raw_bytes": 376,
+      "images": [
+        "EPUB/cover.jpg"
+      ],
+      "footnote_links": [],
+      "zuixiaoyao_notes": 0,
+      "read_in_batch": "R109"
+    },
+    {
+      "index": 1,
+      "source": "EPUB/chapter_2.xhtml",
+      "start_line": 2,
+      "end_line": 11,
+      "raw_sha256": "e2b72e0483cf1a1caa729872ebed88691ce5f1fecd0aee5c28a86a3a044f18ea",
+      "raw_bytes": 1177,
+      "images": [],
+      "footnote_links": [],
+      "zuixiaoyao_notes": 0,
+      "read_in_batch": "R109"
+    },
+    {
+      "index": 2,
+      "source": "EPUB/chapter_3.xhtml",
+      "start_line": 12,
+      "end_line": 14,
+      "raw_sha256": "7cad90a288935103d181cdb048d673f1499c320abf40c8c117f08f75b889c031",
+      "raw_bytes": 735,
+      "images": [],
+      "footnote_links": [],
+      "zuixiaoyao_notes": 0,
+      "read_in_batch": "R109"
+    },
+    {
+      "index": 3,
+      "source": "EPUB/chapter_4.xhtml",
+      "start_line": 15,
+      "end_line": 18,
+      "raw_sha256": "ede4b02a7f44536653834aee325f3bcfdaf7c463248ae9e61da5e29ee866f2ac",
+      "raw_bytes": 829,
+      "images": [],
+      "footnote_links": [],
+      "zuixiaoyao_notes": 0,
+      "read_in_batch": "R109"
+    },
+    {
+      "index": 4,
+      "source": "EPUB/chapter_5.xhtml",
+      "start_line": 19,
+      "end_line": 98,
+      "raw_sha256": "c457337a546b2708c10bd353145df0bdebd5b045d88c642b765049040a3ae548",
+      "raw_bytes": 16506,
+      "images": [],
+      "footnote_links": [],
+      "zuixiaoyao_notes": 5,
+      "read_in_batch": "R109"
+    },
+    {
+      "index": 5,
+      "source": "EPUB/chapter_6.xhtml",
+      "start_line": 99,
+      "end_line": 196,
+      "raw_sha256": "04598ba5e0177135081a92db7b5b4b8566efd97ba59698e9694e5e769bc433ec",
+      "raw_bytes": 23093,
+      "images": [
+        "EPUB/img/CB_3300064234_P008.jpg",
+        "EPUB/img/CB_3300064234_P009.jpg",
+        "EPUB/img/CB_3300064234_P010.jpg"
+      ],
+      "footnote_links": [],
+      "zuixiaoyao_notes": 7,
+      "read_in_batch": "R109"
+    },
+    {
+      "index": 6,
+      "source": "EPUB/chapter_7.xhtml",
+      "start_line": 197,
+      "end_line": 294,
+      "raw_sha256": "0430592b14a00283bb871378c9e15d2ee70b0fa9adcd7da8f7fdad776024684c",
+      "raw_bytes": 23213,
+      "images": [],
+      "footnote_links": [],
+      "zuixiaoyao_notes": 3,
+      "read_in_batch": "R109"
+    },
+    {
+      "index": 7,
+      "source": "EPUB/chapter_8.xhtml",
+      "start_line": 295,
+      "end_line": 388,
+      "raw_sha256": "582d6ca39f609b481809075342411f7902f0f4b91759a06ab79250441fe5affb",
+      "raw_bytes": 16959,
+      "images": [],
+      "footnote_links": [],
+      "zuixiaoyao_notes": 11,
+      "read_in_batch": "R109"
+    },
+    {
+      "index": 8,
+      "source": "EPUB/chapter_9.xhtml",
+      "start_line": 389,
+      "end_line": 452,
+      "raw_sha256": "bcf5a96113d05ae52bb7fd2f0e0d7e85de37a2cee810dc4461cdf028778f8c01",
+      "raw_bytes": 14752,
+      "images": [],
+      "footnote_links": [],
+      "zuixiaoyao_notes": 3,
+      "read_in_batch": "R109"
+    }
+  ],
+  "images_in_batch": {
+    "img_references": 4,
+    "files": {
+      "cover.jpg": {
+        "bytes": 68630,
+        "sha256": "0ef2ec3f8bd138026ebf75d362b710a433c649bad6a4402921546e15de8853bd"
+      },
+      "CB_3300064234_P008.jpg": {
+        "bytes": 93043,
+        "sha256": "4f25b51e7097295c2604bd90dea27f51d59df46f816b6dede65760b0ae97268b"
+      },
+      "CB_3300064234_P009.jpg": {
+        "bytes": 58350,
+        "sha256": "d7fdc168392a5619da2d25a6a6aa2fc09c2c1db1dfeb7d02b30e0be6efe15de3"
+      },
+      "CB_3300064234_P010.jpg": {
+        "bytes": 102765,
+        "sha256": "3bd5d00ab6ee07fa0e67db28af7e664d205bc830103d252e3e12973b5ae9589a"
+      }
+    },
+    "mapping": {
+      "cover.jpg": "spine0 封面（SVG image xlink:href 实际引用）",
+      "CB_3300064234_P008.jpg": "第1章图1.1（你10多岁到20多岁时的股市走势；1950 vs 1970年生人，13岁=1，黑线至约9.5、灰线约1.3）",
+      "CB_3300064234_P009.jpg": "第1章图1.2（通胀对物价的影响；1960 vs 1990年生人，黑线至约2.75、灰线约1.3）",
+      "CB_3300064234_P010.jpg": "第1章图1.3（美国65岁以上男性劳动力参与率；1880–2010柱状，78%→18%→22%）"
+    },
+    "viewed": "全部4张已逐一目视（view_image）；读数为主观目测近似，仅作方向性登记",
+    "note": "全书11个图片引用文件（cover.jpg＋P008–P010本批，P001/P002/P004/P005/P006/P007/gzh.png未到），P003缺席；本批无未取得图片"
+  },
+  "notes_read": {
+    "system_note": "本电子版注记系统为第三方（公众号zuixiaoyao）插入的行内注：<span class=\"zuixiaoyao_zhushi\">㊟</span>＋<span class=\"zuixiaoyao_zhushi_text\">【…】</span>；内容混合「编者注」（术语解释）与原书文献注（英文出处）。不与原书正文混同，独立计数。",
+    "batch_notes": {
+      "序言": 5,
+      "第1章": 7,
+      "第2章": 3,
+      "第3章": 11,
+      "第4章": 3,
+      "合计": 29
+    },
+    "book_total": 129,
+    "hidden_notes": "未发现 hidden/zy-footnote 型隐藏注；footnote_links 全部为空（28资源均0）"
+  },
+  "computations": {
+    "lake_school_chain": {
+      "title": "第2章 盖茨湖滨学校概率链（3.03亿高中生→300人）",
+      "chain": {
+        "全球高中生_1968": 303000000.0,
+        "美国": 18000000.0,
+        "华盛顿州": 270000.0,
+        "西雅图": 100000.0,
+        "湖滨学校": 300
+      },
+      "result": "300/3.03e8 = 9.90e-7 ≈ 1/1,010,000；正文「100万名学生中只有1名」成立（近似）",
+      "status": "PASS_APPROX"
+    },
+    "reid_estate": {
+      "title": "序言 里德遗产",
+      "equation": "200万（继子女）＋600多万（捐赠）＝800多万",
+      "status": "PASS（自洽）"
+    },
+    "social_security_1940": {
+      "title": "第1章 首张社保支票",
+      "as_printed": "22.54美元（1940）→ 416美元（通胀调整）",
+      "ratio": 18.46,
+      "status": "NOT_VERIFIABLE（原书转引，通胀序列未核）"
+    },
+    "gupta_hourly": {
+      "title": "第3章 顾磊杰1亿身家5%年回报折算时薪",
+      "calc": "5,000,000/8760 = 570.78 美元/小时",
+      "as_printed": "「接近600美元」",
+      "status": "PASS_APPROX（570.78接近600，边缘）"
+    },
+    "trout_contract": {
+      "title": "第3章 特劳特合同",
+      "calc": "4.3e8/12 = 3,583.3万/年",
+      "as_printed": "「折合每年3,600万美元」",
+      "status": "PASS_APPROX"
+    },
+    "bezos_hourly": {
+      "title": "第3章 贝索斯2018净收入240亿折算时薪",
+      "calc": "240e8/8760 = 2,739,726 美元/小时",
+      "comparison": ">棒球新手50万/年 → 成立",
+      "status": "PASS"
+    },
+    "buffett_experiment": {
+      "title": "第4章 巴菲特思考实验（2.5万×22%到60岁）",
+      "calc_30y": "2.5e4×1.22^30 = 9,743,947 ≈ 974.4万",
+      "calc_31y": "2.5e4×1.22^31 = 11,887,616 ≈ 1,188.8万",
+      "as_printed": "「1,190万美元」",
+      "finding": "书示≈1,188.8万（隐含31期复利）；30期口径为974.4万，差1.22倍＝1期。登记1期差异",
+      "status": "CONFLICT_OPEN（1期差异）"
+    },
+    "buffett_pct_less": {
+      "title": "第4章 「少了99.9%」",
+      "calc": "0.0140828% → 少 99.9859%",
+      "as_printed": "「少了99.9%」",
+      "status": "PASS_APPROX（精确为99.99%，书示99.9%为近似）"
+    },
+    "buffett_split": {
+      "title": "第4章 845亿拆分",
+      "calc": "845-842=3亿（50岁前）、845-815=30亿（65岁前）；845/842/815 内部自洽",
+      "status": "PASS（自洽）"
+    },
+    "simons_compound": {
+      "title": "第4章 西蒙斯假想复利（66%×70年）",
+      "calc": "2.5e4×1.66^70 = 6.3901e+19",
+      "as_printed": "63,900,781,780,748,160,000（=6.3900781780748160e19）",
+      "finding": "复算值6.390078e19与书示比值1.000（前6位一致），起点2.5万×70期",
+      "status": "PASS"
+    },
+    "simons_ratio": {
+      "title": "第4章 210亿占比",
+      "calc": "210/845 = 0.2485",
+      "as_printed": "「25%」",
+      "status": "PASS_APPROX"
+    },
+    "powers": {
+      "title": "第4章 幂算例",
+      "calc": "8^9 = 134,217,728；8×9 = 72",
+      "status": "PASS（精确）"
+    },
+    "harddisk": {
+      "title": "第4章 硬盘容量",
+      "calc": "10^8 M / 3.5M = 2,857万倍（书示「3,000万倍」，差约5%）；100T=104,857,600M（书示100,000,000M为十进制口径）",
+      "status": "PASS_APPROX"
+    },
+    "suspect_madoff_scale": {
+      "title": "第3章 麦道夫做市量",
+      "as_printed": "「日均成交量为7.4亿，相当于纽约证券交易所每天9%的交易量」",
+      "finding": "1992年前后NYSE日成交量量级与「7.4亿×9%⇒NYSE约82亿」不符，疑为译文/量级问题；不引用此数字",
+      "status": "CONFLICT_OPEN"
+    },
+    "suspect_fig12": {
+      "title": "第1章 图1.2与正文口径",
+      "as_printed": "正文「通货膨胀使物价上涨了3倍多」",
+      "reading": "图读数1→约2.75（即2.75倍、+175%）",
+      "finding": "「上涨3倍多」与图读数存在口径出入；只按方向引用",
+      "status": "CONFLICT_OPEN"
+    },
+    "suspect_fig13": {
+      "title": "第1章 图1.3与正文口径",
+      "as_printed": "「直到20世纪40年代前，美国65岁以上男性的劳动力参与率还在50%以上」",
+      "reading": "图：1930=58%、1940=44%、1950=47%",
+      "finding": "1930年代及以前>50%成立（1930=58%）；1940年已降至44%。表述按「1940年前」理解可接受，登记",
+      "status": "PASS_WITH_NOTE"
+    },
+    "suspect_hedge_77": {
+      "title": "第3章 对冲基金经理收入口径",
+      "as_printed": "「（2018年前五）收入至少要达到7.7亿美元」（注引Bloomberg标题「Made $7.7 Billion」）",
+      "finding": "注源标题为十人合计口径的可能与「每人」表述冲突；登记不引用",
+      "status": "NOT_VERIFIED"
+    },
+    "riddle_note": "以上读数为正文/图表对照自查；原书披露、CPI与市场序列未外部核验。"
+  },
+  "unavailable_materials": [
+    "本批无未取得材料：9个spine资源与4个图片文件全部取得并处理",
+    "全书层面：P003图片文件在zip中缺席（对应章节未到，待后续批次登记）；129条zuixiaoyao注中本批29条已读"
+  ],
+  "limitations": [
+    "B11 v1解码（1917行/123755字符）与结构索引字符口径（131461）不一致源于空白/缩进口径；3样本去空白对照差0，无内容丢失",
+    "全文提取与数学/文件检查不等于实际阅读验证、原书披露核验或收益验证",
+    "zuixiaoyao注为电子版第三方注记，其文献引用未经复核；本批所有断言只对解码文本负责"
+  ]
+}

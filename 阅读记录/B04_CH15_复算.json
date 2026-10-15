@@ -1,0 +1,68 @@
+{
+  "publication_provenance": {
+    "kind": "书籍阅读、历史案例及教学复算资料",
+    "source_record": "阅读记录/B04_CH15_复算.json",
+    "financial_numbers_origin": "仅为书内案例、历史统计或教学复算；不是维护者或使用者的资产、账户、持仓或交易记录。",
+    "private_account_or_holdings_data": false
+  },
+  "book_id": "B04",
+  "chapter": 15,
+  "title": "应对周期有局限性",
+  "decode": "B04-v2-2026-10-13",
+  "range": {
+    "start_line": 1605,
+    "end_line": 1640,
+    "line_count": 36,
+    "chars_with_newlines": 5380
+  },
+  "checks": {
+    "probability_is_not_realization": {
+      "status": "PASS",
+      "rule": "位置改变概率分布，不决定单次实际结果"
+    },
+    "direction_is_not_timing": {
+      "status": "PASS",
+      "rule": "方向判断、兑现时点与可承受等待期分开记录"
+    },
+    "survival_gate": {
+      "status": "PASS",
+      "requirements": [
+        "判断方向有证据",
+        "验证窗口与提前/延迟情景明确",
+        "资金、心理与委托关系能承受等待"
+      ]
+    },
+    "extreme_zone_boundary": {
+      "status": "PASS",
+      "rule": "极端区域相对更可辨认，不代表中间区域可持续择时；无极端与充分证据时默认不做战术动作"
+    },
+    "figure_15_1": {
+      "status": "PASS",
+      "image": "OEBPS/Images/Image00034.jpg",
+      "visual_elements": [
+        "市场价格曲线",
+        "向上倾斜的内在价值示意线",
+        "上下公允带",
+        "太贵/公允/便宜三个区域"
+      ],
+      "boundary": "无单位、刻度、期间、数据源、估值方法或阈值；不得量化成买卖点、仓位、等待期或极端频率",
+      "original_report_verified": false
+    },
+    "author_claims_boundary": {
+      "status": "PASS",
+      "items": [
+        "50多年仅四五次主要周期判断",
+        "橡树资本重大机会一个没错过",
+        "1990–2008等攻守与客户资金流",
+        "每十年可能出现一次极端"
+      ],
+      "external_verification": false
+    },
+    "citation_chain_issue": {
+      "status": "OPEN",
+      "detail": "章末称引彼得·伯恩斯坦，但括号指向杰夫·胡达2017年文章；转引链与原文归属未核"
+    }
+  },
+  "math_or_logic_only": true,
+  "investment_performance_validated": false
+}

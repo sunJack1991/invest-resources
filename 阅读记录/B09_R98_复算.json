@@ -1,0 +1,833 @@
+{
+  "publication_provenance": {
+    "kind": "书籍阅读、历史案例及教学复算资料",
+    "source_record": "阅读记录/B09_R98_复算.json",
+    "financial_numbers_origin": "仅为书内案例、历史统计或教学复算；不是维护者或使用者的资产、账户、持仓或交易记录。",
+    "private_account_or_holdings_data": false
+  },
+  "revision": "R98",
+  "book": "B09",
+  "source_sha256": "80c95b78389aa9982e5fcf5693f6e4ac776a527f1c191bcbcf836e4172cb69cb",
+  "decoded_text_sha256": "072a751172bbb26600b897c31c46027e7989fa76910403f9c57c4019725c5a6a",
+  "batch_range": {
+    "start_line": 1828,
+    "end_line": 2002
+  },
+  "table_15_1": {
+    "source_weights_pct": {
+      "cash": 5,
+      "bond_and_substitutes": 27.5,
+      "reit": 12.5,
+      "stocks": 55
+    },
+    "source_total_pct": 100.0,
+    "suballocation_pct": {
+      "corp_bond": 7.5,
+      "em_government_bond": 7.5,
+      "dividend_equity": 12.5,
+      "us_equity": 27,
+      "developed_ex_us": 14,
+      "em_equity": 14
+    },
+    "lookthrough_weights_pct": {
+      "cash": 5,
+      "fixed_income": 15,
+      "dividend_equity": 12.5,
+      "other_equity": 55,
+      "reit": 12.5
+    },
+    "non_reit_equity_pct": 67.5,
+    "status": "〔历史政策关联叙述未公开；节号对应关系见同库历史政策节号映射。〕"
+  },
+  "table_15_2": {
+    "date": "book historical, no present fee claim",
+    "rows": [
+      {
+        "code": "VTI",
+        "annual_fee_pct": 0.03
+      },
+      {
+        "code": "SPTM",
+        "annual_fee_pct": 0.03
+      },
+      {
+        "code": "VEA",
+        "annual_fee_pct": 0.05
+      },
+      {
+        "code": "IDEV",
+        "annual_fee_pct": 0.07
+      },
+      {
+        "code": "SPDW",
+        "annual_fee_pct": 0.04
+      },
+      {
+        "code": "VWO",
+        "annual_fee_pct": 0.1
+      },
+      {
+        "code": "SPEM",
+        "annual_fee_pct": 0.11
+      },
+      {
+        "code": "IEMG",
+        "annual_fee_pct": 0.11
+      },
+      {
+        "code": "VEU",
+        "annual_fee_pct": 0.08
+      },
+      {
+        "code": "CWI",
+        "annual_fee_pct": 0.3
+      },
+      {
+        "code": "IXUS",
+        "annual_fee_pct": 0.09
+      },
+      {
+        "code": "VT",
+        "annual_fee_pct": 0.04
+      },
+      {
+        "code": "ACWI",
+        "annual_fee_pct": 0.32
+      },
+      {
+        "code": "VTC",
+        "annual_fee_pct": 0.05
+      },
+      {
+        "code": "LQD",
+        "annual_fee_pct": 0.14
+      },
+      {
+        "code": "SCHZ",
+        "annual_fee_pct": 0.04
+      }
+    ],
+    "idev_conflicting_fee_pct": {
+      "table_15_2": 0.07,
+      "appendix_5": 0.05
+    },
+    "status": "BOOK_TRANSCRIPTION_NOT_CURRENT_PRODUCT_FACT"
+  },
+  "tax_sample_1962_1992": {
+    "years": 30,
+    "initial": 1,
+    "gross_terminal": 21.89,
+    "after_tax_terminal": 9.87,
+    "gross_cagr": 0.10834472515012483,
+    "after_tax_cagr": 0.07930429447022846,
+    "cagr_gap_pp": 2.9040430679896367,
+    "terminal_after_tax_fraction": 0.4508908177249885,
+    "status": "BOOK_SAMPLE_UNVERIFIED_TAX_IDENTITY_UNKNOWN"
+  },
+  "fee_comparison": [
+    {
+      "annual_fee": 0.01,
+      "initial": 100000,
+      "gross_return": 0.06,
+      "years": 30,
+      "charge_time": "each_year_after_gross_return",
+      "terminal": 424846.2565156237
+    },
+    {
+      "annual_fee": 0.0025,
+      "initial": 100000,
+      "gross_return": 0.06,
+      "years": 30,
+      "charge_time": "each_year_after_gross_return",
+      "terminal": 532798.6168197645
+    },
+    {
+      "annual_fee": 0.0005,
+      "initial": 100000,
+      "gross_return": 0.06,
+      "years": 30,
+      "charge_time": "each_year_after_gross_return",
+      "terminal": 565796.0504974856
+    }
+  ],
+  "fee_floor": {
+    "account": 10000,
+    "percent_fee": 0.01,
+    "minimum_fee": 1000,
+    "effective_fee": 0.1,
+    "break_even_account": 100000,
+    "status": "C_MAX_FEE_SCHEDULE_NOT_BOOK_CURRENT_RATE"
+  },
+  "periodic_etf_purchase": {
+    "amount": 100,
+    "commission": 1,
+    "one_way_half_spread_rate": 0.0005,
+    "one_way_cost": 1.05,
+    "one_way_cost_rate": 0.0105,
+    "zero_commission_cost": 0.05,
+    "status": "C_PRICE_QUOTED_PER_NOTIONAL_AT_MID_NO_IMPACT"
+  },
+  "forced_cash": {
+    "cash_weight": 0.2,
+    "cash_return": 0.02,
+    "other_return": 0.06,
+    "weighted_return": 0.052,
+    "difference_vs_all_other_pp": 0.8,
+    "status": "C_NOT_PERSONAL_CASH_RECOMMENDATION"
+  },
+  "eps_pe": {
+    "initial_eps": 1,
+    "initial_pe": 30,
+    "future_eps": 1.2,
+    "future_pe": 20,
+    "initial_price": 30,
+    "future_price": 24,
+    "price_return": -0.2,
+    "status": "C_NO_DIVIDEND_OR_SHARE_CHANGE"
+  },
+  "tlh_deferral": {
+    "original_basis": 100,
+    "sale_and_replacement_cost": 80,
+    "future_sale_price": 120,
+    "future_gain_without": 20,
+    "future_gain_with": 40,
+    "rows": [
+      {
+        "loss": 20,
+        "current_tax_rate": 0.2,
+        "future_tax_rate": 0.2,
+        "years": 10,
+        "after_tax_reinvestment_return": 0.05,
+        "current_tax_saving": 4.0,
+        "future_extra_tax_from_lower_basis": 4.0,
+        "terminal_increment_before_extra_cost": 2.515578507109768,
+        "present_increment_before_extra_cost": 1.5443469858369634,
+        "status": "C_CONDITIONAL_DEFERRAL_NOT_PROMISED_ALPHA"
+      },
+      {
+        "loss": 20,
+        "current_tax_rate": 0.2,
+        "future_tax_rate": 0.3,
+        "years": 10,
+        "after_tax_reinvestment_return": 0.05,
+        "current_tax_saving": 4.0,
+        "future_extra_tax_from_lower_basis": 6.0,
+        "terminal_increment_before_extra_cost": 0.515578507109768,
+        "present_increment_before_extra_cost": 0.31652047875544514,
+        "status": "C_CONDITIONAL_DEFERRAL_NOT_PROMISED_ALPHA"
+      },
+      {
+        "loss": 20,
+        "current_tax_rate": 0.2,
+        "future_tax_rate": 0.4,
+        "years": 10,
+        "after_tax_reinvestment_return": 0.05,
+        "current_tax_saving": 4.0,
+        "future_extra_tax_from_lower_basis": 8.0,
+        "terminal_increment_before_extra_cost": -1.484421492890232,
+        "present_increment_before_extra_cost": -0.9113060283260732,
+        "status": "C_CONDITIONAL_DEFERRAL_NOT_PROMISED_ALPHA"
+      }
+    ],
+    "conditions": [
+      "same_exposure_assumed_not_tax_equivalence",
+      "loss_deductible_and_usable_now",
+      "no_wash_sale",
+      "future_sale_and_tax_known_only_as_scenario",
+      "no_extra_cost_before_comparison"
+    ],
+    "not_a_tax_advice_or_transaction": true
+  },
+  "appendix": {
+    "as_of": "2022-01",
+    "table_count": 10,
+    "image_files": 11,
+    "row_counts": [
+      4,
+      3,
+      10,
+      7,
+      12,
+      8,
+      9,
+      14,
+      7,
+      9
+    ],
+    "total_product_rows": 83,
+    "table9_actual_type": "country_emerging_equity_closed_end",
+    "table9_caption_type": "municipal_bond_closed_end",
+    "table9_discount_rows": [
+      {
+        "code": "TDF",
+        "nav": 18.17,
+        "price": 16.64,
+        "signed_discount_shown_pct": -8.5,
+        "signed_discount_computed_pct": -8.420473307649978,
+        "input_rounding_interval_pct": [
+          -8.47317744154057,
+          -8.367740159647685
+        ],
+        "compatible_with_cent_inputs_and_tenth_percent_rounding": true,
+        "status": "DISPLAY_PRECISION_COMPATIBLE_NOT_SOURCE_VERIFIED"
+      },
+      {
+        "code": "CAF",
+        "nav": 21.64,
+        "price": 19.78,
+        "signed_discount_shown_pct": -9.4,
+        "signed_discount_computed_pct": -8.595194085027725,
+        "input_rounding_interval_pct": [
+          -8.63940863940863,
+          -8.55095909406055
+        ],
+        "compatible_with_cent_inputs_and_tenth_percent_rounding": false,
+        "status": "CONFLICT_OPEN"
+      },
+      {
+        "code": "IFN",
+        "nav": 24.33,
+        "price": 22.2,
+        "signed_discount_shown_pct": -8.8,
+        "signed_discount_computed_pct": -8.75462392108508,
+        "input_rounding_interval_pct": [
+          -8.793918224779118,
+          -8.715313463514907
+        ],
+        "compatible_with_cent_inputs_and_tenth_percent_rounding": true,
+        "status": "DISPLAY_PRECISION_COMPATIBLE_NOT_SOURCE_VERIFIED"
+      },
+      {
+        "code": "CHN",
+        "nav": 20,
+        "price": 18.54,
+        "signed_discount_shown_pct": -7.3,
+        "signed_discount_computed_pct": -7.300000000000006,
+        "input_rounding_interval_pct": [
+          -7.3481629592601845,
+          -7.251812953238323
+        ],
+        "compatible_with_cent_inputs_and_tenth_percent_rounding": true,
+        "status": "DISPLAY_PRECISION_COMPATIBLE_NOT_SOURCE_VERIFIED"
+      },
+      {
+        "code": "MXE",
+        "nav": 11.31,
+        "price": 9.09,
+        "signed_discount_shown_pct": -19.6,
+        "signed_discount_computed_pct": -19.628647214854112,
+        "input_rounding_interval_pct": [
+          -19.70835174547063,
+          -19.548872180451117
+        ],
+        "compatible_with_cent_inputs_and_tenth_percent_rounding": true,
+        "status": "DISPLAY_PRECISION_COMPATIBLE_NOT_SOURCE_VERIFIED"
+      },
+      {
+        "code": "AEF",
+        "nav": 8.87,
+        "price": 8.1,
+        "signed_discount_shown_pct": -8.7,
+        "signed_discount_computed_pct": -8.680947012401353,
+        "input_rounding_interval_pct": [
+          -8.788732394366205,
+          -8.573040045121239
+        ],
+        "compatible_with_cent_inputs_and_tenth_percent_rounding": true,
+        "status": "DISPLAY_PRECISION_COMPATIBLE_NOT_SOURCE_VERIFIED"
+      },
+      {
+        "code": "EMF",
+        "nav": 18.12,
+        "price": 16.3,
+        "signed_discount_shown_pct": -10.5,
+        "signed_discount_computed_pct": -10.044150110375272,
+        "input_rounding_interval_pct": [
+          -10.096551724137925,
+          -9.991719569417622
+        ],
+        "compatible_with_cent_inputs_and_tenth_percent_rounding": false,
+        "status": "CONFLICT_OPEN"
+      }
+    ],
+    "table10_discount_rows": [
+      {
+        "code": "BBF",
+        "nav": 15.63,
+        "price": 14.67,
+        "signed_discount_shown_pct": -6.1,
+        "signed_discount_computed_pct": -6.142034548944341,
+        "input_rounding_interval_pct": [
+          -6.204029421170465,
+          -6.0799999999999965
+        ],
+        "compatible_with_cent_inputs_and_tenth_percent_rounding": true,
+        "status": "DISPLAY_PRECISION_COMPATIBLE_NOT_SOURCE_VERIFIED"
+      },
+      {
+        "code": "VKQ",
+        "nav": 13.03,
+        "price": 12.16,
+        "signed_discount_shown_pct": -6.7,
+        "signed_discount_computed_pct": -6.676899462778197,
+        "input_rounding_interval_pct": [
+          -6.7510548523206815,
+          -6.602687140115149
+        ],
+        "compatible_with_cent_inputs_and_tenth_percent_rounding": true,
+        "status": "DISPLAY_PRECISION_COMPATIBLE_NOT_SOURCE_VERIFIED"
+      },
+      {
+        "code": "NEV",
+        "nav": 15.61,
+        "price": 15.06,
+        "signed_discount_shown_pct": -3.5,
+        "signed_discount_computed_pct": -3.523382447149259,
+        "input_rounding_interval_pct": [
+          -3.5862952289465344,
+          -3.4604293495674288
+        ],
+        "compatible_with_cent_inputs_and_tenth_percent_rounding": true,
+        "status": "DISPLAY_PRECISION_COMPATIBLE_NOT_SOURCE_VERIFIED"
+      },
+      {
+        "code": "BFZ",
+        "nav": 15.6,
+        "price": 14.08,
+        "signed_discount_shown_pct": -9.7,
+        "signed_discount_computed_pct": -9.743589743589743,
+        "input_rounding_interval_pct": [
+          -9.804549823774433,
+          -9.682590573901884
+        ],
+        "compatible_with_cent_inputs_and_tenth_percent_rounding": true,
+        "status": "DISPLAY_PRECISION_COMPATIBLE_NOT_SOURCE_VERIFIED"
+      },
+      {
+        "code": "NVG",
+        "nav": 17.13,
+        "price": 16.66,
+        "signed_discount_shown_pct": -2.7,
+        "signed_discount_computed_pct": -2.743724460011665,
+        "input_rounding_interval_pct": [
+          -2.8012839217974705,
+          -2.6861313868613235
+        ],
+        "compatible_with_cent_inputs_and_tenth_percent_rounding": true,
+        "status": "DISPLAY_PRECISION_COMPATIBLE_NOT_SOURCE_VERIFIED"
+      },
+      {
+        "code": "NUO",
+        "nav": 17.2,
+        "price": 15.61,
+        "signed_discount_shown_pct": -2.6,
+        "signed_discount_computed_pct": -9.244186046511626,
+        "input_rounding_interval_pct": [
+          -9.299622202848013,
+          -9.188717650479795
+        ],
+        "compatible_with_cent_inputs_and_tenth_percent_rounding": false,
+        "status": "CONFLICT_OPEN"
+      },
+      {
+        "code": "MPA",
+        "nav": 16.02,
+        "price": 15.61,
+        "signed_discount_shown_pct": -2.6,
+        "signed_discount_computed_pct": -2.5593008739076217,
+        "input_rounding_interval_pct": [
+          -2.6209048361934495,
+          -2.497658445207618
+        ],
+        "compatible_with_cent_inputs_and_tenth_percent_rounding": true,
+        "status": "DISPLAY_PRECISION_COMPATIBLE_NOT_SOURCE_VERIFIED"
+      },
+      {
+        "code": "NAN",
+        "nav": 15.27,
+        "price": 14.11,
+        "signed_discount_shown_pct": -7.6,
+        "signed_discount_computed_pct": -7.596594629993447,
+        "input_rounding_interval_pct": [
+          -7.659574468085117,
+          -7.533573534228621
+        ],
+        "compatible_with_cent_inputs_and_tenth_percent_rounding": true,
+        "status": "DISPLAY_PRECISION_COMPATIBLE_NOT_SOURCE_VERIFIED"
+      },
+      {
+        "code": "NXJ",
+        "nav": 16.21,
+        "price": 14.61,
+        "signed_discount_shown_pct": -9.9,
+        "signed_discount_computed_pct": -9.870450339296744,
+        "input_rounding_interval_pct": [
+          -9.9290780141844,
+          -9.811786485652584
+        ],
+        "compatible_with_cent_inputs_and_tenth_percent_rounding": true,
+        "status": "DISPLAY_PRECISION_COMPATIBLE_NOT_SOURCE_VERIFIED"
+      }
+    ],
+    "status": "HISTORICAL_REFERENCE_NOT_BUY_LIST"
+  },
+  "discount_scenarios": [
+    {
+      "nav_start": 100,
+      "nav_end": 100,
+      "signed_discount_start": -0.1,
+      "signed_discount_end": -0.2,
+      "price_start": 90,
+      "price_end": 80,
+      "price_return": -0.11111111111111116
+    },
+    {
+      "nav_start": 100,
+      "nav_end": 80,
+      "signed_discount_start": -0.1,
+      "signed_discount_end": -0.2,
+      "price_start": 90,
+      "price_end": 64,
+      "price_return": -0.28888888888888886
+    }
+  ],
+  "footnotes": {
+    "new_embedded_count": 4,
+    "new_numbered_count": 1,
+    "numbered_span": [
+      1948,
+      1951
+    ],
+    "cumulative_embedded": 66,
+    "embedded_raw_text_saved_in_delivery": false
+  },
+  "completion_resource_audit": [
+    {
+      "index": 0,
+      "source": "converter-master/example/313189/titlepage.xhtml",
+      "start_line": 1,
+      "end_line": 1,
+      "image_references": 0,
+      "embedded_footnotes": 0,
+      "text_digest": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "reading_evidence_revision": "R96",
+      "evidence_kind": "inherited_actual_reading"
+    },
+    {
+      "index": 1,
+      "source": "converter-master/example/313189/summary.html",
+      "start_line": 2,
+      "end_line": 27,
+      "image_references": 0,
+      "embedded_footnotes": 0,
+      "text_digest": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "reading_evidence_revision": "R96",
+      "evidence_kind": "inherited_actual_reading"
+    },
+    {
+      "index": 2,
+      "source": "converter-master/example/313189/1.html",
+      "start_line": 28,
+      "end_line": 55,
+      "image_references": 2,
+      "embedded_footnotes": 1,
+      "text_digest": "8a56b976ddc1160fd5423ffaa5c29c0b67380a9ff773d85f22751fe16c17ebb4",
+      "reading_evidence_revision": "R96",
+      "evidence_kind": "inherited_actual_reading"
+    },
+    {
+      "index": 3,
+      "source": "converter-master/example/313189/2.html",
+      "start_line": 56,
+      "end_line": 65,
+      "image_references": 0,
+      "embedded_footnotes": 0,
+      "text_digest": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "reading_evidence_revision": "R96",
+      "evidence_kind": "inherited_actual_reading"
+    },
+    {
+      "index": 4,
+      "source": "converter-master/example/313189/3.html",
+      "start_line": 66,
+      "end_line": 105,
+      "image_references": 0,
+      "embedded_footnotes": 0,
+      "text_digest": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "reading_evidence_revision": "R96",
+      "evidence_kind": "inherited_actual_reading"
+    },
+    {
+      "index": 5,
+      "source": "converter-master/example/313189/4.html",
+      "start_line": 106,
+      "end_line": 109,
+      "image_references": 0,
+      "embedded_footnotes": 0,
+      "text_digest": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "reading_evidence_revision": "R96",
+      "evidence_kind": "inherited_actual_reading"
+    },
+    {
+      "index": 6,
+      "source": "converter-master/example/313189/5.html",
+      "start_line": 110,
+      "end_line": 169,
+      "image_references": 3,
+      "embedded_footnotes": 2,
+      "text_digest": "53f3018ea8d888ecf2f27f174e9af300ab91f24ce01796685b96956855bfca7a",
+      "reading_evidence_revision": "R96",
+      "evidence_kind": "inherited_actual_reading"
+    },
+    {
+      "index": 7,
+      "source": "converter-master/example/313189/6.html",
+      "start_line": 170,
+      "end_line": 271,
+      "image_references": 8,
+      "embedded_footnotes": 6,
+      "text_digest": "355d69c894ddac00e3ed0c4c8d7fa6810802b1afef1836fab34b86422af671e7",
+      "reading_evidence_revision": "R96",
+      "evidence_kind": "inherited_actual_reading"
+    },
+    {
+      "index": 8,
+      "source": "converter-master/example/313189/7.html",
+      "start_line": 272,
+      "end_line": 372,
+      "image_references": 7,
+      "embedded_footnotes": 2,
+      "text_digest": "60004c1ae42e79a07592f9178663ab46de8ff23ed486abce32d75a97b51cf944",
+      "reading_evidence_revision": "R96",
+      "evidence_kind": "inherited_actual_reading"
+    },
+    {
+      "index": 9,
+      "source": "converter-master/example/313189/8.html",
+      "start_line": 373,
+      "end_line": 526,
+      "image_references": 10,
+      "embedded_footnotes": 8,
+      "text_digest": "781deea5ef06b42d8203d868f3b1f0d920a19889987ae91bcddea284d5966c9b",
+      "reading_evidence_revision": "R96",
+      "evidence_kind": "inherited_actual_reading"
+    },
+    {
+      "index": 10,
+      "source": "converter-master/example/313189/9.html",
+      "start_line": 527,
+      "end_line": 530,
+      "image_references": 0,
+      "embedded_footnotes": 0,
+      "text_digest": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "reading_evidence_revision": "R96",
+      "evidence_kind": "inherited_actual_reading"
+    },
+    {
+      "index": 11,
+      "source": "converter-master/example/313189/10.html",
+      "start_line": 531,
+      "end_line": 680,
+      "image_references": 10,
+      "embedded_footnotes": 5,
+      "text_digest": "9772c1928563fcc13fcb8498c04222cc48969c941daf73e2b8a88c550c3d92a6",
+      "reading_evidence_revision": "R96",
+      "evidence_kind": "inherited_actual_reading"
+    },
+    {
+      "index": 12,
+      "source": "converter-master/example/313189/11.html",
+      "start_line": 681,
+      "end_line": 800,
+      "image_references": 3,
+      "embedded_footnotes": 2,
+      "text_digest": "eb26cc0a5358b85dcc72c3230da6b871084820bdf03ec36eeb68da7482000b8e",
+      "reading_evidence_revision": "R96",
+      "evidence_kind": "inherited_actual_reading"
+    },
+    {
+      "index": 13,
+      "source": "converter-master/example/313189/12.html",
+      "start_line": 801,
+      "end_line": 900,
+      "image_references": 4,
+      "embedded_footnotes": 4,
+      "text_digest": "a8dc2282c2cb637f3e68e88fd07715c00bb70c3efc1472c5630a265760286d66",
+      "reading_evidence_revision": "R96",
+      "evidence_kind": "inherited_actual_reading"
+    },
+    {
+      "index": 14,
+      "source": "converter-master/example/313189/13.html",
+      "start_line": 901,
+      "end_line": 904,
+      "image_references": 0,
+      "embedded_footnotes": 0,
+      "text_digest": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "reading_evidence_revision": "R96",
+      "evidence_kind": "inherited_actual_reading"
+    },
+    {
+      "index": 15,
+      "source": "converter-master/example/313189/14.html",
+      "start_line": 905,
+      "end_line": 1028,
+      "image_references": 4,
+      "embedded_footnotes": 0,
+      "text_digest": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "reading_evidence_revision": "R96",
+      "evidence_kind": "inherited_actual_reading"
+    },
+    {
+      "index": 16,
+      "source": "converter-master/example/313189/15.html",
+      "start_line": 1029,
+      "end_line": 1120,
+      "image_references": 8,
+      "embedded_footnotes": 2,
+      "text_digest": "a96d2e1b488c21658931d112d622bf58d4e153258518fc94dfd751cd6cb1b557",
+      "reading_evidence_revision": "R96",
+      "evidence_kind": "inherited_actual_reading"
+    },
+    {
+      "index": 17,
+      "source": "converter-master/example/313189/16.html",
+      "start_line": 1121,
+      "end_line": 1279,
+      "image_references": 5,
+      "embedded_footnotes": 5,
+      "text_digest": "0dc8dd446f5e74eca067721fb3fdcbdc336808641058003cd89fabaf8bf723a9",
+      "reading_evidence_revision": "R96",
+      "evidence_kind": "inherited_actual_reading"
+    },
+    {
+      "index": 18,
+      "source": "converter-master/example/313189/17.html",
+      "start_line": 1280,
+      "end_line": 1411,
+      "image_references": 10,
+      "embedded_footnotes": 3,
+      "text_digest": "880c64191a9141455c250f5da0a00b79f3de472e08cb048b685258a5bc4377b2",
+      "reading_evidence_revision": "R96",
+      "evidence_kind": "inherited_actual_reading"
+    },
+    {
+      "index": 19,
+      "source": "converter-master/example/313189/18.html",
+      "start_line": 1412,
+      "end_line": 1415,
+      "image_references": 0,
+      "embedded_footnotes": 0,
+      "text_digest": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "reading_evidence_revision": "R95",
+      "evidence_kind": "inherited_actual_reading"
+    },
+    {
+      "index": 20,
+      "source": "converter-master/example/313189/19.html",
+      "start_line": 1416,
+      "end_line": 1586,
+      "image_references": 16,
+      "embedded_footnotes": 12,
+      "text_digest": "aac87edb3a4eda0975e65f41fc10e91832bcc019e2a03430bfd0cea92a8c8277",
+      "reading_evidence_revision": "R95",
+      "evidence_kind": "inherited_actual_reading"
+    },
+    {
+      "index": 21,
+      "source": "converter-master/example/313189/20.html",
+      "start_line": 1587,
+      "end_line": 1688,
+      "image_references": 12,
+      "embedded_footnotes": 7,
+      "text_digest": "28ce4de6cc373a131791131319f01b17c522914f5d1ae16229e7cea333e7580f",
+      "reading_evidence_revision": "R96",
+      "evidence_kind": "inherited_actual_reading"
+    },
+    {
+      "index": 22,
+      "source": "converter-master/example/313189/21.html",
+      "start_line": 1689,
+      "end_line": 1827,
+      "image_references": 13,
+      "embedded_footnotes": 3,
+      "text_digest": "4e5e54a93554587a8dba3bbb8d6cc48f65bb67ca6d2a5003d55007c75bfa75cf",
+      "reading_evidence_revision": "R97",
+      "evidence_kind": "inherited_actual_reading"
+    },
+    {
+      "index": 23,
+      "source": "converter-master/example/313189/22.html",
+      "start_line": 1828,
+      "end_line": 1960,
+      "image_references": 8,
+      "embedded_footnotes": 4,
+      "text_digest": "0d712b682d86e7376f8c0f78bc86ccd081af4949cc300064da1ec9024ea8123e",
+      "reading_evidence_revision": "R98",
+      "evidence_kind": "actual_reading_this_batch"
+    },
+    {
+      "index": 24,
+      "source": "converter-master/example/313189/23.html",
+      "start_line": 1961,
+      "end_line": 1976,
+      "image_references": 0,
+      "embedded_footnotes": 0,
+      "text_digest": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "reading_evidence_revision": "R98",
+      "evidence_kind": "actual_reading_this_batch"
+    },
+    {
+      "index": 25,
+      "source": "converter-master/example/313189/24.html",
+      "start_line": 1977,
+      "end_line": 2002,
+      "image_references": 11,
+      "embedded_footnotes": 0,
+      "text_digest": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "reading_evidence_revision": "R98",
+      "evidence_kind": "actual_reading_this_batch"
+    }
+  ],
+  "extra_cover": {
+    "source": "converter-master/example/313189/cover_313189.jpg",
+    "sha256": "5cabe66cbf472b7e224ee9820f0d503c4523b9419c452a2fee2ca0820cc5a901",
+    "status": "已目视阅读",
+    "read_in_batch": "R98",
+    "reference_count_in_decoded_text": 0,
+    "kind": "book_cover_not_substantive_table"
+  },
+  "external_checks": [
+    {
+      "source": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-45",
+      "status": "PRIMARY_GENERAL_GUIDANCE_NOT_PROVIDER_OR_PERSONAL_CERTIFICATION",
+      "read_scope": "2017 bulletin risk questionnaire/fees/conflicts/TLH relevant prose"
+    },
+    {
+      "source": "https://www.irs.gov/publications/p550",
+      "status": "PRIMARY_GENERAL_RULE_NOT_PERSONAL_APPLICABILITY",
+      "version": "Publication 550 (2025)",
+      "read_scope": "Wash Sales definition/basis treatment/substantially identical relevant prose; not entire publication",
+      "different_index_is_safe_harbor": false
+    },
+    {
+      "source": "https://www.investor.gov/introduction-investing/investing-basics/investment-products/closed-end-funds/publicly-traded-closed-end-funds",
+      "status": "PRIMARY_GENERAL_STRUCTURE_NOT_FUND_CERTIFICATION",
+      "read_scope": "publicly traded CEF structure/fees/discount/leverage relevant prose"
+    }
+  ],
+  "open_issues": [
+    "表15—1合计100%但债券及替代品27.5%含12.5%股利股票；非REIT股票经济敞口67.5%，不能按55%当全部股票风险",
+    "表15—1与图14—2c饼图结构5/27.5/12.5/55一致，仍不解决原图文字37.5导致110%的冲突",
+    "表15—2 IDEV费率0.07%与附表5 IDEV0.05%不同；份额/日期或排版待原披露核，保留两者",
+    "附表9标题写市政债券，实际7项为国家/新兴市场股票封闭式基金；不按标题归类为债券",
+    "附表10 NUO净值17.20、市价15.61隐含-9.2442%，原显示-2.6%，不可能仅由分位舍入解释",
+    "1933行从买入房产实现盈利措辞与实现资本利得机制不符，是否应售出待原版核对",
+    "1933行3000美元、遗赠/捐赠及美国税收账户建议不能套未知身份；亏损抵税是条件现金流而非免费超额收益",
+    "嵌入脚注称两ETF指数不同就不违IRS规定：IRS要求全部事实判断实质相同，不是不同基准即可的普遍安全港",
+    "跋称主动比例10%/5%即足够、从未见反竞争例与对社会有益为作者论断，无模型/全面证据验证",
+    "作者先锋/财富前沿/Rebalance任职关系属书内历史利益披露，不能当当前任职；当前服务费/门槛/可买性未核",
+    "历史SPIVA20年92%落后、基金税后样本、GDP占比、小盘溢价及2022估值原数据未独立复现",
+    "附表9 CAF21.64/19.78隐含−8.5952%对原−9.4%，EMF18.12/16.30隐含−10.0442%对原−10.5%，均不与分位舍入兼容"
+  ]
+}

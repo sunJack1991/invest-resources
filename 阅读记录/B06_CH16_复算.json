@@ -1,0 +1,99 @@
+{
+  "publication_provenance": {
+    "kind": "书籍阅读、历史案例及教学复算资料",
+    "source_record": "阅读记录/B06_CH16_复算.json",
+    "financial_numbers_origin": "仅为书内案例、历史统计或教学复算；不是维护者或使用者的资产、账户、持仓或交易记录。",
+    "private_account_or_holdings_data": false
+  },
+  "book": "B06",
+  "volume": "第一册《战胜华尔街》",
+  "chapter": 16,
+  "chapter_title": "困境中的核电站：CMS能源公司",
+  "range": {
+    "start_line": 1699,
+    "end_line": 1748,
+    "line_count": 50,
+    "chars_with_newlines": 6593
+  },
+  "decode": "B06-v2-2026-10-13",
+  "image_files_referenced": [
+    "images/00018.jpg",
+    "images/00028.jpg",
+    "images/00019.jpg",
+    "images/00126.jpg",
+    "images/00073.jpg"
+  ],
+  "image_files_newly_viewed_this_batch": [
+    "images/00018.jpg",
+    "images/00028.jpg",
+    "images/00019.jpg",
+    "images/00126.jpg",
+    "images/00073.jpg"
+  ],
+  "image_note": "spine27（index_split_026.html）覆盖1699–1748行；五幅图像全部为月度长期图表或小结条图：00018图16-1统一爱迪生（ED，1974–1993）、00028图16-2恩特奇（ETR，1974–1993，方框资本结构12/31/93与'Dividend omitted 8/15/85'标注）、00019图16-3长岛电力（LIL，1974–1993，方框资本结构12/31/92）、00126图16-4通用公用事业（GPU，1972–1993，含分红取消标注）、00073表16-1小结（CMS 18.50，1992-1-13）。图表为证券研究公司印刷、约1993年出版，含作者推荐后的行情。",
+  "checks": {
+    "stage1_declines": {
+      "input": "统一爱迪生6→1.5美元；恩特奇16.75→9.25；通用公用事业9→3.88；长岛电力17.5→3.75；'在1~2年的时间中，下跌40%~80%'",
+      "computation": "1.5/6-1=-75.0%；9.25/16.75-1=-44.8%；3.88/9-1=-56.9%；3.75/17.5-1=-78.6%——均落在40%~80%区间内✅",
+      "status": "PASS"
+    },
+    "book_value_ladder": {
+      "input": "阶段一'以账面价值20%~30%的价位交易'；阶段三'账面价值60%~70%'；阶段四'以账面价值的价位交易'",
+      "computation": "20%~30%→60%~70%→100%（倍数阶梯2~3.3倍）",
+      "status": "PASS_WITH_CAVEAT",
+      "note": "核电资产勾销后账面价值的含义须逐案核对"
+    },
+    "cms_price_path": {
+      "input": "20余美元→4.5美元（1984年10月取消分红后触底）；其后回升到36美元、'5年之中上涨了9倍'；再因两次不利费率决定跌到17美元（'下跌50%'）",
+      "computation": "4.5→36=8.0倍（书称9倍）；36→17=-52.8%（'下跌50%'✅）",
+      "status": "AMBIGUOUS_MULTIPLE",
+      "note": "'9倍'与8.0倍不符，或起点略低于4.5美元"
+    },
+    "generation_cost": {
+      "input": "中土天然气电厂6美分/千瓦；新建煤电厂9.2美分；核电厂13.3美分",
+      "computation": "6对9.2=-34.8%；6对13.3=-54.9%",
+      "status": "PASS"
+    },
+    "cashflow_per_share": {
+      "input": "'我将该公司的收益与折旧相加，然后除以股票数量，得到每股现金流为6美元'",
+      "computation": "口径=收益+折旧（未扣资本开支与营运资本）",
+      "status": "PASS_WITH_CAVEAT",
+      "note": "与通行FCF不同，引用须注明"
+    },
+    "rate_base_lever": {
+      "input": "'当电力公司增加10%的发电能力时，公司的收益会自动增长10%'",
+      "computation": "线性关系（来自监管费率公式）",
+      "status": "BOOK_CLAIM_UNVERIFIED"
+    },
+    "ecuador_oil": {
+      "input": "与Conoco联合拥有；1995年起每年2500万美元利润，'使每股收益增加20美分'",
+      "computation": "2,500万/0.20=1.25亿股（隐含股本）",
+      "status": "BOOK_CLAIM_UNVERIFIED"
+    },
+    "earnings_scenarios": {
+      "input": "有利2.2美元/不利1.5美元/华尔街预期1.3美元；股价18美元'远低于账面价值'",
+      "computation": "18/2.2=8.2倍；18/1.5=12.0倍",
+      "status": "BOOK_CLAIM_UNVERIFIED"
+    },
+    "four_stage_discipline": {
+      "input": "'无须为了大赚一笔而匆忙买入'；可等危机缓和后买入仍能获得2倍、3倍甚至4倍；'在公司取消分红的时候买入股票并耐心等待'；'持有直到公司重新分红'",
+      "computation": "定性（四阶段模型与两条进入时点）",
+      "status": "QUALITATIVE",
+      "note": "只作研究触发"
+    },
+    "extreme_claim": {
+      "input": "'我认为买入CMS的股票将可能获得丰厚回报，而且不会有什么风险'",
+      "computation": "定性",
+      "status": "NOT_AUTHORIZED",
+      "note": "与同段'如果所有这些都以有利于CMS的方式解决'的条件句并置，'没有风险'不采纳"
+    }
+  },
+  "flags": [
+    "AMBIGUOUS_MULTIPLE：CMS'5年上涨9倍'与36/4.5=8.0倍不符",
+    "BOOK_CLAIM_UNVERIFIED：四阶段与四个实例价格、五家1991年候选、CMS勾销40亿资产、10亿+5亿债券、每股现金流6美元、厄瓜多尔石油、监管决定与收益情景",
+    "NOT_AUTHORIZED：'没有风险'不采纳；'取消分红时买入、恢复分红时退出'只作研究触发且依赖受监管制度前提",
+    "CLUE_ONLY：第20条法则（改名＝结婚或掩盖惨败）为经验性调侃",
+    "TERMINOLOGY：'每股现金流'=收益+折旧，与通行FCF不同",
+    "original_report_verified=false（全部图像与数字）"
+  ]
+}

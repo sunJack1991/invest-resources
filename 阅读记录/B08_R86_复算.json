@@ -1,0 +1,207 @@
+{
+  "publication_provenance": {
+    "kind": "书籍阅读、历史案例及教学复算资料",
+    "source_record": "阅读记录/B08_R86_复算.json",
+    "financial_numbers_origin": "仅为书内案例、历史统计或教学复算；不是维护者或使用者的资产、账户、持仓或交易记录。",
+    "private_account_or_holdings_data": false
+  },
+  "book": "B08",
+  "title": "投资最重要的事（全新升级版）",
+  "author": "霍华德·马克斯（Howard Marks）",
+  "version": "R86-2026-10-14（第1批：卷首材料＋第1–7章）",
+  "source_file": "投资书籍/投资最重要的事.epub",
+  "source_sha256": "54f68a8091fa9f9c171b9a4c378e0bde29c4d1be1823ae3da725cf945b63b55d",
+  "decoded_text_sha256": "7f267ab2fa041a653d03649744d48f6c01ca7008f42c99509e922a558ad4d991",
+  "decoded_text_lines": 1739,
+  "decoded_text_chars": 139594,
+  "batch_range": {
+    "start_line": 1,
+    "end_line": 691
+  },
+  "scope": "本批为B08第1–7章与卷首材料；只处理书中可复算的算术、图内读数与结构性计数，历史行情与公司案例均为书内转述、未核原披露。",
+  "two_by_two_matrix": {
+    "source_image": "OEBPS/Images/p039.jpg",
+    "columns": [
+      "常规行为",
+      "非常规行为"
+    ],
+    "rows": [
+      "有利结果",
+      "不利结果"
+    ],
+    "cells": {
+      "常规行为/有利结果": "较好的平均表现",
+      "非常规行为/有利结果": "高于平均表现",
+      "常规行为/不利结果": "较差的平均表现",
+      "非常规行为/不利结果": "低于平均表现"
+    },
+    "viewed": true,
+    "note": "正文只写“一个简单的2×2的矩阵”，表格内容由图像承载。"
+  },
+  "risk_figures": {
+    "figure_5_1": {
+      "file": "01.jpg",
+      "type": "资本市场线（直线）",
+      "axes": [
+        "风险",
+        "收益"
+      ],
+      "ticks": null,
+      "viewed": true,
+      "note": "自左下向右上的直线，无刻度。"
+    },
+    "figure_5_2": {
+      "file": "02.jpg",
+      "type": "资本市场线＋概率分布",
+      "axes": [
+        "风险",
+        "收益"
+      ],
+      "ticks": null,
+      "viewed": true,
+      "note": "四个随风险递增而变宽、向下延伸更深的分布，表达不确定性增大与损失概率增大。"
+    },
+    "figure_7_3": {
+      "file": "07.jpg",
+      "type": "结果分布与极端事件标注",
+      "marks": [
+        "A 峰值/最可能",
+        "B 较好",
+        "C 较坏",
+        "D 正常范围之外",
+        "E 百年一遇或从不发生"
+      ],
+      "viewed": true
+    }
+  },
+  "capital_market_lines": {
+    "figure_6_1_file": "03.jpg",
+    "figure_6_2_file": "04.jpg",
+    "old_ladder_pct": {
+      "货币市场": 4,
+      "5年期国债": 5,
+      "10年期国债": 6,
+      "高等级债券": 7,
+      "标普股票": 10,
+      "高收益债券": 12,
+      "小盘股": 13,
+      "房地产": 15,
+      "收购": 25,
+      "风险投资": 30
+    },
+    "new_ladder_pct": {
+      "货币市场": 1,
+      "5年期国债": 3,
+      "10年期国债": 4,
+      "高等级债券": 5,
+      "标普股票": "6~7",
+      "高收益债券": 7,
+      "小盘股": "7~8",
+      "房地产": 8,
+      "收购": 15,
+      "风险投资": 20
+    },
+    "start_point_drop_pp": 3,
+    "selected_drops_pp": {
+      "10年期国债": 2,
+      "高收益债券": 5,
+      "房地产": 7,
+      "收购": 10,
+      "风险投资": 10
+    },
+    "status": "ILLUSTRATIVE_EXAMPLE",
+    "note": "作者称2004年备忘录中的档位为“我们所假设的投资思维过程”，不是市场数据；不得作为本项目门槛或历史收益率。"
+  },
+  "yahoo_2000_2004": {
+    "price_2000_01": 237,
+    "price_2004_04": 11,
+    "change": -0.9535864978902954,
+    "status": "BOOK_TRANSCRIPTION_ARITHMETIC_OK",
+    "note": "书内转述，未核原始行情；用于说明“两个时点至少有一个是错的”，不用于推断可套利性。"
+  },
+  "nifty_fifty_pe": {
+    "peak_pe_range": [
+      80,
+      90
+    ],
+    "trough_pe_range": [
+      8,
+      9
+    ],
+    "assumed_peak": 85,
+    "assumed_trough": 8.5,
+    "implied_price_change_if_eps_flat": -0.9,
+    "book_claim": "投资者赔掉了他们90%的资金",
+    "status": "BOOK_TRANSCRIPTION_ARITHMETIC_OK_WITH_ASSUMPTION",
+    "note": "只在盈利不变假设下自洽；书内未给具体公司与期间，保留为近似。"
+  },
+  "day_trader_example": {
+    "trades": [
+      [
+        10,
+        11
+      ],
+      [
+        24,
+        25
+      ],
+      [
+        39,
+        40
+      ]
+    ],
+    "trade_returns": [
+      0.1,
+      0.041666666666666664,
+      0.02564102564102566
+    ],
+    "gross_gain_per_share": 3,
+    "price_advance_per_share": 30,
+    "captured_share_of_advance": 0.1,
+    "status": "TEACHING_EXAMPLE"
+  },
+  "loss_recovery": {
+    "loss": 0.4,
+    "required_gain": 0.6666666666666667,
+    "formula": "gain = 1/(1-loss) - 1",
+    "source": "第7章点评（格林布拉特）",
+    "status": "BOOK_TRANSCRIPTION_ARITHMETIC_OK"
+  },
+  "cited_market_events": {
+    "black_monday_1987_10_19": -0.226,
+    "status": "BOOK_TRANSCRIPTION_UNVERIFIED",
+    "note": "道指单日跌幅，书内转述；未核原始指数数据。"
+  },
+  "third_party_claims": {
+    "davis_79pct_laggards": {
+      "claim": "2000年之后业绩名列前茅的投资经理中79%至少三年排在后段",
+      "source_in_book": "第5章点评（格林布拉特引戴维斯投资顾问公司）",
+      "status": "UNVERIFIED_THIRD_PARTY",
+      "is_threshold": false
+    },
+    "statistical_significance_years": {
+      "claim": "64年",
+      "source_in_book": "第2章",
+      "status": "AUTHOR_RECOLLECTION",
+      "is_threshold": false
+    }
+  },
+  "structure_notes": {
+    "memo_18_items_vs_chapters": {
+      "memo_2003_items": 18,
+      "book_chapters": 21,
+      "note": "2003年备忘录列18件事，升级版为21章并新增“合理预期”一章；两个计数不可混用。"
+    },
+    "image_reference_vs_unique": {
+      "references": 125,
+      "unique_files": 18,
+      "epub_image_files": 20,
+      "note": "装饰图2.png被重复引用数十次；本批范围内唯一图像9个（2.png、p039.jpg、01–07.jpg），均已目视。"
+    }
+  },
+  "unverified": [
+    "全部历史行情（雅虎、漂亮50、1987黑色星期一）与第三方研究（79%后段比例）均为书内转述，未核原披露",
+    "图5.1/5.2/7.1/7.2/7.3 无坐标刻度，只能作定性读数",
+    "2007–2008年事件叙述为作者备忘录摘录与回忆"
+  ]
+}

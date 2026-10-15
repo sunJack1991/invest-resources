@@ -1,0 +1,138 @@
+{
+  "publication_provenance": {
+    "kind": "书籍阅读、历史案例及教学复算资料",
+    "source_record": "阅读记录/全项目终局状态总览_R125.json",
+    "financial_numbers_origin": "仅为书内案例、历史统计或教学复算；不是维护者或使用者的资产、账户、持仓或交易记录。",
+    "private_account_or_holdings_data": false
+  },
+  "round": "R125",
+  "date_utc": "2026-10-15",
+  "scope": "全项目终局状态总览：191条处置分布＋剩余三类事项",
+  "scale": {
+    "books": 12,
+    "text_all_read": true,
+    "chapter_notes": 250,
+    "batch_records": 112,
+    "validation": {
+      "revision": "R124",
+      "checks": 4838,
+      "local_links": 337,
+      "status": "PASS"
+    },
+    "policy": {
+      "note": "〔历史政策关联叙述未公开；节号对应关系见同库历史政策节号映射。〕"
+    }
+  },
+  "issue_disposition": {
+    "total": 191,
+    "matrix": {
+      "P0": {
+        "RESOLVED": 2,
+        "RESOLVED_WITH_CAVEAT": 1,
+        "PARTIALLY_RESOLVED": 1,
+        "CONFIRMED_UNIT_ERROR": 1,
+        "CONFIRMED_DEFECT": 1
+      },
+      "P1": {
+        "TEXT": 5,
+        "SCOPE": 5,
+        "RULE": 24,
+        "DEF": 33,
+        "RESOLVED_CLASSIFIED": 2,
+        "CONFIRMED_DEFECT": 1,
+        "OPEN": 1,
+        "RESOLVED_WITH_CAVEAT": 1,
+        "RESOLVED": 1
+      },
+      "P2": {
+        "LEDGER_PENDING_VERIFICATION": 41
+      },
+      "P3": {
+        "REG": 4,
+        "SUPERSEDED": 7,
+        "RULE": 35,
+        "TEXT": 2,
+        "CLOSED_EARLIER": 15,
+        "DEF": 7,
+        "SCOPE": 1
+      }
+    },
+    "by_book": {
+      "B03": 2,
+      "B04": 7,
+      "B05": 6,
+      "B06": 43,
+      "B07": 6,
+      "B08": 6,
+      "B09": 50,
+      "B10": 56,
+      "B11": 15
+    },
+    "explain": {
+      "RESOLVED": "已定论",
+      "RESOLVED_WITH_CAVEAT": "已定论（带限定）",
+      "PARTIALLY_RESOLVED": "部分解决（表结构项仍OPEN）",
+      "CONFIRMED_UNIT_ERROR": "确认单位错误",
+      "CONFIRMED_DEFECT": "确认缺陷",
+      "OPEN": "仍需原始数据",
+      "TEXT": "文本/译文缺陷（登记不改）",
+      "SCOPE": "材料/范围说明",
+      "RULE": "引用口径与禁令登记（事实待原件）",
+      "DEF": "确认缺陷/不自洽（给自算值或禁令）",
+      "RESOLVED_CLASSIFIED": "口径登记完成",
+      "LEDGER_PENDING_VERIFICATION": "入核验台账·待核",
+      "REG": "登记完成",
+      "SUPERSEDED": "已被取代",
+      "CLOSED_EARLIER": "已在R117–R122处理"
+    },
+    "registered_rounds": {
+      "r117": 3,
+      "r118": 6,
+      "r119": 1,
+      "r120": 2,
+      "r121": 67,
+      "r122": 41,
+      "r123": 71
+    }
+  },
+  "remaining_three": {
+    "事实层核验": {
+      "count": 41,
+      "detail": {
+        "P2-2": 19,
+        "P2-3": 7,
+        "P2-1": 15
+      },
+      "entry": "阅读记录/原披露核验台账_R122.md",
+      "status": "全部待核、未取得；original_report_verified全为false",
+      "upgrade": "取得一手来源并核对后方可置真"
+    },
+    "材料层": {
+      "detail": [
+        "B06低清＝资源分辨率限制（内容图≈566px；6处点名冲突维持不引用，R124）",
+        "B10附录1原件未识别；725行提及图与第12章图1–3未取得",
+        "B11的P003图片在zip中缺席（登记）",
+        "B01合并全文v1临时件曾丢失（已用v1＝v2＋每个img一行关系重建；part0000–0006尚有8行差）"
+      ],
+      "entry": "阅读记录/B06低清细字复核_R124.md、Project_Memory.md审计追溯"
+    },
+    "个人事实层": {
+      "detail": [
+        "个人资产、税务身份、账户与交易授权未知（不虚构）",
+        "〔历史政策关联叙述未公开；节号对应关系见同库历史政策节号映射。〕",
+        "全项目‘完成’定义未达成：原披露核验与个人事实均未确认"
+      ],
+      "entry": "〔历史政策关联叙述未公开；节号对应关系见同库历史政策节号映射。〕"
+    }
+  },
+  "invariants": [
+    "12本原书SHA-256未变",
+    "三份框架内容修订行R120（本轮未改框架内容）",
+    "〔历史政策关联叙述未公开；节号对应关系见同库历史政策节号映射。〕",
+    "open_issues仍191条原文（含8项SUPERSEDED标注，原文保留）"
+  ],
+  "limitations": [
+    "总览为记录层统计；不构成原披露真实性、投资收益或个人事实的验证",
+    "P2台账41条为核验计划，不是核验结果"
+  ]
+}

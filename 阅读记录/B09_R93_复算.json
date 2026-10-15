@@ -1,0 +1,207 @@
+{
+  "publication_provenance": {
+    "kind": "书籍阅读、历史案例及教学复算资料",
+    "source_record": "阅读记录/B09_R93_复算.json",
+    "financial_numbers_origin": "仅为书内案例、历史统计或教学复算；不是维护者或使用者的资产、账户、持仓或交易记录。",
+    "private_account_or_holdings_data": false
+  },
+  "book": "B09",
+  "title": "漫步华尔街（原书第13版）",
+  "version": "R93-2026-10-14（第6批：第10章 行为金融学，1121–1279行）",
+  "source_file": "投资书籍/漫步华尔街.epub",
+  "source_sha256": "80c95b78389aa9982e5fcf5693f6e4ac776a527f1c191bcbcf836e4172cb69cb",
+  "decoded_text_sha256": "072a751172bbb26600b897c31c46027e7989fa76910403f9c57c4019725c5a6a",
+  "decoded_text_lines": 2002,
+  "decoded_text_chars": 249791,
+  "batch_range": {
+    "start_line": 1121,
+    "end_line": 1279,
+    "line_count": 159
+  },
+  "scope": "本批只处理第10章可复算的算术与实验中转述的数值；心理学实验、机构研究与案件均为书内转述，未核原始论文或案卷。",
+  "overconfidence_calibration": {
+    "stated_confidence": 0.99,
+    "expected_outside_rate_if_calibrated": 0.02,
+    "observed_outside_rate": 0.2,
+    "implied_actual_confidence": 0.8,
+    "driving_self_assessment": {
+      "top_half_claim_pct": [
+        80,
+        90
+      ]
+    },
+    "social_skills_experiment": {
+      "top_half_pct": 100,
+      "top_one_pct": 25
+    },
+    "status": "BOOK_TRANSCRIPTION_UNVERIFIED"
+  },
+  "robinhood_next_month_underperformance": {
+    "relative_return": -0.05,
+    "detail": "买入最频繁的股票次月相对市场约 −5%",
+    "status": "BOOK_TRANSCRIPTION_UNVERIFIED"
+  },
+  "linda_problem": {
+    "chose_conjunction_pct": 0.85,
+    "violation": "合取规则（A且B的概率≤A）",
+    "status": "BOOK_TRANSCRIPTION_UNVERIFIED"
+  },
+  "herding_experiments": {
+    "asch": {
+      "group_size": 7,
+      "planted_wrong_answerers": 6,
+      "status": "BOOK_TRANSCRIPTION_UNVERIFIED"
+    },
+    "berns_fmri": {
+      "finding": "随群体答错时管理空间认知的后脑区活动增加",
+      "status": "BOOK_TRANSCRIPTION_UNVERIFIED"
+    },
+    "street_gazing": {
+      "lookers": {
+        "1_person": "少数",
+        "5_people": "4倍",
+        "15_people": "近一半"
+      },
+      "status": "BOOK_TRANSCRIPTION_UNVERIFIED"
+    },
+    "institutional_herding": "Hong、Kubik与Stein：同城基金经理更可能持有相似组合",
+    "fund_flow_timing": {
+      "peak_inflow": "2000年3月前12个月",
+      "outflows": [
+        "2002年秋",
+        "2008年秋"
+      ]
+    }
+  },
+  "loss_aversion_and_framing": {
+    "coin_flip_fair_bet": {
+      "win": 100,
+      "lose": 100,
+      "expected_value": 0
+    },
+    "acceptance_threshold": {
+      "win_required": 250,
+      "expected_value": 75
+    },
+    "computed": {
+      "expected_value_at_250": 75.0
+    },
+    "loss_aversion_ratio": 2.5,
+    "certain_loss_choice": {
+      "option_1": "确定损失750美元",
+      "option_2": "75%概率损失1000美元，25%不损失",
+      "expected_values_equal": true,
+      "chose_risky_pct": 0.9
+    },
+    "disease_framing": {
+      "deaths": 600,
+      "frame_gain": {
+        "A": "200人得救",
+        "B": "1/3概率600人得救",
+        "chose_A_pct": 0.6667
+      },
+      "frame_loss": {
+        "A*": "400人死亡",
+        "B*": "1/3概率无人死亡",
+        "chose_B*_pct": ">0.75"
+      },
+      "equal_expected_value": 200
+    },
+    "status": "BOOK_TRANSCRIPTION_UNVERIFIED"
+  },
+  "disposition_effect": {
+    "sample_clients": 10000,
+    "source": "巴布尔与奥迪恩对一家大型折扣券商",
+    "behavior": "卖掉赚钱的股票、抱牢亏钱的股票",
+    "status": "BOOK_TRANSCRIPTION_UNVERIFIED"
+  },
+  "savings_plan": {
+    "plan_name": "明天会储蓄更多（塞勒-贝纳茨）",
+    "first_company": "1998年一家中型制造业公司",
+    "joined_pct": 0.75,
+    "continued_after_raises_pct": 0.8,
+    "status": "BOOK_TRANSCRIPTION_UNVERIFIED"
+  },
+  "arbitrage_limits": {
+    "royal_dutch_shell": {
+      "agreement_year": 1907,
+      "split": "60/40",
+      "implied_ratio": 1.5,
+      "typical_premium_cite": 0.2,
+      "status": "BOOK_TRANSCRIPTION_UNVERIFIED"
+    },
+    "ltcm": {
+      "note": "资金不足以维持对冲仓位",
+      "status": "BOOK_TRANSCRIPTION_UNVERIFIED"
+    },
+    "melvin_capital_2021": {
+      "capital_usd": 13000000000,
+      "loss_share": 0.5,
+      "cause": "做空游戏驿站",
+      "status": "BOOK_TRANSCRIPTION_UNVERIFIED"
+    },
+    "brunnermeier_nagel": {
+      "period": "1998–2000",
+      "finding": "对冲基金是网络股净买入者（骑泡沫而非戳破）",
+      "status": "BOOK_TRANSCRIPTION_UNVERIFIED"
+    },
+    "short_sale_constraints": [
+      "借不到券",
+      "替代品难找",
+      "房市几乎无法卖空"
+    ]
+  },
+  "overtrading": {
+    "barber_odean_1991_1996": {
+      "households": 66000,
+      "sample_return": 0.164,
+      "market_return": 0.179,
+      "most_active_return": 0.114,
+      "gap_vs_market_pp": 0.015,
+      "gap_most_active_pp": 0.065,
+      "status": "BOOK_TRANSCRIPTION_UNVERIFIED"
+    },
+    "fidelity_2011_2020": {
+      "accounts": 5200000,
+      "finding": "女性收益优于男性；男性交易频率为女性2倍",
+      "status": "BOOK_TRANSCRIPTION_UNVERIFIED"
+    },
+    "vanguard": "同期相似模式（书内转述）",
+    "note": "“树懒似的无所作为，仍然是最好的投资风格”（巴菲特，书内引用）"
+  },
+  "ipo_evidence": {
+    "five_year_annual_shortfall_vs_market": -0.04,
+    "lockup_months": 6,
+    "status": "BOOK_TRANSCRIPTION_UNVERIFIED"
+  },
+  "madoff": {
+    "loss_usd": 50000000000,
+    "claimed_return_range": [
+      0.1,
+      0.12
+    ],
+    "market_average_context": {
+      "annualized": "超过9%",
+      "worst_year_loss": 0.4
+    },
+    "status": "BOOK_TRANSCRIPTION_UNVERIFIED"
+  },
+  "dalbar_claim": {
+    "investor_shortfall_vs_market": ">5个百分点",
+    "status": "BOOK_TRANSCRIPTION_UNVERIFIED"
+  },
+  "image_counting": {
+    "references_total_book": 134,
+    "unique_files_book": 83,
+    "epub_image_files": 84,
+    "references_batch_r93_lines_1121_1279": 5,
+    "unique_files_batch_r93": 1,
+    "unique_viewed_cumulative": 36,
+    "note": "第10章唯一图像为48×48像素的“注”字排版图（复用5次）；本章无实质图表。"
+  },
+  "unverified": [
+    "全部心理学实验（驾车自评、琳达问题、阿希、伯恩斯核磁、街头仰望、掷硬币赌局、疾病框定、控制错觉、棒球牌）均为书内转述",
+    "机构与案件数据（Dalbar、Hong-Kubik-Stein、布伦纳梅尔-内格尔、LTCM、梅尔文资本、麦道夫、IPO五年表现、富达/先锋）未核原始报告",
+    "本章延后到第11章的“行为金融可预测模式”未被本批评估"
+  ]
+}

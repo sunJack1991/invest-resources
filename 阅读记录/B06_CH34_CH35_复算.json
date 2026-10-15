@@ -1,0 +1,273 @@
+{
+  "publication_provenance": {
+    "kind": "书籍阅读、历史案例及教学复算资料",
+    "source_record": "阅读记录/B06_CH34_CH35_复算.json",
+    "financial_numbers_origin": "仅为书内案例、历史统计或教学复算；不是维护者或使用者的资产、账户、持仓或交易记录。",
+    "private_account_or_holdings_data": false
+  },
+  "batch": "2026-10-14-B06-CH34-CH35",
+  "updated_utc": "2026-10-14T02:17:00Z",
+  "source_sha256": "37e31e9183ac0fb4f4d095069805e2de82a3758ad58fee58e194317411503b65",
+  "decoded_text_sha256": "cf81b321d2d4ee21100bcfd2740d585d50f1b10d09b2213fc8aae211525f12eb",
+  "range": {
+    "start_line": 4105,
+    "end_line": 4204,
+    "line_count": 100,
+    "chars_with_newlines": 17337
+  },
+  "images": [
+    {
+      "source": "images/00020.jpg",
+      "content": "表3-1四项终值",
+      "status": "已目视阅读",
+      "original_report_verified": false
+    },
+    {
+      "source": "images/00122.jpg",
+      "content": "装饰件，两章7次引用",
+      "status": "已目视阅读",
+      "original_report_verified": false
+    }
+  ],
+  "checks": {
+    "manhattan": {
+      "principal": 24,
+      "years": 362,
+      "rates": [
+        0.08,
+        0.06
+      ],
+      "computed_usd": [
+        30172460540066.992,
+        34748372426.99809
+      ],
+      "book_usd": [
+        30000000000000,
+        34700000000
+      ],
+      "status": "HYPOTHETICAL_COMPOUND",
+      "reason": "恒定无税费无违约无消费情景；土地现金流未给"
+    },
+    "rip_van_winkle": {
+      "principal": 20000,
+      "years": 60,
+      "rates": [
+        0.05,
+        0.098
+      ],
+      "computed_usd": [
+        373583.71788245987,
+        5459720.400861555
+      ],
+      "book_usd": [
+        373584,
+        5459720
+      ],
+      "status": "ARITHMETIC_OK"
+    },
+    "table_3_1": {
+      "principal": 1000,
+      "years": 60,
+      "labels": [
+        "国库券",
+        "公司债券",
+        "政府债券",
+        "普通股票"
+      ],
+      "book_usd": [
+        7400,
+        17600,
+        13200,
+        272000
+      ],
+      "narrative_rates": [
+        0.034,
+        0.05,
+        0.044,
+        0.098
+      ],
+      "constant_rate_usd": [
+        7434.167217066763,
+        18679.185894122995,
+        13244.327765797225,
+        272986.02004307776
+      ],
+      "implied_cagr": [
+        0.033920616577864715,
+        0.04895907471362637,
+        0.043941667467898515,
+        0.09793378310006462
+      ],
+      "corporate_delta_usd": -1079.1858941229948,
+      "corporate_relative_delta": -0.057774782061703056,
+      "stock_to_corporate": 15.454545454545455,
+      "stock_to_bill": 36.75675675675676,
+      "status": "CONFLICT_OPEN",
+      "reason": "公司债终值17600不能与正文5%固定60年或373584/20直接勾稽；来源/舍入解释未知"
+    },
+    "inflation": {
+      "inflation": 0.03,
+      "nominal_rates": [
+        0.098,
+        0.034
+      ],
+      "book_real": [
+        0.068,
+        0
+      ],
+      "exact_real": [
+        0.06601941747572826,
+        0.003883495145631022
+      ],
+      "status": "PASS_WITH_CAVEAT",
+      "reason": "减法近似与严格购买力口径分开"
+    },
+    "money_vs_stock": {
+      "money_rate": 0.17,
+      "stock_rate": -0.05,
+      "difference_pp": 22,
+      "relative_terminal_wealth": 0.2315789473684211,
+      "status": "ARITHMETIC_OK",
+      "reason": "22个百分点不等于期末财富相对多22%"
+    },
+    "dow_path": {
+      "points": [
+        1775,
+        2722,
+        1738
+      ],
+      "returns": [
+        0.5335211267605633,
+        -0.36149889786921385,
+        -0.02084507042253525
+      ],
+      "same_as_sp500_total_return": false,
+      "status": "INPUT_INCOMPLETE",
+      "reason": "道指路径与标普5.25%/货币6.12%不能直接配平"
+    },
+    "rca": {
+      "start_price": 38.25,
+      "end_price": 66.5,
+      "years": 57,
+      "price_return": 0.738562091503268,
+      "price_cagr": 0.009750003296573384,
+      "dividends": null,
+      "total_return": null,
+      "status": "PRICE_ONLY"
+    },
+    "blue_chip_losses": {
+      "labels": [
+        "百时美",
+        "Teledyne",
+        "麦当劳"
+      ],
+      "prices": [
+        [
+          9,
+          4
+        ],
+        [
+          11,
+          3
+        ],
+        [
+          15,
+          4
+        ]
+      ],
+      "returns": [
+        -0.5555555555555556,
+        -0.7272727272727273,
+        -0.7333333333333334
+      ],
+      "status": "ARITHMETIC_OK",
+      "reason": "历史价格、不含股息；好公司与好买价分离"
+    },
+    "fund_15years": {
+      "principal": 10000,
+      "years": 15,
+      "book_usd": [
+        31338,
+        44343,
+        53157,
+        76556
+      ],
+      "implied_cagr": [
+        0.0791241663463984,
+        0.10438798064430976,
+        0.11781696744211922,
+        0.1453334611810435
+      ],
+      "status": "BOOK_CLAIM_UNVERIFIED",
+      "reason": "缺完整样本与存续基金，不能推出风险高导致收益高"
+    },
+    "housing_leverage": {
+      "asset": 100000,
+      "debt": 80000,
+      "initial_equity": 20000,
+      "price_changes": [
+        0.05,
+        -0.05,
+        -0.2
+      ],
+      "end_equity": [
+        25000,
+        15000,
+        0
+      ],
+      "gross_equity_returns": [
+        0.25,
+        -0.25,
+        -1
+      ],
+      "carrying_costs": null,
+      "net_return": null,
+      "status": "CONDITIONAL_ARITHMETIC",
+      "reason": "贷款不变、忽略利息维修税费；不是融资授权或真实净收益"
+    },
+    "price_range": {
+      "reference": 50,
+      "high": 60,
+      "low": 40,
+      "high_to_low_ratio_minus_one": 0.5,
+      "range_over_reference": 0.4,
+      "deviations_from_reference": [
+        0.2,
+        -0.2
+      ],
+      "statistical_volatility": null,
+      "status": "AMBIGUOUS_DENOMINATOR"
+    },
+    "magellan_1987": {
+      "book_aug": 0.4,
+      "book_nov": -0.11,
+      "book_full_year": 0.01,
+      "if_sequential_to_nov": 0.246,
+      "if_nov_from_year_start_aug_to_nov": -0.3642857142857142,
+      "if_nov_from_year_start_recovery_to_year_end": 0.1348314606741572,
+      "actual_basis": null,
+      "status": "AMBIGUOUS_BASIS",
+      "reason": "基期、期间和剩余月份未给；两个情景均不能确认原书路径"
+    },
+    "win_rate_counterexample": {
+      "provenance": "C：本项目自设反例，非书中案例",
+      "win_probability": 0.6,
+      "win_return": 0.1,
+      "loss_probability": 0.4,
+      "loss_return": -0.3,
+      "expected_return": -0.06,
+      "status": "SCENARIO_ONLY",
+      "reason": "命中率不充分，仍需盈亏幅度、权重与相关性"
+    }
+  },
+  "original_report_verified": false,
+  "flags": [
+    "CONFLICT_OPEN：公司债表值对固定5%/60年算例不勾稽",
+    "AMBIGUOUS_BASIS：麦哲伦1987年三处收益基期不明",
+    "AMBIGUOUS_DENOMINATOR：50/60/40的50%不是统计波动率",
+    "NOT_TRANSFERABLE：住房税惠、债券/基金担保与赎回转述未核",
+    "NOT_AUTHORIZED：买房优先、杠杆、赌城/赌马、胜率不改政策",
+    "BOOK_CLAIM_UNVERIFIED：全部历史数据、调查、生平与制度",
+    "TEXT_ERROR_SUSPECTED：4114行“面值上涨”疑应区分价格"
+  ]
+}
